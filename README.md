@@ -35,7 +35,7 @@ The study compares pretrained time-series forecasters (Chronos-Bolt, TimesFM 2.5
 | `review/` | Self-check, review, response, verification records; `review/submission-1/` holds the initial draft |
 | `SHA256SUMS.json`, `SHA256SUMS-check.json` | SHA-256 inventory produced at the end of the run (lists files not redistributed here) |
 | `RUN_README.md` | The run's own README (Japanese), unchanged |
-| `RELEASE_SHA256SUMS.txt` | SHA-256 manifest of this release |
+| `RELEASE_SHA256SUMS.txt` | SHA-256 of every file in this repository except itself (build outputs ignored by Git are not listed); check with `shasum -a 256 -c RELEASE_SHA256SUMS.txt` |
 
 ## Not included, and how to regenerate it
 
