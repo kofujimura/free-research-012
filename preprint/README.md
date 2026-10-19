@@ -6,7 +6,7 @@ Created after the research run, at the human author's request, by Claude Opus 5.
 
 | Path | What it is |
 |---|---|
-| `arxiv/main.tex` | English manuscript (pdfLaTeX, ASCII only, inline bibliography). Red `[...]` marks (`\fillin{}`) are facts only the human author can supply |
+| `arxiv/main.tex` | English manuscript (pdfLaTeX, ASCII only, inline bibliography). The `\fillin{}` macro (red `[...]`) marks facts only the human author can supply; none remain |
 | `arxiv/tables/tab_*.tex` | The 33 tables, generated; do not edit by hand |
 | `make_tables_tex.py` | Generates the tables from the run's analysis outputs (see below) |
 | `check_values.py` | Stricter number check between `paper.md` and the LaTeX version |
@@ -39,8 +39,8 @@ cd preprint/arxiv && pdflatex main.tex && pdflatex main.tex && pdflatex main.tex
 
 ## Before submitting (the human author)
 
-1. Replace every red `\fillin{}`: whether you reviewed the translation, and whether you checked the data and results. The affiliation, the research model (`gpt-6.1-sol`, xhigh), the confirmation of your role and the repository URL were supplied on 2026-10-19.
-2. Read the whole translation against `../paper.md`; you take full responsibility for the content.
+1. No red `\fillin{}` remains. The affiliation, the research model (`gpt-6.1-sol`, xhigh), the confirmation of your role and the repository URL were supplied on 2026-10-19; the statements on the translation (read in full) and on the data (not independently checked) on 2026-10-20.
+2. You take full responsibility for the content (arXiv's policy on generative AI tools).
 3. Decide the categories (suggested: stat.AP primary; cs.LG and q-bio.PE cross-lists). A first submission to a category may need an endorsement.
 4. Upload `arxiv_submission.tar.gz`, and check arXiv's own pdfLaTeX preview (the local preview was built with the local TeX Live 2026 pdfLaTeX; arXiv's TeX Live version may differ).
 5. The replication package is published at https://github.com/kofujimura/free-research-012 (pushed on 2026-10-19 at the author's request); its URL is in `main.tex`, `arxiv_metadata.txt` and `../CITATION.cff`. After the arXiv identifier is assigned, add it to `../README.md` and `../CITATION.cff`.

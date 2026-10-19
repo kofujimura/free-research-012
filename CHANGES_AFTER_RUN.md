@@ -27,15 +27,15 @@ After the first local commit of this package (before the EPA pilot file was remo
 
 The replay was repeated after the EPA pilot file had been removed, from commit `8242c31` of the published history (2026-10-19, 1,129 s), with the same results: all 44 stages completed; all 70 tables (178,110 rows) matched with maximum absolute difference 0.0; all 14 claims matched; `paper.md`, the twelve rendered `table_*.md` files and the four figure files were byte-identical to those in the package; the recomputed `site/case-scores.csv.gz` had the same SHA-256 as before; and `git status` was clean afterwards.
 
-## 4. Statements and decisions by the human author (2026-10-19)
+## 4. Statements and decisions by the human author (2026-10-19 and 2026-10-20)
 
 - The research model was `gpt-6.1-sol` with reasoning effort xhigh. The run recorded only "Codex, based on GPT-6"; after the run, the process list of the machine had shown a Codex CLI process (installed package 0.162.1) started 8 s before the run with `-m gpt-6.1-sol -c model_reasoning_effort=xhigh` and the protocol as its prompt, which agrees with the author's statement. Neither is part of the run's records.
 - The description of the human author's role in the AI Declaration is correct.
+- The human author read the English translation in full and has not independently checked the data or the results (2026-10-20).
 - Affiliation: Otsuma Women's University, Faculty of Social Information Studies.
 - The US EPA pilot file is not to be published (§1), and the package is published at https://github.com/kofujimura/free-research-012.
 
 ## 5. Pending
 
-- Whether the human author reviewed the translation and checked the data: **[to be added]**.
 - arXiv identifier: **[to be added later]**.
 - Whether to publish the run's local Git history: **[author to decide]**.
