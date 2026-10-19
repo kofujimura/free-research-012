@@ -1,0 +1,29 @@
+{
+  "engine": "chronos",
+  "input_file": "experiments/E099-history-length-inputs-fixed/inference-inputs/chronos-013.json",
+  "input_sha256": "5570b2d9e9eb2039e1e6f43e70fb9996b91113c70651b7c025ede23b1a0382ac",
+  "seed": 12012,
+  "horizon": 16,
+  "quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "start": 0,
+  "stop": null,
+  "started_at_utc": "2026-10-19T02:24:30Z",
+  "models": {
+    "chronos_bolt_base": "data/models/chronos-bolt-base"
+  },
+  "failures": 0,
+  "successes": 795,
+  "quantile_crossings": 693,
+  "timesfm_max_context": null,
+  "ended_at_utc": "2026-10-19T02:24:39Z"
+}

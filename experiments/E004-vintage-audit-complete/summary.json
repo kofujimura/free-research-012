@@ -1,0 +1,22 @@
+{
+  "frozen_commit": "6586326ea292f4bfa243d8444d1efc8f4fef772d",
+  "vintages": 120,
+  "distinct_headers": 5,
+  "first_release": "2024-03-13T13:26:07+01:00",
+  "last_release": "2026-10-14T13:02:32+02:00",
+  "archived_bytes": 9624057,
+  "types": [
+    "ALL",
+    "Influenza A",
+    "Influenza A+B",
+    "Influenza B",
+    "Influenza-A",
+    "Influenza-B",
+    "Influenza-Gesamt",
+    "RSV A",
+    "RSV A+B",
+    "RSV A/B",
+    "RSV B",
+    "SARS-CoV-2"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E045-raw-sars-inputs",
+  "plan_path": "protocol/raw-sars-plan-v1.md",
+  "plan_commit": "0a3ce3f26bf53e41de7b398e9673d81fb74b4c88",
+  "plan_sha256": "24e6c9d066d4623f9e39f78fd863e2b01ff63f639ad81fcad9c2660659e0076e",
+  "code_commit": "0a3ce3f26bf53e41de7b398e9673d81fb74b4c88",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_raw_sars.py"
+  ],
+  "started_at_utc": "2026-10-18T20:48:16Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E004-vintage-audit-complete/archive-index.json": "374511a43d35a28b2a750c2fab78a5071b35e29893a9f9bac3620495cd05affb",
+    "config/main.json": "23bfb452adf54bbba91206d76b9ace1deff7f6bfb76e8b8f61a14d4408defc06"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52625,
+  "storage_before_bytes_du": 6809456640,
+  "child_pid": 52631,
+  "ended_at_utc": "2026-10-18T20:48:18Z",
+  "elapsed_seconds": 2.6367163750110194,
+  "returncode": 0
+}

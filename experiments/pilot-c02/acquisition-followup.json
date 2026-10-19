@@ -1,0 +1,44 @@
+{
+  "started_at_utc": "2026-10-18T15:52:54Z",
+  "reason": "Correct initial guessed EPA URL and skip GCS directory marker; original failure retained.",
+  "raster": {
+    "url": "https://storage.googleapis.com/alphaearth_foundations/satellite_embedding/v1/annual/2024/10N/x086q72fv2f9q1x4a-0000000000-0000000000.tiff",
+    "shape": [
+      64,
+      16,
+      16
+    ],
+    "full_shape": [
+      64,
+      8192,
+      8192
+    ],
+    "nodata_fraction": 1.0
+  },
+  "air_quality": {
+    "total_rows": 68956,
+    "pm25_sites": 1035,
+    "pairs_0_to_1km": 9,
+    "pairs_0_to_5km": 116,
+    "pairs_0_to_10km": 357,
+    "source": {
+      "url": "https://aqs.epa.gov/aqsweb/airdata/annual_conc_by_monitor_2024.zip",
+      "retrieved_at_utc": "2026-10-18T15:52:58Z",
+      "path": "data/pilot-c02/annual_conc_by_monitor_2024.zip",
+      "license": "US EPA public data",
+      "purpose": "C02 feasibility followup",
+      "robots": {
+        "url": "https://aqs.epa.gov/robots.txt",
+        "status": 404,
+        "allowed": true
+      },
+      "http_status": 200,
+      "final_url": "https://aqs.epa.gov/aqsweb/airdata/annual_conc_by_monitor_2024.zip",
+      "content_type": "application/zip",
+      "status": "success",
+      "bytes": 3979542,
+      "sha256": "8af92d1ec8ac9271babc84e3512cb2068e6a8849af438448c4170fd9e99ea5bb"
+    }
+  },
+  "ended_at_utc": "2026-10-18T15:53:34Z"
+}

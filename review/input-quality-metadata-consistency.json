@@ -1,0 +1,61 @@
+{
+  "observed_at_utc": "2026-10-18T22:15:39Z",
+  "checks": [
+    {
+      "dataset": "national",
+      "case_rows": 1464,
+      "metadata_mismatches": 0,
+      "examples": []
+    },
+    {
+      "dataset": "site",
+      "case_rows": 36732,
+      "metadata_mismatches": 72,
+      "examples": [
+        {
+          "issue_date": "2025-08-15",
+          "source_age_weeks": 0,
+          "input_id": "9d1e3143d417772bb44f96de",
+          "case_imputed": 28,
+          "stored_context_imputed": 27
+        },
+        {
+          "issue_date": "2025-08-15",
+          "source_age_weeks": 0,
+          "input_id": "9c8763cae426c5819c97e2fd",
+          "case_imputed": 6,
+          "stored_context_imputed": 5
+        },
+        {
+          "issue_date": "2025-08-15",
+          "source_age_weeks": 0,
+          "input_id": "14d20f47dfa4f3b15d0f8365",
+          "case_imputed": 8,
+          "stored_context_imputed": 7
+        },
+        {
+          "issue_date": "2025-08-15",
+          "source_age_weeks": 0,
+          "input_id": "dc391e76d3d12f642402b84a",
+          "case_imputed": 9,
+          "stored_context_imputed": 8
+        },
+        {
+          "issue_date": "2025-08-15",
+          "source_age_weeks": 0,
+          "input_id": "64a4c24fabe343beb8a0b5bc",
+          "case_imputed": 1,
+          "stored_context_imputed": 0
+        }
+      ]
+    },
+    {
+      "dataset": "nz",
+      "case_rows": 2988,
+      "metadata_mismatches": 0,
+      "examples": []
+    }
+  ],
+  "scope": "Canonical input IDs describe numeric histories; case-specific measured/imputed provenance may differ.",
+  "initial_attempt_error": "Audit snippet initially expected real_observations_context in national case rows; that field is available as context_length minus imputed_context. No research outputs changed."
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "national",
+    "country": "Germany",
+    "scores": [
+      "experiments/E011-primary-analysis/results/case-scores.csv",
+      "experiments/E022-extra-analysis-fixed/results/case-extra-scores.csv.gz"
+    ]
+  },
+  {
+    "name": "site",
+    "country": "Germany",
+    "scores": [
+      "experiments/E072-site-panel-analysis/results/case-scores.csv.gz"
+    ]
+  },
+  {
+    "name": "nz",
+    "country": "NZ",
+    "scores": [
+      "experiments/E044-nz-panel-analysis/results/case-scores.csv.gz"
+    ]
+  }
+]

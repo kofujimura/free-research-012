@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RIrlYsBLpQRgDs07NGeRKbQxLQs</id>
+  <title>arXiv Query: search_query=&amp;id_list=2512.01074&amp;start=0&amp;max_results=10</title>
+  <updated>2026-10-19T06:49:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=&amp;start=0&amp;max_results=10&amp;id_list=2512.01074" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2512.01074v2</id>
+    <title>COVID-19 Forecasting from U.S. Wastewater Surveillance Data: A Retrospective Multi-Model Study (2022-2024)</title>
+    <updated>2026-03-24T13:31:03Z</updated>
+    <link href="https://arxiv.org/abs/2512.01074v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2512.01074v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate and reliable forecasting models are critical for guiding public health responses and policy decisions during pandemics such as COVID-19. Retrospective evaluation of model performance is essential for improving epidemic forecasting capabilities. In this study, we used COVID-19 wastewater data from CDC's National Wastewater Surveillance System to generate sequential weekly retrospective forecasts for the United States from March 2022 through September 2024, both at the national level and for four major regions (Northeast, Midwest, South, and West). We produced 133 weekly forecasts using 11 models, including ARIMA, generalized additive models (GAM), simple linear regression (SLR), Prophet, and the n-sub-epidemic framework (top-ranked, weighted-ensemble, and unweighted-ensemble variants). Forecast performance was assessed using mean absolute error (MAE), mean squared error (MSE), weighted interval score (WIS), and 95% prediction interval coverage. The n-sub-epidemic unweighted ensembles outperformed all other models at 3-4-week horizons, particularly at the national level and in the Midwest and West. ARIMA and GAM performed best at 1-2-week horizons in most regions, whereas Prophet and SLR consistently underperformed across regions and horizons. These findings highlight the value of region-specific modeling strategies and demonstrate the utility of the n-sub-epidemic framework for real-time outbreak forecasting using wastewater surveillance data.</summary>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-30T20:47:42Z</published>
+    <arxiv:comment>39 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="stat.AP"/>
+    <author>
+      <name>Faharudeen Alhassan</name>
+    </author>
+    <author>
+      <name>Hamed Karami</name>
+    </author>
+    <author>
+      <name>Amanda Bleichrodt</name>
+    </author>
+    <author>
+      <name>James M. Hyman</name>
+    </author>
+    <author>
+      <name>Isaac C. H. Fung</name>
+    </author>
+    <author>
+      <name>Ruiyan Luo</name>
+    </author>
+    <author>
+      <name>Gerardo Chowell</name>
+    </author>
+  </entry>
+</feed>

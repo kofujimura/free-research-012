@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E093-national-freshness-interaction",
+  "plan_path": "protocol/freshness-interaction-v1.md",
+  "plan_commit": "116e20a23fce10e4dde48dd8a3416ac9b6b1b4f6",
+  "plan_sha256": "2bdffa00ff904d5f4df070ea40967e2f041e0e38c2ad1daf01152f36ba43ea26",
+  "code_commit": "116e20a23fce10e4dde48dd8a3416ac9b6b1b4f6",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_freshness_interaction.py",
+    "--panel",
+    "experiments/E007-prepare-inputs-fixed",
+    "--scores",
+    "experiments/E011-primary-analysis/results/case-scores.csv",
+    "--scores",
+    "experiments/E022-extra-analysis-fixed/results/case-extra-scores.csv.gz",
+    "--out",
+    "experiments/E093-national-freshness-interaction/results"
+  ],
+  "started_at_utc": "2026-10-18T21:46:52Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E011-primary-analysis/results/case-scores.csv": "bd3617585687f2f53b89563d8bf160efced3d9a7aac699904123ae9d17952aca",
+    "experiments/E022-extra-analysis-fixed/results/case-extra-scores.csv.gz": "a1ea2f455ce528021bbcd558305362c7f294307a9e96c5f4a3c184b9629db2d8"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55237,
+  "storage_before_bytes_du": 7990566912,
+  "child_pid": 55243,
+  "ended_at_utc": "2026-10-18T21:47:00Z",
+  "elapsed_seconds": 7.776170040946454,
+  "returncode": 0
+}

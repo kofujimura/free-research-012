@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py", line 118, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py", line 56, in main
+    cfg=load_config();a=Archive(cfg);out=pathlib.Path(os.environ['RESEARCH_EXPERIMENT_DIR'])
+                        ~~~~~~~^^^^^
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py", line 33, in __init__
+    self.series={(r['commit'],p):canonical(self.frames[r['commit']],p) for r in self.records for p in config['pathogens']}
+                                 ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py", line 24, in canonical
+    if any(out.index.dayofweek!=2):raise ValueError('Unexpected aggregate weekday')
+                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Unexpected aggregate weekday

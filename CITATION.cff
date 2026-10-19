@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this replication package, please cite the preprint."
+title: "Forecasters and the Freshness of Published Information in Wastewater Surveillance — replication package"
+type: dataset
+license:
+  - MIT
+  - CC-BY-4.0
+authors:
+  - family-names: Fujimura
+    given-names: Ko
+    email: fujimura@otsuma.ac.jp
+abstract: >-
+  Code, analysis outputs and the complete research record of a study conducted autonomously by an
+  AI research agent (OpenAI Codex), which compared pretrained time-series forecasters fed older
+  actually published wastewater surveillance data with classical forecasters fed the latest data,
+  using the public publication histories of Germany's AMELAG and New Zealand's wastewater data.
+keywords:
+  - wastewater surveillance
+  - real-time forecasting
+  - data vintages
+  - time-series foundation models
+  - forecast evaluation
+  - AI-conducted research

@@ -1,0 +1,485 @@
+{
+    "metadata": {
+        ".zattrs": {
+            "experiment_id": 73974210,
+            "worker_id": 3
+        },
+        ".zgroup": {
+            "zarr_format": 2
+        },
+        "geopotential/.zarray": {
+            "chunks": [
+                50,
+                4,
+                2,
+                1,
+                64,
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50,
+                732,
+                32,
+                37,
+                64,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "geopotential/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization",
+                "time",
+                "prediction_timedelta",
+                "level",
+                "longitude",
+                "latitude"
+            ]
+        },
+        "latitude/.zarray": {
+            "chunks": [
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                32
+            ],
+            "zarr_format": 2
+        },
+        "latitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "latitude"
+            ]
+        },
+        "level/.zarray": {
+            "chunks": [
+                37
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                37
+            ],
+            "zarr_format": 2
+        },
+        "level/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "level"
+            ]
+        },
+        "longitude/.zarray": {
+            "chunks": [
+                64
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f8",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                64
+            ],
+            "zarr_format": 2
+        },
+        "longitude/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "longitude"
+            ]
+        },
+        "prediction_timedelta/.zarray": {
+            "chunks": [
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                32
+            ],
+            "zarr_format": 2
+        },
+        "prediction_timedelta/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "prediction_timedelta"
+            ],
+            "units": "hours"
+        },
+        "realization/.zarray": {
+            "chunks": [
+                50
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50
+            ],
+            "zarr_format": 2
+        },
+        "realization/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization"
+            ]
+        },
+        "specific_cloud_ice_water_content/.zarray": {
+            "chunks": [
+                50,
+                4,
+                2,
+                1,
+                64,
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50,
+                732,
+                32,
+                37,
+                64,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "specific_cloud_ice_water_content/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization",
+                "time",
+                "prediction_timedelta",
+                "level",
+                "longitude",
+                "latitude"
+            ]
+        },
+        "specific_cloud_liquid_water_content/.zarray": {
+            "chunks": [
+                50,
+                4,
+                2,
+                1,
+                64,
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50,
+                732,
+                32,
+                37,
+                64,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "specific_cloud_liquid_water_content/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization",
+                "time",
+                "prediction_timedelta",
+                "level",
+                "longitude",
+                "latitude"
+            ]
+        },
+        "specific_humidity/.zarray": {
+            "chunks": [
+                50,
+                4,
+                2,
+                1,
+                64,
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50,
+                732,
+                32,
+                37,
+                64,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "specific_humidity/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization",
+                "time",
+                "prediction_timedelta",
+                "level",
+                "longitude",
+                "latitude"
+            ]
+        },
+        "temperature/.zarray": {
+            "chunks": [
+                50,
+                4,
+                2,
+                1,
+                64,
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50,
+                732,
+                32,
+                37,
+                64,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "temperature/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization",
+                "time",
+                "prediction_timedelta",
+                "level",
+                "longitude",
+                "latitude"
+            ]
+        },
+        "time/.zarray": {
+            "chunks": [
+                732
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<i8",
+            "fill_value": null,
+            "filters": null,
+            "order": "C",
+            "shape": [
+                732
+            ],
+            "zarr_format": 2
+        },
+        "time/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "time"
+            ],
+            "calendar": "proleptic_gregorian",
+            "units": "hours since 2019-12-15"
+        },
+        "u_component_of_wind/.zarray": {
+            "chunks": [
+                50,
+                4,
+                2,
+                1,
+                64,
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50,
+                732,
+                32,
+                37,
+                64,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "u_component_of_wind/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization",
+                "time",
+                "prediction_timedelta",
+                "level",
+                "longitude",
+                "latitude"
+            ]
+        },
+        "v_component_of_wind/.zarray": {
+            "chunks": [
+                50,
+                4,
+                2,
+                1,
+                64,
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50,
+                732,
+                32,
+                37,
+                64,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "v_component_of_wind/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization",
+                "time",
+                "prediction_timedelta",
+                "level",
+                "longitude",
+                "latitude"
+            ]
+        },
+        "wind_speed/.zarray": {
+            "chunks": [
+                50,
+                4,
+                2,
+                1,
+                64,
+                32
+            ],
+            "compressor": {
+                "blocksize": 0,
+                "clevel": 5,
+                "cname": "lz4",
+                "id": "blosc",
+                "shuffle": 1
+            },
+            "dtype": "<f4",
+            "fill_value": "NaN",
+            "filters": null,
+            "order": "C",
+            "shape": [
+                50,
+                732,
+                32,
+                37,
+                64,
+                32
+            ],
+            "zarr_format": 2
+        },
+        "wind_speed/.zattrs": {
+            "_ARRAY_DIMENSIONS": [
+                "realization",
+                "time",
+                "prediction_timedelta",
+                "level",
+                "longitude",
+                "latitude"
+            ]
+        }
+    },
+    "zarr_consolidated_format": 1
+}

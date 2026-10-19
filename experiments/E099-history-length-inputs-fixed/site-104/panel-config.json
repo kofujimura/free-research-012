@@ -1,0 +1,67 @@
+{
+  "seed": 12012,
+  "vintage_index": "experiments/E004-vintage-audit-complete/archive-index.json",
+  "calibration_start": "2025-01-03",
+  "test_start": "2025-07-04",
+  "test_end": "2026-08-07",
+  "timesfm_interpretation_start": "2025-10-03",
+  "issue_hour_utc": 12,
+  "source_age_weeks": [
+    0,
+    1,
+    2
+  ],
+  "target_offsets_days": [
+    5
+  ],
+  "truth_lags_days": [
+    56
+  ],
+  "primary_truth_lag_days": 56,
+  "min_observed": 16,
+  "max_context": 104,
+  "max_horizon": 16,
+  "quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "pathogens": [
+    "SARS-CoV-2",
+    "Influenza A",
+    "RSV A/B"
+  ],
+  "input_modes": [
+    "actual"
+  ],
+  "calibration_minimum": 12,
+  "calibration_maximum": 52,
+  "rise_ratio": 2.0,
+  "false_positive_target": 0.1,
+  "bootstrap_blocks": [
+    4,
+    8,
+    12
+  ],
+  "bootstrap_primary_block": 8,
+  "bootstrap_repetitions": 2000,
+  "cohort_release_prefix": "6f630bf",
+  "active_release_prefix": "2919256",
+  "population_minimum": 50000,
+  "cohort_maximum_sites": 80,
+  "cohort_minimum_observed_weeks": 16,
+  "cohort_recent_window_weeks": 8,
+  "cohort_recent_minimum_observed_weeks": 4,
+  "active_window_weeks": 8,
+  "active_minimum_observed_weeks": 4,
+  "raw_archive_experiment": "E019-site-full-archive",
+  "floor_fraction_threshold": 0.5,
+  "forecast_chunk_size": 2000,
+  "issue_frequency": "W-FRI"
+}

@@ -1,0 +1,3 @@
+{"done": 16, "total": 45, "successes": 48, "failures": 0}
+{"done": 32, "total": 45, "successes": 96, "failures": 0}
+{"inputs": 45, "successes": 135, "failures": 0, "seed": 12012, "common_d_for_fourier_aicc": true}

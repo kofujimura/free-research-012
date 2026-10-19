@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E054-site-c2-timesfm",
+  "plan_path": "protocol/multisite-plan-v2.md",
+  "plan_commit": "af6d5999a89e025cf15ee1f30cc6026598c81dae",
+  "plan_sha256": "f210de812f6dcd6bfaeeb0f590d621d932d170f8285b96ba17d39cdac55cc0a4",
+  "code_commit": "af6d5999a89e025cf15ee1f30cc6026598c81dae",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E024-site-panel-inputs/input-chunks/chunk-002.json",
+    "--engine",
+    "timesfm"
+  ],
+  "started_at_utc": "2026-10-18T20:59:14Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E024-site-panel-inputs/input-chunks/chunk-002.json": "4e9db4a46c44a1d3f1d8d801c1fbc6fd63d0e61d29175c9e20043b5ed6cfcc0c",
+    "data/models/timesfm-2.5-200m-pytorch/model.safetensors": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 53074,
+  "storage_before_bytes_du": 6871154688,
+  "child_pid": 53081,
+  "ended_at_utc": "2026-10-18T21:02:54Z",
+  "elapsed_seconds": 219.23317250004038,
+  "returncode": 0
+}

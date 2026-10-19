@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E140-joint-comparison-sensitivity",
+  "plan_path": "protocol/joint-comparison-sensitivity-v1.md",
+  "plan_commit": "d9a6e17fe7e0b47f73b25f5041957ffa86ac308a",
+  "plan_sha256": "3fed1213400504eb0784c3274d8374c8554f8af8c727ad315c9b889c7ded1999",
+  "code_commit": "d9a6e17fe7e0b47f73b25f5041957ffa86ac308a",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_joint_comparisons.py",
+    "--datasets",
+    "config/joint-comparison-datasets.json",
+    "--out",
+    "experiments/E140-joint-comparison-sensitivity/results"
+  ],
+  "started_at_utc": "2026-10-19T02:10:57Z",
+  "timeout_seconds": 900,
+  "input_files": {
+    "config/joint-comparison-datasets.json": "13e382f81ad7d578afe3f29030602feb42f9d864b2363a6b0ebcff8d8e0aacc3",
+    "experiments/E011-primary-analysis/results/case-scores.csv": "bd3617585687f2f53b89563d8bf160efced3d9a7aac699904123ae9d17952aca",
+    "experiments/E022-extra-analysis-fixed/results/case-extra-scores.csv.gz": "a1ea2f455ce528021bbcd558305362c7f294307a9e96c5f4a3c184b9629db2d8",
+    "experiments/E072-site-panel-analysis/results/case-scores.csv.gz": "4901f4331babfcbc11380a9373e63b07c4575ecafc74ae21cae31357ffa6ca26",
+    "experiments/E044-nz-panel-analysis/results/case-scores.csv.gz": "033205f5f19da999b9c9fd9b963861cd3dcba1ecb0150086f7eafa1b1636fef5"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 61868,
+  "storage_before_bytes_du": 9494646784,
+  "child_pid": 61874,
+  "ended_at_utc": "2026-10-19T02:11:05Z",
+  "elapsed_seconds": 8.098317582975142,
+  "returncode": 0
+}

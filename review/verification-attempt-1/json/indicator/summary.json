@@ -1,0 +1,8 @@
+{
+  "comparison_rows": 432,
+  "exploratory": true,
+  "matched_case_definitions": true,
+  "causal_normalization_effect_claimed": false,
+  "network_required": false,
+  "model_inference_required": false
+}

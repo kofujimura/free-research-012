@@ -1,0 +1,27 @@
+{
+  "experiment_id": "E099-history-length-inputs-fixed",
+  "plan_path": "protocol/history-length-control-v1.md",
+  "plan_commit": "860472df5b0176e985a47d4cb05b6e4c6ccc28f5",
+  "plan_sha256": "24f4e3aedc060b5162b7445744b17a2d52bfcdd45e0ee4e2dcbda334648bcc9f",
+  "code_commit": "860472df5b0176e985a47d4cb05b6e4c6ccc28f5",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_history_control.py"
+  ],
+  "started_at_utc": "2026-10-18T22:28:29Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/cases.csv": "ae2aff86865b1bb4039fa2210ec6e6ffefd120609ed97fe5d65be51b70c1e429",
+    "experiments/E024-site-panel-inputs/cases.csv": "29b582701a4ed3f7a97761dd3f449cda2bc7a257a5df68aeb10a5477848c8e44",
+    "experiments/E027-nz-panel-inputs-eligible/cases.csv": "da3af8fdbf6c719678bafd61b04c49c35d5c6cc26e4e8839163023b80d34faae",
+    "experiments/E023-site-weekly-cohort/weekly-index.json": "1518059f2770d07c977980f00fcb804dd92e14354d0d4bdb7ff350a4a824346e"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 56701,
+  "storage_before_bytes_du": 8233259008,
+  "child_pid": 56707,
+  "ended_at_utc": "2026-10-18T22:29:20Z",
+  "elapsed_seconds": 50.90172808396164,
+  "returncode": 0
+}

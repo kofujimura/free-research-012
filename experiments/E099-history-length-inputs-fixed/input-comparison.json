@@ -1,0 +1,41 @@
+[
+  {
+    "dataset": "national",
+    "short_panel": "experiments/E099-history-length-inputs-fixed/national-104",
+    "long_panel": "experiments/E099-history-length-inputs-fixed/national-256",
+    "intended_cases": 1512,
+    "both_inputs_available": 1464,
+    "maximum_available_calendar_weeks": 233,
+    "cases_with_available_history_over_256": 0,
+    "source_and_last_dates_and_horizons_unchanged_on_common_cases": true,
+    "numeric_histories_unchanged": 750,
+    "only_long_available": 0,
+    "only_short_available": 0
+  },
+  {
+    "dataset": "site",
+    "short_panel": "experiments/E099-history-length-inputs-fixed/site-104",
+    "long_panel": "experiments/E099-history-length-inputs-fixed/site-256",
+    "intended_cases": 39564,
+    "both_inputs_available": 36732,
+    "maximum_available_calendar_weeks": 239,
+    "cases_with_available_history_over_256": 0,
+    "source_and_last_dates_and_horizons_unchanged_on_common_cases": true,
+    "numeric_histories_unchanged": 19596,
+    "only_long_available": 0,
+    "only_short_available": 0
+  },
+  {
+    "dataset": "nz",
+    "short_panel": "experiments/E099-history-length-inputs-fixed/nz-104",
+    "long_panel": "experiments/E099-history-length-inputs-fixed/nz-256",
+    "intended_cases": 2988,
+    "both_inputs_available": 2988,
+    "maximum_available_calendar_weeks": 267,
+    "cases_with_available_history_over_256": 240,
+    "source_and_last_dates_and_horizons_unchanged_on_common_cases": true,
+    "numeric_histories_unchanged": 0,
+    "only_long_available": 0,
+    "only_short_available": 0
+  }
+]

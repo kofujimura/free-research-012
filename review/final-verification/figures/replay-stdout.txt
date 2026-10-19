@@ -1,0 +1,1 @@
+{"out": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/figures", "figures": 2}

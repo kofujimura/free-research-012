@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E037-national-growth-sensitivity",
+  "plan_path": "protocol/extension-national-v1.md",
+  "plan_commit": "4972663912400ba90d7af18232404e38b6a41db4",
+  "plan_sha256": "95a1b984a211082233a009fee24ead179a445f4a91f789a4989ba4e0575830b9",
+  "code_commit": "4972663912400ba90d7af18232404e38b6a41db4",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_growth.py",
+    "--forecast-csv",
+    "experiments/E022-extra-analysis-fixed/results/case-forecasts.csv.gz",
+    "--panel",
+    "experiments/E007-prepare-inputs-fixed",
+    "--out",
+    "experiments/E037-national-growth-sensitivity/results"
+  ],
+  "started_at_utc": "2026-10-18T20:34:27Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E022-extra-analysis-fixed/results/case-forecasts.csv.gz": "dbdea7a77502ab02a40d1eddaa384e70ac41e94597c57c7d8f68467dbf069713",
+    "experiments/E007-prepare-inputs-fixed/truth.csv": "c063338128a4608da396dd8e82209f9b8743081d9ad286969e49079e12fbde28"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52057,
+  "storage_before_bytes_du": 6737215488,
+  "child_pid": 52081,
+  "ended_at_utc": "2026-10-18T20:34:31Z",
+  "elapsed_seconds": 4.596572541981004,
+  "returncode": 0
+}

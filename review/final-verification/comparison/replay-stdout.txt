@@ -1,0 +1,1 @@
+{"passed": true, "tables": 70, "rows": 178110, "max_absolute_numeric_difference": 0.0}

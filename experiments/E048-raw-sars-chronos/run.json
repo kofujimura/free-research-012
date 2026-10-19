@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E048-raw-sars-chronos",
+  "plan_path": "protocol/raw-sars-plan-v1.md",
+  "plan_commit": "0a3ce3f26bf53e41de7b398e9673d81fb74b4c88",
+  "plan_sha256": "24e6c9d066d4623f9e39f78fd863e2b01ff63f639ad81fcad9c2660659e0076e",
+  "code_commit": "0a3ce3f26bf53e41de7b398e9673d81fb74b4c88",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E045-raw-sars-inputs/inputs.json",
+    "--engine",
+    "chronos"
+  ],
+  "started_at_utc": "2026-10-18T20:51:42Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E045-raw-sars-inputs/inputs.json": "7b01355b398135cd718fb49cc1e7ed6bfb59af27d1b28c1be92d0fd443bb900a",
+    "data/models/chronos-bolt-base/model.safetensors": "31f875483a3215bc6880a0837ea608a13ce55f88ad90538c3cdd0b29aeb60b36"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52778,
+  "storage_before_bytes_du": 6828769280,
+  "child_pid": 52784,
+  "ended_at_utc": "2026-10-18T20:51:48Z",
+  "elapsed_seconds": 5.50227216607891,
+  "returncode": 0
+}

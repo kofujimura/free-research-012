@@ -1,0 +1,2080 @@
+{
+  "id": "resp_09b07dfdc8aa27e7006ad4ed9cbe8887d09014339fe5cbf8b7",
+  "access_programs": null,
+  "created_at": 1792339356.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-6-astra",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4eda077c487d0b55644decda6fd20",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4edb1698c87d0a56b8698515b65b5",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"Performance assessment and application of AlphaEarth\"",
+          "\"An evaluation of the readability of drinking water quality reports\"",
+          "\"Wastewater as an early indicator\" \"Germany\" 2025",
+          "\"AI-imputed and crowdsourced price data\""
+        ],
+        "query": "\"Performance assessment and application of AlphaEarth\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12376350/"
+          },
+          {
+            "type": "url",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26322750/"
+          },
+          {
+            "type": "url",
+            "url": "https://doi.org/10.1016/j.rsase.2026.101989"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/281552702_An_evaluation_of_the_readability_of_drinking_water_quality_reports_a_national_assessment_Siddhartha_Roy_Katherine_Phetxumphou_Andrea_M_Dietrich"
+          },
+          {
+            "type": "url",
+            "url": "https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0320720&type=printable"
+          },
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11978078/"
+          },
+          {
+            "type": "url",
+            "url": "https://link.springer.com/article/10.1186/s12889-025-24149-2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.preprints.org/manuscript/202605.0981"
+          },
+          {
+            "type": "url",
+            "url": "https://www.kth.se/bibliometrics/classification/2017Q1/Level1/26537.html"
+          },
+          {
+            "type": "url",
+            "url": "https://openalex.org/W4413533074"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0034425726004608"
+          },
+          {
+            "type": "url",
+            "url": "https://mannyteodoro.com/wp-content/uploads/UWLAF_Water-Report_Final_Web.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://pdfs.semanticscholar.org/89e5/7291e63f91faf4f01bb074b66e04e5651d64.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://readableblog.com/readability-for-researchers"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/satellite-image-deep-learning/techniques"
+          },
+          {
+            "type": "url",
+            "url": "https://tore.tuhh.de/dspace-cris-server/api/core/bitstreams/0a6159f7-469a-41e9-9112-e7ba95a5a4f0/content"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4edb5341087d0919202b449095fba",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"Drivers of international fire management personnel\"",
+          "\"Growing convergence research\" wildfire",
+          "\"Real-time forecasting of data revisions in epidemic surveillance streams\"",
+          "\"Forecasting trends in food security with real time data\""
+        ],
+        "query": "\"Drivers of international fire management personnel\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.sciencedirect.com/science/article/pii/S1462901124002363"
+          },
+          {
+            "type": "url",
+            "url": "https://research.fs.usda.gov/treesearch/68227"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sciencedirect.com/science/article/pii/S146290112600119X"
+          },
+          {
+            "type": "url",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/risa.14113"
+          },
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12646461/"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2312.00626"
+          },
+          {
+            "type": "url",
+            "url": "https://research.fs.usda.gov/download/treesearch/68227.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://openalex.org/W4416430132"
+          },
+          {
+            "type": "url",
+            "url": "https://connectsci.au/wf/article/33/3/WF23093/22123/Drivers-of-international-fire-management-personnel"
+          },
+          {
+            "type": "url",
+            "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1013709"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nsf.gov/focus-areas/wildland-fire"
+          },
+          {
+            "type": "url",
+            "url": "https://depts.washington.edu/flame/docs/One-pager_NSF_WildfireSimultaneityResearch.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://connectsci.au/wf/issue/33/3"
+          },
+          {
+            "type": "url",
+            "url": "https://wfp.tind.io/record/131305/files/ART%20634.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://link.springer.com/article/10.1007/s13753-021-00340-y"
+          },
+          {
+            "type": "url",
+            "url": "https://elib.dlr.de/207783/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.medrxiv.org/content/medrxiv/early/2025/10/15/2025.05.12.25327058.full.pdf"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4edbaec4c87d0952f569f1ac3980e",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"AlphaEarth Foundations\" Brown 2025",
+          "\"Combining Incompatible Spatial Data\" Gotway Young 2002",
+          "\"High-Resolution Air Pollution Mapping\" Apte 2017",
+          "\"Predicting into unknown space\" Meyer Pebesma 2021"
+        ],
+        "query": "\"AlphaEarth Foundations\" Brown 2025",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/aicuriosity/comments/1me5lox"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2507.22291"
+          },
+          {
+            "type": "url",
+            "url": "https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/alphaearth-foundations.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/4745466_Combining_Incompatible_Spatial_Data"
+          },
+          {
+            "type": "url",
+            "url": "https://ideas.repec.org/a/bes/jnlasa/v97y2002mjunep632-648.html"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2005.07939"
+          },
+          {
+            "type": "url",
+            "url": "https://citeseerx.ist.psu.edu/document?doi=11dbaf5adab17db517c9826fc251b261ba76a921&repid=rep1&type=pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1002QG4.TXT"
+          },
+          {
+            "type": "url",
+            "url": "https://www.annualreviews.org/content/journals/10.1146/annurev-statistics-042424-052920"
+          },
+          {
+            "type": "url",
+            "url": "https://hideme.live/proxy/deepmind.google/blog/alphaearth-foundations-helps-map-our-planet-in-unprecedented-detail/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022169410000715"
+          },
+          {
+            "type": "url",
+            "url": "https://www.emergentmind.com/topics/alphaearth-foundations-aef"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ars.usda.gov/ARSUserFiles/80000000/SpatialWorkshop/18WestMultipleScales.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://explorerv2.unepgrid.ch/products/aef_annual/2025"
+          },
+          {
+            "type": "url",
+            "url": "https://vpn.luca-server.com/px/aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI1MDcuMjIyOTE"
+          },
+          {
+            "type": "url",
+            "url": "https://cris.uni-muenster.de/portal/en/publication/77577086"
+          },
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC526213/"
+          },
+          {
+            "type": "url",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1574-0862.2002.tb00120.x"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2508.11739"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2605.10029"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/AIGuild/comments/1mdku0p"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Wireless_sensor_network"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4edc0c73087d08ae3c9d18623c297",
+      "action": {
+        "type": "search",
+        "queries": [
+          "Apte 2017 High Resolution Air Pollution Mapping Google Street View Cars exploiting big data",
+          "Hoek Beelen de Hoogh Vienneau 2008 review land-use regression models spatial variation outdoor air pollution",
+          "EPA air monitoring network spatial scales micro middle neighborhood urban site selection annual average",
+          "\"What on Earth is AlphaEarth\""
+        ],
+        "query": "Apte 2017 High Resolution Air Pollution Mapping Google Street View Cars exploiting big data",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/1911.03137"
+          },
+          {
+            "type": "url",
+            "url": "https://research-portal.uu.nl/en/publications/a-review-of-land-use-regression-models-to-assess-spatial-variatio/"
+          },
+          {
+            "type": "url",
+            "url": "https://apte.berkeley.edu/air-quality-mapping/"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2603.16911"
+          },
+          {
+            "type": "url",
+            "url": "https://www.epa.gov/sites/production/files/2018-04/documents/sils_guidance_2018.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=9101FMAW.TXT"
+          },
+          {
+            "type": "url",
+            "url": "https://zenodo.org/records/17728053"
+          },
+          {
+            "type": "url",
+            "url": "https://www.epa.gov/sites/default/files/2020-01/documents/dcassess2015.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://alpha-earth-viz.vercel.app/"
+          },
+          {
+            "type": "url",
+            "url": "https://www3.epa.gov/ttnamti1/files/ambient/pm25/qa/m212.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www3.epa.gov/ttnamti1/files/ambient/criteria/netrev98.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=2000DX06.TXT"
+          },
+          {
+            "type": "url",
+            "url": "https://19january2021snapshot.epa.gov/sites/static/files/2019-06/documents/gaplan2016.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=2000J2SW.TXT"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=20011VC5.TXT"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=2000D484.TXT"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100R631.TXT"
+          },
+          {
+            "type": "url",
+            "url": "https://www.emergentmind.com/topics/alphaearth"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100FUYK.TXT"
+          },
+          {
+            "type": "url",
+            "url": "https://depts.washington.edu/airqual/Marshall_80.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/1810.03576"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Land_use_regression_model"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2201.01041"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2017/12/15/google-cars-and-roof-sensors-can-now-monitor-air-pollution-1513302800"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4edc8092c87d097d0317cba5efd13",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4edc8450c87d09e04f490c31bd80b",
+      "action": {
+        "type": "search",
+        "queries": [
+          "consumer confidence reports machine learning extraction 2025 water map",
+          "consumer confidence report extraction benchmark 2025 2026 water quality PDF",
+          "site.epa.gov consumer confidence reports detected contaminants highest average nondetect 2024 rule 2027"
+        ],
+        "query": "consumer confidence reports machine learning extraction 2025 water map",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://doi.org/10.1111/1539-6924.00375"
+          },
+          {
+            "type": "url",
+            "url": "https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions"
+          },
+          {
+            "type": "url",
+            "url": "https://www.pidwater.com/212/Annual-Reports"
+          },
+          {
+            "type": "url",
+            "url": "https://www.epa.gov/system/files/documents/2024-05/final-ccr-rule-revisions_20240514_prepublication.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thewatermap.com/faq"
+          },
+          {
+            "type": "url",
+            "url": "https://www.pattersonca.gov/886/Consumer-Confidence-Report-CCR"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tceq.texas.gov/downloads/drinking-water/dwawg/2026/2q2026/2q2026_dwawg_ccr.pdf/view"
+          },
+          {
+            "type": "url",
+            "url": "https://waterboards.ca.gov/drinking_water/certlic/drinkingwater/CCR.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0043135425000855"
+          },
+          {
+            "type": "url",
+            "url": "https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://pinellas.gov/2025-consumer-confidence-report-on-water-quality/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.epa.gov/ccr"
+          },
+          {
+            "type": "url",
+            "url": "https://www.casitaswater.gov/annual-consumer-confidence-water-quality-reports"
+          },
+          {
+            "type": "url",
+            "url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P101DTXV.txt"
+          },
+          {
+            "type": "url",
+            "url": "https://dnr.mo.gov/themes/common-assets/pdf-viewer/viewer.html?file=https%3A%2F%2Fdnr.mo.gov%2Fsites%2Fdnr%2Ffiles%2Fvfc%2F2026%2F04%2Fmain%2Fenclosure-1-dnr-consumer-confidence-report-letter-to-community-water-supplies-2025.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.mywater.us/docs/mywateruslibraries/water-quality-reports/cuc-ccr-2025.pdf?sfvrsn=3f86015b_4"
+          },
+          {
+            "type": "url",
+            "url": "https://media.defense.gov/2026/Apr/30/2003922673/-1/-1/0/2025%20MAIN%20BASE%20CCR%20FINAL.PDF"
+          },
+          {
+            "type": "url",
+            "url": "https://media.defense.gov/2026/Apr/30/2003922672/-1/-1/0/2025%20CENTROID%20CCR%20FINAL.PDF"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/water/comments/1ljevhx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/dataisbeautiful/comments/1up2v54/oc_i_mapped_estimated_water_use_across_30_major/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/dataisbeautiful/comments/1x93plg/oc_epa_estimates_78_of_us_water_systems_are_above/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_the_United_States"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/water/comments/1cnfdd8"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/dataisbeautiful/comments/1vegraf/oc_pfas_in_georgias_water_the_epa_reporting_limit/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/water/comments/1lwr9wy"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/bloomington/comments/1ukssxp/city_of_bloomington_utilities_publishes_2026/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/water/comments/1vdwvfw/pfas_in_georgias_water_the_epa_reporting_limit_4/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/environmental_science/comments/1asbsec"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/Atlanta/comments/1vfscdv/pfas_in_metro_atlanta_drinking_water_what_epas/"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2107.03230"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/WaterTreatment/comments/1r5ytjp/two_years_ago_i_posted_here_about_106_ppb_thms/"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2303.09957"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2408.09869"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4edd7476c87d0b640abae5d9db042",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"consumer confidence reports\" \"2025\" \"extraction\"",
+          "\"drinking water\" \"reports\" \"extraction\" \"2025\" \"language\"",
+          "\"Helsel\" \"Fabricating data\" 2006",
+          "\"On optimum recognition error and reject tradeoff\" Chow"
+        ],
+        "query": "\"consumer confidence reports\" \"2025\" \"extraction\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.thewatermap.com/faq"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/profile/Fabrice-Clerot/post/Do-you-know-a-Bayes-classifier-which-creates-unrecognized-regions/attachment/59d61e9ec49f478072e97562/AS%3A271742742794240%401441799926252/download/Chow%2B-%2BOn%2Boptimum%2Brecognition%2Band%2Breject%2Btradeoff.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://scispace.com/papers/on-optimum-recognition-error-and-reject-tradeoff-4ugvowtm6a"
+          },
+          {
+            "type": "url",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16737727/"
+          },
+          {
+            "type": "url",
+            "url": "https://portal.mardi4nfdi.de/wiki/On_optimum_recognition_error_and_reject_tradeoff"
+          },
+          {
+            "type": "url",
+            "url": "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=201602002357076188"
+          },
+          {
+            "type": "url",
+            "url": "https://academic.oup.com/bioinformatics/article/24/17/1889/263502"
+          },
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8549182/"
+          },
+          {
+            "type": "url",
+            "url": "https://openreview.net/pdf?id=ntV5xZfzEk"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tmls.nyc/research/semantic-caching-measure-theory"
+          },
+          {
+            "type": "url",
+            "url": "https://patents.google.com/patent/CN101496035A/en"
+          },
+          {
+            "type": "url",
+            "url": "https://cgm.cs.mcgill.ca/~godfried/teaching/mir-reading-assignments/Estimation-Misclassification-Bibliography.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://sgtcho.com/en/wiki/selective-classification/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.alphaxiv.org/abs/2101.12523"
+          },
+          {
+            "type": "url",
+            "url": "https://scixa.com/article?slug=hybrid-reasoners-symbolic-coverage"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rcs.cic.ipn.mx/2006_26/Vol26.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.alphaxiv.org/abs/2505.05273"
+          },
+          {
+            "type": "url",
+            "url": "https://people.math.binghamton.edu/qiao/papers/2018rejectRefine.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://stacks.cdc.gov/view/cdc/249410/cdc_249410_DS1.pdf"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4eddf8c4887d0b95941cbb7c4764b",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4ede2d3f087d0bee8d0b6baec301c",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"OmniDocBench\" \"2025\" authors",
+          "\"AbstentionBench\" 2025",
+          "\"consumer confidence\" \"large language\"",
+          "\"water quality reports\" \"language models\""
+        ],
+        "query": "\"OmniDocBench\" \"2025\" authors",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/accelerate/comments/1oc3jqe"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2506.09038"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/facebookresearch/AbstentionBench/blob/main/README.md"
+          },
+          {
+            "type": "url",
+            "url": "https://dblp.org/rec/conf/cvpr/OuyangQZZZL0ZJ025.html"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/opendatalab/OmniDocBench"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sipa.columbia.edu/sites/default/files/2025-06/For_Publication_FS-ISAC_Cartier_Pollard%20%281%29.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://paperswithcode.com/paper/omnidocbench-benchmarking-diverse-pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.federalreserve.gov/econres/ifdp/files/ifdp1433.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Language_model_benchmark"
+          },
+          {
+            "type": "url",
+            "url": "https://openreview.net/pdf?id=8CZshTogXk"
+          },
+          {
+            "type": "url",
+            "url": "https://www.alphaxiv.org/abs/2606.30395"
+          },
+          {
+            "type": "url",
+            "url": "https://huggingface.co/datasets/facebook/AbstentionBench/commits/e5ea8649210668a86d2f66ef6d517c47c48d9909"
+          },
+          {
+            "type": "url",
+            "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ouyang_OmniDocBench_Benchmarking_Diverse_PDF_Document_Parsing_with_Comprehensive_Annotations_CVPR_2025_paper.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://thelatestinai.com/papers/2610.21979"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2502.03472"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2601.08834"
+          },
+          {
+            "type": "url",
+            "url": "https://www.papercodex.com/omnidocbench-a-real-world-fine-grained-benchmark-for-fair-and-comprehensive-pdf-document-parsing-evaluation/"
+          },
+          {
+            "type": "url",
+            "url": "https://patents.google.com/patent/CN118518842B/en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.carloalberto.org/wp-content/uploads/2026/03/no.753.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/CaroHaensch/public_opinion_llms"
+          },
+          {
+            "type": "url",
+            "url": "https://doi.org/10.1007/s10614-026-11323-w"
+          },
+          {
+            "type": "url",
+            "url": "https://doi.org/10.1080/23311975.2026.2667448"
+          },
+          {
+            "type": "url",
+            "url": "https://bpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/9/3887/files/2025/01/Benchek_SRF24_Final_Paper.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2510.18234"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4edec8e3887d0bfd83d4503300508",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4edf121c487d091c595f6425623d8",
+      "action": {
+        "type": "search",
+        "queries": [
+          "RKI AMELAG GitHub data revisions wastewater viral load data",
+          "\"Nowcasting by Bayesian Smoothing\" McGough 2020",
+          "\"Nowcasting: The real-time informational content of macroeconomic data\"",
+          "wastewater reporting delay real-time forecasting data vintages 2025 2026"
+        ],
+        "query": "RKI AMELAG GitHub data revisions wastewater viral load data",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/houston/comments/1dw3xb0"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0304393208000652"
+          },
+          {
+            "type": "url",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32251464/"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rki.de/EN/Topics/Research-and-data/Surveillance-panel/Wastewater-surveillance/WastewaterSurveillance.html"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.md"
+          },
+          {
+            "type": "url",
+            "url": "https://www.federalreserve.gov/econres/feds/nowcasting-gdp-and-inflation-the-real-time-informational-content-of-macroeconomic-data-releases.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://journals.plos.org/ploscompbiol/article/file?id=10.1371%2Fjournal.pcbi.1007735&type=printable"
+          },
+          {
+            "type": "url",
+            "url": "https://zenodo.org/records/17801980/files/%5BDocumentation%5D_Abwassersurveillance_AMELAG.pdf?download=1"
+          },
+          {
+            "type": "url",
+            "url": "https://ideas.repec.org/a/eee/moneco/v55y2008i4p665-676.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rki.de/SharedDocs/FAQs/DE/Abwassersurveillance/FAQ_Liste_Forschungsbedarf.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rki.de/DE/Themen/Forschung-und-Forschungsdaten/Sentinels-Surveillance-Panel/Abwassersurveillance/Abwassersurveillance.html?nn=16778680"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rki.de/EN/Topics/Research-and-data/Surveillance-panel/Wastewater-surveillance/Guideline.pdf?__blob=publicationFile&v=7"
+          },
+          {
+            "type": "url",
+            "url": "https://edoc.rki.de/handle/176904/12710?locale-attribute=en&show=full"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sciencedirect.com/science/chapter/handbook/pii/B9780444536839000049"
+          },
+          {
+            "type": "url",
+            "url": "https://www.mdpi.com/2076-2607/14/6/1197"
+          },
+          {
+            "type": "url",
+            "url": "https://www.clevelandfed.org/-/media/project/clevelandfedtenant/clevelandfedsite/publications/working-papers/2024/wp2406.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.bankofengland.co.uk/-/media/boe/files/events/2021/november/advanced-analytics-conference/ajit-desai-paper--macroeconomic-predictions-using-payments-data-and-machine-learning.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://zenodo.org/records/14718330/files/%5BDokumentation%5D_Abwassersurveillance_AMELAG.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Nowcasting_%28economics%29"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Aruoba-Diebold-Scotti_Index"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2512.01074"
+          },
+          {
+            "type": "url",
+            "url": "https://de.wikipedia.org/wiki/Nowcasting"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/ZeroCovidCommunity/comments/1w2cdlu/european_data/"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2511.17816"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/COVID19_Pandemic/comments/1i8oc1g"
+          },
+          {
+            "type": "url",
+            "url": "https://de.wikipedia.org/wiki/Abwassermonitoring"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/COVID19_Pandemic/comments/1i7sxoi"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/ZeroCovidCommunity/comments/15m0z9g"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2309.13326"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2505.18682"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/ZeroCovidCommunity/comments/1vzg349/wastewater_yearoveryear_visualizer/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/COVID19_Pandemic/comments/1prmfgm/wastewater_viral_load_understates_the_risk_in/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/CoronaVirusPA/comments/163owzf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/ZeroCovidCommunity/comments/13ofsse"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/ZeroCovidCommunity/comments/16obh7u"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/COVID19_Pandemic/comments/1i75y9i"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5d5fdc87d0b6e6b493001b5099",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4ef5d610487d0b1ade63f3d7bf12d",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"wastewater\" \"reporting delays\" \"2025\" forecasting real time",
+          "\"Chronos-Bolt\" paper",
+          "\"Integrating Region-Specific SARS-CoV-2\""
+        ],
+        "query": "\"wastewater\" \"reporting delays\" \"2025\" forecasting real time",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2512.01074"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2505.18682"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2602.10848"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2610.13208"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2609.18588"
+          },
+          {
+            "type": "url",
+            "url": "https://arxivlens.com/paperview/details/integrating-region-specific-sars-cov-2-data-for-statistical-wastewater-monitoring-5367-fd83ba4c"
+          },
+          {
+            "type": "url",
+            "url": "https://sitesv2.anses.fr/fr/system/files/Lettre%20de%20veille%20n%C2%B05%2C%2011-06-25.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/chronos-account/chronos-model-bolt-base/blob/main/README.md"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/396331396_Test-Time_Efficient_Pretrained_Model_Portfolios_for_Time_Series_Forecasting"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/404628283_Preliminary_Insights_in_Chronos_Frequency_Data_Understanding_and_Reconstruction?_tp=eyJjb250ZXh0Ijp7InBhZ2UiOiJzY2llbnRpZmljQ29udHJpYnV0aW9ucyIsInByZXZpb3VzUGFnZSI6bnVsbCwic3ViUGFnZSI6bnVsbH19"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/411824942_Align-RAG_Alignment_Is_All_You_Need_for_TSFM_In-Context_Learning"
+          },
+          {
+            "type": "url",
+            "url": "https://openreview.net/pdf/f3630d30324fcc34b65130665b3cc51bb062487d.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5356603f9c47399adfd372f77a677057-Paper-Conference.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/400705088_Time_Series_Foundation_Models_for_Energy_Load_Forecasting_on_Consumer_Hardware_A_Multi-Dimensional_Zero-Shot_Benchmark"
+          },
+          {
+            "type": "url",
+            "url": "https://www.stat.berkeley.edu/~mmahoney/pubs/11_Efficiently_Generating_Corr.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.epistorm.org/activities/wws"
+          },
+          {
+            "type": "url",
+            "url": "https://run.unl.pt/bitstreams/8bdff3e9-6432-4143-ad11-fec5f36ac417/download"
+          },
+          {
+            "type": "url",
+            "url": "https://medium.com/kx-systems/chronos-bolt-when-speed-meets-accuracy-in-time-series-forecasting-6dd387bad6d2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.newx.sg/paper/detail/c4a484ae-966f-11f1-b84c-00163e10baa7"
+          },
+          {
+            "type": "url",
+            "url": "https://www.alphaxiv.org/abs/2510.19236"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/404046742_BRIDGE_Big_Data-Powered_Large_Language_Models_for_Real-Time_Multi-Modal_Decision_Support_in_Industrial_Time_Series"
+          },
+          {
+            "type": "url",
+            "url": "https://en.papernotes.org/ICML2026/time_series/do_time_series_foundation_model_benchmarks_hide_regime-dependent_failures_eviden/"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md"
+          },
+          {
+            "type": "url",
+            "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1013709"
+          },
+          {
+            "type": "url",
+            "url": "https://link.springer.com/article/10.1186/s12889-025-24149-2"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5d87ac87d0b8f9ea836a3190d0",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4ef5d88e087d08b94de633e138479",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"Estimating Food Price Inflation from Partial Surveys\"",
+          "\"Alert for Price Spikes\" authors",
+          "\"ALPS\" \"PEWI\" \"2024\" food",
+          "\"food prices\" \"missing not at random\""
+        ],
+        "query": "\"Estimating Food Price Inflation from Partial Surveys\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://steadyoptions.com/forums/forum/topic/1416-jeff-augens-standarddev-study-for-tos-thinkscript/"
+          },
+          {
+            "type": "url",
+            "url": "https://research.vu.nl/ws/portalfiles/portal/171840027/Estimating_Food_Price_Inflation_from_Partial_Surveys.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://stat.unido.org/sites/default/files/2023-01/nowcasting_programme.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://ideas.repec.org/p/wbk/wbrwps/9886.html"
+          },
+          {
+            "type": "url",
+            "url": "https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/357825413_Estimating_Food_Price_Inflation_from_Partial_Surveys"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nature.com/articles/s43247-024-01698-9"
+          },
+          {
+            "type": "url",
+            "url": "https://eprints.soas.ac.uk/30980/1/4659_Picchioni.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://bpb-us-e1.wpmucdn.com/sites.tufts.edu/dist/0/126/files/2016/06/FSIN-TWG_UsersGuide_12June2016.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cambridge.org/core/journals/data-and-policy/article/accelerating-and-enhancing-the-generation-of-socioeconomic-data-to-inform-forced-displacement-policy-and-response/7CC61B530CA703C45A60146ACC404CA0"
+          },
+          {
+            "type": "url",
+            "url": "https://wfp.tind.io/record/131305/files/ART%20634.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://vamresources.manuals.wfp.org/docs/alps-calculation-and-use-of-the-alert-for-price-spikes-indicator"
+          },
+          {
+            "type": "url",
+            "url": "https://explore.market.dev/ecosystems/jupyter-notebook/projects/pacific-observatory"
+          },
+          {
+            "type": "url",
+            "url": "https://web3map.ink/docs/telegram/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euaa-preprod-aws.euaa.europa.eu/pakistan-country-focus/734-food-security"
+          },
+          {
+            "type": "url",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0320720"
+          },
+          {
+            "type": "url",
+            "url": "https://www.scribd.com/document/1073441432/Missing-Values-Imputation-for-Pca"
+          },
+          {
+            "type": "url",
+            "url": "https://www.insightbig.com/post/build-a-real-time-stock-alert-telegram-bot-with-python"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5da8d487d0b31f5e42be7f5d43",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4ef5daa1c87d0a73b23ae912c4742",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"The selective labels problem\" Lakkaraju 2017",
+          "\"Inference and missing data\" Rubin 1976",
+          "\"Accurate predictions on small data with a tabular foundation model\""
+        ],
+        "query": "\"The selective labels problem\" Lakkaraju 2017",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0320720"
+          },
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5958915/"
+          },
+          {
+            "type": "url",
+            "url": "https://dash.harvard.edu/entities/publication/73120378-8764-6bd4-e053-0100007fdf3b"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nature.com/articles/s41586-024-08328-6"
+          },
+          {
+            "type": "url",
+            "url": "https://lacuna.tiptreesystems.com/work/accurate-predictions-on-small-data-with-a-tabular"
+          },
+          {
+            "type": "url",
+            "url": "https://dblp.org/rec/journals/nature/HollmannMPKKHSH25.html"
+          },
+          {
+            "type": "url",
+            "url": "https://creatis-myriad.github.io/2026/02/08/tabpfn.html"
+          },
+          {
+            "type": "url",
+            "url": "https://elearning.asc.edu.ag/accurate-predictions-small-data-tabular-foundation-model"
+          },
+          {
+            "type": "url",
+            "url": "https://doi.org/10.1038/s41586-024-08328-6"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/TabPFN"
+          },
+          {
+            "type": "url",
+            "url": "https://sciencecritai.com/Transformer_Tabular_data_summary_20250415_183227.html"
+          },
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13274287"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://cir.nii.ac.jp/crid/1362825895831502592"
+          },
+          {
+            "type": "url",
+            "url": "https://explore.metascienceobservatory.org/papers/W2100358124"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/datasciencebr/comments/1jratum"
+          },
+          {
+            "type": "url",
+            "url": "https://openreview.net/pdf?id=Dxg5yCfiat"
+          },
+          {
+            "type": "url",
+            "url": "https://yuzhang-teaching.github.io/CSCE689-S25/L18.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://sites.stat.columbia.edu/gelman/research/published/rubin.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://people.csail.mit.edu/jrennie/trg/papers/rubin-missing-76.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://zh.wikipedia.org/wiki/%E7%BB%9F%E8%AE%A1%E6%8F%92%E8%A1%A5"
+          },
+          {
+            "type": "url",
+            "url": "https://vamresources.manuals.wfp.org/docs/alps-calculation-and-use-of-the-alert-for-price-spikes-indicator"
+          },
+          {
+            "type": "url",
+            "url": "https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5dd5d087d09fb4e43c40ad3b4a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4ef5dd74087d0a8ec7a267cd50a84",
+      "action": {
+        "type": "search",
+        "queries": [
+          "wildfire resource allocation mutual aid probabilistic weather forecasts 2025 2026",
+          "\"wildfire\" \"resource\" \"stochastic\" \"prepositioning\"",
+          "\"GenCast\" \"data\" \"2019\" \"ensemble\"",
+          "\"NeuralGCM\" \"outputs\" precipitation ensemble data"
+        ],
+        "query": "wildfire resource allocation mutual aid probabilistic weather forecasts 2025 2026",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://github.com/neuralgcm/neuralgcm/issues/196"
+          },
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12778041/"
+          },
+          {
+            "type": "url",
+            "url": "https://link.springer.com/article/10.1007/s10669-026-10128-4"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/acchamber/gencast_seasonal"
+          },
+          {
+            "type": "url",
+            "url": "https://redcol.minciencias.gov.co/Record/UNIANDES2_e3552f4baa17e8037aafbaa33fda69c8/Description"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nature.com/articles/s41598-026-50836-0"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nifc.gov/nicc/nmac"
+          },
+          {
+            "type": "url",
+            "url": "https://www.weather.gov/media/mhx/2026NCFireWxAOP.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/DSIP-FBK/neuralgcm-torch/blob/main/neuralgcm-torch/README.md"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/publication/399378783_A_Robust_Approach_for_the_Prepositioning_of_Resources_for_Wildfire_Suppression"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nature.com/articles/s43247-026-03962-6"
+          },
+          {
+            "type": "url",
+            "url": "https://neuralgcm.readthedocs.io/en/latest/deepdive_into_models.html"
+          },
+          {
+            "type": "url",
+            "url": "https://assets-eu.researchsquare.com/files/rs-7766652/v1_covered_44fceaec-820e-4408-b338-c396872fedfc.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nifc.gov/sites/default/files/NICC/3-Logistics/Reference%20Documents/Mob%20Guide/2025/2025%20NATIONAL%20INTERAGENCY%20STANDARDS%20for%20RESOURCE%20MOBILIZATION_Final_3-5.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3326015/"
+          },
+          {
+            "type": "url",
+            "url": "https://egusphere.copernicus.org/preprints/2026/egusphere-2026-35/egusphere-2026-35-manuscript-version2.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cesm.ucar.edu/sites/default/files/2024-06/2024cesmmlhoyer.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://research.fs.usda.gov/download/treesearch/47944.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2610.15983"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2605.18911"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2512.09835"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2603.01653"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/2025_United_States_wildfires"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/local/seattle/2026/04/14/washington-drought-el-nino-wildfire-season-ecmwf-noaa"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Storm_Prediction_Center"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/wildlandfire/comments/1vbatsg/let_my_people_go/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/January_2025_Southern_California_wildfires"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/BurningMan/comments/1mzzlbh"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/Wildfire/comments/1k1lvfz"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reddit.com/r/Wildfire/comments/1j1rjis"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e12dc87d0bd7da1e82fb52806",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "ws_09b07dfdc8aa27e7006ad4ef5e146c87d0bff40781130a6daa",
+      "action": {
+        "type": "search",
+        "queries": [
+          "\"Skill and relative economic value of the ECMWF ensemble prediction system\"",
+          "\"Effects of Centralization on Expected Costs\" Eppen 1979",
+          "\"Probabilistic weather forecasting with machine learning\" Price 2025",
+          "\"A Robust Approach for the Prepositioning of Resources for Wildfire Suppression\""
+        ],
+        "query": "\"Skill and relative economic value of the ECMWF ensemble prediction system\"",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.ecmwf.int/en/elibrary/76153-skill-and-relative-economic-value-ecmwf-ensemble-prediction-system"
+          },
+          {
+            "type": "url",
+            "url": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49712656313"
+          },
+          {
+            "type": "url",
+            "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.25.5.498"
+          },
+          {
+            "type": "url",
+            "url": "https://eurekamag.com/research/102/275/102275284.php"
+          },
+          {
+            "type": "url",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39633054/"
+          },
+          {
+            "type": "url",
+            "url": "https://courses.ie.bilkent.edu.tr/ie460/wp-content/uploads/sites/12/2019/02/Eppen-1979-MS.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ecmwf.int/sites/default/files/elibrary/1998/11903-skill-and-relative-economic-value-ecmwf-ensemble-prediction-system.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://ouci.dntb.gov.ua/en/works/lRrGe0Oe/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rankless.org/hit-papers/10.1287/mnsc.25.5.498"
+          },
+          {
+            "type": "url",
+            "url": "https://pascal-francis.inist.fr/vibad/index.php?action=getRecordDetail&idt=PASCAL8030149303"
+          },
+          {
+            "type": "url",
+            "url": "https://portal.mardi4nfdi.de/wiki/Note%E2%80%94Effects_of_Centralization_on_Expected_Costs_in_a_Multi-Location_Newsboy_Problem"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ecmwf.int/sites/default/files/elibrary/072000/14636-newsletter-no88-summerautumn-2000_1.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://dblp.dagstuhl.de/rec/journals/nature/PriceSAAEMESMBLW25.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ecmwf.int/sites/default/files/elibrary/2007/10729-ensemble-forecasting.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://www.iufro.org/media/fileadmin/publications/proceedings-archive/30401-40404-luso24-abstracts.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://ideas.repec.org/a/nat/nature/v637y2025i8044d10.1038_s41586-024-08252-9.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sjarmak.ai/library/explorers/physics-ai-causal-world-models"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Weather_forecasting"
+          },
+          {
+            "type": "url",
+            "url": "https://link.springer.com/article/10.1007/s10669-026-10128-4"
+          },
+          {
+            "type": "url",
+            "url": "https://research.fs.usda.gov/download/treesearch/47944.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/google-deepmind/graphcast"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2603.01653"
+          },
+          {
+            "type": "url",
+            "url": "https://www.federalreserve.gov/econres/feds/nowcasting-gdp-and-inflation-the-real-time-informational-content-of-macroeconomic-data-releases.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2506.09038"
+          },
+          {
+            "type": "url",
+            "url": "https://dash.harvard.edu/entities/publication/73120378-8764-6bd4-e053-0100007fdf3b"
+          },
+          {
+            "type": "url",
+            "url": "https://www.researchgate.net/profile/Fabrice-Clerot/post/Do-you-know-a-Bayes-classifier-which-creates-unrecognized-regions/attachment/59d61e9ec49f478072e97562/AS%3A271742742794240%401441799926252/download/Chow%2B-%2BOn%2Boptimum%2Brecognition%2Band%2Breject%2Btradeoff.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1013709"
+          },
+          {
+            "type": "url",
+            "url": "https://link.springer.com/article/10.1186/s12889-025-24149-2"
+          },
+          {
+            "type": "url",
+            "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0320720"
+          },
+          {
+            "type": "url",
+            "url": "https://arxiv.org/abs/2408.09869"
+          },
+          {
+            "type": "url",
+            "url": "https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e5f7887d09420ec6d4292b4a9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e617c87d0aa244a51c920d553",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e633887d0a83d3aac8d21bb80",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e64ec87d0a7c7207ec9e1cb6c",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e669887d0955148ac29ae3f56",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e683887d09707b9b03cda724a",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e69e887d082e0238b93e68993",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e6ba487d09c9affe6f0f243b9",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e6d6c87d084e1a925b1c050a2",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e6f3c87d0b768e2bb7fee3201",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e70f887d0a4b5c68fe76fd681",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e72a887d0ad8d5818f3a3369f",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "rs_09b07dfdc8aa27e7006ad4ef5e745887d08b94a54a99bbb059",
+      "summary": [],
+      "type": "reasoning",
+      "content": [],
+      "encrypted_content": null,
+      "status": null
+    },
+    {
+      "id": "msg_09b07dfdc8aa27e7006ad4ef5e761c87d08801d806544c2566",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 766,
+              "start_index": 670,
+              "title": "2.12.5.0 Installation  January 2016  Page 1 of 4",
+              "type": "url_citation",
+              "url": "https://www3.epa.gov/ttnamti1/files/ambient/pm25/qa/m212.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 1128,
+              "start_index": 980,
+              "title": "Combining Incompatible Spatial Data",
+              "type": "url_citation",
+              "url": "https://citeseerx.ist.psu.edu/document?doi=11dbaf5adab17db517c9826fc251b261ba76a921&repid=rep1&type=pdf&utm_source=openai"
+            },
+            {
+              "end_index": 1511,
+              "start_index": 1437,
+              "title": "Performance assessment and application of AlphaEarth embedding in air quality - Changchun PM2.5 Case - ScienceDirect",
+              "type": "url_citation",
+              "url": "https://doi.org/10.1016/j.rsase.2026.101989?utm_source=openai"
+            },
+            {
+              "end_index": 1808,
+              "start_index": 1743,
+              "title": "AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data",
+              "type": "url_citation",
+              "url": "https://arxiv.org/abs/2507.22291?utm_source=openai"
+            },
+            {
+              "end_index": 2152,
+              "start_index": 2049,
+              "title": "",
+              "type": "url_citation",
+              "url": "https://cris.uni-muenster.de/portal/en/publication/77577086?utm_source=openai"
+            },
+            {
+              "end_index": 2539,
+              "start_index": 2382,
+              "title": "A review of land-use regression models to assess spatial variation of outdoor air pollution - Utrecht University",
+              "type": "url_citation",
+              "url": "https://research-portal.uu.nl/en/publications/a-review-of-land-use-regression-models-to-assess-spatial-variatio/?utm_source=openai"
+            },
+            {
+              "end_index": 2883,
+              "start_index": 2735,
+              "title": "Combining Incompatible Spatial Data",
+              "type": "url_citation",
+              "url": "https://citeseerx.ist.psu.edu/document?doi=11dbaf5adab17db517c9826fc251b261ba76a921&repid=rep1&type=pdf&utm_source=openai"
+            },
+            {
+              "end_index": 3207,
+              "start_index": 3120,
+              "title": "Air quality mapping – Apte Research Group",
+              "type": "url_citation",
+              "url": "https://apte.berkeley.edu/air-quality-mapping/?utm_source=openai"
+            },
+            {
+              "end_index": 4144,
+              "start_index": 4010,
+              "title": "Consumer Confidence Report Rule Annual Overview Webinar 9-June-2021",
+              "type": "url_citation",
+              "url": "https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 4594,
+              "start_index": 4300,
+              "title": "",
+              "type": "url_citation",
+              "url": "https://www.researchgate.net/profile/Fabrice-Clerot/post/Do-you-know-a-Bayes-classifier-which-creates-unrecognized-regions/attachment/59d61e9ec49f478072e97562/AS%3A271742742794240%401441799926252/download/Chow%2B-%2BOn%2Boptimum%2Brecognition%2Band%2Breject%2Btradeoff.pdf"
+            },
+            {
+              "end_index": 4913,
+              "start_index": 4817,
+              "title": "Consumer Confidence Report Rule Revisions | US EPA",
+              "type": "url_citation",
+              "url": "https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions?utm_source=openai"
+            },
+            {
+              "end_index": 5320,
+              "start_index": 5186,
+              "title": "Consumer Confidence Report Rule Annual Overview Webinar 9-June-2021",
+              "type": "url_citation",
+              "url": "https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 5608,
+              "start_index": 5512,
+              "title": "Consumer Confidence Report Rule Revisions | US EPA",
+              "type": "url_citation",
+              "url": "https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions?utm_source=openai"
+            },
+            {
+              "end_index": 5945,
+              "start_index": 5857,
+              "title": "Fabricating data: how substituting values for nondetects can ruin results, and what can be done about it - PubMed",
+              "type": "url_citation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/16737727/?utm_source=openai"
+            },
+            {
+              "end_index": 6410,
+              "start_index": 6116,
+              "title": "",
+              "type": "url_citation",
+              "url": "https://www.researchgate.net/profile/Fabrice-Clerot/post/Do-you-know-a-Bayes-classifier-which-creates-unrecognized-regions/attachment/59d61e9ec49f478072e97562/AS%3A271742742794240%401441799926252/download/Chow%2B-%2BOn%2Boptimum%2Brecognition%2Band%2Breject%2Btradeoff.pdf"
+            },
+            {
+              "end_index": 6953,
+              "start_index": 6742,
+              "title": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations",
+              "type": "url_citation",
+              "url": "https://openaccess.thecvf.com/content/CVPR2025/papers/Ouyang_OmniDocBench_Benchmarking_Diverse_PDF_Document_Parsing_with_Comprehensive_Annotations_CVPR_2025_paper.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 7241,
+              "start_index": 7176,
+              "title": "AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions",
+              "type": "url_citation",
+              "url": "https://arxiv.org/abs/2506.09038?utm_source=openai"
+            },
+            {
+              "end_index": 8179,
+              "start_index": 8073,
+              "title": "Abwassersurveillance_AMELAG/Readme.en.md at main · robert-koch-institut/Abwassersurveillance_AMELAG · GitHub",
+              "type": "url_citation",
+              "url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md"
+            },
+            {
+              "end_index": 8642,
+              "start_index": 8548,
+              "title": "Real-time forecasting of data revisions in epidemic surveillance streams - PMC",
+              "type": "url_citation",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12646461/?utm_source=openai"
+            },
+            {
+              "end_index": 9012,
+              "start_index": 8929,
+              "title": "Wastewater as an early indicator for short-term forecasting COVID-19 hospitalization in Germany | BMC Public Health | Springer Nature Link",
+              "type": "url_citation",
+              "url": "https://link.springer.com/article/10.1186/s12889-025-24149-2"
+            },
+            {
+              "end_index": 9347,
+              "start_index": 9244,
+              "title": "Real-time forecasting of data revisions in epidemic surveillance streams | PLOS Computational Biology",
+              "type": "url_citation",
+              "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1013709"
+            },
+            {
+              "end_index": 9669,
+              "start_index": 9581,
+              "title": "Nowcasting by Bayesian Smoothing: A flexible, generalizable model for real-time epidemic tracking - PubMed",
+              "type": "url_citation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/32251464/?utm_source=openai"
+            },
+            {
+              "end_index": 10008,
+              "start_index": 9900,
+              "title": "Nowcasting: The real-time informational content of macroeconomic data - ScienceDirect",
+              "type": "url_citation",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0304393208000652?utm_source=openai"
+            },
+            {
+              "end_index": 10379,
+              "start_index": 10273,
+              "title": "Abwassersurveillance_AMELAG/Readme.en.md at main · robert-koch-institut/Abwassersurveillance_AMELAG · GitHub",
+              "type": "url_citation",
+              "url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md"
+            },
+            {
+              "end_index": 11046,
+              "start_index": 10934,
+              "title": "Inference and Missing DataDonald B. RubinBiometrika, Volume 63, Issue 3 (Dec., 1976), 581-592.Stable URL:",
+              "type": "url_citation",
+              "url": "https://people.csail.mit.edu/jrennie/trg/papers/rubin-missing-76.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 11792,
+              "start_index": 11639,
+              "title": "World Bank Document",
+              "type": "url_citation",
+              "url": "https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf"
+            },
+            {
+              "end_index": 12238,
+              "start_index": 12098,
+              "title": "ALPS - Calculation and Use of the Alert for Price Spikes Indicator",
+              "type": "url_citation",
+              "url": "https://vamresources.manuals.wfp.org/docs/alps-calculation-and-use-of-the-alert-for-price-spikes-indicator"
+            },
+            {
+              "end_index": 12592,
+              "start_index": 12439,
+              "title": "World Bank Document",
+              "type": "url_citation",
+              "url": "https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf"
+            },
+            {
+              "end_index": 12960,
+              "start_index": 12862,
+              "title": "AI-imputed and crowdsourced price data show strong agreement with traditional price surveys in data-scarce environments | PLOS One",
+              "type": "url_citation",
+              "url": "https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0320720"
+            },
+            {
+              "end_index": 13223,
+              "start_index": 13119,
+              "title": "Inference and Missing Data",
+              "type": "url_citation",
+              "url": "https://dash.harvard.edu/entities/publication/73120378-8764-6bd4-e053-0100007fdf3b"
+            },
+            {
+              "end_index": 13606,
+              "start_index": 13508,
+              "title": "The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables",
+              "type": "url_citation",
+              "url": "https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 14366,
+              "start_index": 14227,
+              "title": "Drivers of international fire management personnel deployed to the United States | International Journal of Wildland Fire | ConnectSci",
+              "type": "url_citation",
+              "url": "https://connectsci.au/wf/article/33/3/WF23093/22123/Drivers-of-international-fire-management-personnel?utm_source=openai"
+            },
+            {
+              "end_index": 14661,
+              "start_index": 14559,
+              "title": "Note—Effects of Centralization on Expected Costs in a Multi-Location Newsboy Problem | Management Science",
+              "type": "url_citation",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.25.5.498?utm_source=openai"
+            },
+            {
+              "end_index": 14942,
+              "start_index": 14840,
+              "title": "Drivers of international fire management personnel deployed to the United States",
+              "type": "url_citation",
+              "url": "https://research.fs.usda.gov/download/treesearch/68227.pdf?utm_source=openai"
+            },
+            {
+              "end_index": 15258,
+              "start_index": 15164,
+              "title": "Neural general circulation models for modeling precipitation - PMC",
+              "type": "url_citation",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12778041/?utm_source=openai"
+            },
+            {
+              "end_index": 15581,
+              "start_index": 15492,
+              "title": "Drivers of international fire management personnel deployed to the United States | US Forest Service Research and Development",
+              "type": "url_citation",
+              "url": "https://research.fs.usda.gov/treesearch/68227?utm_source=openai"
+            },
+            {
+              "end_index": 15969,
+              "start_index": 15863,
+              "title": "Growing convergence research: Coproducing climate projections to inform proactive decisions for managing simultaneous wildfire risk - Cullen - 2023 - Risk Analysis - Wiley Online Library",
+              "type": "url_citation",
+              "url": "https://onlinelibrary.wiley.com/doi/full/10.1111/risa.14113?utm_source=openai"
+            },
+            {
+              "end_index": 16297,
+              "start_index": 16195,
+              "title": "Note—Effects of Centralization on Expected Costs in a Multi-Location Newsboy Problem | Management Science",
+              "type": "url_citation",
+              "url": "https://pubsonline.informs.org/doi/10.1287/mnsc.25.5.498?utm_source=openai"
+            },
+            {
+              "end_index": 16641,
+              "start_index": 16520,
+              "title": "Skill and relative economic value of the ECMWF ensemble prediction system - Richardson - 2000 - Quarterly Journal of the Royal Meteorological Society - Wiley Online Library",
+              "type": "url_citation",
+              "url": "https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49712656313?utm_source=openai"
+            },
+            {
+              "end_index": 17013,
+              "start_index": 16930,
+              "title": "Optimizing resilient disaster readiness: a network and probabilistic modeling approach to firefighting resource prepositioning | Environment Systems and Decisions | Springer Nature Link",
+              "type": "url_citation",
+              "url": "https://link.springer.com/article/10.1007/s10669-026-10128-4"
+            },
+            {
+              "end_index": 17310,
+              "start_index": 17222,
+              "title": "Probabilistic weather forecasting with machine learning - PubMed",
+              "type": "url_citation",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/39633054/?utm_source=openai"
+            }
+          ],
+          "text": "順位は付けません。以下では、**実験結果が出ることと、その結果で読者の判断が変わることを分けて**批判します。文献は2025年以降も含めてWeb検索し、特に批判に関係するものを挙げました。題名のリンクが確認先URLです。なお、近い研究の存在は、そのまま候補の新規性を否定するものではありません。\n\n## C02\n\n### 最も重大な弱点：近接点対の検証から、「土地境界にすぎない」「対策地区の優先順位が誤る」までは識別できない（1・3・6）\n\n- **読者への効果（1・6）**  \n  地点濃度の予測と近接地点間の差を分けるのは妥当ですが、後者が悪くても、原因が土地境界の転写なのか、排出源情報の不足なのか、観測誤差なのかは区別できません。また、観測点間の濃度順位は、地区全体の曝露や対策による改善可能性の順位とは別です。現状のままでは「局地差を信用しすぎない」という理解は強めても、**どの地区を優先するか、どの地図の使用を保留するかまでは変えられない**恐れがあります。\n\n- **現実性・12時間での成立性（3）**  \n  最初の難所はモデルではなく、同じ汚染物質・期間・測定条件で比較できる、独立した近接点対が十分あるかです。EPAの観測点には異なる空間代表性が設定されており、単に距離が近いことだけでは比較条件は揃いません。距離を広げて標本数を確保すると、検証したかった街区内の差から離れます。逆に近距離に絞ると、地点の重複利用や観測誤差が結果を左右しうるため、12時間では有効な対の監査が研究の大部分になる可能性があります。([www3.epa.gov](https://www3.epa.gov/ttnamti1/files/ambient/pm25/qa/m212.pdf?utm_source=openai))\n\n- **一般性・新規性・予測困難性（2・4・5）**  \n  都市間の大きな差で全体精度を稼いでも、都市内の小さな差を再現できるとは限らない、という結論自体は予想可能です。空間単位・解像度の不一致も古い問題です。新しい知見になりうるのは「食い違うか」という二択より、**どの距離、濃度差、観測配置で食い違いが判断上無視できなくなるか**です。AlphaEarthだけの失敗例では、別の表現モデルに置き換わると価値が薄れます。([citeseerx.ist.psu.edu](https://citeseerx.ist.psu.edu/document?doi=11dbaf5adab17db517c9826fc251b261ba76a921&repid=rep1&type=pdf&utm_source=openai))\n\n### 近いと思われる先行研究\n\n- **Fangほか（2026）**  \n  [*Performance assessment and application of AlphaEarth embedding in air quality - Changchun PM2.5 Case*](https://doi.org/10.1016/j.rsase.2026.101989)。抄録では、地点精度では従来特徴量が優位である一方、約10mの地図と150m程度の急勾配を強調しています。したがって本候補は、その細密化の根拠を問う直接的な検証になりえます。ただし、**独立した近接点対の検証の有無は全文未確認**です。([doi.org](https://doi.org/10.1016/j.rsase.2026.101989?utm_source=openai))\n- **Brownほか（2025）**  \n  [*AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data*](https://arxiv.org/abs/2507.22291)。少数ラベルからの地図作成が主題であり、細かな画素の存在だけで局地濃度差の正しさが保証されるわけではありません。([arxiv.org](https://arxiv.org/abs/2507.22291?utm_source=openai))\n- **Meyer・Pebesma（2021）**  \n  [*Predicting into unknown space? Estimating the area of applicability of spatial prediction models*](https://doi.org/10.1111/2041-210X.13650)。空間予測の検証誤差がどこに適用できるかを扱います。「地理分離した検証をした」だけでは全域の局地順位を保証できない、という点で近接します。([cris.uni-muenster.de](https://cris.uni-muenster.de/portal/en/publication/77577086?utm_source=openai))\n- **Hoekほか（2008）**  \n  [*A review of land-use regression models to assess spatial variation of outdoor air pollution*](https://doi.org/10.1016/j.atmosenv.2008.05.057)。土地利用回帰の標準的な整理です。新しい埋め込みとの比較だけでなく、従来の局地曝露推定が何を観測してきたかとの比較が必要です。([research-portal.uu.nl](https://research-portal.uu.nl/en/publications/a-review-of-land-use-regression-models-to-assess-spatial-variatio/?utm_source=openai))\n- **Gotway・Young（2002）**  \n  [*Combining Incompatible Spatial Data*](https://doi.org/10.1198/016214502760047140)。地理統計の「change of support」、地理学の可変地区単位問題など、別名で研究されてきた問題を整理しています。本候補の一般論部分には強い先行があります。([citeseerx.ist.psu.edu](https://citeseerx.ist.psu.edu/document?doi=11dbaf5adab17db517c9826fc251b261ba76a921&repid=rep1&type=pdf&utm_source=openai))\n- **Apteほか（2017）**  \n  [*High-Resolution Air Pollution Mapping with Google Street View Cars: Exploiting Big Data*](https://apte.berkeley.edu/air-quality-mapping/)。反復移動計測によって街区内の持続的な濃度差を実測しています。「細かな差がある」ことと「粗い監視網からその差を復元できる」ことを分ける比較対象です。([apte.berkeley.edu](https://apte.berkeley.edu/air-quality-mapping/?utm_source=openai))\n\n### 成功しても価値が小さくなる筋書き\n\n全体精度の高いモデルでも近接差の符号を外すことは示せたが、評価対象の実測差自体が小さく、測定条件への感度も大きい。結局、「高解像度の見た目を信用するな」という既知の注意に留まり、地図を使ってよい範囲も、優先順位を保留すべき範囲も決まらない。\n\n### 問いを広げる、または現実に近づける方向――1つ\n\n**「観測で裏付けられる範囲で、局地順位を付けてよい条件と保留すべき条件を特定する」方向。**  \nモデルの勝敗ではなく、距離・濃度差・観測不確実性に対する順位の安定性を、既存手法を含めて評価する。観測のない10m画素へ外挿せずとも、地図の使用判断を変える結果にできます。\n\n---\n\n## C05\n\n### 最も重大な弱点：「確定できない」の多くが実験前に決まり、保留の件数だけでは公開実務を変えない（1・4・5・6）\n\n- **読者への効果・予測困難性（1・5・6）**  \n  最大値だけから平均値は復元できず、不検出をゼロとも、項目の不掲載を未測定とも断定できません。ここを数え直すだけなら、結論はかなり予想できます。読者の判断が変わるには、**抽出器の改善で解決する判断と、報告仕様を変えない限り解決しない判断の境界**が必要です。単なる「AIは注意して説明すべき」という結論では、水道事業者も利用者も具体的な選択を変えません。\n\n- **評価の現実性（3）**  \n  「原表を正解にする」ことで抽出の正誤は評価できますが、原表にない情報について「本当に未測定か」「別資料を参照すれば分かるか」は別の正解が必要です。また、公式構造化測定とCCRが、対象期間・採水地点・集計統計で一致する保証も必要です。EPAの説明資料でも、報告される値には最高値、平均値、地点別の年間平均等の違いがあります。照合の不一致を、そのまま抽出誤りにしてはいけません。([epa.gov](https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf?utm_source=openai))\n\n- **保留評価の弱さ（1・3）**  \n  保留を多くすれば誤断定は減ります。したがって、誤断定率だけでは「何も答えないシステム」が有利になります。回答できた割合と、その回答中の誤りを同時に評価しないと、実務的な改善になったか分かりません。この問題は選択的予測・棄却付き分類として古くから研究されています。([researchgate.net](https://www.researchgate.net/profile/Fabrice-Clerot/post/Do-you-know-a-Bayes-classifier-which-creates-unrecognized-regions/attachment/59d61e9ec49f478072e97562/AS%3A271742742794240%401441799926252/download/Chow%2B-%2BOn%2Boptimum%2Brecognition%2Band%2Breject%2Btradeoff.pdf))\n\n- **一般性・12時間の制約（2・3）**  \n  再利用可能で構造化測定とも照合できるPDFだけを選ぶと、情報整備のよい水道に偏る恐れがあります。さらに、EPAは2027年からのCCR改訂を公表しています。特定の現行レイアウトに対するDoclingの成績は古くなりえますが、期間・単位・統計量・検出限界・参照元という意味上の欠落なら持続的な知見になります。12時間で難しいのは、多数のPDF処理より、この意味上の正解を独立に作る部分です。([epa.gov](https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions?utm_source=openai))\n\n### 近いと思われる先行研究\n\n- **EPA（2021）**  \n  [*Consumer Confidence Report Rule Annual Overview Webinar*](https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf)。物質や規制方式によって報告統計が異なることを説明しています。本候補で「発見」しようとする意味上の違いの相当部分は、公的説明に既にあります。([epa.gov](https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf?utm_source=openai))\n- **EPA（2024）**  \n  [*Consumer Confidence Report Rule Revisions*](https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions)。理解しやすさ、アクセス、情報報告の改善を扱う制度上の先行です。研究成果が既存の改訂方針に何を追加するかが問われます。([epa.gov](https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions?utm_source=openai))\n- **Helsel（2006）**  \n  [*Fabricating data: how substituting values for nondetects can ruin results, and what can be done about it*](https://doi.org/10.1016/j.chemosphere.2006.04.051)。不検出値の安易な数値置換の問題を扱います。他分野では「左側打切りデータ」の問題であり、不検出と欠測の区別自体は新規ではありません。([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16737727/?utm_source=openai))\n- **Chow（1970）**  \n  [*On optimum recognition error and reject tradeoff*](https://doi.org/10.1109/TIT.1970.1054406)。誤りと回答拒否のトレードオフに関する古典です。「適切に保留する」ことの評価には、この系譜との接続が必要です。([researchgate.net](https://www.researchgate.net/profile/Fabrice-Clerot/post/Do-you-know-a-Bayes-classifier-which-creates-unrecognized-regions/attachment/59d61e9ec49f478072e97562/AS%3A271742742794240%401441799926252/download/Chow%2B-%2BOn%2Boptimum%2Brecognition%2Band%2Breject%2Btradeoff.pdf))\n- **Ouyangほか（2025）**  \n  [*OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations*](https://openaccess.thecvf.com/content/CVPR2025/papers/Ouyang_OmniDocBench_Benchmarking_Diverse_PDF_Document_Parsing_with_Comprehensive_Annotations_CVPR_2025_paper.pdf)。多様な文書・表・読み順の抽出評価です。候補の価値を抽出ベンチマークから区別する必要があります。([openaccess.thecvf.com](https://openaccess.thecvf.com/content/CVPR2025/papers/Ouyang_OmniDocBench_Benchmarking_Diverse_PDF_Document_Parsing_with_Comprehensive_Annotations_CVPR_2025_paper.pdf?utm_source=openai))\n- **Kirichenkoほか（2025、プレプリント）**  \n  [*AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions*](https://arxiv.org/abs/2506.09038)。情報不足、誤った前提、古い情報等に対する回答保留を評価しています。これは隣接領域であり、CCRの意味的な確定可能性を同じ設計で調べた研究まで確認できたわけではありません。([arxiv.org](https://arxiv.org/abs/2506.09038?utm_source=openai))\n\n### 成功しても価値が小さくなる筋書き\n\n構造化と注記の保持によって誤回答が減った。しかし、改善の大半は単位取り違えと表の列ずれの修正であり、残った保留も「平均値が書かれていないので平均値は答えられない」というものだった。特定ツールの品質保証としては有用でも、公開すべき情報や自動説明を許可する範囲について、新しい判断材料が残らない。\n\n### 問いを広げる、または現実に近づける方向――1つ\n\n**「自動説明を許可できる最小の公開仕様は何か」に寄せる方向。**  \n完全抽出を仮定しても残る保留を明示し、どの追加項目がどの判断を可能にするかを示す。人間の理解実験をしなくても、事業者の公表仕様と自動説明システムの受入条件を変える研究にできます。\n\n---\n\n## C07\n\n### 最も重大な弱点：「予測誤差で何週分に相当するか」と「早期警戒を何週早められるか」は違う（1・3・6）\n\n- **読者への効果（1・6）**  \n  後日公表値への平均誤差が、新しい観測を使った場合と同程度でも、流行の立ち上がりで同じ判断ができるとは限りません。平穏期では良好でも、転換点だけ遅れる予測なら、警戒には代替になりません。増減期への感度確認は計画されていますが、それと警報の発出時点・誤警報・見逃しの評価は別です。現状では、**「計算を改善するか、公表を早めるか」という運用投資の判断を変えるには一段足りません**。\n\n- **現実性（3）**  \n  公表版の復元は重要ですが、「1週早い情報」は単に確定値を1週前に動かしたものではありません。初報の品質、利用可能地点、後日の修正が同時に変わります。また、後日値がGAM等の平滑化系列なら、評価しているのは実測値そのものではなく、後日再推定された曲線です。RKIの公開データには実測系列とは別にGAM推定値が含まれるため、対象を取り違えると「感染動向の予測」より「公表曲線の再現」が上手いモデルを選びかねません。([github.com](https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md))\n\n- **一般性（2）**  \n  「何週分」という単一の数値は、流行の変化速度、採水頻度、集計単位、公表制度、損失関数に依存します。AMELAGで得た換算値を、別の国・病原体・監視網へそのまま移すことはできません。モデル名よりも、どの運用条件で代替が成立しなくなるかが一般化の単位になります。\n\n- **新規性・予測困難性・12時間（4・5）**  \n  改訂を無視した評価が楽観的になりうること、情報の早さに価値があることは既知です。Tangほかは件数だけでなく割合も扱っているため、「下水は連続値である」だけでは大きな方法的差分になりません。未知なのは具体的な代替可能範囲です。一方、12時間では、公表日時・集計仕様・平滑化・正規化の変更を監査する作業が重く、都合よく安定した期間だけを残すと実運用上重要な条件を除外しかねません。([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12646461/?utm_source=openai))\n\n### 近いと思われる先行研究\n\n- **Radermacherほか（2025）**  \n  [*Wastewater as an early indicator for short-term forecasting COVID-19 hospitalization in Germany*](https://doi.org/10.1186/s12889-025-24149-2)。本文で記録日にデータが利用可能と仮定していることを確認できました。また、下水情報の追加による入院予測の有意な改善は示していません。候補の実公表版による検証は、確かにこの制約を突いています。([link.springer.com](https://link.springer.com/article/10.1186/s12889-025-24149-2))\n- **Tang・Rumack・Wilder・Rosenfeld（2025）**  \n  [*Real-time forecasting of data revisions in epidemic surveillance streams*](https://doi.org/10.1371/journal.pcbi.1013709)。当時利用可能な改訂履歴から最終的な値の分布を予測し、改訂過程の急変による性能劣化も扱っています。候補にかなり近い比較対象です。([journals.plos.org](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1013709))\n- **McGoughほか（2020）**  \n  [*Nowcasting by Bayesian Smoothing: A flexible, generalizable model for real-time epidemic tracking*](https://doi.org/10.1371/journal.pcbi.1007735)。遅延補正の標準的な系譜です。ただし、件数の報告遅延と連続値の再処理・平滑化による改訂は区別して比較する必要があります。([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32251464/?utm_source=openai))\n- **Giannone・Reichlin・Small（2008）**  \n  [*Nowcasting: The real-time informational content of macroeconomic data*](https://doi.org/10.1016/j.jmoneco.2008.05.010)。経済学では、公表時点ごとの不完全な情報集合と情報追加の価値を長く研究しています。「情報鮮度と予測の比較」という問いの古典的な隣接分野です。([sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S0304393208000652?utm_source=openai))\n- **Robert Koch Institute・Umweltbundesamt（2026年公開版）**  \n  [*Abwassersurveillance AMELAG — Dataset documentation*](https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md)。実測、正規化、GAM推定、検査機関変更等の定義を確認できます。単なる入出力形式ではなく、正解の意味を定める資料です。([github.com](https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md))\n\n### 成功しても価値が小さくなる筋書き\n\n平均誤差では予測が情報鮮度の低下を相当程度補えた。しかし、その改善はなだらかな増減期に集中し、立ち上がりの警報日はほとんど早まらなかった。「濃度曲線の補間には有効」という結果に留まり、公表迅速化を優先すべきかどうかは決まらない。\n\n### 問いを広げる、または現実に近づける方向――1つ\n\n**鮮度の換算を、同じ誤警報制約の下での「下水指標の上昇警報」に置き換える方向。**  \n感染者数や病床には踏み込まず、実公表版を使って警報の早さと見逃しを比較する。これなら「平均的には補えるが、警戒に必要な場面では補えない」という、運用を変える結果も捉えられます。\n\n---\n\n## C10\n\n### 最も重大な弱点：最も見逃していそうな欠測期間には正解がなく、問い全体の見逃し率を測れない（1・3・6）\n\n- **評価対象の識別（3）**  \n  実際の観測価格だけを正解にする方針は適切ですが、それで分かるのは「観測が乏しい市場のうち、たまたま測れた時点での見逃し率」です。**欠測期間も含む監視の見逃し率とは違います。** 急騰や市場混乱と観測中断が関連するなら、重要な失敗ほど評価から消えます。これは欠測統計の非無作為欠測、機械学習の選択的ラベルに近い問題です。([people.csail.mit.edu](https://people.csail.mit.edu/jrennie/trg/papers/rubin-missing-76.pdf?utm_source=openai))\n\n- **読者への効果（1・6）**  \n  乏しい市場で見逃しが多くても、それが豊かな市場に合わせた学習・閾値設定のためなのか、品目、価格変動、国、通貨、観測品質の違いなのかは分かりません。事前期間で乏しさを定義しても、この混同は残ります。格差の記述はできても、**閾値を変えるべきか、地域間で情報を共有すべきか、観測を増やすべきか**は、そのままでは選べません。\n\n- **現実性・一般性（2・3）**  \n  急騰の正解定義が、比較する予測器の残差や推定分散に依存すると、手法ごとに「急騰」の意味が変わってしまいます。また、時間順分割は公表時点の再現とは異なります。後日追加された過去価格を当時既知として使えば、実運用の警報評価にはなりません。12時間では、国数やモデル数を増やすより、価格系列と警報対象の整合性を確認する方が難所です。\n\n- **新規性・予測困難性（4・5）**  \n  「標本が少ないほど不利」という一般論だけなら小さい問いです。ただし、結果を完全に自明とも扱えません。Andréeの国別分析では、データ充足率自体と平均補完精度との関連は認められず、価格変動等の方が関係していました。これは急騰警報への回答ではありませんが、「少ないほど必ず悪い」という前提への反証材料です。新規性は、平均精度では見えない極端時の格差を、選択バイアス込みで示せるかにあります。([documents1.worldbank.org](https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf))\n\n### 近いと思われる先行研究\n\n- **World Food Programme（2014）**  \n  [*ALPS — Calculation and Use of the Alert for Price Spikes Indicator*](https://vamresources.manuals.wfp.org/docs/alps-calculation-and-use-of-the-alert-for-price-spikes-indicator)。価格急騰警報の標準的な実務資料です。サイトの更新年ではなく、資料自体は2014年です。新しい予測器だけでなく、この運用上の比較対象が重要です。([vamresources.manuals.wfp.org](https://vamresources.manuals.wfp.org/docs/alps-calculation-and-use-of-the-alert-for-price-spikes-indicator))\n- **Andrée（2021）**  \n  [*Estimating Food Price Inflation from Partial Surveys*](https://doi.org/10.1596/1813-9450-9886)。不完全な市場価格からの補完・監視を扱い、欠測機構や価格系列間の情報共有も議論しています。候補との差分は警報の市場間格差ですが、問題設定の基盤はかなり重なります。([documents1.worldbank.org](https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf))\n- **Adewopoほか（2025）**  \n  [*AI-imputed and crowdsourced price data show strong agreement with traditional price surveys in data-scarce environments*](https://doi.org/10.1371/journal.pone.0320720)。独立した価格情報との比較を行っています。品目の細分類が揃わない場合の不一致も示しており、「観測価格なら比較可能な正解」とは限らないことが重要です。([journals.plos.org](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0320720))\n- **Rubin（1976）**  \n  [*Inference and missing data*](https://doi.org/10.1093/biomet/63.3.581)。欠測の発生過程を無視できる条件に関する古典です。実測だけで評価する方針が、なぜ欠測部分への一般化を保証しないかの基礎になります。([dash.harvard.edu](https://dash.harvard.edu/entities/publication/73120378-8764-6bd4-e053-0100007fdf3b))\n- **Lakkarajuほか（2017）**  \n  [*The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables*](https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf)。司法等の意思決定を題材に、結果が観測される対象の偏りによって予測器評価が難しくなる問題を扱います。食料市場とは異なる機構ですが、評価できる標本だけで全体の失敗を測れない点が共通します。([cs.cornell.edu](https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf?utm_source=openai))\n\n### 成功しても価値が小さくなる筋書き\n\n乏しい市場の観測時点では見逃しが多かったが、その差は高変動の品目・国に集中していた。欠測期間の急騰頻度は不明で、閾値を下げると誤警報も増えた。結局、「データが少ない市場には注意」という結論だけが残り、警報の運用ルールは変えられない。\n\n### 問いを広げる、または現実に近づける方向――1つ\n\n**同じ誤警報予算の下で、欠測部分への仮定を変えても見逃し格差と改善策の優劣が残るかを問う方向。**  \n観測部分の評価と、欠測部分について分からない範囲を分ける。欠測を人工的に作った実験だけで代用せず、結論が反転する条件まで示すことで、監視ルールの変更に耐える結果になります。\n\n---\n\n## C13\n\n### 最も重大な弱点：気象から需要・供給可能量への変換を仮定すると、「実効予備力」の答えも仮定で決まる（1・3・5・6）\n\n- **現実性・識別（3）**  \n  地上変数と需要データの不足は、単なる実装上の課題ではありません。気象閾値を超えたら一定量を必要とする、と置けば、相関した気象が相関した需要になるのはモデルの定義です。また、実際の派遣人数を需要の正解にすると、資源不足で派遣できなかった需要が消えます。必要なのは、危険度だけでなく、要請、未充足、既存配備、自地域に残す資源の関係です。実際の国際応援研究でも、火災状況、人的・物的影響、国内資源の逼迫、供給国の状況を分けています。([connectsci.au](https://connectsci.au/wf/article/33/3/WF23093/22123/Drivers-of-international-fire-management-personnel?utm_source=openai))\n\n- **予測困難性・問いの大きさ（5・6）**  \n  無費用で、必要なときだけ使える提携先を追加するなら、最適化上の選択肢は増えるので便益は悪化しません。一方、相関が高ければ追加便益が小さくなることも、資源の共同利用に関する既知の結果に沿います。したがって「数を増やすだけで十分か」だけでは小さく、未知なのは**遠方との分散で得る余力が、到着の遅さや配備費用を上回る条件**です。([pubsonline.informs.org](https://pubsonline.informs.org/doi/10.1287/mnsc.25.5.498?utm_source=openai))\n\n- **読者への効果（1）**  \n  提携先の選定は中長期、事前配備は日単位という異なる判断です。日々の予報に合わせて提携を自由に組み替えられる設定では、現実の提携判断に接続しません。事前配備の価値も、移動時間・配備費用・自地域の安全余力がなければ、実務者は採否を判断できません。実際の国際応援では、到着まで日から週単位を要することも報告されています。([research.fs.usda.gov](https://research.fs.usda.gov/download/treesearch/68227.pdf?utm_source=openai))\n\n- **一般性・12時間の成立性（2・3）**  \n  空間的に整合したアンサンブルであることと、複数地域の同時極端事象の確率が、資源配分に必要な精度で校正されていることは別です。さらに公開出力が初期化された予報なのか、長期気候シミュレーションなのかも区別が必要です。NeuralGCMの公開研究には双方が含まれます。12時間では、需要モデル、予報評価、配備最適化まで同時に検証しようとすると、未検証の接続部分が支配的になる恐れがあります。([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12778041/?utm_source=openai))\n\n### 近いと思われる先行研究\n\n- **Bloemほか（2024）**  \n  [*Drivers of international fire management personnel deployed to the United States*](https://doi.org/10.1071/WF23093)。実際の国際応援と、供給国との火災季節の重複、国内資源逼迫を扱います。「提携があっても供給できない」という候補の中心的懸念には直接の実証があります。([research.fs.usda.gov](https://research.fs.usda.gov/treesearch/68227?utm_source=openai))\n- **Cullenほか（2023）**  \n  [*Growing convergence research: Coproducing climate projections to inform proactive decisions for managing simultaneous wildfire risk*](https://doi.org/10.1111/risa.14113)。同時火災による資源競合を、実務者との共同設計で意思決定へ結び付けています。短期予報とは時間尺度が異なりますが、「同時性を考慮して判断を変える」こと自体は先行しています。([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/full/10.1111/risa.14113?utm_source=openai))\n- **Eppen（1979）**  \n  [*Note—Effects of Centralization on Expected Costs in a Multi-Location Newsboy Problem*](https://doi.org/10.1287/mnsc.25.5.498)。在庫管理におけるリスク・プーリングの古典です。災害応援そのものではありませんが、需要の相関と共同利用の便益という基本問題は別分野で長く扱われています。([pubsonline.informs.org](https://pubsonline.informs.org/doi/10.1287/mnsc.25.5.498?utm_source=openai))\n- **Richardson（2000）**  \n  [*Skill and relative economic value of the ECMWF ensemble prediction system*](https://doi.org/10.1002/qj.49712656313)。予報精度と意思決定上の価値を、費用と損失に基づいて分ける標準的研究です。「確率予報が良い」ことから「事前配備に価値がある」ことへの橋渡しが必要になります。([rmets.onlinelibrary.wiley.com](https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49712656313?utm_source=openai))\n- **Robaszewskiほか（2026）**  \n  [*Optimizing resilient disaster readiness: a network and probabilistic modeling approach to firefighting resource prepositioning*](https://doi.org/10.1007/s10669-026-10128-4)。火災拡大確率、道路等の移動時間、資源配置を統合しています。相互応援や実時間アンサンブルそのものではありませんが、確率的危険度を配置判断へつなぐ近年の直接的な先行です。([link.springer.com](https://link.springer.com/article/10.1007/s10669-026-10128-4))\n- **Priceほか（2025、オンライン公開2024）**  \n  [*Probabilistic weather forecasting with machine learning*](https://doi.org/10.1038/s41586-024-08252-9)。GenCastの基礎研究です。予報器の性能を根拠に使うことはできますが、相互応援の需要・供給モデルの検証を置き換えるものではありません。([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39633054/?utm_source=openai))\n\n### 成功しても価値が小さくなる筋書き\n\n気象閾値から作った需要、均等な資源量、簡略化した移動条件の下で、遠方へ分散した提携と予報に応じた配備が優れた。しかし結果は、需要変換や移動時間を少し変えると反転する。現実の要請・未充足を検証していないため、「相関を考えれば分散が有利」という模式実験以上の結論にならない。\n\n### 問いを広げる、または現実に近づける方向――1つ\n\n**実需要を確認できる一つの災害・資源に絞り、「分散の便益が移動の不利を上回る条件」を検証する方向。**  \n固定した提携網の下で事前配備を評価し、実際の要請・未充足・移動時間に照らす。これらの公開データを確保できない場合は、実効予備力の実証ではなく、条件付きのシミュレーションであることを結論の中心に置く必要があります。",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message",
+      "phase": "final_answer"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "external_web_access": null,
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      },
+      "return_token_budget": "default",
+      "search_content_types": [
+        "text"
+      ]
+    }
+  ],
+  "top_p": 0.98,
+  "background": true,
+  "completed_at": 1792339806.0,
+  "conversation": null,
+  "max_output_tokens": null,
+  "max_tool_calls": null,
+  "moderation": null,
+  "previous_response_id": null,
+  "prompt": null,
+  "prompt_cache_diagnostics": null,
+  "prompt_cache_key": null,
+  "prompt_cache_options": null,
+  "prompt_cache_retention": "24h",
+  "reasoning": {
+    "context": "all_turns",
+    "effort": "xhigh",
+    "generate_summary": null,
+    "mode": "standard",
+    "summary": null
+  },
+  "safety_identifier": null,
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 118991,
+    "input_tokens_details": {
+      "cache_write_tokens": 7203,
+      "cached_tokens": 0
+    },
+    "output_tokens": 18659,
+    "output_tokens_details": {
+      "reasoning_tokens": 10464
+    },
+    "total_tokens": 137650
+  },
+  "user": null,
+  "billing": {
+    "payer": "openai"
+  },
+  "frequency_penalty": 0.0,
+  "presence_penalty": 0.0,
+  "store": true,
+  "tool_usage": {
+    "image_gen": {
+      "input_tokens": 0,
+      "input_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "output_tokens": 0,
+      "output_tokens_details": {
+        "image_tokens": 0,
+        "text_tokens": 0
+      },
+      "total_tokens": 0
+    },
+    "web_search": {
+      "num_requests": 13
+    }
+  }
+}

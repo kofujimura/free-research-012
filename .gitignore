@@ -1,0 +1,14 @@
+.venv/
+.cache/
+__pycache__/
+*.pyc
+.DS_Store
+node_modules/
+data/repos*/
+data/tmp/
+data/traj/
+preprint/build/
+preprint/arxiv_submission.tar.gz
+# kept from the run's own .gitignore
+.verify-work/
+data/models/*/model.safetensors

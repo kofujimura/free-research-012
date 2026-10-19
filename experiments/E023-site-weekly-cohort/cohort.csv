@@ -1,0 +1,158 @@
+standort,pathogen,observed_weeks,recent_weeks,population,historically_eligible,eligible,site_id,selected,recent_weeks_2026,active2026
+Aschaffenburg,Influenza A,66,7,102806.0,True,True,901033a8009abf15,True,7,True
+Aschaffenburg,RSV A/B,36,7,102806.0,True,True,901033a8009abf15,True,7,True
+Aschaffenburg,SARS-CoV-2,71,7,102806.0,True,True,901033a8009abf15,True,7,True
+Augsburg,Influenza A,67,7,380000.0,True,True,7401ba2d22d623a1,True,7,True
+Augsburg,RSV A/B,39,7,380000.0,True,True,7401ba2d22d623a1,True,7,True
+Augsburg,SARS-CoV-2,167,7,380000.0,True,True,7401ba2d22d623a1,True,7,True
+Bayreuth,Influenza A,76,6,88906.0,True,True,0b11fffaf3659213,True,7,True
+Bayreuth,RSV A/B,41,6,88906.0,True,True,0b11fffaf3659213,True,7,True
+Bayreuth,SARS-CoV-2,134,6,88906.0,True,True,0b11fffaf3659213,True,7,True
+Berlin Ruhleben,SARS-CoV-2,172,7,1500000.0,True,True,3400ae53691f3e29,True,7,True
+Berlin Schönerlinde,SARS-CoV-2,135,7,650000.0,True,True,770ea8cf9d22c266,True,7,True
+Berlin Waßmannsdorf,SARS-CoV-2,123,7,1586494.0,True,True,58cb1aab2a8f6a45,True,6,True
+Bottrop,Influenza A,23,7,732616.0,True,True,d749dd087c542abf,True,7,True
+Bottrop,SARS-CoV-2,152,7,732616.0,True,True,d749dd087c542abf,True,7,True
+Brandenburg an der Havel,Influenza A,75,7,82881.0,True,True,a925c3f05abae7c2,True,7,True
+Brandenburg an der Havel,SARS-CoV-2,77,7,82881.0,True,True,a925c3f05abae7c2,True,7,True
+Braunschweig,Influenza A,52,7,280000.0,True,True,9021c576a0364590,True,7,True
+Braunschweig,SARS-CoV-2,84,7,280000.0,True,True,9021c576a0364590,True,7,True
+Bremen,Influenza A,51,7,595000.0,True,True,5d2f597198f41ba2,True,7,True
+Bremen,SARS-CoV-2,166,7,595000.0,True,True,5d2f597198f41ba2,True,7,True
+Cottbus,Influenza A,77,7,150000.0,True,True,aab588aaffc9c028,True,7,True
+Cottbus,SARS-CoV-2,79,7,150000.0,True,True,aab588aaffc9c028,True,7,True
+Dessau,Influenza A,33,7,83000.0,True,True,c522600e2d224619,True,5,True
+Dessau,RSV A/B,30,7,83000.0,True,True,c522600e2d224619,True,5,True
+Dessau,SARS-CoV-2,123,7,83000.0,True,True,c522600e2d224619,True,6,True
+Dinslaken,Influenza A,23,7,56812.0,True,True,462610e008f15303,True,7,True
+Dinslaken,SARS-CoV-2,152,7,56812.0,True,True,462610e008f15303,True,7,True
+Dortmund-Deusen,Influenza A,23,7,399425.0,True,True,6bfb0f0d169debc0,True,7,True
+Dortmund-Deusen,SARS-CoV-2,153,7,399425.0,True,True,6bfb0f0d169debc0,True,7,True
+Dortmund-Scharnhorst,Influenza A,23,7,113439.0,True,True,7591a163b7111c7e,True,7,True
+Dortmund-Scharnhorst,SARS-CoV-2,152,7,113439.0,True,True,7591a163b7111c7e,True,7,True
+Dresden,Influenza A,73,7,700000.0,True,True,0b9b502487a1318b,True,7,True
+Dresden,SARS-CoV-2,168,7,700000.0,True,True,0b9b502487a1318b,True,7,True
+Duisburg,Influenza A,23,7,242172.0,True,True,7b3dbe998be46adf,True,7,True
+Duisburg,SARS-CoV-2,154,7,242172.0,True,True,7b3dbe998be46adf,True,7,True
+Emschermündung,Influenza A,23,7,906222.0,True,True,4ce976d6a76ddfc4,True,7,True
+Emschermündung,SARS-CoV-2,153,7,906222.0,True,True,4ce976d6a76ddfc4,True,7,True
+Erfurt,Influenza A,61,7,300000.0,True,True,17f522b62d700bb9,True,7,True
+Erfurt,SARS-CoV-2,73,7,300000.0,True,True,17f522b62d700bb9,True,7,True
+Erlangen,Influenza A,79,7,170332.0,True,True,61e3adff4e1b066d,True,7,True
+Erlangen,RSV A/B,43,7,170332.0,True,True,61e3adff4e1b066d,True,7,True
+Erlangen,SARS-CoV-2,130,7,170332.0,True,True,61e3adff4e1b066d,True,7,True
+Frankfurt (Oder),Influenza A,77,7,65444.0,True,True,174064be3ec3209b,True,7,True
+Frankfurt (Oder),SARS-CoV-2,79,7,65444.0,True,True,174064be3ec3209b,True,7,True
+Frankfurt-Griesheim,Influenza A,33,7,588252.0,True,True,f65d594b160f20d6,True,7,True
+Frankfurt-Griesheim,SARS-CoV-2,78,7,588252.0,True,True,f65d594b160f20d6,True,7,True
+Frankfurt-Niederrad,Influenza A,33,7,714479.0,True,True,c39f6649088e817b,True,7,True
+Frankfurt-Niederrad,SARS-CoV-2,78,7,714479.0,True,True,c39f6649088e817b,True,7,True
+Freising,Influenza A,74,7,51617.0,True,True,cb9510bfb520291f,True,7,True
+Freising,RSV A/B,35,7,51617.0,True,True,cb9510bfb520291f,True,7,True
+Freising,SARS-CoV-2,74,7,51617.0,True,True,cb9510bfb520291f,True,7,True
+Gera,Influenza A,22,7,101650.0,True,True,cdf8c4c3390e66b0,True,7,True
+Gera,SARS-CoV-2,73,7,101650.0,True,True,cdf8c4c3390e66b0,True,7,True
+Gerwisch,Influenza A,31,7,278000.0,True,True,716601ab7c571b0d,True,6,True
+Gerwisch,RSV A/B,28,7,278000.0,True,True,716601ab7c571b0d,True,6,True
+Gerwisch,SARS-CoV-2,113,7,278000.0,True,True,716601ab7c571b0d,True,6,True
+Göppingen,Influenza A,31,7,300000.0,True,True,07f931791d28df36,True,3,False
+Göppingen,RSV A/B,30,6,300000.0,True,True,07f931791d28df36,True,0,False
+Göppingen,SARS-CoV-2,77,7,300000.0,True,True,07f931791d28df36,True,3,False
+Göttingen,Influenza A,52,7,170000.0,True,True,6b66ef74e61a0302,True,7,True
+Göttingen,SARS-CoV-2,84,7,170000.0,True,True,6b66ef74e61a0302,True,7,True
+Hagen,Influenza A,22,6,187768.0,True,True,0a654b3032812f10,True,5,True
+Hagen,SARS-CoV-2,64,6,187768.0,True,True,0a654b3032812f10,True,5,True
+Halle (Saale),Influenza A,27,7,337000.0,True,True,809e0e59730eec76,True,6,True
+Halle (Saale),RSV A/B,24,7,337000.0,True,True,809e0e59730eec76,True,6,True
+Halle (Saale),SARS-CoV-2,106,7,337000.0,True,True,809e0e59730eec76,True,6,True
+Hamburg 01,Influenza A,29,7,581423.0,True,True,e5073a2d2a303433,True,8,True
+Hamburg 01,SARS-CoV-2,167,7,581423.0,True,True,e5073a2d2a303433,True,8,True
+Hamburg 02,Influenza A,29,7,1464784.0,True,True,4fce5566db473875,True,8,True
+Hamburg 02,SARS-CoV-2,167,7,1464784.0,True,True,4fce5566db473875,True,8,True
+Hannover-Gümmerwald,Influenza A,50,7,437416.0,True,True,bb8437e25f28cd6f,True,7,True
+Hannover-Gümmerwald,SARS-CoV-2,82,7,437416.0,True,True,bb8437e25f28cd6f,True,7,True
+Hannover-Herrenhausen,Influenza A,52,7,303144.0,True,True,923a2cf2ff4c884c,True,7,True
+Hannover-Herrenhausen,SARS-CoV-2,82,7,303144.0,True,True,923a2cf2ff4c884c,True,7,True
+Heidelberg,Influenza A,24,7,161477.0,True,True,515365cb6ee19210,True,7,True
+Heidelberg,RSV A/B,24,7,161477.0,True,True,515365cb6ee19210,True,7,True
+Heidelberg,SARS-CoV-2,177,7,161477.0,True,True,515365cb6ee19210,True,7,True
+Hetlingen,Influenza A,50,7,540000.0,True,True,4ec6ef75d4332b29,True,7,True
+Hetlingen,SARS-CoV-2,83,7,540000.0,True,True,4ec6ef75d4332b29,True,7,True
+Hof,Influenza A,78,7,100000.0,True,True,a9ce61fa4bbf1ae9,True,7,True
+Hof,RSV A/B,43,7,100000.0,True,True,a9ce61fa4bbf1ae9,True,7,True
+Hof,SARS-CoV-2,165,7,100000.0,True,True,a9ce61fa4bbf1ae9,True,7,True
+Ingolstadt,Influenza A,82,7,177591.0,True,True,c96b14d4d85c15e8,True,7,True
+Ingolstadt,RSV A/B,41,7,177591.0,True,True,c96b14d4d85c15e8,True,7,True
+Ingolstadt,SARS-CoV-2,83,7,177591.0,True,True,c96b14d4d85c15e8,True,7,True
+Jena,Influenza A,71,7,116186.0,True,True,75eb8758c39a97bb,True,7,True
+Jena,SARS-CoV-2,154,7,116186.0,True,True,75eb8758c39a97bb,True,7,True
+Kaiserslautern,SARS-CoV-2,138,7,140000.0,True,True,b6ed32a16c548340,True,7,True
+Karlsruhe,Influenza A,22,7,500000.0,True,True,f54f81405b9f63b0,True,7,True
+Karlsruhe,RSV A/B,22,7,500000.0,True,True,f54f81405b9f63b0,True,7,True
+Karlsruhe,SARS-CoV-2,158,7,500000.0,True,True,f54f81405b9f63b0,True,7,True
+Kassel,Influenza A,34,7,271330.0,True,True,a517db5aa0213b68,True,7,True
+Kassel,SARS-CoV-2,78,7,271330.0,True,True,a517db5aa0213b68,True,7,True
+Kiel,Influenza A,48,7,351644.0,True,True,2cb18a77a07e31ff,True,7,True
+Kiel,SARS-CoV-2,81,7,351644.0,True,True,2cb18a77a07e31ff,True,7,True
+Koblenz,SARS-CoV-2,139,7,107200.0,True,True,3a94f389a59a00d9,True,7,True
+Köln,Influenza A,34,7,863455.0,True,True,430b4fc55e4ef149,True,7,True
+Köln,SARS-CoV-2,151,7,863455.0,True,True,430b4fc55e4ef149,True,7,True
+Leipzig,Influenza A,73,7,606548.0,True,True,2318776eed9ae62e,True,7,True
+Leipzig,SARS-CoV-2,73,7,606548.0,True,True,2318776eed9ae62e,True,7,True
+Mainz,SARS-CoV-2,139,7,250000.0,True,True,a0422f4e3708caab,True,7,True
+Mönchengladbach,Influenza A,35,7,411656.0,True,True,01b5709c0c75c629,True,7,True
+Mönchengladbach,SARS-CoV-2,149,7,411656.0,True,True,01b5709c0c75c629,True,7,True
+München,Influenza A,70,7,1240000.0,True,True,c075b9c24a3d0f0c,True,7,True
+München,RSV A/B,42,7,1240000.0,True,True,c075b9c24a3d0f0c,True,7,True
+München,SARS-CoV-2,170,7,1240000.0,True,True,c075b9c24a3d0f0c,True,7,True
+Neu-Ulm,Influenza A,82,6,220000.0,True,True,3c8fe923b0e1e864,True,7,True
+Neu-Ulm,RSV A/B,40,6,220000.0,True,True,3c8fe923b0e1e864,True,7,True
+Neu-Ulm,SARS-CoV-2,92,6,220000.0,True,True,3c8fe923b0e1e864,True,7,True
+Nürnberg,Influenza A,78,7,588807.0,True,True,5e4922fdada43c9a,True,7,True
+Nürnberg,RSV A/B,43,7,588807.0,True,True,5e4922fdada43c9a,True,7,True
+Nürnberg,SARS-CoV-2,127,7,588807.0,True,True,5e4922fdada43c9a,True,7,True
+Offenburg,Influenza A,49,7,120000.0,True,True,a10c4a6c0fe35f48,True,3,False
+Offenburg,RSV A/B,32,7,120000.0,True,True,a10c4a6c0fe35f48,True,0,False
+Offenburg,SARS-CoV-2,79,6,120000.0,True,True,a10c4a6c0fe35f48,True,3,False
+Oldenburg,Influenza A,52,7,170000.0,True,True,cce2e7513866758a,True,7,True
+Oldenburg,SARS-CoV-2,84,7,170000.0,True,True,cce2e7513866758a,True,7,True
+Passau,Influenza A,68,6,54000.0,True,True,3d8c81428518210f,True,7,True
+Passau,RSV A/B,39,6,54000.0,True,True,3d8c81428518210f,True,7,True
+Passau,SARS-CoV-2,115,6,54000.0,True,True,3d8c81428518210f,True,7,True
+Pforzheim,Influenza A,30,7,125000.0,True,True,bdfaa77e44431e47,True,3,False
+Pforzheim,RSV A/B,29,6,125000.0,True,True,bdfaa77e44431e47,True,0,False
+Pforzheim,SARS-CoV-2,74,7,125000.0,True,True,bdfaa77e44431e47,True,3,False
+Potsdam,Influenza A,78,7,78000.0,True,True,08d2bc3ea580fea0,True,7,True
+Potsdam,SARS-CoV-2,131,7,78000.0,True,True,08d2bc3ea580fea0,True,7,True
+Regensburg,Influenza A,71,7,279474.0,True,True,24a418112adac08e,True,7,True
+Regensburg,RSV A/B,41,7,279474.0,True,True,24a418112adac08e,True,7,True
+Regensburg,SARS-CoV-2,106,7,279474.0,True,True,24a418112adac08e,True,7,True
+Rostock,Influenza A,56,6,240420.0,True,True,bff2ed00b5133551,True,7,True
+Rostock,SARS-CoV-2,160,6,240420.0,True,True,bff2ed00b5133551,True,7,True
+Saarbrücken,Influenza A,51,7,123994.0,True,True,c8c9918ae2770837,True,7,True
+Saarbrücken,SARS-CoV-2,169,7,123994.0,True,True,c8c9918ae2770837,True,7,True
+Schweinfurt,Influenza A,77,7,82500.0,True,True,4198f83ca05d839f,True,7,True
+Schweinfurt,RSV A/B,42,7,82500.0,True,True,4198f83ca05d839f,True,7,True
+Schweinfurt,SARS-CoV-2,172,7,82500.0,True,True,4198f83ca05d839f,True,7,True
+Schwerin,Influenza A,55,6,129460.0,True,True,7955de0e8870b088,True,7,True
+Schwerin,SARS-CoV-2,75,6,129460.0,True,True,7955de0e8870b088,True,7,True
+Silstedt,SARS-CoV-2,119,4,70000.0,True,True,8e71884bd15a4ccc,True,0,False
+Starnberg,Influenza A,83,6,65142.0,True,True,36a8925fc8218b61,True,7,True
+Starnberg,RSV A/B,40,6,65142.0,True,True,36a8925fc8218b61,True,7,True
+Starnberg,SARS-CoV-2,84,6,65142.0,True,True,36a8925fc8218b61,True,7,True
+Stendal,SARS-CoV-2,120,4,100000.0,True,True,a3fe1105162bdbc3,True,0,False
+Straubing,Influenza A,69,6,58895.0,True,True,3f92384291d87f68,True,7,True
+Straubing,RSV A/B,42,6,58895.0,True,True,3f92384291d87f68,True,7,True
+Straubing,SARS-CoV-2,129,6,58895.0,True,True,3f92384291d87f68,True,7,True
+Stuttgart,Influenza A,20,7,600000.0,True,True,019ef7baf5f11c39,True,3,False
+Stuttgart,RSV A/B,20,7,600000.0,True,True,019ef7baf5f11c39,True,0,False
+Stuttgart,SARS-CoV-2,156,7,600000.0,True,True,019ef7baf5f11c39,True,3,False
+Trier,SARS-CoV-2,134,7,97927.0,True,True,fa9a9adc0b0b88c9,True,7,True
+Tübingen,Influenza A,20,7,105000.0,True,True,dfbd97217dae4f6d,True,3,False
+Tübingen,RSV A/B,20,7,105000.0,True,True,dfbd97217dae4f6d,True,0,False
+Tübingen,SARS-CoV-2,128,7,105000.0,True,True,dfbd97217dae4f6d,True,3,False
+Wiesbaden-Stadt,Influenza A,34,7,177681.0,True,True,fd47a449b21223c7,True,7,True
+Wiesbaden-Stadt,SARS-CoV-2,73,7,177681.0,True,True,fd47a449b21223c7,True,7,True
+Wolfsburg,Influenza A,48,7,137608.0,True,True,b0c4b81d0134a276,True,7,True
+Wolfsburg,SARS-CoV-2,83,7,137608.0,True,True,b0c4b81d0134a276,True,7,True
+Worms,SARS-CoV-2,136,7,78400.0,True,True,5281e8e53c87c1b0,True,7,True

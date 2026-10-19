@@ -1,0 +1,9 @@
+{
+  "paired_cases": 974,
+  "new_unique_contexts": 351,
+  "all_unique_contexts": 737,
+  "status_counts": {
+    "ok": 974
+  },
+  "source_provenance": "Same source manifests as E007; current issue fresh source commit clipped to old endpoint. No later publication used."
+}

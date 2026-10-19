@@ -1,0 +1,386 @@
+[
+  {
+    "expected": "experiments/E011-primary-analysis/results/comparisons.csv",
+    "actual": "primary/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E011-primary-analysis/results/model-scores.csv",
+    "actual": "primary/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E011-primary-analysis/results/alerts-paired.csv",
+    "actual": "primary/alerts-paired.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E011-primary-analysis/results/alerts.csv",
+    "actual": "primary/alerts.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+    "actual": "extended/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E022-extra-analysis-fixed/results/model-scores.csv",
+    "actual": "extended/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E018-update-decomposition/results/anchored-comparisons.csv",
+    "actual": "updates/anchored-comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E018-update-decomposition/results/update-contributions.csv",
+    "actual": "updates/update-contributions.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E018-update-decomposition/results/anchor-revision-summary.csv",
+    "actual": "updates/anchor-revision-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E044-nz-panel-analysis/results/comparisons.csv",
+    "actual": "nz/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E044-nz-panel-analysis/results/model-scores.csv",
+    "actual": "nz/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E044-nz-panel-analysis/results/case-availability.csv",
+    "actual": "nz/case-availability.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E072-site-panel-analysis/results/comparisons.csv",
+    "actual": "site/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E072-site-panel-analysis/results/model-scores.csv",
+    "actual": "site/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E072-site-panel-analysis/results/case-availability.csv",
+    "actual": "site/case-availability.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E052-raw-sars-analysis/results/comparisons.csv",
+    "actual": "raw/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E052-raw-sars-analysis/results/model-scores.csv",
+    "actual": "raw/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E052-raw-sars-analysis/results/case-availability.csv",
+    "actual": "raw/case-availability.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E053-matched-raw-normalized/results/matched-indicator-ratios.csv",
+    "actual": "indicator/matched-indicator-ratios.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E038-reference-and-timing-sensitivity/results/matched-maturity.csv",
+    "actual": "sensitivity/matched-maturity.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E038-reference-and-timing-sensitivity/results/matched-input-reference-matrix.csv",
+    "actual": "sensitivity/matched-input-reference-matrix.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E038-reference-and-timing-sensitivity/results/information-advance-counts.csv",
+    "actual": "sensitivity/information-advance-counts.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E038-reference-and-timing-sensitivity/results/timestamp-proxy-sensitivity.csv",
+    "actual": "sensitivity/timestamp-proxy-sensitivity.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E038-reference-and-timing-sensitivity/results/intended-case-availability.csv",
+    "actual": "sensitivity/intended-case-availability.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E038-reference-and-timing-sensitivity/results/context-audit.csv",
+    "actual": "sensitivity/context-audit.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E076-shifted-timing-analysis/results/comparisons.csv",
+    "actual": "shifted/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E079-site-pooled-analysis/results/comparisons.csv",
+    "actual": "pooled_site/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E079-site-pooled-analysis/results/model-scores.csv",
+    "actual": "pooled_site/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+    "actual": "pooled_nz/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E081-nz-pooled-analysis/results/model-scores.csv",
+    "actual": "pooled_nz/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E082-national-growth-complete/results/growth-summary.csv",
+    "actual": "growth_national/growth-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E082-national-growth-complete/results/growth-paired.csv",
+    "actual": "growth_national/growth-paired.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E082-national-growth-complete/results/roc-summary.csv",
+    "actual": "growth_national/roc-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E083-nz-growth/results/growth-summary.csv",
+    "actual": "growth_nz/growth-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E083-nz-growth/results/growth-paired.csv",
+    "actual": "growth_nz/growth-paired.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E083-nz-growth/results/roc-summary.csv",
+    "actual": "growth_nz/roc-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E084-site-growth/results/growth-summary.csv",
+    "actual": "growth_site/growth-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E084-site-growth/results/growth-paired.csv",
+    "actual": "growth_site/growth-paired.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E084-site-growth/results/roc-summary.csv",
+    "actual": "growth_site/roc-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E080-national-interval-correction/results/comparisons.csv",
+    "actual": "cqr_national/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E080-national-interval-correction/results/model-scores.csv",
+    "actual": "cqr_national/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E085-nz-interval-correction/results/comparisons.csv",
+    "actual": "cqr_nz/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E085-nz-interval-correction/results/model-scores.csv",
+    "actual": "cqr_nz/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E086-site-interval-correction/results/comparisons.csv",
+    "actual": "cqr_site/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E086-site-interval-correction/results/model-scores.csv",
+    "actual": "cqr_site/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E093-national-freshness-interaction/results/comparisons.csv",
+    "actual": "interaction_national/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E093-national-freshness-interaction/results/four-prediction-availability.csv",
+    "actual": "interaction_national/four-prediction-availability.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+    "actual": "interaction_nz/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E094-nz-freshness-interaction/results/four-prediction-availability.csv",
+    "actual": "interaction_nz/four-prediction-availability.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E095-site-freshness-interaction/results/comparisons.csv",
+    "actual": "interaction_site/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E095-site-freshness-interaction/results/four-prediction-availability.csv",
+    "actual": "interaction_site/four-prediction-availability.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E097-input-quality-case-provenance/results/comparisons.csv",
+    "actual": "quality/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": true
+  },
+  {
+    "expected": "experiments/E097-input-quality-case-provenance/results/similarity-summary.csv",
+    "actual": "quality/similarity-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": true
+  },
+  {
+    "expected": "experiments/E138-history-native-assembly/results/national-104/model-scores.csv",
+    "actual": "history_native/national-104/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E138-history-native-assembly/results/national-256/model-scores.csv",
+    "actual": "history_native/national-256/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E138-history-native-assembly/results/site-104/model-scores.csv",
+    "actual": "history_native/site-104/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E138-history-native-assembly/results/site-256/model-scores.csv",
+    "actual": "history_native/site-256/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E138-history-native-assembly/results/nz-104/model-scores.csv",
+    "actual": "history_native/nz-104/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E138-history-native-assembly/results/nz-256/model-scores.csv",
+    "actual": "history_native/nz-256/model-scores.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+    "actual": "history/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E139-history-matched-analysis/results/availability.csv",
+    "actual": "history/availability.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E139-history-matched-analysis/results/original-short-compatibility.csv",
+    "actual": "history/original-short-compatibility.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+    "actual": "joint/comparisons.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  },
+  {
+    "expected": "experiments/E140-joint-comparison-sensitivity/results/family-summary.csv",
+    "actual": "joint/family-summary.csv",
+    "passed": true,
+    "dataset_order_was_only_mismatch": false
+  }
+]

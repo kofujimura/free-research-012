@@ -1,0 +1,11 @@
+{
+  "original_panel": "experiments/E024-site-panel-inputs",
+  "weekly_index": "experiments/E023-site-weekly-cohort/weekly-index.json",
+  "maximum_context": 256,
+  "cohort_unchanged": true,
+  "applied_configuration_path": "experiments/E099-history-length-inputs-fixed/site-256/panel-config.json",
+  "applied_configuration_sha256": "34adcdcc7c16309ec4528cab5589f185c745086adb1214ac830e355b21512957",
+  "reference_lags_used": [
+    56
+  ]
+}

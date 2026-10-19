@@ -1,0 +1,13 @@
+{
+  "observed_at_utc": "2026-10-19T03:50:00Z",
+  "scope": "Saved runner jobs with child_pid; second-resolution interval check, end-before-start on ties; not independent process monitoring",
+  "maximum_simultaneous_positive_duration_intervals": 2,
+  "zero_second_duration_intervals_not_resolvable": [
+    "E005-prepare-inputs"
+  ],
+  "completed_elapsed_seconds_over1800": [],
+  "running_experiments": [],
+  "storage_bytes_du": 10596581376,
+  "storage_limit_bytes": 10737418240,
+  "new_experiments_finished": true
+}

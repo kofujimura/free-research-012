@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E063-site-c3-chronos",
+  "plan_path": "protocol/multisite-plan-v2.md",
+  "plan_commit": "02b9362b55ced7a2724a193ee5efe1e4c6cf9ca2",
+  "plan_sha256": "f210de812f6dcd6bfaeeb0f590d621d932d170f8285b96ba17d39cdac55cc0a4",
+  "code_commit": "02b9362b55ced7a2724a193ee5efe1e4c6cf9ca2",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E024-site-panel-inputs/input-chunks/chunk-003.json",
+    "--engine",
+    "chronos"
+  ],
+  "started_at_utc": "2026-10-18T21:21:04Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E024-site-panel-inputs/input-chunks/chunk-003.json": "e68fdffab67932707a6973e1692d6187998c065aa744bc78a28d0695a1464096",
+    "data/models/chronos-bolt-base/model.safetensors": "31f875483a3215bc6880a0837ea608a13ce55f88ad90538c3cdd0b29aeb60b36"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 53906,
+  "storage_before_bytes_du": 7038984192,
+  "child_pid": 53912,
+  "ended_at_utc": "2026-10-18T21:21:19Z",
+  "elapsed_seconds": 14.581363415927626,
+  "returncode": 0
+}

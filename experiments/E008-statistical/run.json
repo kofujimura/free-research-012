@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E008-statistical",
+  "plan_path": "protocol/plan-v3.md",
+  "plan_commit": "8f44b0f7657080385320095bcbf33d3f0ad165d3",
+  "plan_sha256": "b12c66b6f2b4d63171c7f86dd8ecd3ebe717ba6b6d5067c5226d070a8eee012d",
+  "code_commit": "8f44b0f7657080385320095bcbf33d3f0ad165d3",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E007-prepare-inputs-fixed/inputs.json",
+    "--engine",
+    "statistical"
+  ],
+  "started_at_utc": "2026-10-18T16:35:09Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+    "experiments/E007-prepare-inputs-fixed/input-manifest.json": "f4df866083bb0439f24caccd3c1fc3c5287bff15b41a43679c803c95317a1e85"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 42753,
+  "storage_before_bytes_du": 3943108608,
+  "child_pid": 42759,
+  "ended_at_utc": "2026-10-18T16:35:53Z",
+  "elapsed_seconds": 44.703270417056046,
+  "returncode": 0
+}

@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E085-nz-interval-correction",
+  "plan_path": "protocol/calibration-sensitivity-v1.md",
+  "plan_commit": "0c64dce5454b2dec30fa339f14d76a570de553e2",
+  "plan_sha256": "ecd724c9db3ff3529530b58d1df73a48a0e06d50959ab101581f1b8fe243d807",
+  "code_commit": "0c64dce5454b2dec30fa339f14d76a570de553e2",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_interval_calibration.py",
+    "--forecast-csv",
+    "experiments/E044-nz-panel-analysis/results/case-forecasts.csv.gz",
+    "--panel",
+    "experiments/E027-nz-panel-inputs-eligible",
+    "--out",
+    "experiments/E085-nz-interval-correction/results"
+  ],
+  "started_at_utc": "2026-10-18T21:42:02Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E044-nz-panel-analysis/results/case-forecasts.csv.gz": "de1050894de5dd5a0dfea164d41bb7fefef6fab8cfb27186bd48166050d12d1e",
+    "experiments/E027-nz-panel-inputs-eligible/truth.csv": "541ab531c3378e27a0dd2d893e45885158705c49b1a4cc8eb43d44013cdb1505"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55037,
+  "storage_before_bytes_du": 7856730112,
+  "child_pid": 55048,
+  "ended_at_utc": "2026-10-18T21:42:59Z",
+  "elapsed_seconds": 56.91601499996614,
+  "returncode": 0
+}

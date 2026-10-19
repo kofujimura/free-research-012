@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E092-national-roc-and-alert-check",
+  "plan_path": "protocol/verification-v1.md",
+  "plan_commit": "ae84766c39c816cee8c515f6307127391d0bbcbf",
+  "plan_sha256": "029d25448b1253c4a84417332dff5410d1bc0e4b91aff1e27b2d28ab05eb7514",
+  "code_commit": "ae84766c39c816cee8c515f6307127391d0bbcbf",
+  "command": [
+    ".venv/bin/python",
+    "scripts/verify_growth.py",
+    "--panel",
+    "experiments/E007-prepare-inputs-fixed",
+    "--growth",
+    "experiments/E082-national-growth-complete/results",
+    "--original-alerts",
+    "experiments/E011-primary-analysis/results/alerts-paired.csv",
+    "--out",
+    "experiments/E092-national-roc-and-alert-check/results"
+  ],
+  "started_at_utc": "2026-10-18T22:03:29Z",
+  "timeout_seconds": 600,
+  "input_files": {
+    "experiments/E082-national-growth-complete/results/case-growth.csv.gz": "b8f3c37286d7d71b4220c7bf0e8dc9ebbbde6cc3d7ab8736da3ee75222f98adf",
+    "experiments/E011-primary-analysis/results/alerts-paired.csv": "c9b3aafbf0806186d75e00fd2ed5c7ec61fe17fb62ba6730e48ed8a35ec16213"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55865,
+  "storage_before_bytes_du": 8224100352,
+  "child_pid": 55877,
+  "ended_at_utc": "2026-10-18T22:03:33Z",
+  "elapsed_seconds": 4.618037999956869,
+  "returncode": 0
+}

@@ -1,0 +1,14 @@
+{
+  "national": [
+    "experiments/E011-primary-analysis/results/case-scores.csv",
+    "experiments/E022-extra-analysis-fixed/results/case-extra-scores.csv.gz"
+  ],
+  "site": [
+    "experiments/E072-site-panel-analysis/results/case-scores.csv.gz",
+    "experiments/E079-site-pooled-analysis/results/pooled-case-scores.csv.gz"
+  ],
+  "nz": [
+    "experiments/E044-nz-panel-analysis/results/case-scores.csv.gz",
+    "experiments/E081-nz-pooled-analysis/results/pooled-case-scores.csv.gz"
+  ]
+}

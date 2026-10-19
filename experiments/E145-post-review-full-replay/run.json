@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E145-post-review-full-replay",
+  "plan_path": "protocol/review-response-v1.md",
+  "plan_commit": "5d3c82a4330063f3375570afedf4ef4ba8b30346",
+  "plan_sha256": "6dfb189f8dd1860269e4bdf57a77ae903a63e825b04ee559ff280a2b03f7b97e",
+  "code_commit": "5d3c82a4330063f3375570afedf4ef4ba8b30346",
+  "command": [
+    ".venv/bin/python",
+    ".verify-work/checkout-final/scripts/reproduce.py",
+    "--out",
+    ".verify-work/output-final",
+    "--config",
+    "config/reproduction.json",
+    "--max-seconds",
+    "1740"
+  ],
+  "started_at_utc": "2026-10-19T04:52:30Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "config/reproduction.json": "c30c50a41048a425ba7a462a3cd67f5513db15c9627b67c1ead78912bf9dc1b9",
+    "claims.jsonl": "b52fa39ab53771ed00a78f15eb492770ba5833b140651d2255001ca0f315cef8",
+    "review/final-verification-inputs.json": "f8449151b73f8017cb4010a8b2498d255a85912063b86b279f9baf8b66c60349"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 72467,
+  "storage_before_bytes_du": 9890357248,
+  "child_pid": 72484,
+  "ended_at_utc": "2026-10-19T05:12:00Z",
+  "elapsed_seconds": 1169.541385666933,
+  "returncode": 0
+}

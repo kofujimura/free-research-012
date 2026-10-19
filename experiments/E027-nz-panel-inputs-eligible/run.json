@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E027-nz-panel-inputs-eligible",
+  "plan_path": "protocol/nz-plan-v2.md",
+  "plan_commit": "e6b3e24e840926d236d085080f26c8eb53cde923",
+  "plan_sha256": "8164f92f4b5364b769ba036258dda6cb864594e103daaafc8b9c21fbb83ee1f4",
+  "code_commit": "e6b3e24e840926d236d085080f26c8eb53cde923",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_nz_inputs.py"
+  ],
+  "started_at_utc": "2026-10-18T17:52:30Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E020-nz-vintage-audit/archive-index.json": "512bf65dd46adaa0eae3a7e4e6c239bcca5cfe63ede2f62fd714e8300dad5b67",
+    "config/nz.json": "2551020347f4c318579f297006ebe8a7275fe02481c621cbceb2cb4864153df4"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 49148,
+  "storage_before_bytes_du": 6561558528,
+  "child_pid": 49160,
+  "ended_at_utc": "2026-10-18T17:52:33Z",
+  "elapsed_seconds": 3.287080958019942,
+  "returncode": 0
+}

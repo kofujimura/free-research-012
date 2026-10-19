@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E006-prepare-inputs-valid",
+  "plan_path": "protocol/plan-v3.md",
+  "plan_commit": "6c00afe05df26c98c80ffb3e0d4465d6cac405fc",
+  "plan_sha256": "b12c66b6f2b4d63171c7f86dd8ecd3ebe717ba6b6d5067c5226d070a8eee012d",
+  "code_commit": "6c00afe05df26c98c80ffb3e0d4465d6cac405fc",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_inputs.py"
+  ],
+  "started_at_utc": "2026-10-18T16:32:23Z",
+  "timeout_seconds": 300,
+  "input_files": {
+    "config/main.json": "23bfb452adf54bbba91206d76b9ace1deff7f6bfb76e8b8f61a14d4408defc06",
+    "experiments/E004-vintage-audit-complete/archive-index.json": "374511a43d35a28b2a750c2fab78a5071b35e29893a9f9bac3620495cd05affb"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "failed",
+  "controller_pid": 42587,
+  "storage_before_bytes_du": 3937619968,
+  "child_pid": 42593,
+  "ended_at_utc": "2026-10-18T16:32:24Z",
+  "elapsed_seconds": 1.2616745829582214,
+  "returncode": 1
+}

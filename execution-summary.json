@@ -1,0 +1,599 @@
+{
+  "observed_at_utc": "2026-10-19T06:38:53.569317+00:00",
+  "phase": "final",
+  "trial_id": "free-research-012",
+  "start_at_utc": "2026-10-18T15:26:38+00:00",
+  "draft_deadline_utc": "2026-10-19T05:48:37+00:00",
+  "wall_elapsed_seconds": 54735.569317,
+  "quota_excluded_seconds": 8519,
+  "research_elapsed_seconds": 36325.0,
+  "storage_bytes_du": 9923416064,
+  "experiment_counts": {
+    "failed": 8,
+    "completed": 137,
+    "failed_before_launch": 1
+  },
+  "failed_experiments": [
+    {
+      "experiment_id": "E001-vintage-audit",
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit": "48d111a69d47f54cf17a5cd789ca77bd6785b252",
+      "plan_sha256": "d105e4fbd09585731e444d00ce3af6ea95f6bf40356446696a7283e476251f0e",
+      "code_commit": "48d111a69d47f54cf17a5cd789ca77bd6785b252",
+      "command": [
+        ".venv/bin/python",
+        "scripts/acquire_vintages.py"
+      ],
+      "started_at_utc": "2026-10-18T16:20:02Z",
+      "timeout_seconds": 1800,
+      "input_files": {
+        "data/pilot-c07/current-LICENSE": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+      },
+      "seed": "Defined by the committed experiment configuration",
+      "status": "failed",
+      "controller_pid": 39481,
+      "storage_before_bytes_du": 2157654016,
+      "child_pid": 39487,
+      "ended_at_utc": "2026-10-18T16:20:37Z",
+      "elapsed_seconds": 35.50074995798059,
+      "returncode": 1
+    },
+    {
+      "experiment_id": "E003-vintage-audit-retry",
+      "plan_path": "protocol/plan-v1.md",
+      "plan_commit": "d2c61769f68bb6947f738798d172058790c821e4",
+      "plan_sha256": "d105e4fbd09585731e444d00ce3af6ea95f6bf40356446696a7283e476251f0e",
+      "code_commit": "d2c61769f68bb6947f738798d172058790c821e4",
+      "command": [
+        ".venv/bin/python",
+        "scripts/acquire_vintages.py"
+      ],
+      "started_at_utc": "2026-10-18T16:21:54Z",
+      "timeout_seconds": 1800,
+      "input_files": {
+        "experiments/E001-vintage-audit/archive-index.json": "2490e834c864a61bbbaebced9db906b793af8461f359af67d37b9e1d42dd470e"
+      },
+      "seed": "Defined by the committed experiment configuration",
+      "status": "failed",
+      "controller_pid": 40007,
+      "storage_before_bytes_du": 2432307200,
+      "child_pid": 40013,
+      "ended_at_utc": "2026-10-18T16:22:43Z",
+      "elapsed_seconds": 48.99782904190943,
+      "returncode": 1
+    },
+    {
+      "experiment_id": "E005-prepare-inputs",
+      "plan_path": "protocol/plan-v2.md",
+      "plan_commit": "b2ffc106b9940da7fb911a88c5c3b3aaaef0165e",
+      "plan_sha256": "57b61d20415f5efaea9b05be7654b138f575410ded55adc85daac9e8b9074aed",
+      "code_commit": "b2ffc106b9940da7fb911a88c5c3b3aaaef0165e",
+      "command": [
+        ".venv/bin/python",
+        "scripts/prepare_inputs.py"
+      ],
+      "started_at_utc": "2026-10-18T16:29:55Z",
+      "timeout_seconds": 300,
+      "input_files": {
+        "config/main.json": "23bfb452adf54bbba91206d76b9ace1deff7f6bfb76e8b8f61a14d4408defc06",
+        "experiments/E004-vintage-audit-complete/archive-index.json": "374511a43d35a28b2a750c2fab78a5071b35e29893a9f9bac3620495cd05affb"
+      },
+      "seed": "Defined by the committed experiment configuration",
+      "status": "failed",
+      "controller_pid": 42441,
+      "storage_before_bytes_du": 3937538048,
+      "child_pid": 42447,
+      "ended_at_utc": "2026-10-18T16:29:55Z",
+      "elapsed_seconds": 0.5514937919797376,
+      "returncode": 1
+    },
+    {
+      "experiment_id": "E006-prepare-inputs-valid",
+      "plan_path": "protocol/plan-v3.md",
+      "plan_commit": "6c00afe05df26c98c80ffb3e0d4465d6cac405fc",
+      "plan_sha256": "b12c66b6f2b4d63171c7f86dd8ecd3ebe717ba6b6d5067c5226d070a8eee012d",
+      "code_commit": "6c00afe05df26c98c80ffb3e0d4465d6cac405fc",
+      "command": [
+        ".venv/bin/python",
+        "scripts/prepare_inputs.py"
+      ],
+      "started_at_utc": "2026-10-18T16:32:23Z",
+      "timeout_seconds": 300,
+      "input_files": {
+        "config/main.json": "23bfb452adf54bbba91206d76b9ace1deff7f6bfb76e8b8f61a14d4408defc06",
+        "experiments/E004-vintage-audit-complete/archive-index.json": "374511a43d35a28b2a750c2fab78a5071b35e29893a9f9bac3620495cd05affb"
+      },
+      "seed": "Defined by the committed experiment configuration",
+      "status": "failed",
+      "controller_pid": 42587,
+      "storage_before_bytes_du": 3937619968,
+      "child_pid": 42593,
+      "ended_at_utc": "2026-10-18T16:32:24Z",
+      "elapsed_seconds": 1.2616745829582214,
+      "returncode": 1
+    },
+    {
+      "experiment_id": "E021-extra-baseline-analysis",
+      "plan_path": "protocol/extension-national-v1.md",
+      "plan_commit": "038e587684f5fb343690ceadcc2f3032cdb64a84",
+      "plan_sha256": "95a1b984a211082233a009fee24ead179a445f4a91f789a4989ba4e0575830b9",
+      "code_commit": "038e587684f5fb343690ceadcc2f3032cdb64a84",
+      "command": [
+        ".venv/bin/python",
+        "scripts/analyze_extra_baselines.py",
+        "--out",
+        "experiments/E021-extra-baseline-analysis/results"
+      ],
+      "started_at_utc": "2026-10-18T17:10:40Z",
+      "timeout_seconds": 1800,
+      "input_files": {
+        "experiments/E013-extra-classical/forecasts.jsonl": "3575ab2cddc9e68b133d283f07b957cd38e0a924c7d97d272bdc3e99085f338f",
+        "experiments/E007-prepare-inputs-fixed/truth.csv": "c063338128a4608da396dd8e82209f9b8743081d9ad286969e49079e12fbde28",
+        "experiments/E011-primary-analysis/results/summary.json": "d4c36167746cdb5c752665bce201bd2409f42ba77de50a00fe7e038a77dd3102"
+      },
+      "seed": "Defined by the committed experiment configuration",
+      "status": "failed",
+      "controller_pid": 47472,
+      "storage_before_bytes_du": 5919911936,
+      "child_pid": 47478,
+      "ended_at_utc": "2026-10-18T17:10:52Z",
+      "elapsed_seconds": 11.622486458043568,
+      "returncode": 1
+    },
+    {
+      "experiment_id": "E025-nz-panel-inputs",
+      "plan_path": "protocol/nz-plan-v1.md",
+      "plan_commit": "d4b73bc05ddaa2fd69592f46147329084d86a2a2",
+      "plan_sha256": "df46e6ddf05a4dcba153ac82c200f7e126ec57a3a2b20c16b431344fcd87f50e",
+      "code_commit": "d4b73bc05ddaa2fd69592f46147329084d86a2a2",
+      "command": [
+        ".venv/bin/python",
+        "scripts/prepare_nz_inputs.py"
+      ],
+      "started_at_utc": "2026-10-18T17:43:38Z",
+      "timeout_seconds": 1800,
+      "input_files": {
+        "experiments/E020-nz-vintage-audit/archive-index.json": "512bf65dd46adaa0eae3a7e4e6c239bcca5cfe63ede2f62fd714e8300dad5b67",
+        "config/nz.json": "2551020347f4c318579f297006ebe8a7275fe02481c621cbceb2cb4864153df4"
+      },
+      "seed": "Defined by the committed experiment configuration",
+      "status": "failed",
+      "controller_pid": 48813,
+      "storage_before_bytes_du": 6454190080,
+      "child_pid": 48819,
+      "ended_at_utc": "2026-10-18T17:43:39Z",
+      "elapsed_seconds": 1.6697841249406338,
+      "returncode": 1
+    },
+    {
+      "experiment_id": "E067-site-c4-timesfm",
+      "status": "failed_before_launch",
+      "started_at_utc": null,
+      "recorded_at_utc": "2026-10-18T21:30:18Z",
+      "error": "Command input hash path data/models/timesfm-2.5/model.safetensors was nonexistent. Child scientific process was never started.",
+      "timeout_seconds": 1800,
+      "returncode": 1
+    },
+    {
+      "experiment_id": "E098-history-length-inputs",
+      "plan_path": "protocol/history-length-control-v1.md",
+      "plan_commit": "c439c75c4d42ec91525b84389bd612cb57979129",
+      "plan_sha256": "24f4e3aedc060b5162b7445744b17a2d52bfcdd45e0ee4e2dcbda334648bcc9f",
+      "code_commit": "c439c75c4d42ec91525b84389bd612cb57979129",
+      "command": [
+        ".venv/bin/python",
+        "scripts/prepare_history_control.py"
+      ],
+      "started_at_utc": "2026-10-18T22:25:27Z",
+      "timeout_seconds": 1800,
+      "input_files": {
+        "experiments/E007-prepare-inputs-fixed/cases.csv": "ae2aff86865b1bb4039fa2210ec6e6ffefd120609ed97fe5d65be51b70c1e429",
+        "experiments/E024-site-panel-inputs/cases.csv": "29b582701a4ed3f7a97761dd3f449cda2bc7a257a5df68aeb10a5477848c8e44",
+        "experiments/E027-nz-panel-inputs-eligible/cases.csv": "da3af8fdbf6c719678bafd61b04c49c35d5c6cc26e4e8839163023b80d34faae",
+        "experiments/E023-site-weekly-cohort/weekly-index.json": "1518059f2770d07c977980f00fcb804dd92e14354d0d4bdb7ff350a4a824346e"
+      },
+      "seed": "Defined by the committed experiment configuration",
+      "status": "failed",
+      "controller_pid": 56588,
+      "storage_before_bytes_du": 8228884480,
+      "child_pid": 56594,
+      "ended_at_utc": "2026-10-18T22:25:29Z",
+      "elapsed_seconds": 2.129711583023891,
+      "returncode": 1
+    },
+    {
+      "experiment_id": "E141-offline-clean-checkout",
+      "plan_path": "protocol/verification-v1.md",
+      "plan_commit": "d90b89448407a7c7fa4280666e69392ab2daa1fe",
+      "plan_sha256": "029d25448b1253c4a84417332dff5410d1bc0e4b91aff1e27b2d28ab05eb7514",
+      "code_commit": "d90b89448407a7c7fa4280666e69392ab2daa1fe",
+      "command": [
+        ".venv/bin/python",
+        ".verify-work/checkout/scripts/reproduce.py",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output",
+        "--config",
+        "config/reproduction.json",
+        "--max-seconds",
+        "1740"
+      ],
+      "started_at_utc": "2026-10-19T02:39:30Z",
+      "timeout_seconds": 1800,
+      "input_files": {
+        "review/verification-inputs.json": "6bbeeac071d9a4fa30dec6ae8900bcf9402e63613f52f9c85c8c89b91c40c935",
+        "config/reproduction.json": "2ed0ae873b8798714b4d12e9d7654ea5e9480e39649e3dd08be80ede3dc1d92e",
+        "claims.jsonl": "d760dd6d02cbf2c0496cc0d25b4ab1e084931a10b0e0adf3f3e43f93da3b8b11",
+        "paper.template.md": "9cd312975b56f6dbfa563a1a9f38c3ee0e0af9e28a718ed530734232517fd7e8",
+        "requirements-analysis.txt": "7c8a0b7936fdd053b77239e0bd3a1ede27f0e394abc0ff0662cf6c4f6205bbc7"
+      },
+      "seed": "Defined by the committed experiment configuration",
+      "status": "failed",
+      "controller_pid": 63150,
+      "storage_before_bytes_du": 9774276608,
+      "child_pid": 63168,
+      "ended_at_utc": "2026-10-19T02:59:03Z",
+      "elapsed_seconds": 1172.2007666670252,
+      "returncode": 1
+    }
+  ],
+  "event_counts": {
+    "initialized": 1,
+    "record_limitation": 1,
+    "git_commit_requested": 87,
+    "git_commit_completed": 87,
+    "topic_divergence": 1,
+    "topic_candidates": 1,
+    "technical_issue": 5,
+    "pilot_started": 3,
+    "pilot_ended": 3,
+    "pilot_model_checked": 1,
+    "pilot_followup": 1,
+    "record_correction": 3,
+    "topic_scoring": 1,
+    "critic_prompt_prepared": 1,
+    "literature_checked": 1,
+    "api_requested": 1,
+    "api_status": 4,
+    "checkpoint_updated": 5,
+    "additional_prior_work": 1,
+    "literature_scope_updated": 1,
+    "references_verified": 1,
+    "provenance_supplement": 1,
+    "topic_selected": 1,
+    "plan_finalized": 3,
+    "experiment_started": 145,
+    "experiment_failed": 9,
+    "experiment_ended": 137,
+    "experiment_audit_completed": 1,
+    "input_preparation_completed": 2,
+    "correction": 1,
+    "native_forecasts_completed": 3,
+    "analysis_specification_finalized": 1,
+    "primary_results_observed": 1,
+    "exploratory_plan_finalized": 6,
+    "experiment_outputs_checked": 4,
+    "exploratory_data_audit_planned": 1,
+    "exploratory_analysis_completed": 3,
+    "data_acquisition_completed": 1,
+    "exploratory_results_observed": 1,
+    "model_provenance_verified": 1,
+    "input_eligibility_clarified": 1,
+    "input_preparation_checked": 1,
+    "literature_refresh": 2,
+    "runtime_resume": 3,
+    "literature_scope_correction": 1,
+    "exploratory_sensitivity_result_observed": 1,
+    "code_compatibility_extension": 1,
+    "exploratory_result_observed": 1,
+    "checkpoint": 1,
+    "accounting_correction": 1,
+    "continuation_checkpoint": 1,
+    "exploratory_plan_revised": 1,
+    "terminology_correction": 1,
+    "measurement_issue_detected": 1,
+    "measurement_correction_planned": 1,
+    "measurement_correction_verified": 1,
+    "technical_correction": 1,
+    "exploratory_input_audit_completed": 1,
+    "submission_literature_self_check": 1,
+    "reproducible_cache_cleanup": 1,
+    "verification_space_planned": 1,
+    "verification_checkout_prepared": 1,
+    "exploratory_analysis_planned": 1,
+    "major_inference_completed": 1,
+    "history_forecasts_assembled": 1,
+    "verification_candidate_ready": 1,
+    "verification_space_reserved": 1,
+    "offline_verification_starting": 1,
+    "verification_failure_diagnosed": 1,
+    "verification_retry_planned": 1,
+    "verification_storage_deduplicated": 1,
+    "offline_verification_retry_starting": 1,
+    "offline_verification_completed": 1,
+    "submission_self_check_completed": 1,
+    "additional_input_validation_planned": 1,
+    "full_input_validation_completed": 1,
+    "research_experiments_finished": 1,
+    "initial_draft_submission_prepared": 1,
+    "initial_draft_submitted": 1,
+    "submission_administrative_record_prepared": 1,
+    "peer_review_received": 1,
+    "review_response_plan_frozen": 1,
+    "verification_storage_shared": 1,
+    "review_sources_checked": 1,
+    "review_analysis_completed": 1,
+    "review_manuscript_revision_prepared": 1,
+    "final_verification_workspace_prepared": 1,
+    "editorial_followup_planned": 1,
+    "verification_storage_revision": 1,
+    "verification_completed_stages_shared": 1,
+    "final_offline_verification_completed": 1,
+    "final_editorial_corrections": 1,
+    "final_publication_verified": 1,
+    "review_response_completed": 1,
+    "paper_finalized": 1,
+    "final_submitted": 1
+  },
+  "intervention_counts": {
+    "runtime_resume": 3,
+    "peer_review": 1
+  },
+  "api_calls": [
+    {
+      "call_id": "CALL001",
+      "purpose": "Authorized one-time critique of five topic candidates; user section 2.1 step 6",
+      "model_requested": "gpt-6-astra",
+      "model_returned": "gpt-6-astra",
+      "status": "completed",
+      "usage": {
+        "input_tokens": 118991,
+        "input_tokens_details": {
+          "cache_write_tokens": 7203,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18659,
+        "output_tokens_details": {
+          "reasoning_tokens": 10464
+        },
+        "total_tokens": 137650
+      },
+      "cost_usd": "2.2708675",
+      "cost_detail": {
+        "input_tokens": 118991,
+        "ordinary_input_tokens": 111788,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 7203,
+        "output_tokens": 18659,
+        "reasoning_tokens": 10464,
+        "web_search_calls": 13,
+        "token_cost_usd": "2.1408675",
+        "web_search_cost_usd": "0.13",
+        "rates": {
+          "input_per_million": "10",
+          "cached_input_per_million": "1",
+          "cache_write_per_million": "12.50",
+          "output_per_million": "50",
+          "web_search_per_call": "0.01"
+        },
+        "pricing_source": "literature/openai-pricing.md",
+        "cache_accounting_source": "literature/reading-cache-accounting-official.json",
+        "note": "Ordinary input = total input minus cached reads minus cache writes. Reasoning is already in output. Search content is in input usage; search calls charged separately. This is a usage/rate calculation, not invoice reconciliation."
+      }
+    }
+  ],
+  "api_unique_model_requests": 1,
+  "api_actual_cost_usd": "2.2708675",
+  "native_saved_prediction_records": {
+    "chronos_bolt_base": 23406,
+    "naive": 14378,
+    "damped_trend": 14378,
+    "autoarima": 14378,
+    "autoets": 14378,
+    "ensemble": 14378,
+    "timesfm_2p5": 23406,
+    "autotheta": 14027,
+    "seasonal_naive": 14027,
+    "harmonic_arima": 14027
+  },
+  "pooled_completed_weekly_fits": 117,
+  "pooled_quantile_estimators": 1053,
+  "session_id": null,
+  "continuation_session_ids": [],
+  "review": {
+    "received": true,
+    "review_id": "review-012-1",
+    "received_at_utc": "2026-10-19T04:38:56Z",
+    "response_deadline_utc": "2026-10-19T07:54:57+00:00",
+    "reviewer_reported_model": "claude-opus-5-5",
+    "reviewer_reported_effort": "xhigh",
+    "reviewer_reported_runtime": "Claude Code 2.1.303",
+    "reviewer_information_directly_observed": false,
+    "source": "Human REVIEW-1 message",
+    "original_text_path": "review/review-1.md",
+    "deadline_utc": "2026-10-19T07:54:57+00:00",
+    "original_text_capture": "Full visible REVIEW-1 message manually copied without summarization; no direct machine export available",
+    "quota_pauses": [
+      {
+        "last_tool_time_before_utc": "2026-10-19T05:13:41Z",
+        "first_tool_time_after_utc": "2026-10-19T06:29:42Z",
+        "excluded_seconds": 4561,
+        "evidence": "Human message: 利用枠の制限で停止していたので再開します。",
+        "last_pre_stop_clock_source": "review/editorial-change-scope.json observed_at_utc and EV0583/E146 launch timestamps written by the last pre-stop command tool",
+        "original_deadline_utc": "2026-10-19T06:38:56+00:00",
+        "revised_deadline_utc": "2026-10-19T07:54:57+00:00",
+        "process_running_at_last_tool_clock": "E146-final-publication-check",
+        "process_completed_at_utc": "2026-10-19T05:13:46Z",
+        "completion_within_recorded_interval": true,
+        "exact_quota_onset_and_completion_relationship_directly_observed": false
+      }
+    ],
+    "response_status": "completed",
+    "response_completed_at_utc": "2026-10-19T06:35:52Z",
+    "response_path": "review/response-1.md",
+    "reviewer_artifacts_directly_inspected": false
+  },
+  "host_usage_and_marginal_tool_costs_observable": false,
+  "invoice_reconciliation_performed": false,
+  "draft_submission": {
+    "state": "submitted_awaiting_review",
+    "prepared_at_utc": "2026-10-19T03:53:04Z",
+    "tag": "submission-1",
+    "commit": "1e43bbba008f62f20d55861873e986381465941c",
+    "scientific_parent_commit": "c52d329bc9988072246f9a839b6f5e9f16608855",
+    "review_pending": false,
+    "note": "Actual submission commit and observed submission time will be appended in submission-1-record; scientific manuscript remains fixed.",
+    "submitted_at_utc": "2026-10-19T03:54:02Z",
+    "submitted_at_local": "2026-10-19T12:54:02+09:00",
+    "event_id": "EV0557",
+    "administrative_record_tag": "submission-1-record"
+  },
+  "final_submission": {
+    "state": "complete",
+    "tag": "final",
+    "commit": "81164f32eb6b653835fe382422585beb5cf6e38c",
+    "prepared_at_utc": "2026-10-19T06:35:52Z",
+    "review_id": "review-012-1",
+    "administrative_record_tag": "final-record",
+    "submitted_at_utc": "2026-10-19T06:38:53Z",
+    "submitted_at_local": "2026-10-19T15:38:53+09:00",
+    "event_id": "EV0591"
+  },
+  "draft_wall_elapsed_seconds": 44844.0,
+  "review_response_wall_elapsed_seconds": 7197.0,
+  "review_response_elapsed_seconds": 2636.0,
+  "review_response_deadline_utc": "2026-10-19T07:54:57+00:00",
+  "review_waiting_seconds": 2694.0,
+  "review_quota_excluded_seconds": 4561,
+  "review_response_elapsed_scope": "First review tool clock to report/final submission, excluding confirmed review quota intervals; waiting for initial review is separate.",
+  "elapsed_accounting_is_conservative_upper_bound": true,
+  "actual_active_elapsed_seconds": null,
+  "pooled_unique_feature_matrix_issue_weeks": 115,
+  "pooled_repeated_weekly_fits": 2,
+  "model_fit_count_scope": "Experiments/E*/model-records.jsonl only; verification workspace refits are reported separately.",
+  "verification_completed_weekly_refits": 6,
+  "verification_quantile_estimators_fitted": 54,
+  "verification_fit_count_scope": "Both saved verification attempts; each first-week fitting invocation counted even when its resulting bytes match earlier fits.",
+  "review_response": {
+    "review_id": "review-012-1",
+    "comment_count": 8,
+    "decision_counts": {
+      "採用": 7,
+      "一部採用": 1
+    },
+    "claims_with_scope_changes": [
+      "CL01",
+      "CL02",
+      "CL04"
+    ],
+    "claims_with_status_changes": [],
+    "withdrawn_claims": [],
+    "new_claims": [
+      "CL13",
+      "CL14"
+    ],
+    "additional_analysis_experiments": [
+      "E144-post-review-horizon-strata"
+    ],
+    "full_verification_status": "completed",
+    "reviewer_execution_directly_observed": false
+  },
+  "final_verification": {
+    "observed_at_utc": "2026-10-19T05:12:21Z",
+    "status": "completed",
+    "phase": "post_review",
+    "successful_experiment": "E145-post-review-full-replay",
+    "successful_source_commit": "5d3c82a4330063f3375570afedf4ef4ba8b30346",
+    "stages": 44,
+    "tables": 70,
+    "table_rows": 178110,
+    "max_absolute_numeric_difference": 0.0,
+    "relative_tolerance": 1e-09,
+    "absolute_tolerance": 1e-11,
+    "claims": 14,
+    "claim_evidence_rows": 96,
+    "elapsed_seconds": 1169.4420761670917,
+    "source_input_files_checked": 2661,
+    "source_inputs_unchanged": true,
+    "source_tracked_edits_after": false,
+    "full_not_quick": true,
+    "manuscript_bytes_match_saved_analysis_render": true,
+    "figures": [
+      {
+        "path": "figures/national-model-information.png",
+        "sha256": "5426769f10bdb0f956a8d5dd623200b5300236a47a1445c125ca21198885535b",
+        "regenerated_bytes_match": true
+      },
+      {
+        "path": "figures/national-model-information.svg",
+        "sha256": "9c966159a0133f81ed5c0d5e06b89a5fcad624f4c00b761e60674f2dbda03706",
+        "regenerated_bytes_match": true
+      },
+      {
+        "path": "figures/generalization-one-week.png",
+        "sha256": "189e816470429596793456beec76f634e4809798f4918af77f6549ee2e18e5d5",
+        "regenerated_bytes_match": true
+      },
+      {
+        "path": "figures/generalization-one-week.svg",
+        "sha256": "7f5844f562ea02f95299fb961ce60df860524f8475bf0a23b2a453c0d7f41888",
+        "regenerated_bytes_match": true
+      }
+    ],
+    "independent_reproduction": false,
+    "existing_dependency_environment_reused": true,
+    "git_objects_shared": true,
+    "immutable_source_input_files_shared": true,
+    "replay_outputs_started_empty": true,
+    "api_required": false,
+    "network_required": false,
+    "initial_verification_record_preserved": "review/verification-result.json",
+    "archive": "review/final-verification",
+    "full_replay_manuscript_match_scope": "Paper and figures at full replay source5d3c82a; later definition/caption/reference-only changes verified separately by E146",
+    "final_publication_check": {
+      "observed_at_utc": "2026-10-19T05:13:46Z",
+      "status": "completed",
+      "source_commit": "4885e58dcc561a8c65586c6ee9c443f0be17b81b",
+      "analysis_manifest": ".verify-work/output-final/report-manifest.json",
+      "scope": "Presentation-only regenerated from E145 recalculated analysis tables; numerical algorithms and expected tables unchanged",
+      "files": [
+        {
+          "path": "paper.md",
+          "sha256": "81b166c208f3d799df407e910b9a5ead51b312e895a2fe51dfa20858fada8dce",
+          "bytes_match": true
+        },
+        {
+          "path": "figures/national-model-information.png",
+          "sha256": "e8c6f1b3c5841bb5463819f2db1404cb7de84ee2ce62e8311f061c4e5a52fdcc",
+          "bytes_match": true
+        },
+        {
+          "path": "figures/national-model-information.svg",
+          "sha256": "75da518f4c554aa95df775bb0ba3521b935298e65173a11d410b42df167a67b0",
+          "bytes_match": true
+        },
+        {
+          "path": "figures/generalization-one-week.png",
+          "sha256": "189e816470429596793456beec76f634e4809798f4918af77f6549ee2e18e5d5",
+          "bytes_match": true
+        },
+        {
+          "path": "figures/generalization-one-week.svg",
+          "sha256": "7f5844f562ea02f95299fb961ce60df860524f8475bf0a23b2a453c0d7f41888",
+          "bytes_match": true
+        }
+      ],
+      "claims": 14,
+      "evidence_rows": 96,
+      "new_prediction_inference": false,
+      "new_model_fitting": false,
+      "independent_reproduction": false
+    },
+    "final_publication_experiment": "E146-final-publication-check",
+    "final_publication_inputs_checked": 321,
+    "final_publication_inputs_unchanged": true,
+    "final_publication_source_commit": "4885e58dcc561a8c65586c6ee9c443f0be17b81b",
+    "final_manuscript_and_figures_match_recalculated_data": true,
+    "completed_stage_storage_sharing_record": "review/final-replay-completed-stage-sharing.json",
+    "all_completed_stage_bytes_preserved": true
+  }
+}

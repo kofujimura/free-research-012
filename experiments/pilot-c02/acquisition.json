@@ -1,0 +1,8 @@
+{
+  "raster_error": "RasterioIOError: '/vsicurl/https://storage.googleapis.com/alphaearth_foundations/satellite_embedding/v1/annual/2024/10N/' does not exist in the file system, and is not recognized as a supported dataset name.",
+  "air_quality_error": "HTTPError: HTTP Error 404: Not Found",
+  "started_at_utc": "2026-10-18T15:49:55Z",
+  "ended_at_utc": "2026-10-18T15:50:11Z",
+  "elapsed_seconds": 16.556156458100304,
+  "note": "Acquisition/scale only. No prediction accuracy evaluated."
+}

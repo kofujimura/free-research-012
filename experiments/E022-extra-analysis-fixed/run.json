@@ -1,0 +1,27 @@
+{
+  "experiment_id": "E022-extra-analysis-fixed",
+  "plan_path": "protocol/extension-national-v1.md",
+  "plan_commit": "c2932a3b07e4352e98870f13fd372c3ecc76f483",
+  "plan_sha256": "95a1b984a211082233a009fee24ead179a445f4a91f789a4989ba4e0575830b9",
+  "code_commit": "c2932a3b07e4352e98870f13fd372c3ecc76f483",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_extra_baselines.py",
+    "--out",
+    "experiments/E022-extra-analysis-fixed/results"
+  ],
+  "started_at_utc": "2026-10-18T17:24:16Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E013-extra-classical/forecasts.jsonl": "3575ab2cddc9e68b133d283f07b957cd38e0a924c7d97d272bdc3e99085f338f",
+    "experiments/E007-prepare-inputs-fixed/truth.csv": "c063338128a4608da396dd8e82209f9b8743081d9ad286969e49079e12fbde28"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 48088,
+  "storage_before_bytes_du": 6390063104,
+  "child_pid": 48094,
+  "ended_at_utc": "2026-10-18T17:24:57Z",
+  "elapsed_seconds": 40.375473333057016,
+  "returncode": 0
+}

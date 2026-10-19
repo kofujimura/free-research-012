@@ -1,0 +1,14 @@
+{
+  "unique_inputs": 386,
+  "native_case_predictions": 20496,
+  "calibrated_case_predictions": 7791,
+  "scored_rows": 106932,
+  "comparison_rows": 3708,
+  "max_wis_identity_error": 4.440892098500626e-16,
+  "main_test_issue_weeks": 58,
+  "known_target_cases": 0,
+  "primary_reference_missing_cases": 10,
+  "network_required": false,
+  "ai_api_required": false,
+  "model_inference_required": false
+}

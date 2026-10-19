@@ -1,0 +1,64 @@
+{
+  "seed": 12012,
+  "vintage_index": "experiments/E020-nz-vintage-audit/archive-index.json",
+  "calibration_start": "2025-01-06",
+  "test_start": "2025-07-07",
+  "test_end": "2026-08-03",
+  "timesfm_interpretation_start": "2025-10-06",
+  "issue_hour_utc": 12,
+  "source_age_weeks": [
+    0,
+    1,
+    2
+  ],
+  "target_offsets_days": [
+    -1,
+    6
+  ],
+  "truth_lags_days": [
+    56,
+    "latest"
+  ],
+  "primary_truth_lag_days": 56,
+  "min_observed": 16,
+  "max_context": 104,
+  "max_horizon": 16,
+  "quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "pathogens": [
+    "SARS-CoV-2",
+    "Influenza A",
+    "RSV A/B"
+  ],
+  "input_modes": [
+    "actual",
+    "finalized_prefix"
+  ],
+  "calibration_minimum": 12,
+  "calibration_maximum": 52,
+  "rise_ratio": 2.0,
+  "false_positive_target": 0.1,
+  "bootstrap_blocks": [
+    4,
+    8,
+    12
+  ],
+  "bootstrap_primary_block": 8,
+  "bootstrap_repetitions": 2000,
+  "cohort_cutoff": "2025-06-30T23:59:59Z",
+  "region_minimum_observed_weeks": 16,
+  "region_recent_window_weeks": 8,
+  "region_recent_minimum_observed_weeks": 1,
+  "value_column": "copies_per_day_per_person",
+  "forecast_chunk_size": 2000,
+  "issue_frequency": "W-MON"
+}

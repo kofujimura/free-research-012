@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E009-chronos",
+  "plan_path": "protocol/plan-v3.md",
+  "plan_commit": "8f44b0f7657080385320095bcbf33d3f0ad165d3",
+  "plan_sha256": "b12c66b6f2b4d63171c7f86dd8ecd3ebe717ba6b6d5067c5226d070a8eee012d",
+  "code_commit": "8f44b0f7657080385320095bcbf33d3f0ad165d3",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E007-prepare-inputs-fixed/inputs.json",
+    "--engine",
+    "chronos"
+  ],
+  "started_at_utc": "2026-10-18T16:35:10Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+    "experiments/E002-model-download/models.json": "befa33a66490e0d50723ed96ecf1ec663ef535c4e818820a72a77b00c398052b",
+    "data/models/chronos-bolt-base/model.safetensors": "31f875483a3215bc6880a0837ea608a13ce55f88ad90538c3cdd0b29aeb60b36"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 42760,
+  "storage_before_bytes_du": 3943112704,
+  "child_pid": 42769,
+  "ended_at_utc": "2026-10-18T16:35:17Z",
+  "elapsed_seconds": 6.809154124930501,
+  "returncode": 0
+}

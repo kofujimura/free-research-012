@@ -1,0 +1,70 @@
+{
+  "started_at_utc": "2026-10-18T15:50:25Z",
+  "ended_at_utc": "2026-10-18T15:50:29Z",
+  "elapsed_seconds": 3.9125472919549793,
+  "results": [
+    {
+      "url": "https://storage.googleapis.com/weatherbench2/datasets/neuralgcm_ens/LICENSE",
+      "observed_at_utc": "2026-10-18T15:50:25Z",
+      "http_status": 404,
+      "bytes": 206
+    },
+    {
+      "url": "https://storage.googleapis.com/weatherbench2/datasets/neuralgcm_ens/2020-240x121_equiangular_with_poles_conservative.zarr/.zmetadata",
+      "observed_at_utc": "2026-10-18T15:50:26Z",
+      "http_status": 200,
+      "bytes": 11959,
+      "path": "experiments/pilot-c13/2020-240x121_equiangular_with_poles_conservative.zarr-metadata.json",
+      "sha256": "3c10d8b922c5dfc62a6939490778cb96a2971cb158cb2060dff2b84f6b375195",
+      "arrays": {
+        "prediction_timedelta/.zarray": {
+          "shape": [
+            32
+          ],
+          "chunks": [
+            32
+          ],
+          "dtype": "<i8"
+        },
+        "time/.zarray": {
+          "shape": [
+            732
+          ],
+          "chunks": [
+            732
+          ],
+          "dtype": "<i8"
+        }
+      }
+    },
+    {
+      "url": "https://storage.googleapis.com/weatherbench2/datasets/neuralgcm_ens/2020-64x32_equiangular_conservative.zarr/.zmetadata",
+      "observed_at_utc": "2026-10-18T15:50:28Z",
+      "http_status": 200,
+      "bytes": 11923,
+      "path": "experiments/pilot-c13/2020-64x32_equiangular_conservative.zarr-metadata.json",
+      "sha256": "793bcdb6656ef53e097bf406c190787c94e0f237912bdbeb9dca496a5ea4ab88",
+      "arrays": {
+        "prediction_timedelta/.zarray": {
+          "shape": [
+            32
+          ],
+          "chunks": [
+            32
+          ],
+          "dtype": "<i8"
+        },
+        "time/.zarray": {
+          "shape": [
+            732
+          ],
+          "chunks": [
+            732
+          ],
+          "dtype": "<i8"
+        }
+      }
+    }
+  ],
+  "note": "No forecasting or impact analysis. GenCast precomputed output not confirmed; related 2024 NeuralGCM output considered within same capability."
+}

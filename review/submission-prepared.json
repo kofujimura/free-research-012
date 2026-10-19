@@ -1,0 +1,8 @@
+{
+  "prepared_at_utc": "2026-10-19T03:53:04Z",
+  "event_id": "EV0554",
+  "scientific_parent_commit": "c52d329bc9988072246f9a839b6f5e9f16608855",
+  "tag": "submission-1",
+  "review_received": false,
+  "successful_replay_source_commit": "834f84dc39144ca72bc28686018889bee5ab725b"
+}

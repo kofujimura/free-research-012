@@ -1,0 +1,34 @@
+{
+  "records": [
+    {
+      "commit": "6f630bfad8c554a72f0e4bd557df211eef18b923",
+      "commit_time": "2025-06-18T12:58:31+02:00",
+      "path": "data/amelag/sites/6f630bfad8c554a72f0e4bd557df211eef18b923.tsv.gz",
+      "url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/6f630bfad8c554a72f0e4bd557df211eef18b923/amelag_einzelstandorte.tsv",
+      "retrieved_at_utc": "2026-10-18T16:54:36Z",
+      "raw_sha256": "f81b5cd73cefaac63adb6653c736cd002d2f1e3e0e47afdee2e36fe0f9130059",
+      "sha256": "b4f46750dd4be79f3ca42017e19d2a01d1b418b98ffe28758877a3981cec7706",
+      "raw_bytes": 23154550,
+      "compressed_bytes": 4649122,
+      "git_blob": "39fa70f296a7280eb394dd4062649b71176b3d57",
+      "license": "CC BY4.0; Robert Koch Institute and Umweltbundesamt",
+      "status": "success",
+      "transport": "official public Git"
+    },
+    {
+      "commit": "6586326ea292f4bfa243d8444d1efc8f4fef772d",
+      "commit_time": "2026-10-14T13:02:32+02:00",
+      "path": "data/amelag/sites/6586326ea292f4bfa243d8444d1efc8f4fef772d.tsv.gz",
+      "url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/6586326ea292f4bfa243d8444d1efc8f4fef772d/amelag_einzelstandorte.tsv",
+      "retrieved_at_utc": "2026-10-18T16:54:43Z",
+      "raw_sha256": "75a46a5cebebef296f231b97e2d3037ca666c85cf047a16774952e92159ae9c9",
+      "sha256": "642e16e9d3f34ff0540ebcbd87feab504f6f4c3d86242d5ff41043e612c0dabb",
+      "raw_bytes": 55612923,
+      "compressed_bytes": 16222129,
+      "git_blob": "0d48eccf82c5b6e15ab82e8dccb82457f1a028b3",
+      "license": "CC BY4.0; Robert Koch Institute and Umweltbundesamt",
+      "status": "success",
+      "transport": "official public Git"
+    }
+  ]
+}

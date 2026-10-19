@@ -1,0 +1,890 @@
+{
+  "started_at_utc": "2026-10-19T03:09:53+00:00",
+  "source_checkout": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout",
+  "source_commit": "834f84dc39144ca72bc28686018889bee5ab725b",
+  "source_tracked_edits_before": false,
+  "output_directory": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2",
+  "quick": false,
+  "network_required": false,
+  "ai_api_required": false,
+  "steps": [
+    {
+      "name": "temporal",
+      "script": "verify_temporal.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_temporal.py",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/temporal/results.json"
+      ],
+      "started_at_utc": "2026-10-19T03:09:53+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:09:55+00:00",
+      "elapsed_seconds": 1.5310965420212597
+    },
+    {
+      "name": "weekly_sample",
+      "script": "verify_site_weekly.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_site_weekly.py"
+      ],
+      "started_at_utc": "2026-10-19T03:09:55+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:09:59+00:00",
+      "elapsed_seconds": 3.7423922090092674
+    },
+    {
+      "name": "api_accounting",
+      "script": "verify_api_accounting.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_api_accounting.py",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/api_accounting/results.json"
+      ],
+      "started_at_utc": "2026-10-19T03:09:59+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:09:59+00:00",
+      "elapsed_seconds": 0.07804533303715289
+    },
+    {
+      "name": "primary",
+      "script": "analyze.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze.py",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/primary"
+      ],
+      "started_at_utc": "2026-10-19T03:09:59+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:10:18+00:00",
+      "elapsed_seconds": 19.478421333013102
+    },
+    {
+      "name": "extended",
+      "script": "analyze_extra_baselines.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_extra_baselines.py",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/extended"
+      ],
+      "started_at_utc": "2026-10-19T03:10:18+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:10:59+00:00",
+      "elapsed_seconds": 40.415898000006564
+    },
+    {
+      "name": "updates",
+      "script": "analyze_updates.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_updates.py",
+        "--primary-dir",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/primary",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/updates"
+      ],
+      "started_at_utc": "2026-10-19T03:10:59+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:11:04+00:00",
+      "elapsed_seconds": 5.61187320901081
+    },
+    {
+      "name": "nz",
+      "script": "panel_analysis.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/panel_analysis.py",
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--forecast-dir",
+        "experiments/E039-nz-statistical",
+        "--forecast-dir",
+        "experiments/E040-nz-chronos",
+        "--forecast-dir",
+        "experiments/E041-nz-timesfm",
+        "--forecast-dir",
+        "experiments/E043-nz-extra",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz"
+      ],
+      "started_at_utc": "2026-10-19T03:11:04+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:11:31+00:00",
+      "elapsed_seconds": 26.913024790934287
+    },
+    {
+      "name": "site",
+      "script": "panel_analysis.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/panel_analysis.py",
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--forecast-dir",
+        "experiments/E028-site-c0-statistical",
+        "--forecast-dir",
+        "experiments/E029-site-c0-extra",
+        "--forecast-dir",
+        "experiments/E030-site-c0-timesfm",
+        "--forecast-dir",
+        "experiments/E031-site-c0-chronos",
+        "--forecast-dir",
+        "experiments/E032-site-c1-statistical",
+        "--forecast-dir",
+        "experiments/E033-site-c1-extra",
+        "--forecast-dir",
+        "experiments/E034-site-c1-timesfm",
+        "--forecast-dir",
+        "experiments/E035-site-c1-chronos",
+        "--forecast-dir",
+        "experiments/E036-site-c2-statistical",
+        "--forecast-dir",
+        "experiments/E042-site-c2-extra",
+        "--forecast-dir",
+        "experiments/E054-site-c2-timesfm",
+        "--forecast-dir",
+        "experiments/E055-site-c2-chronos",
+        "--forecast-dir",
+        "experiments/E058-site-c3-statistical",
+        "--forecast-dir",
+        "experiments/E051-site-c3-extra",
+        "--forecast-dir",
+        "experiments/E061-site-c3-timesfm",
+        "--forecast-dir",
+        "experiments/E063-site-c3-chronos",
+        "--forecast-dir",
+        "experiments/E065-site-c4-statistical",
+        "--forecast-dir",
+        "experiments/E059-site-c4-extra",
+        "--forecast-dir",
+        "experiments/E069-site-c4-timesfm-correct-path",
+        "--forecast-dir",
+        "experiments/E070-site-c4-chronos",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site"
+      ],
+      "started_at_utc": "2026-10-19T03:11:31+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:14:08+00:00",
+      "elapsed_seconds": 157.12283250002656
+    },
+    {
+      "name": "raw",
+      "script": "panel_analysis.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/panel_analysis.py",
+        "--panel",
+        "experiments/E045-raw-sars-inputs",
+        "--forecast-dir",
+        "experiments/E047-raw-sars-statistical",
+        "--forecast-dir",
+        "experiments/E048-raw-sars-chronos",
+        "--forecast-dir",
+        "experiments/E049-raw-sars-timesfm",
+        "--forecast-dir",
+        "experiments/E050-raw-sars-extra",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/raw"
+      ],
+      "started_at_utc": "2026-10-19T03:14:08+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:14:29+00:00",
+      "elapsed_seconds": 20.761626833002083
+    },
+    {
+      "name": "indicator",
+      "script": "analyze_indicator_choice.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_indicator_choice.py",
+        "--raw-forecasts",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/raw/case-forecasts.csv.gz",
+        "--raw-panel",
+        "experiments/E045-raw-sars-inputs",
+        "--normalized-forecasts",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/extended/case-forecasts.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/indicator"
+      ],
+      "started_at_utc": "2026-10-19T03:14:29+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:14:31+00:00",
+      "elapsed_seconds": 2.2558975000865757
+    },
+    {
+      "name": "sensitivity",
+      "script": "analyze_sensitivity.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_sensitivity.py",
+        "--primary-dir",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/primary",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/sensitivity"
+      ],
+      "started_at_utc": "2026-10-19T03:14:31+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:14:36+00:00",
+      "elapsed_seconds": 4.467830708017573
+    },
+    {
+      "name": "shifted",
+      "script": "analyze_shifted.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_shifted.py",
+        "--scenarios",
+        "experiments/E057-shifted-inputs-label-availability/scenarios.json",
+        "--forecast-map",
+        "config/shift-forecast-map.json",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/shifted"
+      ],
+      "started_at_utc": "2026-10-19T03:14:36+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:16:19+00:00",
+      "elapsed_seconds": 103.00797820801381
+    },
+    {
+      "name": "site_features",
+      "script": "prepare_pooled_features.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/prepare_pooled_features.py",
+        "--panel",
+        "experiments/E024-site-panel-inputs"
+      ],
+      "started_at_utc": "2026-10-19T03:16:19+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:16:24+00:00",
+      "elapsed_seconds": 4.672109874896705
+    },
+    {
+      "name": "site_model_replay",
+      "script": "verify_pooled.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_pooled.py",
+        "--features",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site_features",
+        "--expected-features",
+        "experiments/E056-pooled-feature-preparation",
+        "--fit-dir",
+        "experiments/E060-pooled-fit-0",
+        "--fit-dir",
+        "experiments/E062-pooled-fit-1",
+        "--fit-dir",
+        "experiments/E064-pooled-fit-2",
+        "--fit-dir",
+        "experiments/E066-pooled-fit-3",
+        "--fit-dir",
+        "experiments/E068-pooled-fit-4",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site_model_replay"
+      ],
+      "started_at_utc": "2026-10-19T03:16:24+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:16:51+00:00",
+      "elapsed_seconds": 27.446722958004102
+    },
+    {
+      "name": "site_first_refit",
+      "script": "train_pooled.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/train_pooled.py",
+        "--features",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site_features",
+        "--start",
+        "0",
+        "--stop",
+        "1"
+      ],
+      "started_at_utc": "2026-10-19T03:16:51+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:16:55+00:00",
+      "elapsed_seconds": 3.9036830000113696
+    },
+    {
+      "name": "site_refit_check",
+      "script": "compare_pooled_refit.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/compare_pooled_refit.py",
+        "--original",
+        "experiments/E060-pooled-fit-0",
+        "--refit",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site_first_refit",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site_refit_check/results.json"
+      ],
+      "started_at_utc": "2026-10-19T03:16:55+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:16:55+00:00",
+      "elapsed_seconds": 0.49582574993837625
+    },
+    {
+      "name": "pooled_site",
+      "script": "analyze_pooled.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_pooled.py",
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--site-forecasts",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site/case-forecasts.csv.gz",
+        "--fit-dir",
+        "experiments/E060-pooled-fit-0",
+        "--fit-dir",
+        "experiments/E062-pooled-fit-1",
+        "--fit-dir",
+        "experiments/E064-pooled-fit-2",
+        "--fit-dir",
+        "experiments/E066-pooled-fit-3",
+        "--fit-dir",
+        "experiments/E068-pooled-fit-4",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/pooled_site"
+      ],
+      "started_at_utc": "2026-10-19T03:16:55+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:09+00:00",
+      "elapsed_seconds": 13.873844334040768
+    },
+    {
+      "name": "nz_features",
+      "script": "prepare_pooled_features.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/prepare_pooled_features.py",
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible"
+      ],
+      "started_at_utc": "2026-10-19T03:17:09+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:10+00:00",
+      "elapsed_seconds": 0.7465201249578968
+    },
+    {
+      "name": "nz_model_replay",
+      "script": "verify_pooled.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_pooled.py",
+        "--features",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz_features",
+        "--expected-features",
+        "experiments/E071-nz-pooled-features",
+        "--fit-dir",
+        "experiments/E073-nz-pooled-fit-0",
+        "--fit-dir",
+        "experiments/E074-nz-pooled-fit-1",
+        "--fit-dir",
+        "experiments/E075-nz-pooled-fit-2",
+        "--fit-dir",
+        "experiments/E077-nz-pooled-fit-3",
+        "--fit-dir",
+        "experiments/E078-nz-pooled-fit-4",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz_model_replay"
+      ],
+      "started_at_utc": "2026-10-19T03:17:10+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:18+00:00",
+      "elapsed_seconds": 7.540968416025862
+    },
+    {
+      "name": "nz_first_refit",
+      "script": "train_pooled.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/train_pooled.py",
+        "--features",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz_features",
+        "--start",
+        "0",
+        "--stop",
+        "1"
+      ],
+      "started_at_utc": "2026-10-19T03:17:18+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:20+00:00",
+      "elapsed_seconds": 2.559910250012763
+    },
+    {
+      "name": "nz_refit_check",
+      "script": "compare_pooled_refit.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/compare_pooled_refit.py",
+        "--original",
+        "experiments/E073-nz-pooled-fit-0",
+        "--refit",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz_first_refit",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz_refit_check/results.json"
+      ],
+      "started_at_utc": "2026-10-19T03:17:20+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:21+00:00",
+      "elapsed_seconds": 0.4648072909330949
+    },
+    {
+      "name": "pooled_nz",
+      "script": "analyze_pooled.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_pooled.py",
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--site-forecasts",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz/case-forecasts.csv.gz",
+        "--fit-dir",
+        "experiments/E073-nz-pooled-fit-0",
+        "--fit-dir",
+        "experiments/E074-nz-pooled-fit-1",
+        "--fit-dir",
+        "experiments/E075-nz-pooled-fit-2",
+        "--fit-dir",
+        "experiments/E077-nz-pooled-fit-3",
+        "--fit-dir",
+        "experiments/E078-nz-pooled-fit-4",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/pooled_nz"
+      ],
+      "started_at_utc": "2026-10-19T03:17:21+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:24+00:00",
+      "elapsed_seconds": 3.890502625028603
+    },
+    {
+      "name": "growth_national",
+      "script": "analyze_growth.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_growth.py",
+        "--panel",
+        "experiments/E007-prepare-inputs-fixed",
+        "--forecast-csv",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/extended/case-forecasts.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_national"
+      ],
+      "started_at_utc": "2026-10-19T03:17:24+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:34+00:00",
+      "elapsed_seconds": 9.17689179093577
+    },
+    {
+      "name": "growth_check_national",
+      "script": "verify_growth.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_growth.py",
+        "--panel",
+        "experiments/E007-prepare-inputs-fixed",
+        "--growth",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_national",
+        "--original-alerts",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/primary/alerts-paired.csv",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_check_national"
+      ],
+      "started_at_utc": "2026-10-19T03:17:34+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:38+00:00",
+      "elapsed_seconds": 4.59676883299835
+    },
+    {
+      "name": "growth_nz",
+      "script": "analyze_growth.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_growth.py",
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--forecast-csv",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz/case-forecasts.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_nz"
+      ],
+      "started_at_utc": "2026-10-19T03:17:38+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:54+00:00",
+      "elapsed_seconds": 16.006265499978326
+    },
+    {
+      "name": "growth_check_nz",
+      "script": "verify_growth.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_growth.py",
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--growth",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_nz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_check_nz"
+      ],
+      "started_at_utc": "2026-10-19T03:17:54+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:17:59+00:00",
+      "elapsed_seconds": 4.739876667037606
+    },
+    {
+      "name": "growth_site",
+      "script": "analyze_growth.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_growth.py",
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--forecast-csv",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site/case-forecasts.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_site"
+      ],
+      "started_at_utc": "2026-10-19T03:17:59+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:20:26+00:00",
+      "elapsed_seconds": 146.55184683401603
+    },
+    {
+      "name": "growth_check_site",
+      "script": "verify_growth.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_growth.py",
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--growth",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_site",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/growth_check_site"
+      ],
+      "started_at_utc": "2026-10-19T03:20:26+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:20:34+00:00",
+      "elapsed_seconds": 8.638901500031352
+    },
+    {
+      "name": "cqr_national",
+      "script": "analyze_interval_calibration.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_interval_calibration.py",
+        "--panel",
+        "experiments/E007-prepare-inputs-fixed",
+        "--forecast-csv",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/extended/case-forecasts.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/cqr_national"
+      ],
+      "started_at_utc": "2026-10-19T03:20:34+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:21:55+00:00",
+      "elapsed_seconds": 81.05632058298215
+    },
+    {
+      "name": "cqr_nz",
+      "script": "analyze_interval_calibration.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_interval_calibration.py",
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--forecast-csv",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz/case-forecasts.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/cqr_nz"
+      ],
+      "started_at_utc": "2026-10-19T03:21:55+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:22:52+00:00",
+      "elapsed_seconds": 57.004125291947275
+    },
+    {
+      "name": "cqr_site",
+      "script": "analyze_interval_calibration.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_interval_calibration.py",
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--forecast-csv",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site/case-forecasts.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/cqr_site"
+      ],
+      "started_at_utc": "2026-10-19T03:22:52+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:25:31+00:00",
+      "elapsed_seconds": 159.268684541923
+    },
+    {
+      "name": "interaction_national",
+      "script": "analyze_freshness_interaction.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_freshness_interaction.py",
+        "--panel",
+        "experiments/E007-prepare-inputs-fixed",
+        "--scores",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/primary/case-scores.csv",
+        "--scores",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/extended/case-extra-scores.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/interaction_national"
+      ],
+      "started_at_utc": "2026-10-19T03:25:31+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:25:39+00:00",
+      "elapsed_seconds": 7.5886719160480425
+    },
+    {
+      "name": "interaction_nz",
+      "script": "analyze_freshness_interaction.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_freshness_interaction.py",
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--scores",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz/case-scores.csv.gz",
+        "--scores",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/pooled_nz/pooled-case-scores.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/interaction_nz"
+      ],
+      "started_at_utc": "2026-10-19T03:25:39+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:25:51+00:00",
+      "elapsed_seconds": 12.248496958054602
+    },
+    {
+      "name": "interaction_site",
+      "script": "analyze_freshness_interaction.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_freshness_interaction.py",
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--scores",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site/case-scores.csv.gz",
+        "--scores",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/pooled_site/pooled-case-scores.csv.gz",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/interaction_site"
+      ],
+      "started_at_utc": "2026-10-19T03:25:51+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:26:19+00:00",
+      "elapsed_seconds": 27.57914887496736
+    },
+    {
+      "name": "quality",
+      "script": "analyze_input_quality.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_input_quality.py",
+        "--datasets",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/quality-datasets.json",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/quality"
+      ],
+      "started_at_utc": "2026-10-19T03:26:19+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:26:40+00:00",
+      "elapsed_seconds": 20.852343749953434
+    },
+    {
+      "name": "temporal_history",
+      "script": "verify_temporal.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_temporal.py",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/national-104",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/national-256",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/site-104",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/site-256",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/nz-104",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/nz-256",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/temporal_history/results.json"
+      ],
+      "started_at_utc": "2026-10-19T03:26:40+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:26:42+00:00",
+      "elapsed_seconds": 2.6507860840065405
+    },
+    {
+      "name": "history_native",
+      "script": "assemble_history_control.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/assemble_history_control.py",
+        "--preparation",
+        "experiments/E099-history-length-inputs-fixed",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/history_native"
+      ],
+      "started_at_utc": "2026-10-19T03:26:42+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:27:58+00:00",
+      "elapsed_seconds": 75.96039733302314
+    },
+    {
+      "name": "history",
+      "script": "analyze_history_control.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_history_control.py",
+        "--assembled",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/history_native",
+        "--original-map",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/history-original-scores.json",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/history"
+      ],
+      "started_at_utc": "2026-10-19T03:27:58+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:28:49+00:00",
+      "elapsed_seconds": 50.94703579205088
+    },
+    {
+      "name": "joint",
+      "script": "analyze_joint_comparisons.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/analyze_joint_comparisons.py",
+        "--datasets",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/joint-comparison-datasets.json",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/joint"
+      ],
+      "started_at_utc": "2026-10-19T03:28:49+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:28:57+00:00",
+      "elapsed_seconds": 7.926699042087421
+    },
+    {
+      "name": "figures",
+      "script": "plot_results.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/plot_results.py",
+        "--manifest",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/report-manifest.json",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/figures"
+      ],
+      "started_at_utc": "2026-10-19T03:28:57+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:29:14+00:00",
+      "elapsed_seconds": 16.457109791925177
+    },
+    {
+      "name": "manuscript",
+      "script": "render_paper.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/render_paper.py",
+        "--manifest",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/report-manifest.json",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2"
+      ],
+      "started_at_utc": "2026-10-19T03:29:14+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:29:16+00:00",
+      "elapsed_seconds": 2.3795780839864165
+    },
+    {
+      "name": "claims",
+      "script": "verify_claims.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/verify_claims.py",
+        "--results-manifest",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/report-manifest.json",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/claims/results.json"
+      ],
+      "started_at_utc": "2026-10-19T03:29:16+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:29:17+00:00",
+      "elapsed_seconds": 0.724858875037171
+    },
+    {
+      "name": "comparison",
+      "script": "compare_recalculation.py",
+      "command": [
+        "/Users/fujimura/Research/ai-free-research/run-012/.venv/bin/python",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/checkout/scripts/compare_recalculation.py",
+        "--out",
+        "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2"
+      ],
+      "started_at_utc": "2026-10-19T03:29:17+00:00",
+      "status": "completed",
+      "returncode": 0,
+      "ended_at_utc": "2026-10-19T03:29:19+00:00",
+      "elapsed_seconds": 1.8168112499406561
+    }
+  ],
+  "status": "completed",
+  "ended_at_utc": "2026-10-19T03:29:19+00:00",
+  "elapsed_seconds": 1165.2253657910042
+}

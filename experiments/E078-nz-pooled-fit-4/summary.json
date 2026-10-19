@@ -1,0 +1,9 @@
+{
+  "issue_weeks": 9,
+  "completed_weeks": 9,
+  "predicted_rows": 324,
+  "model_bytes": 9370118,
+  "model_inference_local": true,
+  "training_uses_only_matured_labels": true,
+  "exploratory": true
+}

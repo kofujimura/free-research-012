@@ -1,0 +1,32 @@
+[
+  {
+    "path": "input-chunks/chunk-000.json",
+    "sha256": "05ccc7fc35b056a58356b5fe46687669fd88494bfcb54344566a660df7fb9c0a",
+    "inputs": 2000,
+    "index": 0
+  },
+  {
+    "path": "input-chunks/chunk-001.json",
+    "sha256": "62bdd0766ac4b2e1f666c0f51be11e77a6f7e98a4dfd019b5b19ff49df6f6bdb",
+    "inputs": 2000,
+    "index": 1
+  },
+  {
+    "path": "input-chunks/chunk-002.json",
+    "sha256": "4e9db4a46c44a1d3f1d8d801c1fbc6fd63d0e61d29175c9e20043b5ed6cfcc0c",
+    "inputs": 2000,
+    "index": 2
+  },
+  {
+    "path": "input-chunks/chunk-003.json",
+    "sha256": "e68fdffab67932707a6973e1692d6187998c065aa744bc78a28d0695a1464096",
+    "inputs": 2000,
+    "index": 3
+  },
+  {
+    "path": "input-chunks/chunk-004.json",
+    "sha256": "eac8e2c23aa6829c8ecf1a6d89e3ff204d66a39c3fba267f6167c3463c77daa5",
+    "inputs": 578,
+    "index": 4
+  }
+]

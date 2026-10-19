@@ -1,0 +1,1302 @@
+{
+  "observed_at_utc": "2026-10-19T03:08:20Z",
+  "files": [
+    {
+      "duplicate": ".verify-work/output/site_features/summary.json",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/summary.json",
+      "bytes": 883,
+      "sha256": "a19543a256149b727dd9e657bf0eaf00a5d85a74c9ff90d18be40a05211c2388"
+    },
+    {
+      "duplicate": ".verify-work/output/site_features/features.npz",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/features.npz",
+      "bytes": 2317661,
+      "sha256": "bb36b9ef45b0e64a1a252379c11195b389684d4054e57faeb3313a1b0f7c747b"
+    },
+    {
+      "duplicate": ".verify-work/output/site_features/test-issues.json",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/test-issues.json",
+      "bytes": 931,
+      "sha256": "7c8b7437cd67f61ef19cae8eb9665f6c818b1a8079cebdebb38f33587f7dbd99"
+    },
+    {
+      "duplicate": ".verify-work/output/site_features/rows.csv",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/rows.csv",
+      "bytes": 15049806,
+      "sha256": "66a70e71b896620cddbe0c08ead66a7c256d99632d29a2b884c774f5832100f8"
+    },
+    {
+      "duplicate": ".verify-work/output/site_features/replay-stdout.txt",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/stdout.txt",
+      "bytes": 725,
+      "sha256": "136addfe7f807f809556335eb3237f633b6998a9158cb81238fafbc63230a7e3"
+    },
+    {
+      "duplicate": ".verify-work/output/site_features/panel-config.json",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/panel-config.json",
+      "bytes": 1411,
+      "sha256": "a79eb4609d46c559a5d362a73d50fa2aef327b07f602dcea2f9ca8935baa5f3f"
+    },
+    {
+      "duplicate": ".verify-work/output/site_features/feature-names.json",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/feature-names.json",
+      "bytes": 630,
+      "sha256": "795505d6ef28b91e8d632ded0daca9bb15821d017c2c7173bf26bb573142cc50"
+    },
+    {
+      "duplicate": ".verify-work/output/site_features/case-columns.json",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/case-columns.json",
+      "bytes": 545,
+      "sha256": "402421a17fd67a67af31619adee138e8c0783adbda838cfc3bfe35a0ff006123"
+    },
+    {
+      "duplicate": ".verify-work/output/temporal/results.json",
+      "immutable_source": "experiments/E089-temporal-integrity-audit/results.json",
+      "bytes": 1137,
+      "sha256": "c5ab3780a9e930fb4d826fb6b2bf6246ff5131a7fb67916847b768787304dc92"
+    },
+    {
+      "duplicate": ".verify-work/output/temporal/replay-stdout.txt",
+      "immutable_source": "experiments/E089-temporal-integrity-audit/stdout.txt",
+      "bytes": 999,
+      "sha256": "14048a1f6046668aae98bf449f8cfa6e3bd119146562eef6bbd0090b961b1218"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_nz/model-scores.csv",
+      "immutable_source": "experiments/E081-nz-pooled-analysis/results/model-scores.csv",
+      "bytes": 17046,
+      "sha256": "a44bcfec0bd93be20ca05e19aa216f3b4734b11c0c68465e5128102124dc159c"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_nz/summary.json",
+      "immutable_source": "experiments/E081-nz-pooled-analysis/results/summary.json",
+      "bytes": 338,
+      "sha256": "0d2554f9d3ec84c005f7e334e0123ccd5449c092cbb287d4e8643327dd3ca63b"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_nz/replay-stdout.txt",
+      "immutable_source": "experiments/E081-nz-pooled-analysis/stdout.txt",
+      "bytes": 318,
+      "sha256": "dae84ff34481ad98a69200944560d25656baa24c60eef6600596464c62f0e02e"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_nz/pooled-case-scores.csv.gz",
+      "immutable_source": "experiments/E081-nz-pooled-analysis/results/pooled-case-scores.csv.gz",
+      "bytes": 251207,
+      "sha256": "001754acf5e76bc5ce6646a5fa8d277aabd99321d390b8d12ea77df5dd453be0"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_nz/comparisons.csv",
+      "immutable_source": "experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+      "bytes": 227933,
+      "sha256": "49bdb1c8100d0e09c3a11dbe0c3ece00f2d24760116c3e72c0adb29f10479823"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_nz/pooled-case-forecasts.csv.gz",
+      "immutable_source": "experiments/E081-nz-pooled-analysis/results/pooled-case-forecasts.csv.gz",
+      "bytes": 136819,
+      "sha256": "f92eab8845061f6b5538fd06e67171951846ff4a51edd5eb8536585724e77338"
+    },
+    {
+      "duplicate": ".verify-work/output/indicator/summary.json",
+      "immutable_source": "experiments/E053-matched-raw-normalized/results/summary.json",
+      "bytes": 202,
+      "sha256": "8a0e5b178df3227d4f6823eb23951ecc582908b8bdf876228b7ffb5a5cc9b43e"
+    },
+    {
+      "duplicate": ".verify-work/output/indicator/matched-indicator-ratios.csv",
+      "immutable_source": "experiments/E053-matched-raw-normalized/results/matched-indicator-ratios.csv",
+      "bytes": 103571,
+      "sha256": "22ca7679a40d58e2b861184991646a686cff6211e37742b66fbed10412f6b926"
+    },
+    {
+      "duplicate": ".verify-work/output/indicator/matched-case-losses.csv.gz",
+      "immutable_source": "experiments/E053-matched-raw-normalized/results/matched-case-losses.csv.gz",
+      "bytes": 122229,
+      "sha256": "a03f671b7f79182a8183be122f58f1ce71e4230ef1136cb59d3c3875080407e3"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/model-scores.csv",
+      "immutable_source": "experiments/E044-nz-panel-analysis/results/model-scores.csv",
+      "bytes": 84157,
+      "sha256": "85506a1fd41799e06f68508d1dba024fcc214f9e83b19a757c712ff82b1bfe76"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/summary.json",
+      "immutable_source": "experiments/E044-nz-panel-analysis/results/summary.json",
+      "bytes": 447,
+      "sha256": "f6ec3b38e5916cf6b55b0d22075e67c9ae7d6a6d660785108a6f2dc0970e53a3"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/case-availability.csv",
+      "immutable_source": "experiments/E044-nz-panel-analysis/results/case-availability.csv",
+      "bytes": 296,
+      "sha256": "bf33582a873573c999e7810b7d7a7263b1d5b91c014094acbcdb522a3853ea87"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E044-nz-panel-analysis/results/case-forecasts.csv.gz",
+      "bytes": 4657177,
+      "sha256": "de1050894de5dd5a0dfea164d41bb7fefef6fab8cfb27186bd48166050d12d1e"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/selector.jsonl",
+      "immutable_source": "experiments/E044-nz-panel-analysis/results/selector.jsonl",
+      "bytes": 1327081,
+      "sha256": "037677d9328e6b98a1b887b60cb657a4f3be61775616fb94ff8f49efd8a93ab4"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/replay-stdout.txt",
+      "immutable_source": "experiments/E044-nz-panel-analysis/stdout.txt",
+      "bytes": 417,
+      "sha256": "cb66144d8aa6391dda92733683aee3c7f2fad189f849afa1b8a9be349a3fc70e"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/comparisons.csv",
+      "immutable_source": "experiments/E044-nz-panel-analysis/results/comparisons.csv",
+      "bytes": 1400248,
+      "sha256": "4dcdefbf44ec050c957da463afd946d32a27a634199a24540fcdf43c1a4b39fe"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/case-scores.csv.gz",
+      "immutable_source": "experiments/E044-nz-panel-analysis/results/case-scores.csv.gz",
+      "bytes": 10356259,
+      "sha256": "033205f5f19da999b9c9fd9b963861cd3dcba1ecb0150086f7eafa1b1636fef5"
+    },
+    {
+      "duplicate": ".verify-work/output/nz/calibration-status.csv.gz",
+      "immutable_source": "experiments/E044-nz-panel-analysis/results/calibration-status.csv.gz",
+      "bytes": 148664,
+      "sha256": "49f3e2db702ab05e46f1dc795819e40cd261206f9b091e508dc5de615f2049b0"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_features/summary.json",
+      "immutable_source": "experiments/E071-nz-pooled-features/summary.json",
+      "bytes": 882,
+      "sha256": "157c1de0fb7439110893c28986c2487d7024f37c4d4c0a05ed94476f4f1c0f20"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_features/features.npz",
+      "immutable_source": "experiments/E071-nz-pooled-features/features.npz",
+      "bytes": 101861,
+      "sha256": "3765fe1503ae7fffa6bbc1600924a69f06b9afa4e1471e157db59ca98eca5289"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_features/test-issues.json",
+      "immutable_source": "experiments/E071-nz-pooled-features/test-issues.json",
+      "bytes": 915,
+      "sha256": "40777a7eb7a59b9662865a5c5402014bda0d379a38379aa5151bce4517e11193"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_features/rows.csv",
+      "immutable_source": "experiments/E071-nz-pooled-features/rows.csv",
+      "bytes": 1091611,
+      "sha256": "c24fd0649ea779b9095a0dedd86a05e063e2ffee1eb1fbc46a663c7e8f2c74f6"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_features/replay-stdout.txt",
+      "immutable_source": "experiments/E071-nz-pooled-features/stdout.txt",
+      "bytes": 724,
+      "sha256": "7106d6676be2c4d3fe2f97f8280e46b6c7ca1dd6b4cd29b42e3882e66e9ab7e0"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_features/panel-config.json",
+      "immutable_source": "experiments/E027-nz-panel-inputs-eligible/panel-config.json",
+      "bytes": 1235,
+      "sha256": "1e29896b019af826e4919c7deee7f4295b8937d32d341872ca4d7a8caf9e84f3"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_features/feature-names.json",
+      "immutable_source": "experiments/E056-pooled-feature-preparation/feature-names.json",
+      "bytes": 630,
+      "sha256": "795505d6ef28b91e8d632ded0daca9bb15821d017c2c7173bf26bb573142cc50"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_features/case-columns.json",
+      "immutable_source": "experiments/E071-nz-pooled-features/case-columns.json",
+      "bytes": 493,
+      "sha256": "e767b6ab633d7662e96b5af5528a57790b9da5d2442979b512640a885f91b384"
+    },
+    {
+      "duplicate": ".verify-work/output/quality/summary.json",
+      "immutable_source": "experiments/E097-input-quality-case-provenance/results/summary.json",
+      "bytes": 282,
+      "sha256": "55bd779cfdef04b1fce73dbb8c72c12e90c7627bcd3f53e3b6bbd3c1018f4e3c"
+    },
+    {
+      "duplicate": ".verify-work/output/quality/replay-stdout.txt",
+      "immutable_source": "experiments/E097-input-quality-case-provenance/stdout.txt",
+      "bytes": 264,
+      "sha256": "b8f37357c8d2834f7342f0bb73b7d349561edf5d2265ebdb1b6cb57934acd8fe"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_site/summary.json",
+      "immutable_source": "experiments/E084-site-growth/results/summary.json",
+      "bytes": 410,
+      "sha256": "df756fd943ec293dd75f68630a7ca2ce7c0a6ecfe0e3d0b0bf2bb3d5c88ca1d4"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_site/growth-summary.csv",
+      "immutable_source": "experiments/E084-site-growth/results/growth-summary.csv",
+      "bytes": 227517,
+      "sha256": "af378f331d857deecefd7c977e39670719b3af13316687e304e16196d4778dfb"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_site/growth-paired.csv",
+      "immutable_source": "experiments/E084-site-growth/results/growth-paired.csv",
+      "bytes": 94691,
+      "sha256": "4592d23911cc46c6efcfb475c749a376403dfc5dfd26fdd29b5ba78b1fc23163"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_site/replay-stdout.txt",
+      "immutable_source": "experiments/E084-site-growth/stdout.txt",
+      "bytes": 362,
+      "sha256": "97038a76affebf85040384563fff43b36049218e1c710a905b8907a695f7b69d"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_site/case-growth.csv.gz",
+      "immutable_source": "experiments/E084-site-growth/results/case-growth.csv.gz",
+      "bytes": 18465818,
+      "sha256": "e68dd12502c19d71e52c34286d38d6fe1f6563a7e4a038ea1dca2eebd3dd4d87"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_site/roc-curves.csv.gz",
+      "immutable_source": "experiments/E084-site-growth/results/roc-curves.csv.gz",
+      "bytes": 76602904,
+      "sha256": "56d1e92e60a7288162ccf21390622525363f0f77c0b8cf66c9bca3bbf628c4c6"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_site/roc-summary.csv",
+      "immutable_source": "experiments/E084-site-growth/results/roc-summary.csv",
+      "bytes": 201097,
+      "sha256": "9c477c6bfebd0fbe2db17262d0fefd014b02421d28afe67ac8ee58a8dd356860"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_nz/model-scores.csv",
+      "immutable_source": "experiments/E085-nz-interval-correction/results/model-scores.csv",
+      "bytes": 42630,
+      "sha256": "01cdfb03b17e63ef1f3590403a1464a78b2e93364817924b6c2a1177d3404b46"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_nz/summary.json",
+      "immutable_source": "experiments/E085-nz-interval-correction/results/summary.json",
+      "bytes": 869,
+      "sha256": "08a63ccf68e03d2cb34791e7e227c36cd16e5706c824b2a98308d3783e3a11cc"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_nz/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E085-nz-interval-correction/results/case-forecasts.csv.gz",
+      "bytes": 4651270,
+      "sha256": "72baac29ed9a38e06eb71892ca46b80cfe6ac73778554b6e60012cb8e5a5d1ec"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_nz/replay-stdout.txt",
+      "immutable_source": "experiments/E085-nz-interval-correction/stdout.txt",
+      "bytes": 713,
+      "sha256": "6392dd9868477d82a88bec01c660c9d043fa14050599bd7e221890f9ec81f999"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_nz/comparisons.csv",
+      "immutable_source": "experiments/E085-nz-interval-correction/results/comparisons.csv",
+      "bytes": 4469964,
+      "sha256": "652d31d345c67543850903e863ecc8f1f0fc47684708d52bf06986a42d61d937"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_model_replay/weeks.json",
+      "immutable_source": "experiments/E088-nz-pooled-model-replay/results/weeks.json",
+      "bytes": 10994,
+      "sha256": "53f355338b46122d8d81cecb38e18f70d83b68fd9d2f40627607b1a4de46797a"
+    },
+    {
+      "duplicate": ".verify-work/output/sensitivity/matched-input-reference-matrix.csv",
+      "immutable_source": "experiments/E038-reference-and-timing-sensitivity/results/matched-input-reference-matrix.csv",
+      "bytes": 14398,
+      "sha256": "6595bda9180e4f1ef935b17d2f326e1772b21cab266f2cc01feaa258ed7e5849"
+    },
+    {
+      "duplicate": ".verify-work/output/sensitivity/summary.json",
+      "immutable_source": "experiments/E038-reference-and-timing-sensitivity/results/summary.json",
+      "bytes": 216,
+      "sha256": "1934dda7e5fdaa1f3b246d3df8d2ee1277cd26aa1b09a7ef0525effdf3d0e563"
+    },
+    {
+      "duplicate": ".verify-work/output/sensitivity/replay-stdout.txt",
+      "immutable_source": "experiments/E038-reference-and-timing-sensitivity/stdout.txt",
+      "bytes": 202,
+      "sha256": "fb079e24e1dd9e503917919335d9e4eadb4b7483cdab8c3c2f9b864a2326dec7"
+    },
+    {
+      "duplicate": ".verify-work/output/sensitivity/context-audit.csv",
+      "immutable_source": "experiments/E038-reference-and-timing-sensitivity/results/context-audit.csv",
+      "bytes": 885543,
+      "sha256": "3e27bc7a6978255b92f1d796d2a5548f01936b4a85e083f92feb336362839c72"
+    },
+    {
+      "duplicate": ".verify-work/output/sensitivity/matched-maturity.csv",
+      "immutable_source": "experiments/E038-reference-and-timing-sensitivity/results/matched-maturity.csv",
+      "bytes": 19651,
+      "sha256": "3f79f5e1e18b82e2cd7fe3881cace8c1d6acaeca3aaa6c3773f02cae363b4bd5"
+    },
+    {
+      "duplicate": ".verify-work/output/sensitivity/information-advance-counts.csv",
+      "immutable_source": "experiments/E038-reference-and-timing-sensitivity/results/information-advance-counts.csv",
+      "bytes": 2546,
+      "sha256": "3a55f27f3efee550aa3961aacd3435bf9709018f961f304a28af90a076d5bf41"
+    },
+    {
+      "duplicate": ".verify-work/output/sensitivity/intended-case-availability.csv",
+      "immutable_source": "experiments/E038-reference-and-timing-sensitivity/results/intended-case-availability.csv",
+      "bytes": 186,
+      "sha256": "b487e85e20ba00eff73d733641892c53596ea564429a43e9a74374630f35b395"
+    },
+    {
+      "duplicate": ".verify-work/output/sensitivity/timestamp-proxy-sensitivity.csv",
+      "immutable_source": "experiments/E038-reference-and-timing-sensitivity/results/timestamp-proxy-sensitivity.csv",
+      "bytes": 408,
+      "sha256": "172c65249baec4bc9f977012a926e2d1d6549dc7c60e4636bd44fc8ee81214a9"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_national/model-scores.csv",
+      "immutable_source": "experiments/E080-national-interval-correction/results/model-scores.csv",
+      "bytes": 42261,
+      "sha256": "6f42a5a63e0b7f7c02baf6ab29811dbd078e91cf0831cf8aa741c97e1ed92120"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_national/summary.json",
+      "immutable_source": "experiments/E080-national-interval-correction/results/summary.json",
+      "bytes": 870,
+      "sha256": "3358efddee2b1ceda3f77b6c20e18ee91f1b0717bb47ef36295e142a734c00d1"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_national/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E080-national-interval-correction/results/case-forecasts.csv.gz",
+      "bytes": 2387041,
+      "sha256": "af988bc86ac6baed21f72bd6193fec6d6f39a84c3da3d85e6e263b08aa4ec37a"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_national/replay-stdout.txt",
+      "immutable_source": "experiments/E080-national-interval-correction/stdout.txt",
+      "bytes": 714,
+      "sha256": "626075906aaaaaef110aa0f0f2d437e5e6b04bec7b472f8ca767dbbe20178856"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_national/comparisons.csv",
+      "immutable_source": "experiments/E080-national-interval-correction/results/comparisons.csv",
+      "bytes": 6864886,
+      "sha256": "d765bdd6ac39d88d4d8be51e2c9879b51a8822190a9049b576089562056da572"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_site/model-scores.csv",
+      "immutable_source": "experiments/E079-site-pooled-analysis/results/model-scores.csv",
+      "bytes": 8706,
+      "sha256": "9569056a7349d9382742450db862610a9b9cc3ad4e812b954ef75d7d2dac8be5"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_site/summary.json",
+      "immutable_source": "experiments/E079-site-pooled-analysis/results/summary.json",
+      "bytes": 342,
+      "sha256": "75861a0b0623a689d6b0f79d477cd525f2d5f08e910939fa33763cb8e6230248"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_site/replay-stdout.txt",
+      "immutable_source": "experiments/E079-site-pooled-analysis/stdout.txt",
+      "bytes": 322,
+      "sha256": "3b75e93a9c1b7ca1b6c71e318977d6d6c7df5cbf8a0caa10bae2509c69e0c00b"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_site/pooled-case-scores.csv.gz",
+      "immutable_source": "experiments/E079-site-pooled-analysis/results/pooled-case-scores.csv.gz",
+      "bytes": 3751859,
+      "sha256": "5ac6525a6ac4cd53105f12820de8654fba27a17dae352543ef84e6e8d54b04fd"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_site/comparisons.csv",
+      "immutable_source": "experiments/E079-site-pooled-analysis/results/comparisons.csv",
+      "bytes": 319288,
+      "sha256": "38ad06fa7dcf48c007a4003a610d22831df8a033ef4940c4bd80335bca64cd66"
+    },
+    {
+      "duplicate": ".verify-work/output/pooled_site/pooled-case-forecasts.csv.gz",
+      "immutable_source": "experiments/E079-site-pooled-analysis/results/pooled-case-forecasts.csv.gz",
+      "bytes": 2308781,
+      "sha256": "000bff3a61d4a5e2a09845df2eca72a0660ab0f7be2767dfc645f557df4dbeb4"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_national/summary.json",
+      "immutable_source": "experiments/E093-national-freshness-interaction/results/summary.json",
+      "bytes": 268,
+      "sha256": "03ac446823a4f6750257c81bb1fa1eea81d728e9c7e170069fac6635d286cf4d"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_national/same-input-checks.json",
+      "immutable_source": "experiments/E093-national-freshness-interaction/results/same-input-checks.json",
+      "bytes": 3635,
+      "sha256": "d27163ffed8161493a944b8fe620761ffd0514d1b84871b76df0a945d86cba77"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_national/four-prediction-availability.csv",
+      "immutable_source": "experiments/E093-national-freshness-interaction/results/four-prediction-availability.csv",
+      "bytes": 1389,
+      "sha256": "51ade02d1c3da347445f7beda3276a06dc0be8e8eb74a05b531eda99d71ada2f"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_national/replay-stdout.txt",
+      "immutable_source": "experiments/E093-national-freshness-interaction/stdout.txt",
+      "bytes": 250,
+      "sha256": "0a104a20f8d654e39897f8c88c58ca4e9514b4403dcb8b25ae11dcb454986457"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_national/comparisons.csv",
+      "immutable_source": "experiments/E093-national-freshness-interaction/results/comparisons.csv",
+      "bytes": 835013,
+      "sha256": "12504d78919c9d9143152cbff8959dc18eeba3f974137aad7c08513d0364e131"
+    },
+    {
+      "duplicate": ".verify-work/output/updates/summary.json",
+      "immutable_source": "experiments/E018-update-decomposition/results/summary.json",
+      "bytes": 189,
+      "sha256": "f0b3ee588056cf6d0f8b34e206b4189619bb82dced2a92f9d922b678685386db"
+    },
+    {
+      "duplicate": ".verify-work/output/updates/case-update-scores.csv.gz",
+      "immutable_source": "experiments/E018-update-decomposition/results/case-update-scores.csv.gz",
+      "bytes": 1244142,
+      "sha256": "55a8312a7e45afdaead4be12487537cc48958dda4072fb7eb8ada62d44639466"
+    },
+    {
+      "duplicate": ".verify-work/output/updates/replay-stdout.txt",
+      "immutable_source": "experiments/E018-update-decomposition/stdout.txt",
+      "bytes": 177,
+      "sha256": "f6348f10457d62a8d2c2286fbe84d3f4a18a32e5887978cd3364e84295d417bf"
+    },
+    {
+      "duplicate": ".verify-work/output/updates/anchored-comparisons.csv",
+      "immutable_source": "experiments/E018-update-decomposition/results/anchored-comparisons.csv",
+      "bytes": 93293,
+      "sha256": "248f852e53f7877c4c0e4c9188453ea12824e1d73f5856beb42308785ed0717f"
+    },
+    {
+      "duplicate": ".verify-work/output/updates/anchor-revision-summary.csv",
+      "immutable_source": "experiments/E018-update-decomposition/results/anchor-revision-summary.csv",
+      "bytes": 6198,
+      "sha256": "93580c85abb13ad68358f6ff1641b286eca6ae7b245391ef7a489f2e5f1556ac"
+    },
+    {
+      "duplicate": ".verify-work/output/updates/update-contributions.csv",
+      "immutable_source": "experiments/E018-update-decomposition/results/update-contributions.csv",
+      "bytes": 139396,
+      "sha256": "4069dcf2e57dc9122f7e845e03cbe6598f294823c0e231a8e807a2bae1d35d7d"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_first_refit/summary.json",
+      "immutable_source": "experiments/E091-nz-pooled-firstweek-refit/summary.json",
+      "bytes": 197,
+      "sha256": "9eac6ce2f50264eab88d02389ee0c92262e7e22c877d7a8e8e0adf61056d3bdf"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_first_refit/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E091-nz-pooled-firstweek-refit/case-forecasts.csv.gz",
+      "bytes": 3198,
+      "sha256": "de2f14efc6eaa2e5af64b58d5c33b90cd706119b2dae8b9940ddfa43aeaf7c55"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_national/summary.json",
+      "immutable_source": "experiments/E082-national-growth-complete/results/summary.json",
+      "bytes": 408,
+      "sha256": "6b70ab4f9ade5eebf5186b5277623f8440937cf369d37e82036bc696661a1778"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_national/growth-summary.csv",
+      "immutable_source": "experiments/E082-national-growth-complete/results/growth-summary.csv",
+      "bytes": 368357,
+      "sha256": "fb7309e3f16d77395c1dc1318e36320bbff7a0e7fec369f719f787c7ad07e8f6"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_national/growth-paired.csv",
+      "immutable_source": "experiments/E037-national-growth-sensitivity/results/growth-paired.csv",
+      "bytes": 164079,
+      "sha256": "03bd7d88316baf0d988c16f463f6520f8a0f5baffbbdc8732bebc4b800f89f8f"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_national/replay-stdout.txt",
+      "immutable_source": "experiments/E082-national-growth-complete/stdout.txt",
+      "bytes": 360,
+      "sha256": "f672d3992e82e462262a11316cc214bf7fba1884ca38cf132f850afee945fa93"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_national/case-growth.csv.gz",
+      "immutable_source": "experiments/E082-national-growth-complete/results/case-growth.csv.gz",
+      "bytes": 859073,
+      "sha256": "b8f3c37286d7d71b4220c7bf0e8dc9ebbbde6cc3d7ab8736da3ee75222f98adf"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_national/roc-curves.csv.gz",
+      "immutable_source": "experiments/E082-national-growth-complete/results/roc-curves.csv.gz",
+      "bytes": 1592433,
+      "sha256": "83f10bc055ae50a99b682ff532afa9b922a7ecf5ba43811710077b907d11ec43"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_national/roc-summary.csv",
+      "immutable_source": "experiments/E082-national-growth-complete/results/roc-summary.csv",
+      "bytes": 262838,
+      "sha256": "f4a21c2710f59f801e0ba7bc8bd4956280df3f458ea4d4e99f3b51620ccb3283"
+    },
+    {
+      "duplicate": ".verify-work/output/site_model_replay/weeks.json",
+      "immutable_source": "experiments/E087-site-pooled-model-replay/results/weeks.json",
+      "bytes": 11304,
+      "sha256": "1f26c04f91af33f69c29dfa802f6f2963ad700ab15a52cfaf63d5b580fb2e46e"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_nz/summary.json",
+      "immutable_source": "experiments/E094-nz-freshness-interaction/results/summary.json",
+      "bytes": 268,
+      "sha256": "201a4245e8712d76946a3fb91789f3951d9265f49b5b34c09fb212f607223d61"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_nz/same-input-checks.json",
+      "immutable_source": "experiments/E094-nz-freshness-interaction/results/same-input-checks.json",
+      "bytes": 4831,
+      "sha256": "53a7563239cc3280559942ef986054aa81f09ab0e5e84a1c917fbd20ba930852"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_nz/four-prediction-availability.csv",
+      "immutable_source": "experiments/E094-nz-freshness-interaction/results/four-prediction-availability.csv",
+      "bytes": 1765,
+      "sha256": "a0d1add7f4dba85dc7c81d59d271dbb8232c2f711a673b75eec6523cd93a994a"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_nz/replay-stdout.txt",
+      "immutable_source": "experiments/E094-nz-freshness-interaction/stdout.txt",
+      "bytes": 250,
+      "sha256": "b40847eb8027cf6a74369f767342bcb22472fa42032d2af71d86b07acd962a45"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_nz/comparisons.csv",
+      "immutable_source": "experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+      "bytes": 1512938,
+      "sha256": "ca9691dc942f0e897434f1512b6964023d007bf0b259f2dc69eb94122e539b38"
+    },
+    {
+      "duplicate": ".verify-work/output/joint/summary.json",
+      "immutable_source": "experiments/E140-joint-comparison-sensitivity/results/summary.json",
+      "bytes": 203,
+      "sha256": "3c768383e369a593574c8492672e4a6334305bff6c1452ea51e76e0cad8502c1"
+    },
+    {
+      "duplicate": ".verify-work/output/joint/family-summary.csv",
+      "immutable_source": "experiments/E140-joint-comparison-sensitivity/results/family-summary.csv",
+      "bytes": 682,
+      "sha256": "75dd58a6b63e4d8e38a6f3ec86e9ce63518fc5c59374c363921cd6f4802238ed"
+    },
+    {
+      "duplicate": ".verify-work/output/joint/replay-stdout.txt",
+      "immutable_source": "experiments/E140-joint-comparison-sensitivity/stdout.txt",
+      "bytes": 189,
+      "sha256": "a7eab0e0e32632b14231172786eb8c2f90d19349e1acb2f55d321e655a1c368b"
+    },
+    {
+      "duplicate": ".verify-work/output/joint/comparison-members.json",
+      "immutable_source": "experiments/E140-joint-comparison-sensitivity/results/comparison-members.json",
+      "bytes": 10067,
+      "sha256": "ea86e9a11aed7ad9c909b4a8f28721838e672daef025497b5e0bec586730ccbc"
+    },
+    {
+      "duplicate": ".verify-work/output/joint/comparisons.csv",
+      "immutable_source": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "bytes": 46611,
+      "sha256": "72a8d1b9948e6e9fb0d3bbfdc2d978f53a3b70830b87c410863a6f708d4433d1"
+    },
+    {
+      "duplicate": ".verify-work/output/history/summary.json",
+      "immutable_source": "experiments/E139-history-matched-analysis/results/summary.json",
+      "bytes": 192,
+      "sha256": "ffc4cd5ff18a62531189f7593822cb3619c411cb1a3cf34db6d66d31a5652d7c"
+    },
+    {
+      "duplicate": ".verify-work/output/history/unchanged-input-checks.json",
+      "immutable_source": "experiments/E139-history-matched-analysis/results/unchanged-input-checks.json",
+      "bytes": 35229,
+      "sha256": "0d1db19cfb51ced51d58192374249ac83c964bd2dacde6267ed9089dd6e6d89e"
+    },
+    {
+      "duplicate": ".verify-work/output/history/replay-stdout.txt",
+      "immutable_source": "experiments/E139-history-matched-analysis/stdout.txt",
+      "bytes": 178,
+      "sha256": "c05cb429932adf26919a4aa38efda6277f86488aaf2543957eb40c59e1754b12"
+    },
+    {
+      "duplicate": ".verify-work/output/history/availability.csv",
+      "immutable_source": "experiments/E139-history-matched-analysis/results/availability.csv",
+      "bytes": 7766,
+      "sha256": "56208b8d648436be19e170ad0beea07d94e9eb903baefd1d6e16841677f68f18"
+    },
+    {
+      "duplicate": ".verify-work/output/history/comparisons.csv",
+      "immutable_source": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "bytes": 4072735,
+      "sha256": "96b41d602484e9dcd6f62a8f5a25dc327cd03d0e7963abbbcfc12e17c73095c0"
+    },
+    {
+      "duplicate": ".verify-work/output/history/original-short-compatibility.csv",
+      "immutable_source": "experiments/E139-history-matched-analysis/results/original-short-compatibility.csv",
+      "bytes": 656,
+      "sha256": "2664f0749a998db07ff99c8e8b8191d30ce26580b04466a7691fada618383fcc"
+    },
+    {
+      "duplicate": ".verify-work/output/extended/model-scores.csv",
+      "immutable_source": "experiments/E022-extra-analysis-fixed/results/model-scores.csv",
+      "bytes": 102169,
+      "sha256": "a3e5d4f26d0734029bad2d032ea537986c2f97e27ee250a6d069856bf00058f2"
+    },
+    {
+      "duplicate": ".verify-work/output/extended/summary.json",
+      "immutable_source": "experiments/E022-extra-analysis-fixed/results/summary.json",
+      "bytes": 276,
+      "sha256": "5f1470d151976d252340e8eccfb13e91deb071c2f3af8cab9e02bcdada95a578"
+    },
+    {
+      "duplicate": ".verify-work/output/extended/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E022-extra-analysis-fixed/results/case-forecasts.csv.gz",
+      "bytes": 3919748,
+      "sha256": "dbdea7a77502ab02a40d1eddaa384e70ac41e94597c57c7d8f68467dbf069713"
+    },
+    {
+      "duplicate": ".verify-work/output/extended/selector.jsonl",
+      "immutable_source": "experiments/E022-extra-analysis-fixed/results/selector.jsonl",
+      "bytes": 598759,
+      "sha256": "86e82cb34636a2eebeeeefbfe307f98e0c82efd90a707b79e3591618ed7ac0d6"
+    },
+    {
+      "duplicate": ".verify-work/output/extended/replay-stdout.txt",
+      "immutable_source": "experiments/E022-extra-analysis-fixed/stdout.txt",
+      "bytes": 258,
+      "sha256": "33292568572d0c3b06e58897c96dda96be63883cafbb5e79ca5c6d490571061e"
+    },
+    {
+      "duplicate": ".verify-work/output/extended/case-extra-scores.csv.gz",
+      "immutable_source": "experiments/E022-extra-analysis-fixed/results/case-extra-scores.csv.gz",
+      "bytes": 6039188,
+      "sha256": "a1ea2f455ce528021bbcd558305362c7f294307a9e96c5f4a3c184b9629db2d8"
+    },
+    {
+      "duplicate": ".verify-work/output/extended/calibration-status.csv",
+      "immutable_source": "experiments/E022-extra-analysis-fixed/results/calibration-status.csv",
+      "bytes": 995563,
+      "sha256": "0770ba24d36188553c387f083c726bf111c9d83526c22c23fd0450f665298085"
+    },
+    {
+      "duplicate": ".verify-work/output/extended/comparisons.csv",
+      "immutable_source": "experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+      "bytes": 2049614,
+      "sha256": "990b79e8e2c3e5cf32019d48757469c180afade8580f6cfc0a333e5409efa362"
+    },
+    {
+      "duplicate": ".verify-work/output/site/model-scores.csv",
+      "immutable_source": "experiments/E072-site-panel-analysis/results/model-scores.csv",
+      "bytes": 20868,
+      "sha256": "280f30375199ed32507d8df95c2af74f1f067e5238ace5b41fde3d602fd4ea7a"
+    },
+    {
+      "duplicate": ".verify-work/output/site/summary.json",
+      "immutable_source": "experiments/E072-site-panel-analysis/results/summary.json",
+      "bytes": 454,
+      "sha256": "03ee703a0f2c82592e02aa403a1666fdca8ba03842e0aa386dddb54f5cb257db"
+    },
+    {
+      "duplicate": ".verify-work/output/site/case-availability.csv",
+      "immutable_source": "experiments/E072-site-panel-analysis/results/case-availability.csv",
+      "bytes": 338,
+      "sha256": "a0885eb0d09f11020e0fd1f6aaff6b581e917ed941453c15ac5c3f874eb553e2"
+    },
+    {
+      "duplicate": ".verify-work/output/site/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E072-site-panel-analysis/results/case-forecasts.csv.gz",
+      "bytes": 74771514,
+      "sha256": "8c7967cd052f0665c160e14b269dc7894c8a1b296353a7031c5b11fb52dad472"
+    },
+    {
+      "duplicate": ".verify-work/output/site/selector.jsonl",
+      "immutable_source": "experiments/E072-site-panel-analysis/results/selector.jsonl",
+      "bytes": 16115556,
+      "sha256": "f186468161ffa470ad2b51b2fe3bdd19ed6dca42c4311cb4182d7679c20896e1"
+    },
+    {
+      "duplicate": ".verify-work/output/site/replay-stdout.txt",
+      "immutable_source": "experiments/E072-site-panel-analysis/stdout.txt",
+      "bytes": 424,
+      "sha256": "8625b3f048d4b7a5b014a28f2643263c20caaeaa63e7831eb347843b7ce77059"
+    },
+    {
+      "duplicate": ".verify-work/output/site/comparisons.csv",
+      "immutable_source": "experiments/E072-site-panel-analysis/results/comparisons.csv",
+      "bytes": 1982262,
+      "sha256": "900fa273db2cd2bd8afa69ce434420d113267b6bce99ac915fe47cd25b427735"
+    },
+    {
+      "duplicate": ".verify-work/output/site/case-scores.csv.gz",
+      "immutable_source": "experiments/E072-site-panel-analysis/results/case-scores.csv.gz",
+      "bytes": 139721941,
+      "sha256": "4901f4331babfcbc11380a9373e63b07c4575ecafc74ae21cae31357ffa6ca26"
+    },
+    {
+      "duplicate": ".verify-work/output/site/calibration-status.csv.gz",
+      "immutable_source": "experiments/E072-site-panel-analysis/results/calibration-status.csv.gz",
+      "bytes": 1990570,
+      "sha256": "8da269dec5bccc881b70f6d0e33b35a7a450de40466a3bdde0e6ce5448fbae6c"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/summary.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/summary.json",
+      "bytes": 127,
+      "sha256": "8a3b7b5d1281bff4370055700cacccc1e21041b56b74a2c62c210b5a1d237059"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/panels.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/panels.json",
+      "bytes": 7655,
+      "sha256": "d212e3f64ea5abca84dfc94eaa85467c5c16680423a5538d26eae95fae8d0ec2"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/replay-stdout.txt",
+      "immutable_source": "experiments/E138-history-native-assembly/stdout.txt",
+      "bytes": 5894,
+      "sha256": "321de7f319027e9fd61cacfe423bb104cb18aa7d27e827a2988b7e4eb83028d3"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/forecast-sources.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/forecast-sources.json",
+      "bytes": 2139,
+      "sha256": "b8ac86c60c8e2d4e4d101b1b5e08e7f0949a93c44edb89a20171d424e8189d9b"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_check_national/summary.json",
+      "immutable_source": "experiments/E092-national-roc-and-alert-check/results/summary.json",
+      "bytes": 317,
+      "sha256": "ef7eb97febd4b956bc3af2d0ffb62add2cff43193b55ad4b32cbfcfdb4128f3e"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_check_national/replay-stdout.txt",
+      "immutable_source": "experiments/E092-national-roc-and-alert-check/stdout.txt",
+      "bytes": 293,
+      "sha256": "afae5e8d9b731a47dce5799a694e0e8c3749bdf5b0c679dca9429eb647f1cb02"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_site/model-scores.csv",
+      "immutable_source": "experiments/E086-site-interval-correction/results/model-scores.csv",
+      "bytes": 10394,
+      "sha256": "44aa11b7dba0921010bce0b8100e4238457ec1dcc0cc54e840ec1c1e9868e1b6"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_site/summary.json",
+      "immutable_source": "experiments/E086-site-interval-correction/results/summary.json",
+      "bytes": 881,
+      "sha256": "478112c8b3621899effb73ff026e8997ac32a9f3741d68585ec51fa1abb1f46f"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_site/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E086-site-interval-correction/results/case-forecasts.csv.gz",
+      "bytes": 57092628,
+      "sha256": "1fbcab0568dcf17934969794311257756ea9ca74a003d91b1856b5a11a926a02"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_site/replay-stdout.txt",
+      "immutable_source": "experiments/E086-site-interval-correction/stdout.txt",
+      "bytes": 725,
+      "sha256": "416136ac47f4ca09d2ea94cda1d14cd7bafbd6b7c9c3b7e911cad0f4eb8ca3b2"
+    },
+    {
+      "duplicate": ".verify-work/output/cqr_site/comparisons.csv",
+      "immutable_source": "experiments/E086-site-interval-correction/results/comparisons.csv",
+      "bytes": 6317702,
+      "sha256": "ae8849a955d756ba84f29926d1e46d34e4786157dc7a431100ebd4b586c8594f"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_site/summary.json",
+      "immutable_source": "experiments/E095-site-freshness-interaction/results/summary.json",
+      "bytes": 268,
+      "sha256": "89dcf282af3307ea44101669dc43230c83366d8908f4ec18735cd14e17235854"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_site/same-input-checks.json",
+      "immutable_source": "experiments/E095-site-freshness-interaction/results/same-input-checks.json",
+      "bytes": 4855,
+      "sha256": "5044ac5a6d2f23039190a5882931e513209370f21efee22abe189e6b7f526dfb"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_site/four-prediction-availability.csv",
+      "immutable_source": "experiments/E095-site-freshness-interaction/results/four-prediction-availability.csv",
+      "bytes": 1847,
+      "sha256": "a8795c1edfe6b3d4f3654cbeac9e868efe4bea954d6d1f0fa4f7f24af5acde46"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_site/replay-stdout.txt",
+      "immutable_source": "experiments/E095-site-freshness-interaction/stdout.txt",
+      "bytes": 250,
+      "sha256": "57fa74938b8045cc259245576542183f7bdc655b0f6f90f9209e6de41ef75e79"
+    },
+    {
+      "duplicate": ".verify-work/output/interaction_site/comparisons.csv",
+      "immutable_source": "experiments/E095-site-freshness-interaction/results/comparisons.csv",
+      "bytes": 1443076,
+      "sha256": "71412822b24ddc48dd014aca457c11e67b565651b95a25b570a39c47376b7fec"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/summary.json",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/summary.json",
+      "bytes": 2000,
+      "sha256": "4223868724d2b8c3af1ec0a6832622f3056493d261016d08dd2aa950efc6c4a1"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/replay-stdout.txt",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/stdout.txt",
+      "bytes": 1576,
+      "sha256": "6beee29c69a9360b69d64f24467c75c7f5b33d6615da48e7f2a11adebc4e063c"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/comparisons.csv",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/comparisons.csv",
+      "bytes": 7515856,
+      "sha256": "334912b1761225035c1c46c792079b989d2a2070e0a491de45a58534320326e7"
+    },
+    {
+      "duplicate": ".verify-work/output/weekly_sample/summary.json",
+      "immutable_source": "experiments/E026-site-aggregation-check/summary.json",
+      "bytes": 544,
+      "sha256": "236d6ecb9c9fc84fea16adee57a98d3154c9a0e9b24a523c7700cbbca2eca1d4"
+    },
+    {
+      "duplicate": ".verify-work/output/weekly_sample/replay-stdout.txt",
+      "immutable_source": "experiments/E026-site-aggregation-check/stdout.txt",
+      "bytes": 506,
+      "sha256": "83e02087781adc0eb90b5951ba5f5d5895260e130e657b62865bcad3a6a0e6ce"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/model-scores.csv",
+      "immutable_source": "experiments/E052-raw-sars-analysis/results/model-scores.csv",
+      "bytes": 81504,
+      "sha256": "b080701346afdc7dfbab33d44eb885ea31a08c15541bc8ee5d331a1931786fcc"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/summary.json",
+      "immutable_source": "experiments/E052-raw-sars-analysis/results/summary.json",
+      "bytes": 443,
+      "sha256": "7a90a7476f3565d3decaf1fb176c6244ee11d22b302b08214ee5df30f518fa58"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/case-availability.csv",
+      "immutable_source": "experiments/E052-raw-sars-analysis/results/case-availability.csv",
+      "bytes": 374,
+      "sha256": "1d86d4d1a664611bb9eee29d1f24725edb0b13b36742d4df2861fa8e2a180906"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E052-raw-sars-analysis/results/case-forecasts.csv.gz",
+      "bytes": 517237,
+      "sha256": "428b86ce8c9b6174c5f224149dc16ab85090efe7fcdd0743527422e5683cbad8"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/selector.jsonl",
+      "immutable_source": "experiments/E052-raw-sars-analysis/results/selector.jsonl",
+      "bytes": 118557,
+      "sha256": "f2ee8b75da021904b8011790647488833458c1afb0b6babd497918096a67b9e4"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/replay-stdout.txt",
+      "immutable_source": "experiments/E052-raw-sars-analysis/stdout.txt",
+      "bytes": 413,
+      "sha256": "1097b5b4d09d39577cf3dda8a175723f7d3f89acff5dff9ae5cd0461b977dbcd"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/comparisons.csv",
+      "immutable_source": "experiments/E052-raw-sars-analysis/results/comparisons.csv",
+      "bytes": 1560766,
+      "sha256": "e7926f03424fb0da0603d57d2af2d0f5fcf12815a77f5bbc77cab12f9917b912"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/case-scores.csv.gz",
+      "immutable_source": "experiments/E052-raw-sars-analysis/results/case-scores.csv.gz",
+      "bytes": 2103433,
+      "sha256": "5f3a67d0d863cb6a907407b007929835eee62bac634e3cff3f36f8a2b40697dc"
+    },
+    {
+      "duplicate": ".verify-work/output/raw/calibration-status.csv.gz",
+      "immutable_source": "experiments/E052-raw-sars-analysis/results/calibration-status.csv.gz",
+      "bytes": 15624,
+      "sha256": "d274937d7f72d626d51f88266206f73f8289367d437fd99acd0d0f1713402cb3"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/model-scores.csv",
+      "immutable_source": "experiments/E011-primary-analysis/results/model-scores.csv",
+      "bytes": 71647,
+      "sha256": "c01776ef37e0b9865cbf2b99a1adfbb09d86adeb57a5b153d7e5e395a419ec07"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/summary.json",
+      "immutable_source": "experiments/E011-primary-analysis/results/summary.json",
+      "bytes": 398,
+      "sha256": "d4c36167746cdb5c752665bce201bd2409f42ba77de50a00fe7e038a77dd3102"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/alerts-paired.csv",
+      "immutable_source": "experiments/E011-primary-analysis/results/alerts-paired.csv",
+      "bytes": 3922,
+      "sha256": "c9b3aafbf0806186d75e00fd2ed5c7ec61fe17fb62ba6730e48ed8a35ec16213"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/replay-stdout.txt",
+      "immutable_source": "experiments/E011-primary-analysis/stdout.txt",
+      "bytes": 372,
+      "sha256": "ce3092e54bac48b045e079b68ff22d48fa9dcda171029a9599ed40266e2b0257"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/alerts.csv",
+      "immutable_source": "experiments/E011-primary-analysis/results/alerts.csv",
+      "bytes": 23190,
+      "sha256": "d7d0872b13c5136c4823d30f927ac359cf8c3f927825f597a54ffde50342dc0c"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/calibration-status.csv",
+      "immutable_source": "experiments/E011-primary-analysis/results/calibration-status.csv",
+      "bytes": 571862,
+      "sha256": "8b1171defd008b44067bc87051a52b3d651539a404a202ca56f0a7a613c27d65"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/comparisons.csv",
+      "immutable_source": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "bytes": 934078,
+      "sha256": "fccafb019ca46bd461f4d73b021b977f1f318699ebb81d1004df1874f5d70f6b"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/case-forecasts.csv",
+      "immutable_source": "experiments/E011-primary-analysis/results/case-forecasts.csv",
+      "bytes": 12934637,
+      "sha256": "4e3bf6c41dc9c5427e2741bae898edfff12c68384edf5936a0ba95d88900cf84"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/case-alerts.csv",
+      "immutable_source": "experiments/E011-primary-analysis/results/case-alerts.csv",
+      "bytes": 6047736,
+      "sha256": "965673eb98a8886e11a8625452dc2bfa354d7157e74918d8b99febec1ea19416"
+    },
+    {
+      "duplicate": ".verify-work/output/primary/case-scores.csv",
+      "immutable_source": "experiments/E011-primary-analysis/results/case-scores.csv",
+      "bytes": 75515175,
+      "sha256": "bd3617585687f2f53b89563d8bf160efced3d9a7aac699904123ae9d17952aca"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_nz/summary.json",
+      "immutable_source": "experiments/E083-nz-growth/results/summary.json",
+      "bytes": 410,
+      "sha256": "ceff4dd49e1284a1007ea834e8c097c74fb85c79c50570d116fe754b14f5569a"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_nz/growth-summary.csv",
+      "immutable_source": "experiments/E083-nz-growth/results/growth-summary.csv",
+      "bytes": 329197,
+      "sha256": "87f869eac85448f03fac8c5c6991d657b45da9b2c9f7ab53f4efc0aa0f53de79"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_nz/growth-paired.csv",
+      "immutable_source": "experiments/E083-nz-growth/results/growth-paired.csv",
+      "bytes": 255541,
+      "sha256": "169e4bb1e7fd09a8114817d8d532235cb8bb19df6b0f4cfe6539f5f7dd67afdb"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_nz/replay-stdout.txt",
+      "immutable_source": "experiments/E083-nz-growth/stdout.txt",
+      "bytes": 362,
+      "sha256": "33eae75d4027276acdc4b37b00db3f255e2cf4caca47bca93b942fa4bc2ebc17"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_nz/case-growth.csv.gz",
+      "immutable_source": "experiments/E083-nz-growth/results/case-growth.csv.gz",
+      "bytes": 1766590,
+      "sha256": "01e42716e480157888990dde10f392951e5845e44e90d89a48ec7a3059de5421"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_nz/roc-curves.csv.gz",
+      "immutable_source": "experiments/E083-nz-growth/results/roc-curves.csv.gz",
+      "bytes": 4640439,
+      "sha256": "4ffe52805cb2c32a424cde68e22acfae2bded1ee8d341c6a61fe905da795f6e3"
+    },
+    {
+      "duplicate": ".verify-work/output/growth_nz/roc-summary.csv",
+      "immutable_source": "experiments/E083-nz-growth/results/roc-summary.csv",
+      "bytes": 280117,
+      "sha256": "124e9c06fe6f92d157dcaa2ce94d07f316abd09b1742403bb61f52ffe3f4edde"
+    },
+    {
+      "duplicate": ".verify-work/output/site_first_refit/summary.json",
+      "immutable_source": "experiments/E090-site-pooled-firstweek-refit/summary.json",
+      "bytes": 199,
+      "sha256": "aa6a518b579fa6c92cb20eb347838971adc14f6e3c1fe6bc66cd626244e584d1"
+    },
+    {
+      "duplicate": ".verify-work/output/site_first_refit/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E090-site-pooled-firstweek-refit/case-forecasts.csv.gz",
+      "bytes": 24290,
+      "sha256": "cfbc7e364aa69a1d4a68d6f252be2c7e5050d5439299bc557307527606df69b7"
+    },
+    {
+      "duplicate": ".verify-work/output/site_first_refit/models/2025-07-04.joblib",
+      "immutable_source": "experiments/E060-pooled-fit-0/models/2025-07-04.joblib",
+      "bytes": 1255883,
+      "sha256": "ff2827d36585eab32e11ddfde349c077bdd4e9ac7e4ee5139edd8e3af62bd041"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/germany_national-shift24/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/germany_national-shift24/case-forecasts.csv.gz",
+      "bytes": 2915505,
+      "sha256": "373ae279ec7c02ae7431264d294cbf355b8cc1267ce3b87501e90b4fed5b27ca"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/germany_national-shift24/selector.jsonl",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/germany_national-shift24/selector.jsonl",
+      "bytes": 634590,
+      "sha256": "c209c6b29e9ac31e158f256d15c4ca93839fe90818dcc04a4481596682b42ed0"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/germany_national-shift24/comparisons.csv",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/germany_national-shift24/comparisons.csv",
+      "bytes": 2315909,
+      "sha256": "7ca0dc4f7ce5128cb08bac0c5d060e943ceb2e64e496e79b48d6b0fcf6a8a77d"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/germany_national-shift24/calibration-status.csv.gz",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/germany_national-shift24/calibration-status.csv.gz",
+      "bytes": 80397,
+      "sha256": "df5f0702cc206085bdc7435f4affb376f9be822c6532c3c7ad43a3c4353e7ddd"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/germany_national-shift48/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/germany_national-shift48/case-forecasts.csv.gz",
+      "bytes": 2782814,
+      "sha256": "9270e321b3f17e4a9f359c26714568d8b484de65712bd2b8f264b6dc83593632"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/germany_national-shift48/selector.jsonl",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/germany_national-shift48/selector.jsonl",
+      "bytes": 634724,
+      "sha256": "d33961f91e896f0e339596385b50e216c9eb1f15127961b749a2190435b9f316"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/germany_national-shift48/comparisons.csv",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/germany_national-shift48/comparisons.csv",
+      "bytes": 2336014,
+      "sha256": "19ba8e1a61aeccdbd6837feaf4a38561fe87eba8a396155318ca0689330810d1"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/germany_national-shift48/calibration-status.csv.gz",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/germany_national-shift48/calibration-status.csv.gz",
+      "bytes": 80104,
+      "sha256": "6a5f79e11674acaf9f697a726060538ff0ea819fc047f06a7d6d882f33af8cd7"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/nz-shift24/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/nz-shift24/case-forecasts.csv.gz",
+      "bytes": 4655154,
+      "sha256": "be69d919baccfc8ed73c0aac08450201e061dcc9ad6399a703b543b1130eb3b4"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/nz-shift24/selector.jsonl",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/nz-shift24/selector.jsonl",
+      "bytes": 1327068,
+      "sha256": "a954d19d90187e49a8348c297de646c5edb974d8340f925a383a98de1557e3ec"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/nz-shift24/comparisons.csv",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/nz-shift24/comparisons.csv",
+      "bytes": 1432529,
+      "sha256": "d3f5a6dfaa8f3b975582687c03123981c6d9167dddb8d73d77c2b12d9f5488bd"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/nz-shift24/calibration-status.csv.gz",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/nz-shift24/calibration-status.csv.gz",
+      "bytes": 148661,
+      "sha256": "6f41352c23cb634d4c88e0da68146d4fc4a631a4ce7c282678fe6a2004e30d71"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/nz-shift48/case-forecasts.csv.gz",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/nz-shift48/case-forecasts.csv.gz",
+      "bytes": 4655148,
+      "sha256": "53753cf3117b052d51380312d6a0c8b589632c8b979138d4aecca2923c55b2a3"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/nz-shift48/selector.jsonl",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/nz-shift24/selector.jsonl",
+      "bytes": 1327068,
+      "sha256": "a954d19d90187e49a8348c297de646c5edb974d8340f925a383a98de1557e3ec"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/nz-shift48/comparisons.csv",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/nz-shift48/comparisons.csv",
+      "bytes": 1432529,
+      "sha256": "1e1b593f4f49520af63ae7af9966c9590fda004aeba8c1dcfe0493fc2092bd39"
+    },
+    {
+      "duplicate": ".verify-work/output/shifted/nz-shift48/calibration-status.csv.gz",
+      "immutable_source": "experiments/E076-shifted-timing-analysis/results/nz-shift24/calibration-status.csv.gz",
+      "bytes": 148661,
+      "sha256": "6f41352c23cb634d4c88e0da68146d4fc4a631a4ce7c282678fe6a2004e30d71"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/national-104/model-scores.csv",
+      "immutable_source": "experiments/E138-history-native-assembly/results/national-104/model-scores.csv",
+      "bytes": 6854,
+      "sha256": "243f7ea6fbe181ebcc78c0ab18b24dac9b465572ee3f85c47f8b84db3f25885b"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/national-104/summary.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/national-104/summary.json",
+      "bytes": 1168,
+      "sha256": "2a628991b8e5832c97322b8ce14b716917c1ae1cfe5d7377b59772d468fa4f2e"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/national-104/case-scores.csv.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/national-104/case-scores.csv.gz",
+      "bytes": 1596039,
+      "sha256": "4f510fa9954a0401d2899008d1615f4bcf3c883bf80459af263b33006f17f0fe"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/national-104/selector.jsonl.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/national-104/selector.jsonl.gz",
+      "bytes": 86433,
+      "sha256": "a8658e76ddad54ce562a025e52d0964ca8036c457b81b704f4c600e2a30cefb5"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/site-256/model-scores.csv",
+      "immutable_source": "experiments/E138-history-native-assembly/results/site-256/model-scores.csv",
+      "bytes": 3400,
+      "sha256": "04f4729d3363942d71e355e0e1232ea30d007580da2b9e4189c2b4f7370450bf"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/site-256/summary.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/site-256/summary.json",
+      "bytes": 1179,
+      "sha256": "af2ba4d9d052a94dae7d87242114ab7c47fdd062cd650c94735c5aaf3d5209fb"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/site-256/case-scores.csv.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/site-256/case-scores.csv.gz",
+      "bytes": 37502142,
+      "sha256": "3ed50deb3d0bc6850d7799dc9b773e21229d9de3ff419ea2677313c87c88fc7c"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/site-256/selector.jsonl.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/site-256/selector.jsonl.gz",
+      "bytes": 2144237,
+      "sha256": "6de0ce622e4a67da312d34ec211ddbd1e0e4c39b881b27a56e0d6fa0cd164808"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/national-256/model-scores.csv",
+      "immutable_source": "experiments/E138-history-native-assembly/results/national-256/model-scores.csv",
+      "bytes": 6858,
+      "sha256": "598ee4ce71c79806d3fca054e4829bc0b0b56b77332b543fd7de9692b3233108"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/national-256/summary.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/national-256/summary.json",
+      "bytes": 1168,
+      "sha256": "0d266d717e3c6f67537704ef7af20db83b6918bbadf27e8d2c86145e78636610"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/national-256/case-scores.csv.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/national-256/case-scores.csv.gz",
+      "bytes": 1605624,
+      "sha256": "937e3f593a8f0541d5344c7b8467c4e74ff0104840e8da687ee51f4a7ceac7c2"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/national-256/selector.jsonl.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/national-256/selector.jsonl.gz",
+      "bytes": 86312,
+      "sha256": "90f0b989829793a375606f7b039a201681f10b743139e7735e0f06b6b7349229"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/site-104/model-scores.csv",
+      "immutable_source": "experiments/E138-history-native-assembly/results/site-104/model-scores.csv",
+      "bytes": 3393,
+      "sha256": "6d60fa4ff2dca770aa6cc6957d667a7ad211a0cae388b1c6891e02d23fa94279"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/site-104/summary.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/site-104/summary.json",
+      "bytes": 1179,
+      "sha256": "d963d601440d65be8307d3ef22d4b00fdd4a13bcfe9e1d3f3dc095026a4d161e"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/site-104/case-scores.csv.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/site-104/case-scores.csv.gz",
+      "bytes": 37472689,
+      "sha256": "c62308244c47df80931b9c93ab8aa3ae11ba05e4ae55a0937638d70dc9866447"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/site-104/selector.jsonl.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/site-104/selector.jsonl.gz",
+      "bytes": 2151770,
+      "sha256": "e7daae8c6266f89d73bb76242c6ea7af08ee390db2336e43e63aa1277dcdb316"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/nz-104/model-scores.csv",
+      "immutable_source": "experiments/E138-history-native-assembly/results/nz-104/model-scores.csv",
+      "bytes": 13528,
+      "sha256": "3496fea132b2018e0a19b075abf4e26428a46a8a5c9f921e7a612a035b2e8558"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/nz-104/summary.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/nz-104/summary.json",
+      "bytes": 1150,
+      "sha256": "cb4d2b611ac91a8af691d9ae7b0bde2591c7cb3a940557fd824928cddcb2ac16"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/nz-104/case-scores.csv.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/nz-104/case-scores.csv.gz",
+      "bytes": 2577894,
+      "sha256": "5747335378756ac8b2eeaea4e1fd9820c4c1d9cf7cf27e71df84800143b9143d"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/nz-104/selector.jsonl.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/nz-104/selector.jsonl.gz",
+      "bytes": 196236,
+      "sha256": "cc54ed8d050a4f0a6ecc9a20d2705871d626959b7717e229668b6589c59085b1"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/nz-256/model-scores.csv",
+      "immutable_source": "experiments/E138-history-native-assembly/results/nz-256/model-scores.csv",
+      "bytes": 12922,
+      "sha256": "f9f8a8b3d58573d4d99b21e59d6352fb0d116c0f6e2413ab174dbfdddc64ab69"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/nz-256/summary.json",
+      "immutable_source": "experiments/E138-history-native-assembly/results/nz-256/summary.json",
+      "bytes": 1150,
+      "sha256": "5828ad207ed662ccc36907b5f37c502940a475e144a5ada5caf012f31975f3b4"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/nz-256/case-scores.csv.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/nz-256/case-scores.csv.gz",
+      "bytes": 2509935,
+      "sha256": "cfd32af3b4333aa60775c1e9c27a560e98c4ed1cb428945080e880bcd8ea9f57"
+    },
+    {
+      "duplicate": ".verify-work/output/history_native/nz-256/selector.jsonl.gz",
+      "immutable_source": "experiments/E138-history-native-assembly/results/nz-256/selector.jsonl.gz",
+      "bytes": 186250,
+      "sha256": "c58df53f63313a2d4ed9be5f4c56c02383585ac57b5660745cc861aa93a4cdb1"
+    },
+    {
+      "duplicate": ".verify-work/output/nz_first_refit/models/2025-07-07.joblib",
+      "immutable_source": "experiments/E091-nz-pooled-firstweek-refit/models/2025-07-07.joblib",
+      "bytes": 472563,
+      "sha256": "5cffde360e1a2a4121a3fa99f05fb446f119aa3ea61bf0262ba1e836f4a5bec5"
+    }
+  ],
+  "files_deduplicated": 215,
+  "logical_duplicate_bytes": 715388629,
+  "storage_before_bytes": 10542866432,
+  "storage_after_bytes": 9781202944,
+  "all_contents_preserved_exactly": true,
+  "first_replay_completed_before_deduplication": true,
+  "new_retry_will_use_fresh_output_directory": true
+}

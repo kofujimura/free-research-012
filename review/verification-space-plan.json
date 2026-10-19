@@ -1,0 +1,23 @@
+{
+  "observed_at_utc": "2026-10-19T02:35:13Z",
+  "original_tracked_working_bytes": 2746895026,
+  "verification_selected_bytes": 1194522666,
+  "omitted_files": 167,
+  "omission_reasons": {
+    "Raw snapshots unused by the predefined four-version aggregation check": 75,
+    "Derived case intermediates regenerated before downstream use": 26,
+    "Native-inference batches unused by saved-output verification": 55
+  },
+  "required_raw_versions": [
+    "data/amelag/sites/0ebb01d422cfc1336c86375c1cf04c975d3d6686.tsv.gz",
+    "data/amelag/sites/6586326ea292f4bfa243d8444d1efc8f4fef772d.tsv.gz",
+    "data/amelag/sites/6f630bfad8c554a72f0e4bd557df211eef18b923.tsv.gz",
+    "data/amelag/sites/97087a2f77b7ff6b20f4c6826d05cf4d7ddbf8de.tsv.gz"
+  ],
+  "git_objects_shared": true,
+  "not_a_full_raw_data_replication": true,
+  "expected_replay_output_upper_estimate_bytes": 850000000,
+  "updated_at_utc": "2026-10-19T02:38:16Z",
+  "additional_omissions": "Pilot-only tiny weight and PDF literature bodies unused by numerical verification; retained in original directory and Git. Citation reading is a separate manual self-check.",
+  "additional_omission_bytes": 99610684
+}

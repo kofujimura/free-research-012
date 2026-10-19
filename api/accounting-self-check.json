@@ -1,0 +1,11 @@
+{
+  "kind": "software accounting check, no API call",
+  "known_test_input_tokens": 1000000,
+  "known_test_cached_tokens": 100000,
+  "known_test_output_tokens": 500000,
+  "known_test_web_calls": 2,
+  "expected_usd": "34.12",
+  "computed_usd": "34.12",
+  "unexpected_tier_not_priced": true,
+  "note": "Synthetic bookkeeping check only; no charge and no research observation."
+}

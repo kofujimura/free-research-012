@@ -1,0 +1,18 @@
+{
+  "issues": 84,
+  "unique_inputs": 45,
+  "case_rows": 504,
+  "case_status": {
+    "ok": 306,
+    "no_source_release": 198
+  },
+  "known_target_cases": 0,
+  "horizon_max": 9.0,
+  "truth_missing_by_lag": {
+    "28": 61,
+    "56": 47,
+    "84": 46,
+    "latest": 0
+  },
+  "freeze": "2026-10-14 11:02:32+00:00"
+}

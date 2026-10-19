@@ -1,0 +1,26 @@
+[
+  {
+    "name": "germany_national",
+    "panel": "experiments/E007-prepare-inputs-fixed",
+    "scores": [
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/case-scores.csv",
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/extended/case-extra-scores.csv.gz"
+    ]
+  },
+  {
+    "name": "nz",
+    "panel": "experiments/E027-nz-panel-inputs-eligible",
+    "scores": [
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/nz/case-scores.csv.gz",
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/pooled_nz/pooled-case-scores.csv.gz"
+    ]
+  },
+  {
+    "name": "germany_sites",
+    "panel": "experiments/E024-site-panel-inputs",
+    "scores": [
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/site/case-scores.csv.gz",
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/pooled_site/pooled-case-scores.csv.gz"
+    ]
+  }
+]

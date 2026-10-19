@@ -1,0 +1,6 @@
+dataset,status,n,known_target
+germany_national,ok,1044,0
+germany_sites,horizon_outside_plan,789,0
+germany_sites,insufficient_real_observations,36,0
+germany_sites,ok,26493,0
+nz,ok,2052,0

@@ -1,0 +1,42 @@
+{
+  "experiment_id": "E044-nz-panel-analysis",
+  "plan_path": "protocol/panel-analysis-spec.md",
+  "plan_commit": "0a3ce3f26bf53e41de7b398e9673d81fb74b4c88",
+  "plan_sha256": "03de54db09d4f0178f8edcde42ce5854b7dc643e9ed817d5067c7ccdbc24a520",
+  "code_commit": "0a3ce3f26bf53e41de7b398e9673d81fb74b4c88",
+  "command": [
+    ".venv/bin/python",
+    "scripts/panel_analysis.py",
+    "--panel",
+    "experiments/E027-nz-panel-inputs-eligible",
+    "--forecast-dir",
+    "experiments/E039-nz-statistical",
+    "--forecast-dir",
+    "experiments/E040-nz-chronos",
+    "--forecast-dir",
+    "experiments/E041-nz-timesfm",
+    "--forecast-dir",
+    "experiments/E043-nz-extra",
+    "--out",
+    "experiments/E044-nz-panel-analysis/results"
+  ],
+  "started_at_utc": "2026-10-18T20:47:23Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa",
+    "experiments/E027-nz-panel-inputs-eligible/cases.csv": "da3af8fdbf6c719678bafd61b04c49c35d5c6cc26e4e8839163023b80d34faae",
+    "experiments/E027-nz-panel-inputs-eligible/truth.csv": "541ab531c3378e27a0dd2d893e45885158705c49b1a4cc8eb43d44013cdb1505",
+    "experiments/E039-nz-statistical/forecasts.jsonl": "7250d4f0ed0d243274dd1a3eb5d5787c24958d894967f520fd29ce19d30db308",
+    "experiments/E040-nz-chronos/forecasts.jsonl": "836d6ef7b3c11b7734b0962e1d3095d5d3e297a1825a60d4aa2982309231b6b1",
+    "experiments/E041-nz-timesfm/forecasts.jsonl": "65bba2657bb2c7c41d466c82f8340af1efa76d7ab06082e45a387000ecf69d03",
+    "experiments/E043-nz-extra/forecasts.jsonl": "e87ba833a0b6c09ceca44850acebe6f2a62ecae12d8d03a6ce1517b5499e2f61"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52589,
+  "storage_before_bytes_du": 6789173248,
+  "child_pid": 52595,
+  "ended_at_utc": "2026-10-18T20:47:50Z",
+  "elapsed_seconds": 26.73219929204788,
+  "returncode": 0
+}

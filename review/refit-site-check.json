@@ -1,0 +1,8 @@
+{
+  "issue_weeks": 1,
+  "prediction_rows": 471,
+  "quantiles_per_row": 9,
+  "max_absolute_quantile_difference": 0.0,
+  "refitted_from_features": true,
+  "independent_external_replication": false
+}

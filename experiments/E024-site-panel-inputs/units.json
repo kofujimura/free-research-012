@@ -1,0 +1,1258 @@
+[
+  {
+    "unit_id": "901033a8009abf15|Influenza A",
+    "site_id": "901033a8009abf15",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 102806.0
+  },
+  {
+    "unit_id": "901033a8009abf15|RSV A/B",
+    "site_id": "901033a8009abf15",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 102806.0
+  },
+  {
+    "unit_id": "901033a8009abf15|SARS-CoV-2",
+    "site_id": "901033a8009abf15",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 102806.0
+  },
+  {
+    "unit_id": "7401ba2d22d623a1|Influenza A",
+    "site_id": "7401ba2d22d623a1",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 380000.0
+  },
+  {
+    "unit_id": "7401ba2d22d623a1|RSV A/B",
+    "site_id": "7401ba2d22d623a1",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 380000.0
+  },
+  {
+    "unit_id": "7401ba2d22d623a1|SARS-CoV-2",
+    "site_id": "7401ba2d22d623a1",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 380000.0
+  },
+  {
+    "unit_id": "0b11fffaf3659213|Influenza A",
+    "site_id": "0b11fffaf3659213",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 88906.0
+  },
+  {
+    "unit_id": "0b11fffaf3659213|RSV A/B",
+    "site_id": "0b11fffaf3659213",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 88906.0
+  },
+  {
+    "unit_id": "0b11fffaf3659213|SARS-CoV-2",
+    "site_id": "0b11fffaf3659213",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 88906.0
+  },
+  {
+    "unit_id": "3400ae53691f3e29|SARS-CoV-2",
+    "site_id": "3400ae53691f3e29",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 1500000.0
+  },
+  {
+    "unit_id": "770ea8cf9d22c266|SARS-CoV-2",
+    "site_id": "770ea8cf9d22c266",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 650000.0
+  },
+  {
+    "unit_id": "58cb1aab2a8f6a45|SARS-CoV-2",
+    "site_id": "58cb1aab2a8f6a45",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 1586494.0
+  },
+  {
+    "unit_id": "d749dd087c542abf|Influenza A",
+    "site_id": "d749dd087c542abf",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 732616.0
+  },
+  {
+    "unit_id": "d749dd087c542abf|SARS-CoV-2",
+    "site_id": "d749dd087c542abf",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 732616.0
+  },
+  {
+    "unit_id": "a925c3f05abae7c2|Influenza A",
+    "site_id": "a925c3f05abae7c2",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 82881.0
+  },
+  {
+    "unit_id": "a925c3f05abae7c2|SARS-CoV-2",
+    "site_id": "a925c3f05abae7c2",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 82881.0
+  },
+  {
+    "unit_id": "9021c576a0364590|Influenza A",
+    "site_id": "9021c576a0364590",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 280000.0
+  },
+  {
+    "unit_id": "9021c576a0364590|SARS-CoV-2",
+    "site_id": "9021c576a0364590",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 280000.0
+  },
+  {
+    "unit_id": "5d2f597198f41ba2|Influenza A",
+    "site_id": "5d2f597198f41ba2",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 595000.0
+  },
+  {
+    "unit_id": "5d2f597198f41ba2|SARS-CoV-2",
+    "site_id": "5d2f597198f41ba2",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 595000.0
+  },
+  {
+    "unit_id": "aab588aaffc9c028|Influenza A",
+    "site_id": "aab588aaffc9c028",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 150000.0
+  },
+  {
+    "unit_id": "aab588aaffc9c028|SARS-CoV-2",
+    "site_id": "aab588aaffc9c028",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 150000.0
+  },
+  {
+    "unit_id": "c522600e2d224619|Influenza A",
+    "site_id": "c522600e2d224619",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 83000.0
+  },
+  {
+    "unit_id": "c522600e2d224619|RSV A/B",
+    "site_id": "c522600e2d224619",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 83000.0
+  },
+  {
+    "unit_id": "c522600e2d224619|SARS-CoV-2",
+    "site_id": "c522600e2d224619",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 83000.0
+  },
+  {
+    "unit_id": "462610e008f15303|Influenza A",
+    "site_id": "462610e008f15303",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 56812.0
+  },
+  {
+    "unit_id": "462610e008f15303|SARS-CoV-2",
+    "site_id": "462610e008f15303",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 56812.0
+  },
+  {
+    "unit_id": "6bfb0f0d169debc0|Influenza A",
+    "site_id": "6bfb0f0d169debc0",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 399425.0
+  },
+  {
+    "unit_id": "6bfb0f0d169debc0|SARS-CoV-2",
+    "site_id": "6bfb0f0d169debc0",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 399425.0
+  },
+  {
+    "unit_id": "7591a163b7111c7e|Influenza A",
+    "site_id": "7591a163b7111c7e",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 113439.0
+  },
+  {
+    "unit_id": "7591a163b7111c7e|SARS-CoV-2",
+    "site_id": "7591a163b7111c7e",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 113439.0
+  },
+  {
+    "unit_id": "0b9b502487a1318b|Influenza A",
+    "site_id": "0b9b502487a1318b",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 700000.0
+  },
+  {
+    "unit_id": "0b9b502487a1318b|SARS-CoV-2",
+    "site_id": "0b9b502487a1318b",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 700000.0
+  },
+  {
+    "unit_id": "7b3dbe998be46adf|Influenza A",
+    "site_id": "7b3dbe998be46adf",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 242172.0
+  },
+  {
+    "unit_id": "7b3dbe998be46adf|SARS-CoV-2",
+    "site_id": "7b3dbe998be46adf",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 242172.0
+  },
+  {
+    "unit_id": "4ce976d6a76ddfc4|Influenza A",
+    "site_id": "4ce976d6a76ddfc4",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 906222.0
+  },
+  {
+    "unit_id": "4ce976d6a76ddfc4|SARS-CoV-2",
+    "site_id": "4ce976d6a76ddfc4",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 906222.0
+  },
+  {
+    "unit_id": "17f522b62d700bb9|Influenza A",
+    "site_id": "17f522b62d700bb9",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 300000.0
+  },
+  {
+    "unit_id": "17f522b62d700bb9|SARS-CoV-2",
+    "site_id": "17f522b62d700bb9",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 300000.0
+  },
+  {
+    "unit_id": "61e3adff4e1b066d|Influenza A",
+    "site_id": "61e3adff4e1b066d",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 170332.0
+  },
+  {
+    "unit_id": "61e3adff4e1b066d|RSV A/B",
+    "site_id": "61e3adff4e1b066d",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 170332.0
+  },
+  {
+    "unit_id": "61e3adff4e1b066d|SARS-CoV-2",
+    "site_id": "61e3adff4e1b066d",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 170332.0
+  },
+  {
+    "unit_id": "174064be3ec3209b|Influenza A",
+    "site_id": "174064be3ec3209b",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 65444.0
+  },
+  {
+    "unit_id": "174064be3ec3209b|SARS-CoV-2",
+    "site_id": "174064be3ec3209b",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 65444.0
+  },
+  {
+    "unit_id": "f65d594b160f20d6|Influenza A",
+    "site_id": "f65d594b160f20d6",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 588252.0
+  },
+  {
+    "unit_id": "f65d594b160f20d6|SARS-CoV-2",
+    "site_id": "f65d594b160f20d6",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 588252.0
+  },
+  {
+    "unit_id": "c39f6649088e817b|Influenza A",
+    "site_id": "c39f6649088e817b",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 714479.0
+  },
+  {
+    "unit_id": "c39f6649088e817b|SARS-CoV-2",
+    "site_id": "c39f6649088e817b",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 714479.0
+  },
+  {
+    "unit_id": "cb9510bfb520291f|Influenza A",
+    "site_id": "cb9510bfb520291f",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 51617.0
+  },
+  {
+    "unit_id": "cb9510bfb520291f|RSV A/B",
+    "site_id": "cb9510bfb520291f",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 51617.0
+  },
+  {
+    "unit_id": "cb9510bfb520291f|SARS-CoV-2",
+    "site_id": "cb9510bfb520291f",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 51617.0
+  },
+  {
+    "unit_id": "cdf8c4c3390e66b0|Influenza A",
+    "site_id": "cdf8c4c3390e66b0",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 101650.0
+  },
+  {
+    "unit_id": "cdf8c4c3390e66b0|SARS-CoV-2",
+    "site_id": "cdf8c4c3390e66b0",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 101650.0
+  },
+  {
+    "unit_id": "716601ab7c571b0d|Influenza A",
+    "site_id": "716601ab7c571b0d",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 278000.0
+  },
+  {
+    "unit_id": "716601ab7c571b0d|RSV A/B",
+    "site_id": "716601ab7c571b0d",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 278000.0
+  },
+  {
+    "unit_id": "716601ab7c571b0d|SARS-CoV-2",
+    "site_id": "716601ab7c571b0d",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 278000.0
+  },
+  {
+    "unit_id": "07f931791d28df36|Influenza A",
+    "site_id": "07f931791d28df36",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 300000.0
+  },
+  {
+    "unit_id": "07f931791d28df36|RSV A/B",
+    "site_id": "07f931791d28df36",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 300000.0
+  },
+  {
+    "unit_id": "07f931791d28df36|SARS-CoV-2",
+    "site_id": "07f931791d28df36",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 300000.0
+  },
+  {
+    "unit_id": "6b66ef74e61a0302|Influenza A",
+    "site_id": "6b66ef74e61a0302",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 170000.0
+  },
+  {
+    "unit_id": "6b66ef74e61a0302|SARS-CoV-2",
+    "site_id": "6b66ef74e61a0302",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 170000.0
+  },
+  {
+    "unit_id": "0a654b3032812f10|Influenza A",
+    "site_id": "0a654b3032812f10",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 187768.0
+  },
+  {
+    "unit_id": "0a654b3032812f10|SARS-CoV-2",
+    "site_id": "0a654b3032812f10",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 187768.0
+  },
+  {
+    "unit_id": "809e0e59730eec76|Influenza A",
+    "site_id": "809e0e59730eec76",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 337000.0
+  },
+  {
+    "unit_id": "809e0e59730eec76|RSV A/B",
+    "site_id": "809e0e59730eec76",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 337000.0
+  },
+  {
+    "unit_id": "809e0e59730eec76|SARS-CoV-2",
+    "site_id": "809e0e59730eec76",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 337000.0
+  },
+  {
+    "unit_id": "e5073a2d2a303433|Influenza A",
+    "site_id": "e5073a2d2a303433",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 581423.0
+  },
+  {
+    "unit_id": "e5073a2d2a303433|SARS-CoV-2",
+    "site_id": "e5073a2d2a303433",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 581423.0
+  },
+  {
+    "unit_id": "4fce5566db473875|Influenza A",
+    "site_id": "4fce5566db473875",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 1464784.0
+  },
+  {
+    "unit_id": "4fce5566db473875|SARS-CoV-2",
+    "site_id": "4fce5566db473875",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 1464784.0
+  },
+  {
+    "unit_id": "bb8437e25f28cd6f|Influenza A",
+    "site_id": "bb8437e25f28cd6f",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 437416.0
+  },
+  {
+    "unit_id": "bb8437e25f28cd6f|SARS-CoV-2",
+    "site_id": "bb8437e25f28cd6f",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 437416.0
+  },
+  {
+    "unit_id": "923a2cf2ff4c884c|Influenza A",
+    "site_id": "923a2cf2ff4c884c",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 303144.0
+  },
+  {
+    "unit_id": "923a2cf2ff4c884c|SARS-CoV-2",
+    "site_id": "923a2cf2ff4c884c",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 303144.0
+  },
+  {
+    "unit_id": "515365cb6ee19210|Influenza A",
+    "site_id": "515365cb6ee19210",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 161477.0
+  },
+  {
+    "unit_id": "515365cb6ee19210|RSV A/B",
+    "site_id": "515365cb6ee19210",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 161477.0
+  },
+  {
+    "unit_id": "515365cb6ee19210|SARS-CoV-2",
+    "site_id": "515365cb6ee19210",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 161477.0
+  },
+  {
+    "unit_id": "4ec6ef75d4332b29|Influenza A",
+    "site_id": "4ec6ef75d4332b29",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 540000.0
+  },
+  {
+    "unit_id": "4ec6ef75d4332b29|SARS-CoV-2",
+    "site_id": "4ec6ef75d4332b29",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 540000.0
+  },
+  {
+    "unit_id": "a9ce61fa4bbf1ae9|Influenza A",
+    "site_id": "a9ce61fa4bbf1ae9",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 100000.0
+  },
+  {
+    "unit_id": "a9ce61fa4bbf1ae9|RSV A/B",
+    "site_id": "a9ce61fa4bbf1ae9",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 100000.0
+  },
+  {
+    "unit_id": "a9ce61fa4bbf1ae9|SARS-CoV-2",
+    "site_id": "a9ce61fa4bbf1ae9",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 100000.0
+  },
+  {
+    "unit_id": "c96b14d4d85c15e8|Influenza A",
+    "site_id": "c96b14d4d85c15e8",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 177591.0
+  },
+  {
+    "unit_id": "c96b14d4d85c15e8|RSV A/B",
+    "site_id": "c96b14d4d85c15e8",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 177591.0
+  },
+  {
+    "unit_id": "c96b14d4d85c15e8|SARS-CoV-2",
+    "site_id": "c96b14d4d85c15e8",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 177591.0
+  },
+  {
+    "unit_id": "75eb8758c39a97bb|Influenza A",
+    "site_id": "75eb8758c39a97bb",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 116186.0
+  },
+  {
+    "unit_id": "75eb8758c39a97bb|SARS-CoV-2",
+    "site_id": "75eb8758c39a97bb",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 116186.0
+  },
+  {
+    "unit_id": "b6ed32a16c548340|SARS-CoV-2",
+    "site_id": "b6ed32a16c548340",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 140000.0
+  },
+  {
+    "unit_id": "f54f81405b9f63b0|Influenza A",
+    "site_id": "f54f81405b9f63b0",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 500000.0
+  },
+  {
+    "unit_id": "f54f81405b9f63b0|RSV A/B",
+    "site_id": "f54f81405b9f63b0",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 500000.0
+  },
+  {
+    "unit_id": "f54f81405b9f63b0|SARS-CoV-2",
+    "site_id": "f54f81405b9f63b0",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 500000.0
+  },
+  {
+    "unit_id": "a517db5aa0213b68|Influenza A",
+    "site_id": "a517db5aa0213b68",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 271330.0
+  },
+  {
+    "unit_id": "a517db5aa0213b68|SARS-CoV-2",
+    "site_id": "a517db5aa0213b68",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 271330.0
+  },
+  {
+    "unit_id": "2cb18a77a07e31ff|Influenza A",
+    "site_id": "2cb18a77a07e31ff",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 351644.0
+  },
+  {
+    "unit_id": "2cb18a77a07e31ff|SARS-CoV-2",
+    "site_id": "2cb18a77a07e31ff",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 351644.0
+  },
+  {
+    "unit_id": "3a94f389a59a00d9|SARS-CoV-2",
+    "site_id": "3a94f389a59a00d9",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 107200.0
+  },
+  {
+    "unit_id": "430b4fc55e4ef149|Influenza A",
+    "site_id": "430b4fc55e4ef149",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 863455.0
+  },
+  {
+    "unit_id": "430b4fc55e4ef149|SARS-CoV-2",
+    "site_id": "430b4fc55e4ef149",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 863455.0
+  },
+  {
+    "unit_id": "2318776eed9ae62e|Influenza A",
+    "site_id": "2318776eed9ae62e",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 606548.0
+  },
+  {
+    "unit_id": "2318776eed9ae62e|SARS-CoV-2",
+    "site_id": "2318776eed9ae62e",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 606548.0
+  },
+  {
+    "unit_id": "a0422f4e3708caab|SARS-CoV-2",
+    "site_id": "a0422f4e3708caab",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 250000.0
+  },
+  {
+    "unit_id": "01b5709c0c75c629|Influenza A",
+    "site_id": "01b5709c0c75c629",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 411656.0
+  },
+  {
+    "unit_id": "01b5709c0c75c629|SARS-CoV-2",
+    "site_id": "01b5709c0c75c629",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 411656.0
+  },
+  {
+    "unit_id": "c075b9c24a3d0f0c|Influenza A",
+    "site_id": "c075b9c24a3d0f0c",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 1240000.0
+  },
+  {
+    "unit_id": "c075b9c24a3d0f0c|RSV A/B",
+    "site_id": "c075b9c24a3d0f0c",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 1240000.0
+  },
+  {
+    "unit_id": "c075b9c24a3d0f0c|SARS-CoV-2",
+    "site_id": "c075b9c24a3d0f0c",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 1240000.0
+  },
+  {
+    "unit_id": "3c8fe923b0e1e864|Influenza A",
+    "site_id": "3c8fe923b0e1e864",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 220000.0
+  },
+  {
+    "unit_id": "3c8fe923b0e1e864|RSV A/B",
+    "site_id": "3c8fe923b0e1e864",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 220000.0
+  },
+  {
+    "unit_id": "3c8fe923b0e1e864|SARS-CoV-2",
+    "site_id": "3c8fe923b0e1e864",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 220000.0
+  },
+  {
+    "unit_id": "5e4922fdada43c9a|Influenza A",
+    "site_id": "5e4922fdada43c9a",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 588807.0
+  },
+  {
+    "unit_id": "5e4922fdada43c9a|RSV A/B",
+    "site_id": "5e4922fdada43c9a",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 588807.0
+  },
+  {
+    "unit_id": "5e4922fdada43c9a|SARS-CoV-2",
+    "site_id": "5e4922fdada43c9a",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 588807.0
+  },
+  {
+    "unit_id": "a10c4a6c0fe35f48|Influenza A",
+    "site_id": "a10c4a6c0fe35f48",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 120000.0
+  },
+  {
+    "unit_id": "a10c4a6c0fe35f48|RSV A/B",
+    "site_id": "a10c4a6c0fe35f48",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 120000.0
+  },
+  {
+    "unit_id": "a10c4a6c0fe35f48|SARS-CoV-2",
+    "site_id": "a10c4a6c0fe35f48",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 120000.0
+  },
+  {
+    "unit_id": "cce2e7513866758a|Influenza A",
+    "site_id": "cce2e7513866758a",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 170000.0
+  },
+  {
+    "unit_id": "cce2e7513866758a|SARS-CoV-2",
+    "site_id": "cce2e7513866758a",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 170000.0
+  },
+  {
+    "unit_id": "3d8c81428518210f|Influenza A",
+    "site_id": "3d8c81428518210f",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 54000.0
+  },
+  {
+    "unit_id": "3d8c81428518210f|RSV A/B",
+    "site_id": "3d8c81428518210f",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 54000.0
+  },
+  {
+    "unit_id": "3d8c81428518210f|SARS-CoV-2",
+    "site_id": "3d8c81428518210f",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 54000.0
+  },
+  {
+    "unit_id": "bdfaa77e44431e47|Influenza A",
+    "site_id": "bdfaa77e44431e47",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 125000.0
+  },
+  {
+    "unit_id": "bdfaa77e44431e47|RSV A/B",
+    "site_id": "bdfaa77e44431e47",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 125000.0
+  },
+  {
+    "unit_id": "bdfaa77e44431e47|SARS-CoV-2",
+    "site_id": "bdfaa77e44431e47",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 125000.0
+  },
+  {
+    "unit_id": "08d2bc3ea580fea0|Influenza A",
+    "site_id": "08d2bc3ea580fea0",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 78000.0
+  },
+  {
+    "unit_id": "08d2bc3ea580fea0|SARS-CoV-2",
+    "site_id": "08d2bc3ea580fea0",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 78000.0
+  },
+  {
+    "unit_id": "24a418112adac08e|Influenza A",
+    "site_id": "24a418112adac08e",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 279474.0
+  },
+  {
+    "unit_id": "24a418112adac08e|RSV A/B",
+    "site_id": "24a418112adac08e",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 279474.0
+  },
+  {
+    "unit_id": "24a418112adac08e|SARS-CoV-2",
+    "site_id": "24a418112adac08e",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 279474.0
+  },
+  {
+    "unit_id": "bff2ed00b5133551|Influenza A",
+    "site_id": "bff2ed00b5133551",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 240420.0
+  },
+  {
+    "unit_id": "bff2ed00b5133551|SARS-CoV-2",
+    "site_id": "bff2ed00b5133551",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 240420.0
+  },
+  {
+    "unit_id": "c8c9918ae2770837|Influenza A",
+    "site_id": "c8c9918ae2770837",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 123994.0
+  },
+  {
+    "unit_id": "c8c9918ae2770837|SARS-CoV-2",
+    "site_id": "c8c9918ae2770837",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 123994.0
+  },
+  {
+    "unit_id": "4198f83ca05d839f|Influenza A",
+    "site_id": "4198f83ca05d839f",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 82500.0
+  },
+  {
+    "unit_id": "4198f83ca05d839f|RSV A/B",
+    "site_id": "4198f83ca05d839f",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 82500.0
+  },
+  {
+    "unit_id": "4198f83ca05d839f|SARS-CoV-2",
+    "site_id": "4198f83ca05d839f",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 82500.0
+  },
+  {
+    "unit_id": "7955de0e8870b088|Influenza A",
+    "site_id": "7955de0e8870b088",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 129460.0
+  },
+  {
+    "unit_id": "7955de0e8870b088|SARS-CoV-2",
+    "site_id": "7955de0e8870b088",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 129460.0
+  },
+  {
+    "unit_id": "8e71884bd15a4ccc|SARS-CoV-2",
+    "site_id": "8e71884bd15a4ccc",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 70000.0
+  },
+  {
+    "unit_id": "36a8925fc8218b61|Influenza A",
+    "site_id": "36a8925fc8218b61",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 65142.0
+  },
+  {
+    "unit_id": "36a8925fc8218b61|RSV A/B",
+    "site_id": "36a8925fc8218b61",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 65142.0
+  },
+  {
+    "unit_id": "36a8925fc8218b61|SARS-CoV-2",
+    "site_id": "36a8925fc8218b61",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 65142.0
+  },
+  {
+    "unit_id": "a3fe1105162bdbc3|SARS-CoV-2",
+    "site_id": "a3fe1105162bdbc3",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 100000.0
+  },
+  {
+    "unit_id": "3f92384291d87f68|Influenza A",
+    "site_id": "3f92384291d87f68",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 58895.0
+  },
+  {
+    "unit_id": "3f92384291d87f68|RSV A/B",
+    "site_id": "3f92384291d87f68",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 58895.0
+  },
+  {
+    "unit_id": "3f92384291d87f68|SARS-CoV-2",
+    "site_id": "3f92384291d87f68",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 58895.0
+  },
+  {
+    "unit_id": "019ef7baf5f11c39|Influenza A",
+    "site_id": "019ef7baf5f11c39",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 600000.0
+  },
+  {
+    "unit_id": "019ef7baf5f11c39|RSV A/B",
+    "site_id": "019ef7baf5f11c39",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 600000.0
+  },
+  {
+    "unit_id": "019ef7baf5f11c39|SARS-CoV-2",
+    "site_id": "019ef7baf5f11c39",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 600000.0
+  },
+  {
+    "unit_id": "fa9a9adc0b0b88c9|SARS-CoV-2",
+    "site_id": "fa9a9adc0b0b88c9",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 97927.0
+  },
+  {
+    "unit_id": "dfbd97217dae4f6d|Influenza A",
+    "site_id": "dfbd97217dae4f6d",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 105000.0
+  },
+  {
+    "unit_id": "dfbd97217dae4f6d|RSV A/B",
+    "site_id": "dfbd97217dae4f6d",
+    "pathogen": "RSV A/B",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 105000.0
+  },
+  {
+    "unit_id": "dfbd97217dae4f6d|SARS-CoV-2",
+    "site_id": "dfbd97217dae4f6d",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": false,
+    "cohort_population": 105000.0
+  },
+  {
+    "unit_id": "fd47a449b21223c7|Influenza A",
+    "site_id": "fd47a449b21223c7",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 177681.0
+  },
+  {
+    "unit_id": "fd47a449b21223c7|SARS-CoV-2",
+    "site_id": "fd47a449b21223c7",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 177681.0
+  },
+  {
+    "unit_id": "b0c4b81d0134a276|Influenza A",
+    "site_id": "b0c4b81d0134a276",
+    "pathogen": "Influenza A",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 137608.0
+  },
+  {
+    "unit_id": "b0c4b81d0134a276|SARS-CoV-2",
+    "site_id": "b0c4b81d0134a276",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 137608.0
+  },
+  {
+    "unit_id": "5281e8e53c87c1b0|SARS-CoV-2",
+    "site_id": "5281e8e53c87c1b0",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "site",
+    "active2026": true,
+    "cohort_population": 78400.0
+  }
+]

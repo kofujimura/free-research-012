@@ -1,0 +1,32 @@
+{
+  "experiment_id": "E053-matched-raw-normalized",
+  "plan_path": "protocol/raw-sars-plan-v1.md",
+  "plan_commit": "ec04e2ceebc05ac02d39ea78ce37a55539b1decb",
+  "plan_sha256": "24e6c9d066d4623f9e39f78fd863e2b01ff63f639ad81fcad9c2660659e0076e",
+  "code_commit": "ec04e2ceebc05ac02d39ea78ce37a55539b1decb",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_indicator_choice.py",
+    "--raw-forecasts",
+    "experiments/E052-raw-sars-analysis/results/case-forecasts.csv.gz",
+    "--raw-panel",
+    "experiments/E045-raw-sars-inputs",
+    "--out",
+    "experiments/E053-matched-raw-normalized/results"
+  ],
+  "started_at_utc": "2026-10-18T20:57:49Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E052-raw-sars-analysis/results/case-forecasts.csv.gz": "428b86ce8c9b6174c5f224149dc16ab85090efe7fcdd0743527422e5683cbad8",
+    "experiments/E022-extra-analysis-fixed/results/case-forecasts.csv.gz": "dbdea7a77502ab02a40d1eddaa384e70ac41e94597c57c7d8f68467dbf069713",
+    "experiments/E045-raw-sars-inputs/truth.csv": "6965549052b2926bc96a68103897bef1e451cdf96df3c522aa2860534e4568d1"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 53020,
+  "storage_before_bytes_du": 6865543168,
+  "child_pid": 53026,
+  "ended_at_utc": "2026-10-18T20:57:52Z",
+  "elapsed_seconds": 2.271598667022772,
+  "returncode": 0
+}

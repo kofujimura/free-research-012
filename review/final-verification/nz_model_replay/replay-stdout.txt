@@ -1,0 +1,1 @@
+{"weeks": 57, "prediction_rows": 2052, "max_absolute_quantile_difference": 0.0, "past_label_checks_pass": true, "regenerated_features_match_expected": true, "network_required": false, "ai_api_required": false, "models_replayed_without_refitting": true, "independent_external_replication": false}

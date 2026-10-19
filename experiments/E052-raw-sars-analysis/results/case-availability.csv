@@ -1,0 +1,13 @@
+unit_level,source_age_weeks,target_offset_days,status,n
+national,0,-2,no_source_release,6
+national,0,-2,ok,52
+national,0,5,no_source_release,6
+national,0,5,ok,52
+national,1,-2,no_source_release,7
+national,1,-2,ok,51
+national,1,5,no_source_release,7
+national,1,5,ok,51
+national,2,-2,no_source_release,8
+national,2,-2,ok,50
+national,2,5,no_source_release,8
+national,2,5,ok,50

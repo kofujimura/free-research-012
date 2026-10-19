@@ -1,0 +1,14 @@
+{
+  "germany_national": [
+    "experiments/E008-statistical",
+    "experiments/E009-chronos",
+    "experiments/E010-timesfm",
+    "experiments/E013-extra-classical"
+  ],
+  "nz": [
+    "experiments/E039-nz-statistical",
+    "experiments/E040-nz-chronos",
+    "experiments/E041-nz-timesfm",
+    "experiments/E043-nz-extra"
+  ]
+}

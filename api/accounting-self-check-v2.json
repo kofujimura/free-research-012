@@ -1,0 +1,9 @@
+{
+  "kind": "offline accounting verification; no API request",
+  "ordinary_plus_cached_plus_written_partition_verified": true,
+  "synthetic_short_context_cost_usd": "0.366",
+  "saved_real_response_cost_usd": "2.2708675",
+  "cache_write_tokens": 7203,
+  "overlapping_counts_rejected": true,
+  "long_context_not_guessed": true
+}

@@ -1,0 +1,17 @@
+{
+  "cohort_release_prefix": "6f630bf",
+  "active_release_prefix": "2919256",
+  "population_minimum": 50000,
+  "cohort_maximum_sites": 80,
+  "cohort_minimum_observed_weeks": 16,
+  "cohort_recent_window_weeks": 8,
+  "cohort_recent_minimum_observed_weeks": 4,
+  "active_window_weeks": 8,
+  "active_minimum_observed_weeks": 4,
+  "target_offsets_days": [5],
+  "truth_lags_days": [56, "latest"],
+  "input_modes": ["actual"],
+  "raw_archive_experiment": "E019-site-full-archive",
+  "floor_fraction_threshold": 0.5,
+  "forecast_chunk_size": 2000
+}

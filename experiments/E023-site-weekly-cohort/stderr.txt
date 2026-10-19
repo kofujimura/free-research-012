@@ -1,0 +1,4 @@
+/Users/fujimura/Research/ai-free-research/run-012/scripts/site_weekly.py:43: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  first=end-pd.Timedelta(weeks=sitecfg['cohort_recent_window_weeks']-1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_site_weekly.py:26: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  end=pd.Timestamp(r['commit_time']).tz_convert('UTC').tz_localize(None).normalize();first=end-pd.Timedelta(weeks=sc['active_window_weeks']-1)

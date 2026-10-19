@@ -1,0 +1,7 @@
+dataset,model,n_pairs,max_quantile_absolute_difference,changed_predictions_over_1e7,mean_wis_new_minus_old,timesfm_compile_limit_old,timesfm_compile_limit_new
+national,chronos_bolt_base,1434,1.1920928955078125e-06,1276,5.035867399128108e-09,,
+national,timesfm_2p5,1434,9.5367431640625e-06,1432,-5.6661821308763706e-08,128.0,256.0
+nz,chronos_bolt_base,2961,1.430511474609375e-06,1925,1.9661100582668414e-08,,
+nz,timesfm_2p5,2961,2.384185791015625e-06,2950,-4.008087487956254e-10,128.0,256.0
+site,chronos_bolt_base,33774,2.384185791015625e-06,30849,2.1041224353221262e-09,,
+site,timesfm_2p5,33774,1.430511474609375e-05,33707,3.59443980237776e-09,128.0,256.0

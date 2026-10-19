@@ -1,0 +1,367 @@
+{
+  "claims": 12,
+  "checks": [
+    {
+      "claim_id": "CL01",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL01",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL02",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL02",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL02",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL02",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL03",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/extended/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL03",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/extended/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL03",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/extended/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL03",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/extended/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/site/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/site/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/nz/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/nz/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/nz/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/nz/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/pooled_site/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/pooled_site/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/pooled_nz/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/pooled_nz/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/pooled_nz/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/pooled_nz/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL06",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/sensitivity/matched-maturity.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL06",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/sensitivity/matched-maturity.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/interaction_national/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/interaction_national/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/interaction_site/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/interaction_site/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/interaction_nz/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/interaction_nz/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/interaction_nz/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/interaction_nz/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL08",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/quality/similarity-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL08",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/quality/similarity-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL08",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/quality/similarity-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL08",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/quality/similarity-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL09",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/indicator/matched-indicator-ratios.csv",
+      "fields": 7,
+      "passed": true
+    },
+    {
+      "claim_id": "CL09",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/indicator/matched-indicator-ratios.csv",
+      "fields": 7,
+      "passed": true
+    },
+    {
+      "claim_id": "CL10",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/alerts-paired.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL10",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/alerts-paired.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL10",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/alerts-paired.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL10",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/primary/alerts-paired.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/history/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/history/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/history/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/history/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/history/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/history/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/history/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/history/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/family-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/family-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output/joint/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    }
+  ],
+  "all_registered_values_match": true,
+  "scope": "Numerical evidence correspondence only; interpretations still require scientific review."
+}

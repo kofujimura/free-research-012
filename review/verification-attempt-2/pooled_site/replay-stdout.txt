@@ -1,0 +1,1 @@
+{"pooled_prediction_rows": 26493, "intended_test_rows": 26493, "completed_issue_weeks": 58, "model_fits": 522, "comparison_rows": 1248, "wis_identity_max_error": 1.3322676295501878e-15, "exploratory": true, "additional_pathogen_and_calendar_features_used": true, "clinical_or_growth_detection_effect_not_evaluated": true}

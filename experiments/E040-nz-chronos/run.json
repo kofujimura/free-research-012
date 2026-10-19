@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E040-nz-chronos",
+  "plan_path": "protocol/nz-plan-v2.md",
+  "plan_commit": "46e2b23f10a7f8bb8a71d3be768df583e43289fc",
+  "plan_sha256": "8164f92f4b5364b769ba036258dda6cb864594e103daaafc8b9c21fbb83ee1f4",
+  "code_commit": "46e2b23f10a7f8bb8a71d3be768df583e43289fc",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json",
+    "--engine",
+    "chronos"
+  ],
+  "started_at_utc": "2026-10-18T20:38:49Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa",
+    "data/models/chronos-bolt-base/model.safetensors": "31f875483a3215bc6880a0837ea608a13ce55f88ad90538c3cdd0b29aeb60b36"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52290,
+  "storage_before_bytes_du": 6764285952,
+  "child_pid": 52299,
+  "ended_at_utc": "2026-10-18T20:38:56Z",
+  "elapsed_seconds": 7.059801250114106,
+  "returncode": 0
+}

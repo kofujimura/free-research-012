@@ -1,0 +1,32 @@
+[
+  {
+    "unit_id": "national",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "national"
+  },
+  {
+    "unit_id": "region:152317ac4d5cf2f1",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "regional"
+  },
+  {
+    "unit_id": "region:3ec9baaac390f980",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "regional"
+  },
+  {
+    "unit_id": "region:6c5988c3032fffda",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "regional"
+  },
+  {
+    "unit_id": "region:789c5c49fefce6d1",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "regional"
+  },
+  {
+    "unit_id": "region:b66d990e179e2987",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "regional"
+  }
+]

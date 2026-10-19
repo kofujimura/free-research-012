@@ -1,0 +1,49 @@
+{
+  "input_analysis_manifest": {
+    "primary": "experiments/E011-primary-analysis/results",
+    "extended": "experiments/E022-extra-analysis-fixed/results",
+    "updates": "experiments/E018-update-decomposition/results",
+    "nz": "experiments/E044-nz-panel-analysis/results",
+    "sensitivity": "experiments/E038-reference-and-timing-sensitivity/results",
+    "site": "experiments/E072-site-panel-analysis/results",
+    "raw": "experiments/E052-raw-sars-analysis/results",
+    "indicator": "experiments/E053-matched-raw-normalized/results",
+    "pooled_site": "experiments/E079-site-pooled-analysis/results",
+    "pooled_nz": "experiments/E081-nz-pooled-analysis/results",
+    "shifted": "experiments/E076-shifted-timing-analysis/results",
+    "cqr_national": "experiments/E080-national-interval-correction/results",
+    "cqr_site": "experiments/E086-site-interval-correction/results",
+    "cqr_nz": "experiments/E085-nz-interval-correction/results",
+    "interaction_national": "experiments/E093-national-freshness-interaction/results",
+    "interaction_site": "experiments/E095-site-freshness-interaction/results",
+    "interaction_nz": "experiments/E094-nz-freshness-interaction/results",
+    "quality": "experiments/E097-input-quality-case-provenance/results",
+    "joint": "experiments/E140-joint-comparison-sensitivity/results",
+    "history": "experiments/E139-history-matched-analysis/results",
+    "review_strata": "experiments/E144-post-review-horizon-strata/results"
+  },
+  "source_files": {
+    "primary": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E011-primary-analysis/results/comparisons.csv",
+    "extended": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+    "nz": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E044-nz-panel-analysis/results/comparisons.csv",
+    "site": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E072-site-panel-analysis/results/comparisons.csv",
+    "raw": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E052-raw-sars-analysis/results/comparisons.csv",
+    "pooled_site": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E079-site-pooled-analysis/results/comparisons.csv",
+    "pooled_nz": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+    "shifted": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E076-shifted-timing-analysis/results/comparisons.csv",
+    "cqr_national": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E080-national-interval-correction/results/comparisons.csv",
+    "cqr_site": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E086-site-interval-correction/results/comparisons.csv",
+    "cqr_nz": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E085-nz-interval-correction/results/comparisons.csv",
+    "interaction_national": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E093-national-freshness-interaction/results/comparisons.csv",
+    "interaction_site": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E095-site-freshness-interaction/results/comparisons.csv",
+    "interaction_nz": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+    "quality": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E097-input-quality-case-provenance/results/comparisons.csv",
+    "joint": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+    "history": "/Users/fujimura/Research/ai-free-research/run-012/experiments/E139-history-matched-analysis/results/comparisons.csv"
+  },
+  "plots": [
+    "national-model-information",
+    "generalization-one-week"
+  ],
+  "numbers_are_not_hand_entered": true
+}

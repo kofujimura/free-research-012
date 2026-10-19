@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E084-site-growth",
+  "plan_path": "protocol/panel-analysis-spec.md",
+  "plan_commit": "0c64dce5454b2dec30fa339f14d76a570de553e2",
+  "plan_sha256": "03de54db09d4f0178f8edcde42ce5854b7dc643e9ed817d5067c7ccdbc24a520",
+  "code_commit": "0c64dce5454b2dec30fa339f14d76a570de553e2",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_growth.py",
+    "--forecast-csv",
+    "experiments/E072-site-panel-analysis/results/case-forecasts.csv.gz",
+    "--panel",
+    "experiments/E024-site-panel-inputs",
+    "--out",
+    "experiments/E084-site-growth/results"
+  ],
+  "started_at_utc": "2026-10-18T21:43:21Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E072-site-panel-analysis/results/case-forecasts.csv.gz": "8c7967cd052f0665c160e14b269dc7894c8a1b296353a7031c5b11fb52dad472",
+    "experiments/E024-site-panel-inputs/truth.csv": "ecfdf57a83380ed50bd9633102313fa25d99ae62116aac221910c0c0c8d56d07"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55087,
+  "storage_before_bytes_du": 7874490368,
+  "child_pid": 55093,
+  "ended_at_utc": "2026-10-18T21:45:47Z",
+  "elapsed_seconds": 146.04699199995957,
+  "returncode": 0
+}

@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E014-revision-statistical",
+  "plan_path": "protocol/extension-national-v1.md",
+  "plan_commit": "c0b17beed932ef6948dcdbf8b4f5c6456cb2ebfa",
+  "plan_sha256": "95a1b984a211082233a009fee24ead179a445f4a91f789a4989ba4e0575830b9",
+  "code_commit": "c0b17beed932ef6948dcdbf8b4f5c6456cb2ebfa",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E012-prepare-revision-prefixes/new-inputs.json",
+    "--engine",
+    "statistical"
+  ],
+  "started_at_utc": "2026-10-18T16:48:41Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E012-prepare-revision-prefixes/new-inputs.json": "d3aa12ed2015e7d0f779a21d8ec09d311e96dad1b3732fa1bc865049862c5da0"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 43304,
+  "storage_before_bytes_du": 4082581504,
+  "child_pid": 43310,
+  "ended_at_utc": "2026-10-18T16:49:16Z",
+  "elapsed_seconds": 34.81072645902168,
+  "returncode": 0
+}

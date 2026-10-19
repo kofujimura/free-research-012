@@ -1,0 +1,44 @@
+[
+  {
+    "dataset": "national",
+    "maximum_context": 104,
+    "panel": "experiments/E099-history-length-inputs-fixed/national-104",
+    "unique_inputs": 199,
+    "maximum_actual_context_length": 104
+  },
+  {
+    "dataset": "national",
+    "maximum_context": 256,
+    "panel": "experiments/E099-history-length-inputs-fixed/national-256",
+    "unique_inputs": 199,
+    "maximum_actual_context_length": 233
+  },
+  {
+    "dataset": "site",
+    "maximum_context": 104,
+    "panel": "experiments/E099-history-length-inputs-fixed/site-104",
+    "unique_inputs": 8578,
+    "maximum_actual_context_length": 104
+  },
+  {
+    "dataset": "site",
+    "maximum_context": 256,
+    "panel": "experiments/E099-history-length-inputs-fixed/site-256",
+    "unique_inputs": 8578,
+    "maximum_actual_context_length": 239
+  },
+  {
+    "dataset": "nz",
+    "maximum_context": 104,
+    "panel": "experiments/E099-history-length-inputs-fixed/nz-104",
+    "unique_inputs": 251,
+    "maximum_actual_context_length": 104
+  },
+  {
+    "dataset": "nz",
+    "maximum_context": 256,
+    "panel": "experiments/E099-history-length-inputs-fixed/nz-256",
+    "unique_inputs": 251,
+    "maximum_actual_context_length": 256
+  }
+]

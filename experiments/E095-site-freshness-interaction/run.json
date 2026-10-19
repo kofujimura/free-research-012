@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E095-site-freshness-interaction",
+  "plan_path": "protocol/freshness-interaction-v2.md",
+  "plan_commit": "a3461ed9a72cf1aeb7888aebf9e66b5fa37cd0eb",
+  "plan_sha256": "5a7ddf89a2e69a85e5b341d9d2368ae997875a329acb36c214ce1b274a817f0f",
+  "code_commit": "a3461ed9a72cf1aeb7888aebf9e66b5fa37cd0eb",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_freshness_interaction.py",
+    "--panel",
+    "experiments/E024-site-panel-inputs",
+    "--scores",
+    "experiments/E072-site-panel-analysis/results/case-scores.csv.gz",
+    "--scores",
+    "experiments/E079-site-pooled-analysis/results/pooled-case-scores.csv.gz",
+    "--out",
+    "experiments/E095-site-freshness-interaction/results"
+  ],
+  "started_at_utc": "2026-10-18T21:53:15Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E072-site-panel-analysis/results/case-scores.csv.gz": "4901f4331babfcbc11380a9373e63b07c4575ecafc74ae21cae31357ffa6ca26",
+    "experiments/E079-site-pooled-analysis/results/pooled-case-scores.csv.gz": "5ac6525a6ac4cd53105f12820de8654fba27a17dae352543ef84e6e8d54b04fd"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55475,
+  "storage_before_bytes_du": 8218992640,
+  "child_pid": 55488,
+  "ended_at_utc": "2026-10-18T21:53:43Z",
+  "elapsed_seconds": 27.77486691600643,
+  "returncode": 0
+}

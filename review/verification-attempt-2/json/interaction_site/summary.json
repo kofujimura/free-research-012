@@ -1,0 +1,10 @@
+{
+  "comparison_rows": 2688,
+  "four_prediction_availability_rows": 32,
+  "same_input_checks": 16,
+  "exploratory": true,
+  "joint_four_prediction_week_block_bootstrap": true,
+  "causal_effect_claimed": false,
+  "ai_api_required": false,
+  "network_required": false
+}

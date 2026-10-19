@@ -1,0 +1,26 @@
+{
+  "experiment_id": "E013-extra-classical",
+  "plan_path": "protocol/extension-national-v1.md",
+  "plan_commit": "c0b17beed932ef6948dcdbf8b4f5c6456cb2ebfa",
+  "plan_sha256": "95a1b984a211082233a009fee24ead179a445f4a91f789a4989ba4e0575830b9",
+  "code_commit": "c0b17beed932ef6948dcdbf8b4f5c6456cb2ebfa",
+  "command": [
+    ".venv/bin/python",
+    "scripts/extra_baselines.py",
+    "--inputs",
+    "experiments/E007-prepare-inputs-fixed/inputs.json"
+  ],
+  "started_at_utc": "2026-10-18T16:48:40Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 43297,
+  "storage_before_bytes_du": 4082577408,
+  "child_pid": 43303,
+  "ended_at_utc": "2026-10-18T16:51:06Z",
+  "elapsed_seconds": 145.79205266595818,
+  "returncode": 0
+}

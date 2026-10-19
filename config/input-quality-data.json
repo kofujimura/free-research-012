@@ -1,0 +1,26 @@
+[
+  {
+    "name": "germany_national",
+    "panel": "experiments/E007-prepare-inputs-fixed",
+    "scores": [
+      "experiments/E011-primary-analysis/results/case-scores.csv",
+      "experiments/E022-extra-analysis-fixed/results/case-extra-scores.csv.gz"
+    ]
+  },
+  {
+    "name": "germany_sites",
+    "panel": "experiments/E024-site-panel-inputs",
+    "scores": [
+      "experiments/E072-site-panel-analysis/results/case-scores.csv.gz",
+      "experiments/E079-site-pooled-analysis/results/pooled-case-scores.csv.gz"
+    ]
+  },
+  {
+    "name": "nz",
+    "panel": "experiments/E027-nz-panel-inputs-eligible",
+    "scores": [
+      "experiments/E044-nz-panel-analysis/results/case-scores.csv.gz",
+      "experiments/E081-nz-pooled-analysis/results/pooled-case-scores.csv.gz"
+    ]
+  }
+]

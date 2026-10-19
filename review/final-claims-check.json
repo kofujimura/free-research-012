@@ -1,0 +1,583 @@
+{
+  "claims": 14,
+  "checks": [
+    {
+      "claim_id": "CL01",
+      "path": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL01",
+      "path": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL02",
+      "path": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL02",
+      "path": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL02",
+      "path": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL02",
+      "path": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL03",
+      "path": "experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL03",
+      "path": "experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL03",
+      "path": "experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL03",
+      "path": "experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "experiments/E072-site-panel-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "experiments/E072-site-panel-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "experiments/E044-nz-panel-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "experiments/E044-nz-panel-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "experiments/E044-nz-panel-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL04",
+      "path": "experiments/E044-nz-panel-analysis/results/comparisons.csv",
+      "fields": 8,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "experiments/E079-site-pooled-analysis/results/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "experiments/E079-site-pooled-analysis/results/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL05",
+      "path": "experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL06",
+      "path": "experiments/E038-reference-and-timing-sensitivity/results/matched-maturity.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL06",
+      "path": "experiments/E038-reference-and-timing-sensitivity/results/matched-maturity.csv",
+      "fields": 4,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "experiments/E093-national-freshness-interaction/results/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "experiments/E093-national-freshness-interaction/results/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "experiments/E095-site-freshness-interaction/results/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "experiments/E095-site-freshness-interaction/results/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL07",
+      "path": "experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL08",
+      "path": "experiments/E097-input-quality-case-provenance/results/similarity-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL08",
+      "path": "experiments/E097-input-quality-case-provenance/results/similarity-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL08",
+      "path": "experiments/E097-input-quality-case-provenance/results/similarity-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL08",
+      "path": "experiments/E097-input-quality-case-provenance/results/similarity-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL09",
+      "path": "experiments/E053-matched-raw-normalized/results/matched-indicator-ratios.csv",
+      "fields": 7,
+      "passed": true
+    },
+    {
+      "claim_id": "CL09",
+      "path": "experiments/E053-matched-raw-normalized/results/matched-indicator-ratios.csv",
+      "fields": 7,
+      "passed": true
+    },
+    {
+      "claim_id": "CL10",
+      "path": "experiments/E011-primary-analysis/results/alerts-paired.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL10",
+      "path": "experiments/E011-primary-analysis/results/alerts-paired.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL10",
+      "path": "experiments/E011-primary-analysis/results/alerts-paired.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL10",
+      "path": "experiments/E011-primary-analysis/results/alerts-paired.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL11",
+      "path": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "fields": 16,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/family-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/family-summary.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL12",
+      "path": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "fields": 6,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL13",
+      "path": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    },
+    {
+      "claim_id": "CL14",
+      "path": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "fields": 5,
+      "passed": true
+    }
+  ],
+  "all_registered_values_match": true,
+  "scope": "Numerical evidence correspondence only; interpretations still require scientific review."
+}

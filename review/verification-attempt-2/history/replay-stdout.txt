@@ -1,0 +1,1 @@
+{"comparison_rows": 7056, "availability_rows": 132, "compatibility_rows": 6, "exploratory": true, "causal_effect_claimed": false, "pooled_history_unchanged_supplementary": true}

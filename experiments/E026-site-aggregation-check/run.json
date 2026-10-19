@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E026-site-aggregation-check",
+  "plan_path": "protocol/multisite-plan-v2.md",
+  "plan_commit": "e6b3e24e840926d236d085080f26c8eb53cde923",
+  "plan_sha256": "f210de812f6dcd6bfaeeb0f590d621d932d170f8285b96ba17d39cdac55cc0a4",
+  "code_commit": "e6b3e24e840926d236d085080f26c8eb53cde923",
+  "command": [
+    ".venv/bin/python",
+    "scripts/verify_site_weekly.py"
+  ],
+  "started_at_utc": "2026-10-18T17:52:30Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E023-site-weekly-cohort/weekly-index.json": "1518059f2770d07c977980f00fcb804dd92e14354d0d4bdb7ff350a4a824346e",
+    "experiments/E023-site-weekly-cohort/cohort.csv": "4b4fef310f19ff25a785b363d167fcef2437b171ceb83a4460941d06f2eda04b"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 49149,
+  "storage_before_bytes_du": 6561558528,
+  "child_pid": 49161,
+  "ended_at_utc": "2026-10-18T17:52:34Z",
+  "elapsed_seconds": 3.7520266249775887,
+  "returncode": 0
+}

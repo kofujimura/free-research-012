@@ -1,0 +1,1 @@
+{"issues": 84, "unique_inputs": 386, "case_rows": 3024, "case_status": {"ok": 2928, "no_source_release": 96}, "known_target_cases": 0, "horizon_max": 11.0, "truth_missing_by_lag": {"28": 57, "56": 10, "84": 29, "latest": 10}, "freeze": "2026-10-14 11:02:32+00:00"}

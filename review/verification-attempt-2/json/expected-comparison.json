@@ -1,0 +1,521 @@
+{
+  "checks": [
+    {
+      "expected": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "actual": "primary/comparisons.csv",
+      "rows": 3708,
+      "columns": 27,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E011-primary-analysis/results/model-scores.csv",
+      "actual": "primary/model-scores.csv",
+      "rows": 504,
+      "columns": 13,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E011-primary-analysis/results/alerts-paired.csv",
+      "actual": "primary/alerts-paired.csv",
+      "rows": 48,
+      "columns": 12,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E011-primary-analysis/results/alerts.csv",
+      "actual": "primary/alerts.csv",
+      "rows": 336,
+      "columns": 13,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+      "actual": "extended/comparisons.csv",
+      "rows": 7416,
+      "columns": 28,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E022-extra-analysis-fixed/results/model-scores.csv",
+      "actual": "extended/model-scores.csv",
+      "rows": 840,
+      "columns": 11,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E018-update-decomposition/results/anchored-comparisons.csv",
+      "actual": "updates/anchored-comparisons.csv",
+      "rows": 432,
+      "columns": 16,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E018-update-decomposition/results/update-contributions.csv",
+      "actual": "updates/update-contributions.csv",
+      "rows": 672,
+      "columns": 16,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E018-update-decomposition/results/anchor-revision-summary.csv",
+      "actual": "updates/anchor-revision-summary.csv",
+      "rows": 84,
+      "columns": 8,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E044-nz-panel-analysis/results/comparisons.csv",
+      "actual": "nz/comparisons.csv",
+      "rows": 5400,
+      "columns": 26,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E044-nz-panel-analysis/results/model-scores.csv",
+      "actual": "nz/model-scores.csv",
+      "rows": 576,
+      "columns": 14,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E044-nz-panel-analysis/results/case-availability.csv",
+      "actual": "nz/case-availability.csv",
+      "rows": 12,
+      "columns": 5,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E072-site-panel-analysis/results/comparisons.csv",
+      "actual": "site/comparisons.csv",
+      "rows": 7488,
+      "columns": 26,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E072-site-panel-analysis/results/model-scores.csv",
+      "actual": "site/model-scores.csv",
+      "rows": 144,
+      "columns": 14,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E072-site-panel-analysis/results/case-availability.csv",
+      "actual": "site/case-availability.csv",
+      "rows": 9,
+      "columns": 5,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E052-raw-sars-analysis/results/comparisons.csv",
+      "actual": "raw/comparisons.csv",
+      "rows": 6096,
+      "columns": 26,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E052-raw-sars-analysis/results/model-scores.csv",
+      "actual": "raw/model-scores.csv",
+      "rows": 576,
+      "columns": 14,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E052-raw-sars-analysis/results/case-availability.csv",
+      "actual": "raw/case-availability.csv",
+      "rows": 12,
+      "columns": 5,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E053-matched-raw-normalized/results/matched-indicator-ratios.csv",
+      "actual": "indicator/matched-indicator-ratios.csv",
+      "rows": 432,
+      "columns": 19,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/matched-maturity.csv",
+      "actual": "sensitivity/matched-maturity.csv",
+      "rows": 96,
+      "columns": 16,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/matched-input-reference-matrix.csv",
+      "actual": "sensitivity/matched-input-reference-matrix.csv",
+      "rows": 168,
+      "columns": 9,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/information-advance-counts.csv",
+      "actual": "sensitivity/information-advance-counts.csv",
+      "rows": 58,
+      "columns": 7,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/timestamp-proxy-sensitivity.csv",
+      "actual": "sensitivity/timestamp-proxy-sensitivity.csv",
+      "rows": 8,
+      "columns": 7,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/intended-case-availability.csv",
+      "actual": "sensitivity/intended-case-availability.csv",
+      "rows": 5,
+      "columns": 4,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/context-audit.csv",
+      "actual": "sensitivity/context-audit.csv",
+      "rows": 9215,
+      "columns": 9,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E076-shifted-timing-analysis/results/comparisons.csv",
+      "actual": "shifted/comparisons.csv",
+      "rows": 27432,
+      "columns": 28,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E079-site-pooled-analysis/results/comparisons.csv",
+      "actual": "pooled_site/comparisons.csv",
+      "rows": 1248,
+      "columns": 26,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E079-site-pooled-analysis/results/model-scores.csv",
+      "actual": "pooled_site/model-scores.csv",
+      "rows": 78,
+      "columns": 11,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+      "actual": "pooled_nz/comparisons.csv",
+      "rows": 900,
+      "columns": 26,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E081-nz-pooled-analysis/results/model-scores.csv",
+      "actual": "pooled_nz/model-scores.csv",
+      "rows": 156,
+      "columns": 11,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E082-national-growth-complete/results/growth-summary.csv",
+      "actual": "growth_national/growth-summary.csv",
+      "rows": 3600,
+      "columns": 20,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E082-national-growth-complete/results/growth-paired.csv",
+      "actual": "growth_national/growth-paired.csv",
+      "rows": 1440,
+      "columns": 17,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E082-national-growth-complete/results/roc-summary.csv",
+      "actual": "growth_national/roc-summary.csv",
+      "rows": 2736,
+      "columns": 16,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E083-nz-growth/results/growth-summary.csv",
+      "actual": "growth_nz/growth-summary.csv",
+      "rows": 2880,
+      "columns": 20,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E083-nz-growth/results/growth-paired.csv",
+      "actual": "growth_nz/growth-paired.csv",
+      "rows": 2160,
+      "columns": 17,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E083-nz-growth/results/roc-summary.csv",
+      "actual": "growth_nz/roc-summary.csv",
+      "rows": 2664,
+      "columns": 16,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E084-site-growth/results/growth-summary.csv",
+      "actual": "growth_site/growth-summary.csv",
+      "rows": 1800,
+      "columns": 20,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E084-site-growth/results/growth-paired.csv",
+      "actual": "growth_site/growth-paired.csv",
+      "rows": 720,
+      "columns": 17,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E084-site-growth/results/roc-summary.csv",
+      "actual": "growth_site/roc-summary.csv",
+      "rows": 1800,
+      "columns": 16,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E080-national-interval-correction/results/comparisons.csv",
+      "actual": "cqr_national/comparisons.csv",
+      "rows": 24840,
+      "columns": 28,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E080-national-interval-correction/results/model-scores.csv",
+      "actual": "cqr_national/model-scores.csv",
+      "rows": 360,
+      "columns": 11,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E085-nz-interval-correction/results/comparisons.csv",
+      "actual": "cqr_nz/comparisons.csv",
+      "rows": 16200,
+      "columns": 28,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E085-nz-interval-correction/results/model-scores.csv",
+      "actual": "cqr_nz/model-scores.csv",
+      "rows": 360,
+      "columns": 11,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E086-site-interval-correction/results/comparisons.csv",
+      "actual": "cqr_site/comparisons.csv",
+      "rows": 22464,
+      "columns": 28,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E086-site-interval-correction/results/model-scores.csv",
+      "actual": "cqr_site/model-scores.csv",
+      "rows": 90,
+      "columns": 11,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E093-national-freshness-interaction/results/comparisons.csv",
+      "actual": "interaction_national/comparisons.csv",
+      "rows": 1548,
+      "columns": 47,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E093-national-freshness-interaction/results/four-prediction-availability.csv",
+      "actual": "interaction_national/four-prediction-availability.csv",
+      "rows": 24,
+      "columns": 7,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+      "actual": "interaction_nz/comparisons.csv",
+      "rows": 2976,
+      "columns": 47,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E094-nz-freshness-interaction/results/four-prediction-availability.csv",
+      "actual": "interaction_nz/four-prediction-availability.csv",
+      "rows": 32,
+      "columns": 7,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E095-site-freshness-interaction/results/comparisons.csv",
+      "actual": "interaction_site/comparisons.csv",
+      "rows": 2688,
+      "columns": 47,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E095-site-freshness-interaction/results/four-prediction-availability.csv",
+      "actual": "interaction_site/four-prediction-availability.csv",
+      "rows": 32,
+      "columns": 7,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E097-input-quality-case-provenance/results/comparisons.csv",
+      "actual": "quality/comparisons.csv",
+      "rows": 4440,
+      "columns": 21,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E097-input-quality-case-provenance/results/similarity-summary.csv",
+      "actual": "quality/similarity-summary.csv",
+      "rows": 12,
+      "columns": 16,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/national-104/model-scores.csv",
+      "actual": "history_native/national-104/model-scores.csv",
+      "rows": 72,
+      "columns": 10,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/national-256/model-scores.csv",
+      "actual": "history_native/national-256/model-scores.csv",
+      "rows": 72,
+      "columns": 10,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/site-104/model-scores.csv",
+      "actual": "history_native/site-104/model-scores.csv",
+      "rows": 36,
+      "columns": 10,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/site-256/model-scores.csv",
+      "actual": "history_native/site-256/model-scores.csv",
+      "rows": 36,
+      "columns": 10,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/nz-104/model-scores.csv",
+      "actual": "history_native/nz-104/model-scores.csv",
+      "rows": 144,
+      "columns": 10,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/nz-256/model-scores.csv",
+      "actual": "history_native/nz-256/model-scores.csv",
+      "rows": 144,
+      "columns": 10,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "actual": "history/comparisons.csv",
+      "rows": 7056,
+      "columns": 48,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E139-history-matched-analysis/results/availability.csv",
+      "actual": "history/availability.csv",
+      "rows": 132,
+      "columns": 8,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E139-history-matched-analysis/results/original-short-compatibility.csv",
+      "actual": "history/original-short-compatibility.csv",
+      "rows": 6,
+      "columns": 8,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "actual": "joint/comparisons.csv",
+      "rows": 192,
+      "columns": 24,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    },
+    {
+      "expected": "experiments/E140-joint-comparison-sensitivity/results/family-summary.csv",
+      "actual": "joint/family-summary.csv",
+      "rows": 6,
+      "columns": 12,
+      "max_absolute_numeric_difference": 0.0,
+      "all_values_and_labels_match": true
+    }
+  ],
+  "passed": true,
+  "comparison_relative_tolerance": 1e-09,
+  "comparison_absolute_tolerance": 1e-11,
+  "independent_reproduction": false,
+  "saved_output_recalculation_by_same_researcher": true
+}

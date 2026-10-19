@@ -1,0 +1,16 @@
+{"done": 16, "total": 251, "successes": 48, "failures": 0}
+{"done": 32, "total": 251, "successes": 96, "failures": 0}
+{"done": 48, "total": 251, "successes": 144, "failures": 0}
+{"done": 64, "total": 251, "successes": 192, "failures": 0}
+{"done": 80, "total": 251, "successes": 240, "failures": 0}
+{"done": 96, "total": 251, "successes": 288, "failures": 0}
+{"done": 112, "total": 251, "successes": 336, "failures": 0}
+{"done": 128, "total": 251, "successes": 384, "failures": 0}
+{"done": 144, "total": 251, "successes": 432, "failures": 0}
+{"done": 160, "total": 251, "successes": 480, "failures": 0}
+{"done": 176, "total": 251, "successes": 528, "failures": 0}
+{"done": 192, "total": 251, "successes": 576, "failures": 0}
+{"done": 208, "total": 251, "successes": 624, "failures": 0}
+{"done": 224, "total": 251, "successes": 672, "failures": 0}
+{"done": 240, "total": 251, "successes": 720, "failures": 0}
+{"inputs": 251, "successes": 753, "failures": 0, "seed": 12012, "common_d_for_fourier_aicc": true}

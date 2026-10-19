@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E097-input-quality-case-provenance",
+  "plan_path": "protocol/input-quality-audit-v2.md",
+  "plan_commit": "80257746dc7e2357bfa9655fdd671d504ca6a8bf",
+  "plan_sha256": "abfcb20445034e1a1163bfd08fdbe2e433e5dbafca58a2662d112ae561d95977",
+  "code_commit": "80257746dc7e2357bfa9655fdd671d504ca6a8bf",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_input_quality.py",
+    "--datasets",
+    "config/input-quality-data.json",
+    "--out",
+    "experiments/E097-input-quality-case-provenance/results"
+  ],
+  "started_at_utc": "2026-10-18T22:18:13Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "config/input-quality-data.json": "cc12dea147337699d8a569fbecd462962d0ee0d4ce627ba7ce9ccfdcbd92a8d6"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 56335,
+  "storage_before_bytes_du": 8226185216,
+  "child_pid": 56341,
+  "ended_at_utc": "2026-10-18T22:18:34Z",
+  "elapsed_seconds": 21.336922624963336,
+  "returncode": 0
+}

@@ -1,0 +1,1 @@
+{"exploratory": true, "reference_maturity_matched_on_four_available_versions": true, "public_time_proved": false, "ai_api_required": false, "network_required": false, "model_inference_required": false}

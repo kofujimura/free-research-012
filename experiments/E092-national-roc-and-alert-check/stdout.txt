@@ -1,0 +1,1 @@
+{"roc_summary_rows_verified": 2736, "maximum_auc_difference_from_sklearn": 2.220446049250313e-16, "original_primary_alert_check": {"paired_summary_rows": 48, "all_original_planned_twofold_alert_counts_unchanged": true}, "clinical_validation": false, "independent_external_replication": false}

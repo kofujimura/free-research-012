@@ -1,0 +1,4 @@
+fatal: You are attempting to fetch 75048c7bdcd8ed74ee3f2146e5cebb88bf4f1539, which is in the commit graph file but not in the object database.
+This is probably due to repo corruption.
+If you are attempting to repair this repo corruption by refetching the missing object, use 'git fetch --refetch' with the missing object.
+fatal: could not fetch f5f1c783a70c60fad7798595bea30c7557da5474 from promisor remote

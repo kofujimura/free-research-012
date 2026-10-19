@@ -1,0 +1,146 @@
+[
+  {
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "same_input_cases": 502,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "same_input_cases": 51,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "same_input_cases": 502,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "same_input_cases": 51,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "same_input_cases": 383,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": false,
+    "reference_strategy_can_select_different_models": true
+  },
+  {
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "same_input_cases": 40,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": false,
+    "reference_strategy_can_select_different_models": true
+  },
+  {
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "same_input_cases": 348,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "same_input_cases": 40,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "same_input_cases": 502,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "same_input_cases": 51,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "same_input_cases": 502,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "same_input_cases": 51,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "same_input_cases": 383,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": false,
+    "reference_strategy_can_select_different_models": true
+  },
+  {
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "same_input_cases": 40,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": false,
+    "reference_strategy_can_select_different_models": true
+  },
+  {
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "same_input_cases": 348,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  },
+  {
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "same_input_cases": 40,
+    "same_input_foundation_predictions_match": true,
+    "same_input_reference_predictions_match": true,
+    "reference_strategy_can_select_different_models": false
+  }
+]

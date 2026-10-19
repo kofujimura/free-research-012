@@ -1,0 +1,110 @@
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:67: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  issues=pd.date_range(cfg['calibration_start'],cfg['test_end'],freq='W-FRI',tz='UTC')+pd.Timedelta(hours=cfg['issue_hour_utc'])
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:71: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=(issue.tz_localize(None).normalize()+pd.Timedelta(days=offset))
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:71: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=(issue.tz_localize(None).normalize()+pd.Timedelta(days=offset))
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:84: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff=issue-pd.Timedelta(weeks=age);ref,skipped=a.usable_asof(cutoff,pathogen)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:109: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=issue.tz_localize(None).normalize()+pd.Timedelta(days=offset)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:84: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff=issue-pd.Timedelta(weeks=age);ref,skipped=a.usable_asof(cutoff,pathogen)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:109: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=issue.tz_localize(None).normalize()+pd.Timedelta(days=offset)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:84: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff=issue-pd.Timedelta(weeks=age);ref,skipped=a.usable_asof(cutoff,pathogen)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:109: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=issue.tz_localize(None).normalize()+pd.Timedelta(days=offset)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:71: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=(issue.tz_localize(None).normalize()+pd.Timedelta(days=offset))
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:71: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=(issue.tz_localize(None).normalize()+pd.Timedelta(days=offset))
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:79: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  s=a.series_at(ref,pathogen)['value'];v=s.get(target,np.nan);old=s.get(target-pd.Timedelta(days=14),np.nan)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:84: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff=issue-pd.Timedelta(weeks=age);ref,skipped=a.usable_asof(cutoff,pathogen)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:109: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=issue.tz_localize(None).normalize()+pd.Timedelta(days=offset)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:84: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff=issue-pd.Timedelta(weeks=age);ref,skipped=a.usable_asof(cutoff,pathogen)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:109: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=issue.tz_localize(None).normalize()+pd.Timedelta(days=offset)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:84: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  cutoff=issue-pd.Timedelta(weeks=age);ref,skipped=a.usable_asof(cutoff,pathogen)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:109: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=issue.tz_localize(None).normalize()+pd.Timedelta(days=offset)
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:71: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  target=(issue.tz_localize(None).normalize()+pd.Timedelta(days=offset))
+/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py:75: DeprecationWarning: The 'generic' unit for NumPy timedelta is deprecated, and will raise an error in the future. This includes implicit conversion of bare integers (e.g. `+ 1`). Please use a specific unit instead.
+  deadline=target.tz_localize('UTC')+pd.Timedelta(days=lag+1)-pd.Timedelta(seconds=1)
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py", line 127, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py", line 76, in main
+    ref,skipped=a.usable_asof(deadline,pathogen) if deadline<=a.freeze else (None,[])
+                ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/prepare_inputs.py", line 43, in usable_asof
+    valid=s['value'].notna()&np.isfinite(s['value'])&(s['value']>0)
+                             ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research/run-012/.venv/lib/python3.13/site-packages/pandas/core/generic.py", line 2193, in __array_ufunc__
+    return arraylike.array_ufunc(self, ufunc, method, *inputs, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/fujimura/Research/ai-free-research/run-012/.venv/lib/python3.13/site-packages/pandas/core/arraylike.py", line 399, in array_ufunc
+    result = getattr(ufunc, method)(*inputs, **kwargs)
+TypeError: ufunc 'isfinite' not supported for the input types, and the inputs could not be safely coerced to any supported types according to the casting rule ''safe''

@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/acquire_vintages.py", line 68, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/acquire_vintages.py", line 35, in main
+    raw=git('show',sha+':'+FILE);path.write_bytes(raw)
+  File "/Users/fujimura/Research/ai-free-research/run-012/scripts/acquire_vintages.py", line 18, in git
+    p.check_returncode()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/subprocess.py", line 508, in check_returncode
+    raise CalledProcessError(self.returncode, self.args, self.stdout,
+                             self.stderr)
+subprocess.CalledProcessError: Command '['git', '--git-dir', '/Users/fujimura/Research/ai-free-research/run-012/.cache/amelag.git', 'show', '92edb5128b5a33c0b4dda9e8799b1c72e08b7fcb:amelag_aggregierte_kurve.tsv']' returned non-zero exit status 128.

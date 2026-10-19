@@ -1,0 +1,24 @@
+[
+  {
+    "name": "national",
+    "country": "Germany",
+    "scores": [
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/primary/case-scores.csv",
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/extended/case-extra-scores.csv.gz"
+    ]
+  },
+  {
+    "name": "site",
+    "country": "Germany",
+    "scores": [
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site/case-scores.csv.gz"
+    ]
+  },
+  {
+    "name": "nz",
+    "country": "NZ",
+    "scores": [
+      "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz/case-scores.csv.gz"
+    ]
+  }
+]

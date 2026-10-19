@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E090-site-pooled-firstweek-refit",
+  "plan_path": "protocol/verification-v1.md",
+  "plan_commit": "ae84766c39c816cee8c515f6307127391d0bbcbf",
+  "plan_sha256": "029d25448b1253c4a84417332dff5410d1bc0e4b91aff1e27b2d28ab05eb7514",
+  "code_commit": "ae84766c39c816cee8c515f6307127391d0bbcbf",
+  "command": [
+    ".venv/bin/python",
+    "scripts/train_pooled.py",
+    "--features",
+    "experiments/E056-pooled-feature-preparation",
+    "--start",
+    "0",
+    "--stop",
+    "1"
+  ],
+  "started_at_utc": "2026-10-18T22:04:49Z",
+  "timeout_seconds": 600,
+  "input_files": {
+    "experiments/E056-pooled-feature-preparation/features.npz": "bb36b9ef45b0e64a1a252379c11195b389684d4054e57faeb3313a1b0f7c747b",
+    "experiments/E056-pooled-feature-preparation/rows.csv": "66a70e71b896620cddbe0c08ead66a7c256d99632d29a2b884c774f5832100f8"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55935,
+  "storage_before_bytes_du": 8224124928,
+  "child_pid": 55947,
+  "ended_at_utc": "2026-10-18T22:04:54Z",
+  "elapsed_seconds": 4.622721125022508,
+  "returncode": 0
+}

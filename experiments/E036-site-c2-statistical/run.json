@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E036-site-c2-statistical",
+  "plan_path": "protocol/multisite-plan-v2.md",
+  "plan_commit": "8da5a97d4038f83988b2bea95ca06702c37152f6",
+  "plan_sha256": "f210de812f6dcd6bfaeeb0f590d621d932d170f8285b96ba17d39cdac55cc0a4",
+  "code_commit": "8da5a97d4038f83988b2bea95ca06702c37152f6",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E024-site-panel-inputs/input-chunks/chunk-002.json",
+    "--engine",
+    "statistical"
+  ],
+  "started_at_utc": "2026-10-18T20:31:09Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E024-site-panel-inputs/input-chunks/chunk-002.json": "4e9db4a46c44a1d3f1d8d801c1fbc6fd63d0e61d29175c9e20043b5ed6cfcc0c"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 51926,
+  "storage_before_bytes_du": 6701789184,
+  "child_pid": 51932,
+  "ended_at_utc": "2026-10-18T20:33:44Z",
+  "elapsed_seconds": 154.8221406249795,
+  "returncode": 0
+}

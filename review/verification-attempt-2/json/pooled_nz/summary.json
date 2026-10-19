@@ -1,0 +1,11 @@
+{
+  "pooled_prediction_rows": 2052,
+  "intended_test_rows": 2052,
+  "completed_issue_weeks": 57,
+  "model_fits": 513,
+  "comparison_rows": 900,
+  "wis_identity_max_error": 4.440892098500626e-16,
+  "exploratory": true,
+  "additional_pathogen_and_calendar_features_used": true,
+  "clinical_or_growth_detection_effect_not_evaluated": true
+}

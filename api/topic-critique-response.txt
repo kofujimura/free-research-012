@@ -1,0 +1,202 @@
+順位は付けません。以下では、**実験結果が出ることと、その結果で読者の判断が変わることを分けて**批判します。文献は2025年以降も含めてWeb検索し、特に批判に関係するものを挙げました。題名のリンクが確認先URLです。なお、近い研究の存在は、そのまま候補の新規性を否定するものではありません。
+
+## C02
+
+### 最も重大な弱点：近接点対の検証から、「土地境界にすぎない」「対策地区の優先順位が誤る」までは識別できない（1・3・6）
+
+- **読者への効果（1・6）**  
+  地点濃度の予測と近接地点間の差を分けるのは妥当ですが、後者が悪くても、原因が土地境界の転写なのか、排出源情報の不足なのか、観測誤差なのかは区別できません。また、観測点間の濃度順位は、地区全体の曝露や対策による改善可能性の順位とは別です。現状のままでは「局地差を信用しすぎない」という理解は強めても、**どの地区を優先するか、どの地図の使用を保留するかまでは変えられない**恐れがあります。
+
+- **現実性・12時間での成立性（3）**  
+  最初の難所はモデルではなく、同じ汚染物質・期間・測定条件で比較できる、独立した近接点対が十分あるかです。EPAの観測点には異なる空間代表性が設定されており、単に距離が近いことだけでは比較条件は揃いません。距離を広げて標本数を確保すると、検証したかった街区内の差から離れます。逆に近距離に絞ると、地点の重複利用や観測誤差が結果を左右しうるため、12時間では有効な対の監査が研究の大部分になる可能性があります。([www3.epa.gov](https://www3.epa.gov/ttnamti1/files/ambient/pm25/qa/m212.pdf?utm_source=openai))
+
+- **一般性・新規性・予測困難性（2・4・5）**  
+  都市間の大きな差で全体精度を稼いでも、都市内の小さな差を再現できるとは限らない、という結論自体は予想可能です。空間単位・解像度の不一致も古い問題です。新しい知見になりうるのは「食い違うか」という二択より、**どの距離、濃度差、観測配置で食い違いが判断上無視できなくなるか**です。AlphaEarthだけの失敗例では、別の表現モデルに置き換わると価値が薄れます。([citeseerx.ist.psu.edu](https://citeseerx.ist.psu.edu/document?doi=11dbaf5adab17db517c9826fc251b261ba76a921&repid=rep1&type=pdf&utm_source=openai))
+
+### 近いと思われる先行研究
+
+- **Fangほか（2026）**  
+  [*Performance assessment and application of AlphaEarth embedding in air quality - Changchun PM2.5 Case*](https://doi.org/10.1016/j.rsase.2026.101989)。抄録では、地点精度では従来特徴量が優位である一方、約10mの地図と150m程度の急勾配を強調しています。したがって本候補は、その細密化の根拠を問う直接的な検証になりえます。ただし、**独立した近接点対の検証の有無は全文未確認**です。([doi.org](https://doi.org/10.1016/j.rsase.2026.101989?utm_source=openai))
+- **Brownほか（2025）**  
+  [*AlphaEarth Foundations: An embedding field model for accurate and efficient global mapping from sparse label data*](https://arxiv.org/abs/2507.22291)。少数ラベルからの地図作成が主題であり、細かな画素の存在だけで局地濃度差の正しさが保証されるわけではありません。([arxiv.org](https://arxiv.org/abs/2507.22291?utm_source=openai))
+- **Meyer・Pebesma（2021）**  
+  [*Predicting into unknown space? Estimating the area of applicability of spatial prediction models*](https://doi.org/10.1111/2041-210X.13650)。空間予測の検証誤差がどこに適用できるかを扱います。「地理分離した検証をした」だけでは全域の局地順位を保証できない、という点で近接します。([cris.uni-muenster.de](https://cris.uni-muenster.de/portal/en/publication/77577086?utm_source=openai))
+- **Hoekほか（2008）**  
+  [*A review of land-use regression models to assess spatial variation of outdoor air pollution*](https://doi.org/10.1016/j.atmosenv.2008.05.057)。土地利用回帰の標準的な整理です。新しい埋め込みとの比較だけでなく、従来の局地曝露推定が何を観測してきたかとの比較が必要です。([research-portal.uu.nl](https://research-portal.uu.nl/en/publications/a-review-of-land-use-regression-models-to-assess-spatial-variatio/?utm_source=openai))
+- **Gotway・Young（2002）**  
+  [*Combining Incompatible Spatial Data*](https://doi.org/10.1198/016214502760047140)。地理統計の「change of support」、地理学の可変地区単位問題など、別名で研究されてきた問題を整理しています。本候補の一般論部分には強い先行があります。([citeseerx.ist.psu.edu](https://citeseerx.ist.psu.edu/document?doi=11dbaf5adab17db517c9826fc251b261ba76a921&repid=rep1&type=pdf&utm_source=openai))
+- **Apteほか（2017）**  
+  [*High-Resolution Air Pollution Mapping with Google Street View Cars: Exploiting Big Data*](https://apte.berkeley.edu/air-quality-mapping/)。反復移動計測によって街区内の持続的な濃度差を実測しています。「細かな差がある」ことと「粗い監視網からその差を復元できる」ことを分ける比較対象です。([apte.berkeley.edu](https://apte.berkeley.edu/air-quality-mapping/?utm_source=openai))
+
+### 成功しても価値が小さくなる筋書き
+
+全体精度の高いモデルでも近接差の符号を外すことは示せたが、評価対象の実測差自体が小さく、測定条件への感度も大きい。結局、「高解像度の見た目を信用するな」という既知の注意に留まり、地図を使ってよい範囲も、優先順位を保留すべき範囲も決まらない。
+
+### 問いを広げる、または現実に近づける方向――1つ
+
+**「観測で裏付けられる範囲で、局地順位を付けてよい条件と保留すべき条件を特定する」方向。**  
+モデルの勝敗ではなく、距離・濃度差・観測不確実性に対する順位の安定性を、既存手法を含めて評価する。観測のない10m画素へ外挿せずとも、地図の使用判断を変える結果にできます。
+
+---
+
+## C05
+
+### 最も重大な弱点：「確定できない」の多くが実験前に決まり、保留の件数だけでは公開実務を変えない（1・4・5・6）
+
+- **読者への効果・予測困難性（1・5・6）**  
+  最大値だけから平均値は復元できず、不検出をゼロとも、項目の不掲載を未測定とも断定できません。ここを数え直すだけなら、結論はかなり予想できます。読者の判断が変わるには、**抽出器の改善で解決する判断と、報告仕様を変えない限り解決しない判断の境界**が必要です。単なる「AIは注意して説明すべき」という結論では、水道事業者も利用者も具体的な選択を変えません。
+
+- **評価の現実性（3）**  
+  「原表を正解にする」ことで抽出の正誤は評価できますが、原表にない情報について「本当に未測定か」「別資料を参照すれば分かるか」は別の正解が必要です。また、公式構造化測定とCCRが、対象期間・採水地点・集計統計で一致する保証も必要です。EPAの説明資料でも、報告される値には最高値、平均値、地点別の年間平均等の違いがあります。照合の不一致を、そのまま抽出誤りにしてはいけません。([epa.gov](https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf?utm_source=openai))
+
+- **保留評価の弱さ（1・3）**  
+  保留を多くすれば誤断定は減ります。したがって、誤断定率だけでは「何も答えないシステム」が有利になります。回答できた割合と、その回答中の誤りを同時に評価しないと、実務的な改善になったか分かりません。この問題は選択的予測・棄却付き分類として古くから研究されています。([researchgate.net](https://www.researchgate.net/profile/Fabrice-Clerot/post/Do-you-know-a-Bayes-classifier-which-creates-unrecognized-regions/attachment/59d61e9ec49f478072e97562/AS%3A271742742794240%401441799926252/download/Chow%2B-%2BOn%2Boptimum%2Brecognition%2Band%2Breject%2Btradeoff.pdf))
+
+- **一般性・12時間の制約（2・3）**  
+  再利用可能で構造化測定とも照合できるPDFだけを選ぶと、情報整備のよい水道に偏る恐れがあります。さらに、EPAは2027年からのCCR改訂を公表しています。特定の現行レイアウトに対するDoclingの成績は古くなりえますが、期間・単位・統計量・検出限界・参照元という意味上の欠落なら持続的な知見になります。12時間で難しいのは、多数のPDF処理より、この意味上の正解を独立に作る部分です。([epa.gov](https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions?utm_source=openai))
+
+### 近いと思われる先行研究
+
+- **EPA（2021）**  
+  [*Consumer Confidence Report Rule Annual Overview Webinar*](https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf)。物質や規制方式によって報告統計が異なることを説明しています。本候補で「発見」しようとする意味上の違いの相当部分は、公的説明に既にあります。([epa.gov](https://www.epa.gov/system/files/documents/2021-08/ccr-rule-annual-webinar_9-june-2021_508_complete.pdf?utm_source=openai))
+- **EPA（2024）**  
+  [*Consumer Confidence Report Rule Revisions*](https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions)。理解しやすさ、アクセス、情報報告の改善を扱う制度上の先行です。研究成果が既存の改訂方針に何を追加するかが問われます。([epa.gov](https://www.epa.gov/ccr/consumer-confidence-report-rule-revisions?utm_source=openai))
+- **Helsel（2006）**  
+  [*Fabricating data: how substituting values for nondetects can ruin results, and what can be done about it*](https://doi.org/10.1016/j.chemosphere.2006.04.051)。不検出値の安易な数値置換の問題を扱います。他分野では「左側打切りデータ」の問題であり、不検出と欠測の区別自体は新規ではありません。([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/16737727/?utm_source=openai))
+- **Chow（1970）**  
+  [*On optimum recognition error and reject tradeoff*](https://doi.org/10.1109/TIT.1970.1054406)。誤りと回答拒否のトレードオフに関する古典です。「適切に保留する」ことの評価には、この系譜との接続が必要です。([researchgate.net](https://www.researchgate.net/profile/Fabrice-Clerot/post/Do-you-know-a-Bayes-classifier-which-creates-unrecognized-regions/attachment/59d61e9ec49f478072e97562/AS%3A271742742794240%401441799926252/download/Chow%2B-%2BOn%2Boptimum%2Brecognition%2Band%2Breject%2Btradeoff.pdf))
+- **Ouyangほか（2025）**  
+  [*OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations*](https://openaccess.thecvf.com/content/CVPR2025/papers/Ouyang_OmniDocBench_Benchmarking_Diverse_PDF_Document_Parsing_with_Comprehensive_Annotations_CVPR_2025_paper.pdf)。多様な文書・表・読み順の抽出評価です。候補の価値を抽出ベンチマークから区別する必要があります。([openaccess.thecvf.com](https://openaccess.thecvf.com/content/CVPR2025/papers/Ouyang_OmniDocBench_Benchmarking_Diverse_PDF_Document_Parsing_with_Comprehensive_Annotations_CVPR_2025_paper.pdf?utm_source=openai))
+- **Kirichenkoほか（2025、プレプリント）**  
+  [*AbstentionBench: Reasoning LLMs Fail on Unanswerable Questions*](https://arxiv.org/abs/2506.09038)。情報不足、誤った前提、古い情報等に対する回答保留を評価しています。これは隣接領域であり、CCRの意味的な確定可能性を同じ設計で調べた研究まで確認できたわけではありません。([arxiv.org](https://arxiv.org/abs/2506.09038?utm_source=openai))
+
+### 成功しても価値が小さくなる筋書き
+
+構造化と注記の保持によって誤回答が減った。しかし、改善の大半は単位取り違えと表の列ずれの修正であり、残った保留も「平均値が書かれていないので平均値は答えられない」というものだった。特定ツールの品質保証としては有用でも、公開すべき情報や自動説明を許可する範囲について、新しい判断材料が残らない。
+
+### 問いを広げる、または現実に近づける方向――1つ
+
+**「自動説明を許可できる最小の公開仕様は何か」に寄せる方向。**  
+完全抽出を仮定しても残る保留を明示し、どの追加項目がどの判断を可能にするかを示す。人間の理解実験をしなくても、事業者の公表仕様と自動説明システムの受入条件を変える研究にできます。
+
+---
+
+## C07
+
+### 最も重大な弱点：「予測誤差で何週分に相当するか」と「早期警戒を何週早められるか」は違う（1・3・6）
+
+- **読者への効果（1・6）**  
+  後日公表値への平均誤差が、新しい観測を使った場合と同程度でも、流行の立ち上がりで同じ判断ができるとは限りません。平穏期では良好でも、転換点だけ遅れる予測なら、警戒には代替になりません。増減期への感度確認は計画されていますが、それと警報の発出時点・誤警報・見逃しの評価は別です。現状では、**「計算を改善するか、公表を早めるか」という運用投資の判断を変えるには一段足りません**。
+
+- **現実性（3）**  
+  公表版の復元は重要ですが、「1週早い情報」は単に確定値を1週前に動かしたものではありません。初報の品質、利用可能地点、後日の修正が同時に変わります。また、後日値がGAM等の平滑化系列なら、評価しているのは実測値そのものではなく、後日再推定された曲線です。RKIの公開データには実測系列とは別にGAM推定値が含まれるため、対象を取り違えると「感染動向の予測」より「公表曲線の再現」が上手いモデルを選びかねません。([github.com](https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md))
+
+- **一般性（2）**  
+  「何週分」という単一の数値は、流行の変化速度、採水頻度、集計単位、公表制度、損失関数に依存します。AMELAGで得た換算値を、別の国・病原体・監視網へそのまま移すことはできません。モデル名よりも、どの運用条件で代替が成立しなくなるかが一般化の単位になります。
+
+- **新規性・予測困難性・12時間（4・5）**  
+  改訂を無視した評価が楽観的になりうること、情報の早さに価値があることは既知です。Tangほかは件数だけでなく割合も扱っているため、「下水は連続値である」だけでは大きな方法的差分になりません。未知なのは具体的な代替可能範囲です。一方、12時間では、公表日時・集計仕様・平滑化・正規化の変更を監査する作業が重く、都合よく安定した期間だけを残すと実運用上重要な条件を除外しかねません。([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12646461/?utm_source=openai))
+
+### 近いと思われる先行研究
+
+- **Radermacherほか（2025）**  
+  [*Wastewater as an early indicator for short-term forecasting COVID-19 hospitalization in Germany*](https://doi.org/10.1186/s12889-025-24149-2)。本文で記録日にデータが利用可能と仮定していることを確認できました。また、下水情報の追加による入院予測の有意な改善は示していません。候補の実公表版による検証は、確かにこの制約を突いています。([link.springer.com](https://link.springer.com/article/10.1186/s12889-025-24149-2))
+- **Tang・Rumack・Wilder・Rosenfeld（2025）**  
+  [*Real-time forecasting of data revisions in epidemic surveillance streams*](https://doi.org/10.1371/journal.pcbi.1013709)。当時利用可能な改訂履歴から最終的な値の分布を予測し、改訂過程の急変による性能劣化も扱っています。候補にかなり近い比較対象です。([journals.plos.org](https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1013709))
+- **McGoughほか（2020）**  
+  [*Nowcasting by Bayesian Smoothing: A flexible, generalizable model for real-time epidemic tracking*](https://doi.org/10.1371/journal.pcbi.1007735)。遅延補正の標準的な系譜です。ただし、件数の報告遅延と連続値の再処理・平滑化による改訂は区別して比較する必要があります。([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/32251464/?utm_source=openai))
+- **Giannone・Reichlin・Small（2008）**  
+  [*Nowcasting: The real-time informational content of macroeconomic data*](https://doi.org/10.1016/j.jmoneco.2008.05.010)。経済学では、公表時点ごとの不完全な情報集合と情報追加の価値を長く研究しています。「情報鮮度と予測の比較」という問いの古典的な隣接分野です。([sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S0304393208000652?utm_source=openai))
+- **Robert Koch Institute・Umweltbundesamt（2026年公開版）**  
+  [*Abwassersurveillance AMELAG — Dataset documentation*](https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md)。実測、正規化、GAM推定、検査機関変更等の定義を確認できます。単なる入出力形式ではなく、正解の意味を定める資料です。([github.com](https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/blob/main/Readme.en.md))
+
+### 成功しても価値が小さくなる筋書き
+
+平均誤差では予測が情報鮮度の低下を相当程度補えた。しかし、その改善はなだらかな増減期に集中し、立ち上がりの警報日はほとんど早まらなかった。「濃度曲線の補間には有効」という結果に留まり、公表迅速化を優先すべきかどうかは決まらない。
+
+### 問いを広げる、または現実に近づける方向――1つ
+
+**鮮度の換算を、同じ誤警報制約の下での「下水指標の上昇警報」に置き換える方向。**  
+感染者数や病床には踏み込まず、実公表版を使って警報の早さと見逃しを比較する。これなら「平均的には補えるが、警戒に必要な場面では補えない」という、運用を変える結果も捉えられます。
+
+---
+
+## C10
+
+### 最も重大な弱点：最も見逃していそうな欠測期間には正解がなく、問い全体の見逃し率を測れない（1・3・6）
+
+- **評価対象の識別（3）**  
+  実際の観測価格だけを正解にする方針は適切ですが、それで分かるのは「観測が乏しい市場のうち、たまたま測れた時点での見逃し率」です。**欠測期間も含む監視の見逃し率とは違います。** 急騰や市場混乱と観測中断が関連するなら、重要な失敗ほど評価から消えます。これは欠測統計の非無作為欠測、機械学習の選択的ラベルに近い問題です。([people.csail.mit.edu](https://people.csail.mit.edu/jrennie/trg/papers/rubin-missing-76.pdf?utm_source=openai))
+
+- **読者への効果（1・6）**  
+  乏しい市場で見逃しが多くても、それが豊かな市場に合わせた学習・閾値設定のためなのか、品目、価格変動、国、通貨、観測品質の違いなのかは分かりません。事前期間で乏しさを定義しても、この混同は残ります。格差の記述はできても、**閾値を変えるべきか、地域間で情報を共有すべきか、観測を増やすべきか**は、そのままでは選べません。
+
+- **現実性・一般性（2・3）**  
+  急騰の正解定義が、比較する予測器の残差や推定分散に依存すると、手法ごとに「急騰」の意味が変わってしまいます。また、時間順分割は公表時点の再現とは異なります。後日追加された過去価格を当時既知として使えば、実運用の警報評価にはなりません。12時間では、国数やモデル数を増やすより、価格系列と警報対象の整合性を確認する方が難所です。
+
+- **新規性・予測困難性（4・5）**  
+  「標本が少ないほど不利」という一般論だけなら小さい問いです。ただし、結果を完全に自明とも扱えません。Andréeの国別分析では、データ充足率自体と平均補完精度との関連は認められず、価格変動等の方が関係していました。これは急騰警報への回答ではありませんが、「少ないほど必ず悪い」という前提への反証材料です。新規性は、平均精度では見えない極端時の格差を、選択バイアス込みで示せるかにあります。([documents1.worldbank.org](https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf))
+
+### 近いと思われる先行研究
+
+- **World Food Programme（2014）**  
+  [*ALPS — Calculation and Use of the Alert for Price Spikes Indicator*](https://vamresources.manuals.wfp.org/docs/alps-calculation-and-use-of-the-alert-for-price-spikes-indicator)。価格急騰警報の標準的な実務資料です。サイトの更新年ではなく、資料自体は2014年です。新しい予測器だけでなく、この運用上の比較対象が重要です。([vamresources.manuals.wfp.org](https://vamresources.manuals.wfp.org/docs/alps-calculation-and-use-of-the-alert-for-price-spikes-indicator))
+- **Andrée（2021）**  
+  [*Estimating Food Price Inflation from Partial Surveys*](https://doi.org/10.1596/1813-9450-9886)。不完全な市場価格からの補完・監視を扱い、欠測機構や価格系列間の情報共有も議論しています。候補との差分は警報の市場間格差ですが、問題設定の基盤はかなり重なります。([documents1.worldbank.org](https://documents1.worldbank.org/curated/en/185851639662039407/pdf/Estimating-Food-Price-Inflation-from-Partial-Surveys.pdf))
+- **Adewopoほか（2025）**  
+  [*AI-imputed and crowdsourced price data show strong agreement with traditional price surveys in data-scarce environments*](https://doi.org/10.1371/journal.pone.0320720)。独立した価格情報との比較を行っています。品目の細分類が揃わない場合の不一致も示しており、「観測価格なら比較可能な正解」とは限らないことが重要です。([journals.plos.org](https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0320720))
+- **Rubin（1976）**  
+  [*Inference and missing data*](https://doi.org/10.1093/biomet/63.3.581)。欠測の発生過程を無視できる条件に関する古典です。実測だけで評価する方針が、なぜ欠測部分への一般化を保証しないかの基礎になります。([dash.harvard.edu](https://dash.harvard.edu/entities/publication/73120378-8764-6bd4-e053-0100007fdf3b))
+- **Lakkarajuほか（2017）**  
+  [*The Selective Labels Problem: Evaluating Algorithmic Predictions in the Presence of Unobservables*](https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf)。司法等の意思決定を題材に、結果が観測される対象の偏りによって予測器評価が難しくなる問題を扱います。食料市場とは異なる機構ですが、評価できる標本だけで全体の失敗を測れない点が共通します。([cs.cornell.edu](https://www.cs.cornell.edu/home/kleinber/kdd17-selective.pdf?utm_source=openai))
+
+### 成功しても価値が小さくなる筋書き
+
+乏しい市場の観測時点では見逃しが多かったが、その差は高変動の品目・国に集中していた。欠測期間の急騰頻度は不明で、閾値を下げると誤警報も増えた。結局、「データが少ない市場には注意」という結論だけが残り、警報の運用ルールは変えられない。
+
+### 問いを広げる、または現実に近づける方向――1つ
+
+**同じ誤警報予算の下で、欠測部分への仮定を変えても見逃し格差と改善策の優劣が残るかを問う方向。**  
+観測部分の評価と、欠測部分について分からない範囲を分ける。欠測を人工的に作った実験だけで代用せず、結論が反転する条件まで示すことで、監視ルールの変更に耐える結果になります。
+
+---
+
+## C13
+
+### 最も重大な弱点：気象から需要・供給可能量への変換を仮定すると、「実効予備力」の答えも仮定で決まる（1・3・5・6）
+
+- **現実性・識別（3）**  
+  地上変数と需要データの不足は、単なる実装上の課題ではありません。気象閾値を超えたら一定量を必要とする、と置けば、相関した気象が相関した需要になるのはモデルの定義です。また、実際の派遣人数を需要の正解にすると、資源不足で派遣できなかった需要が消えます。必要なのは、危険度だけでなく、要請、未充足、既存配備、自地域に残す資源の関係です。実際の国際応援研究でも、火災状況、人的・物的影響、国内資源の逼迫、供給国の状況を分けています。([connectsci.au](https://connectsci.au/wf/article/33/3/WF23093/22123/Drivers-of-international-fire-management-personnel?utm_source=openai))
+
+- **予測困難性・問いの大きさ（5・6）**  
+  無費用で、必要なときだけ使える提携先を追加するなら、最適化上の選択肢は増えるので便益は悪化しません。一方、相関が高ければ追加便益が小さくなることも、資源の共同利用に関する既知の結果に沿います。したがって「数を増やすだけで十分か」だけでは小さく、未知なのは**遠方との分散で得る余力が、到着の遅さや配備費用を上回る条件**です。([pubsonline.informs.org](https://pubsonline.informs.org/doi/10.1287/mnsc.25.5.498?utm_source=openai))
+
+- **読者への効果（1）**  
+  提携先の選定は中長期、事前配備は日単位という異なる判断です。日々の予報に合わせて提携を自由に組み替えられる設定では、現実の提携判断に接続しません。事前配備の価値も、移動時間・配備費用・自地域の安全余力がなければ、実務者は採否を判断できません。実際の国際応援では、到着まで日から週単位を要することも報告されています。([research.fs.usda.gov](https://research.fs.usda.gov/download/treesearch/68227.pdf?utm_source=openai))
+
+- **一般性・12時間の成立性（2・3）**  
+  空間的に整合したアンサンブルであることと、複数地域の同時極端事象の確率が、資源配分に必要な精度で校正されていることは別です。さらに公開出力が初期化された予報なのか、長期気候シミュレーションなのかも区別が必要です。NeuralGCMの公開研究には双方が含まれます。12時間では、需要モデル、予報評価、配備最適化まで同時に検証しようとすると、未検証の接続部分が支配的になる恐れがあります。([pmc.ncbi.nlm.nih.gov](https://pmc.ncbi.nlm.nih.gov/articles/PMC12778041/?utm_source=openai))
+
+### 近いと思われる先行研究
+
+- **Bloemほか（2024）**  
+  [*Drivers of international fire management personnel deployed to the United States*](https://doi.org/10.1071/WF23093)。実際の国際応援と、供給国との火災季節の重複、国内資源逼迫を扱います。「提携があっても供給できない」という候補の中心的懸念には直接の実証があります。([research.fs.usda.gov](https://research.fs.usda.gov/treesearch/68227?utm_source=openai))
+- **Cullenほか（2023）**  
+  [*Growing convergence research: Coproducing climate projections to inform proactive decisions for managing simultaneous wildfire risk*](https://doi.org/10.1111/risa.14113)。同時火災による資源競合を、実務者との共同設計で意思決定へ結び付けています。短期予報とは時間尺度が異なりますが、「同時性を考慮して判断を変える」こと自体は先行しています。([onlinelibrary.wiley.com](https://onlinelibrary.wiley.com/doi/full/10.1111/risa.14113?utm_source=openai))
+- **Eppen（1979）**  
+  [*Note—Effects of Centralization on Expected Costs in a Multi-Location Newsboy Problem*](https://doi.org/10.1287/mnsc.25.5.498)。在庫管理におけるリスク・プーリングの古典です。災害応援そのものではありませんが、需要の相関と共同利用の便益という基本問題は別分野で長く扱われています。([pubsonline.informs.org](https://pubsonline.informs.org/doi/10.1287/mnsc.25.5.498?utm_source=openai))
+- **Richardson（2000）**  
+  [*Skill and relative economic value of the ECMWF ensemble prediction system*](https://doi.org/10.1002/qj.49712656313)。予報精度と意思決定上の価値を、費用と損失に基づいて分ける標準的研究です。「確率予報が良い」ことから「事前配備に価値がある」ことへの橋渡しが必要になります。([rmets.onlinelibrary.wiley.com](https://rmets.onlinelibrary.wiley.com/doi/abs/10.1002/qj.49712656313?utm_source=openai))
+- **Robaszewskiほか（2026）**  
+  [*Optimizing resilient disaster readiness: a network and probabilistic modeling approach to firefighting resource prepositioning*](https://doi.org/10.1007/s10669-026-10128-4)。火災拡大確率、道路等の移動時間、資源配置を統合しています。相互応援や実時間アンサンブルそのものではありませんが、確率的危険度を配置判断へつなぐ近年の直接的な先行です。([link.springer.com](https://link.springer.com/article/10.1007/s10669-026-10128-4))
+- **Priceほか（2025、オンライン公開2024）**  
+  [*Probabilistic weather forecasting with machine learning*](https://doi.org/10.1038/s41586-024-08252-9)。GenCastの基礎研究です。予報器の性能を根拠に使うことはできますが、相互応援の需要・供給モデルの検証を置き換えるものではありません。([pubmed.ncbi.nlm.nih.gov](https://pubmed.ncbi.nlm.nih.gov/39633054/?utm_source=openai))
+
+### 成功しても価値が小さくなる筋書き
+
+気象閾値から作った需要、均等な資源量、簡略化した移動条件の下で、遠方へ分散した提携と予報に応じた配備が優れた。しかし結果は、需要変換や移動時間を少し変えると反転する。現実の要請・未充足を検証していないため、「相関を考えれば分散が有利」という模式実験以上の結論にならない。
+
+### 問いを広げる、または現実に近づける方向――1つ
+
+**実需要を確認できる一つの災害・資源に絞り、「分散の便益が移動の不利を上回る条件」を検証する方向。**  
+固定した提携網の下で事前配備を評価し、実際の要請・未充足・移動時間に照らす。これらの公開データを確保できない場合は、実効予備力の実証ではなく、条件付きのシミュレーションであることを結論の中心に置く必要があります。

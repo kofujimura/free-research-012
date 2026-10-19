@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E089-temporal-integrity-audit",
+  "plan_path": "protocol/verification-v1.md",
+  "plan_commit": "ae84766c39c816cee8c515f6307127391d0bbcbf",
+  "plan_sha256": "029d25448b1253c4a84417332dff5410d1bc0e4b91aff1e27b2d28ab05eb7514",
+  "code_commit": "ae84766c39c816cee8c515f6307127391d0bbcbf",
+  "command": [
+    ".venv/bin/python",
+    "scripts/verify_temporal.py",
+    "--out",
+    "experiments/E089-temporal-integrity-audit/results.json"
+  ],
+  "started_at_utc": "2026-10-18T22:03:29Z",
+  "timeout_seconds": 600,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+    "experiments/E024-site-panel-inputs/inputs.json": "43e8b15dd1260a04fafeaffd2156a8470bd9068505821bc29b45577969125f8c",
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55864,
+  "storage_before_bytes_du": 8224100352,
+  "child_pid": 55876,
+  "ended_at_utc": "2026-10-18T22:03:30Z",
+  "elapsed_seconds": 1.5203457500319928,
+  "returncode": 0
+}

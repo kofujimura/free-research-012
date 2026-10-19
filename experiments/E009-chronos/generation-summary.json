@@ -1,0 +1,28 @@
+{
+  "engine": "chronos",
+  "input_file": "experiments/E007-prepare-inputs-fixed/inputs.json",
+  "input_sha256": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+  "seed": 12012,
+  "horizon": 16,
+  "quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "start": 0,
+  "stop": null,
+  "started_at_utc": "2026-10-18T16:35:11Z",
+  "models": {
+    "chronos_bolt_base": "data/models/chronos-bolt-base"
+  },
+  "failures": 0,
+  "successes": 386,
+  "quantile_crossings": 0,
+  "ended_at_utc": "2026-10-18T16:35:16Z"
+}

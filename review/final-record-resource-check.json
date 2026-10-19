@@ -1,0 +1,23 @@
+{
+  "observed_at_utc": "2026-10-19T06:33:49Z",
+  "strict_jsonl_counts": {
+    "events.jsonl": 586,
+    "interventions.jsonl": 4,
+    "claims.jsonl": 14,
+    "api_calls.jsonl": 5,
+    "sources.jsonl": 807
+  },
+  "input_prompt_unchanged": true,
+  "initial_submission_snapshot_unchanged": true,
+  "experiments_by_status": {
+    "completed": 137,
+    "failed": 8,
+    "failed_before_launch": 1
+  },
+  "maximum_positive_duration_experiment_intervals": 2,
+  "active_experiments": [],
+  "experiments_over1800_seconds": [],
+  "storage_bytes_du": 9922977792,
+  "storage_limit_bytes": 10737418240,
+  "interval_scope": "Saved logical experiment intervals, end-before-start on second-resolution ties; zero-duration E005 unresolved; not independent OS monitoring"
+}

@@ -1,0 +1,113 @@
+{
+  "exploratory": true,
+  "post_review": true,
+  "threshold_selected_by_reviewer_after_results": true,
+  "bootstrap": {
+    "block_weeks": 8,
+    "repetitions": 2000,
+    "calendar_week_grid": true,
+    "multiplicity_adjusted": false
+  },
+  "all_primary_point_estimates_match": true,
+  "primary_checks": [
+    {
+      "model": "ensemble",
+      "age": 0,
+      "n_pairs": 338,
+      "absolute_ratio_difference": 0.0
+    },
+    {
+      "model": "ensemble",
+      "age": 1,
+      "n_pairs": 338,
+      "absolute_ratio_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "ensemble",
+      "age": 2,
+      "n_pairs": 338,
+      "absolute_ratio_difference": 0.0
+    },
+    {
+      "model": "chronos_bolt_base",
+      "age": 0,
+      "n_pairs": 338,
+      "absolute_ratio_difference": 1.1102230246251565e-16
+    },
+    {
+      "model": "chronos_bolt_base",
+      "age": 1,
+      "n_pairs": 338,
+      "absolute_ratio_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "chronos_bolt_base",
+      "age": 2,
+      "n_pairs": 338,
+      "absolute_ratio_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "timesfm_2p5",
+      "age": 0,
+      "n_pairs": 262,
+      "absolute_ratio_difference": 0.0
+    },
+    {
+      "model": "timesfm_2p5",
+      "age": 1,
+      "n_pairs": 262,
+      "absolute_ratio_difference": 2.220446049250313e-16
+    },
+    {
+      "model": "timesfm_2p5",
+      "age": 2,
+      "n_pairs": 262,
+      "absolute_ratio_difference": 2.220446049250313e-16
+    }
+  ],
+  "publication_gap_scope": "Changes of saved national aggregate file; no claim about all public channels or laboratory sampling",
+  "nz_test_start": "2025-07-07",
+  "nz_test_end": "2026-08-03",
+  "nz_publication_dates": [
+    "2025-07-10",
+    "2025-07-24",
+    "2025-08-07",
+    "2025-08-21",
+    "2025-09-04",
+    "2025-09-18",
+    "2025-10-02",
+    "2025-10-16",
+    "2025-10-30",
+    "2025-11-14",
+    "2025-11-27",
+    "2025-12-11",
+    "2025-12-18",
+    "2025-12-24",
+    "2026-01-15",
+    "2026-01-29",
+    "2026-02-04",
+    "2026-02-12",
+    "2026-02-26",
+    "2026-03-13",
+    "2026-03-26",
+    "2026-04-10",
+    "2026-04-23",
+    "2026-05-07",
+    "2026-05-21",
+    "2026-06-04",
+    "2026-06-18",
+    "2026-07-02",
+    "2026-07-20",
+    "2026-07-30"
+  ],
+  "nz_weekday_counts": {
+    "Thursday": 24,
+    "Friday": 3,
+    "Wednesday": 2,
+    "Monday": 1
+  },
+  "nz_release_scope": "All recorded release commits within test dates, whether later deemed eligible or not",
+  "n_horizon_rows": 96,
+  "pathogen_rows": 36,
+  "fresh_horizon_groups_are_not_causal_regimes": true
+}

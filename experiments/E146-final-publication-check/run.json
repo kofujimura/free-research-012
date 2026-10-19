@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E146-final-publication-check",
+  "plan_path": "protocol/review-response-v2.md",
+  "plan_commit": "4885e58dcc561a8c65586c6ee9c443f0be17b81b",
+  "plan_sha256": "3e2585353eac06f559d6e1b06bbfb3b85049da61bd51208745983fe6228a1084",
+  "code_commit": "4885e58dcc561a8c65586c6ee9c443f0be17b81b",
+  "command": [
+    ".venv/bin/python",
+    "scripts/verify_publication.py",
+    "--manifest",
+    ".verify-work/output-final/report-manifest.json",
+    "--out",
+    "experiments/E146-final-publication-check/publication"
+  ],
+  "started_at_utc": "2026-10-19T05:13:41Z",
+  "timeout_seconds": 180,
+  "input_files": {
+    "review/final-publication-inputs.json": "7407e96458249ce7cd917259dac36d2979ce7c5ae0a85697a837407658409d58",
+    "review/editorial-change-scope.json": "da6824660a6aa97c977ecabfbc7a234a504ffe7c5b6ea3d2ea217708152f7166",
+    "paper.template.md": "84b95fd94fe6197f66ed0c7226c2673d594b931a4eadee220707f8d05ea7555d",
+    "scripts/render_paper.py": "39a08a67681c2575408e2d94383634888c96edc09f2579960f7a6ca04bb40b51",
+    "scripts/plot_results.py": "fa8ddd92510da4f5df00b64750a5a9019cb305cc988ed92172510b9dce2f9984",
+    "claims.jsonl": "b52fa39ab53771ed00a78f15eb492770ba5833b140651d2255001ca0f315cef8"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 73222,
+  "storage_before_bytes_du": 9922199552,
+  "child_pid": 73231,
+  "ended_at_utc": "2026-10-19T05:13:46Z",
+  "elapsed_seconds": 4.381754542002454,
+  "returncode": 0
+}

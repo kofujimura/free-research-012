@@ -1,0 +1,25 @@
+{"done": 16, "total": 386, "successes": 48, "failures": 0}
+{"done": 32, "total": 386, "successes": 96, "failures": 0}
+{"done": 48, "total": 386, "successes": 144, "failures": 0}
+{"done": 64, "total": 386, "successes": 192, "failures": 0}
+{"done": 80, "total": 386, "successes": 240, "failures": 0}
+{"done": 96, "total": 386, "successes": 288, "failures": 0}
+{"done": 112, "total": 386, "successes": 336, "failures": 0}
+{"done": 128, "total": 386, "successes": 384, "failures": 0}
+{"done": 144, "total": 386, "successes": 432, "failures": 0}
+{"done": 160, "total": 386, "successes": 480, "failures": 0}
+{"done": 176, "total": 386, "successes": 528, "failures": 0}
+{"done": 192, "total": 386, "successes": 576, "failures": 0}
+{"done": 208, "total": 386, "successes": 624, "failures": 0}
+{"done": 224, "total": 386, "successes": 672, "failures": 0}
+{"done": 240, "total": 386, "successes": 720, "failures": 0}
+{"done": 256, "total": 386, "successes": 768, "failures": 0}
+{"done": 272, "total": 386, "successes": 816, "failures": 0}
+{"done": 288, "total": 386, "successes": 864, "failures": 0}
+{"done": 304, "total": 386, "successes": 912, "failures": 0}
+{"done": 320, "total": 386, "successes": 960, "failures": 0}
+{"done": 336, "total": 386, "successes": 1008, "failures": 0}
+{"done": 352, "total": 386, "successes": 1056, "failures": 0}
+{"done": 368, "total": 386, "successes": 1104, "failures": 0}
+{"done": 384, "total": 386, "successes": 1152, "failures": 0}
+{"inputs": 386, "successes": 1158, "failures": 0, "seed": 12012, "common_d_for_fourier_aicc": true}

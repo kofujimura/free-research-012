@@ -1,0 +1,26 @@
+{
+  "experiment_id": "E111-history-extra-002",
+  "plan_path": "protocol/history-length-control-v1.md",
+  "plan_commit": "16b4c5323baf55b727e572316881fa6ea784ae61",
+  "plan_sha256": "24f4e3aedc060b5162b7445744b17a2d52bfcdd45e0ee4e2dcbda334648bcc9f",
+  "code_commit": "16b4c5323baf55b727e572316881fa6ea784ae61",
+  "command": [
+    ".venv/bin/python",
+    "scripts/extra_baselines.py",
+    "--inputs",
+    "experiments/E099-history-length-inputs-fixed/inference-inputs/extra-002.json"
+  ],
+  "started_at_utc": "2026-10-19T01:47:59Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E099-history-length-inputs-fixed/inference-inputs/extra-002.json": "23707c9a84c157b58edc25311edc67375a4f0c209434ded63ceb558c1f9cd145"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 60957,
+  "storage_before_bytes_du": 8298680320,
+  "child_pid": 60963,
+  "ended_at_utc": "2026-10-19T01:57:57Z",
+  "elapsed_seconds": 597.8786819169763,
+  "returncode": 0
+}

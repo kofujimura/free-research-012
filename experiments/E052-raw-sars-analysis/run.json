@@ -1,0 +1,41 @@
+{
+  "experiment_id": "E052-raw-sars-analysis",
+  "plan_path": "protocol/raw-sars-plan-v1.md",
+  "plan_commit": "ec04e2ceebc05ac02d39ea78ce37a55539b1decb",
+  "plan_sha256": "24e6c9d066d4623f9e39f78fd863e2b01ff63f639ad81fcad9c2660659e0076e",
+  "code_commit": "ec04e2ceebc05ac02d39ea78ce37a55539b1decb",
+  "command": [
+    ".venv/bin/python",
+    "scripts/panel_analysis.py",
+    "--panel",
+    "experiments/E045-raw-sars-inputs",
+    "--forecast-dir",
+    "experiments/E047-raw-sars-statistical",
+    "--forecast-dir",
+    "experiments/E048-raw-sars-chronos",
+    "--forecast-dir",
+    "experiments/E049-raw-sars-timesfm",
+    "--forecast-dir",
+    "experiments/E050-raw-sars-extra",
+    "--out",
+    "experiments/E052-raw-sars-analysis/results"
+  ],
+  "started_at_utc": "2026-10-18T20:55:48Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E045-raw-sars-inputs/inputs.json": "7b01355b398135cd718fb49cc1e7ed6bfb59af27d1b28c1be92d0fd443bb900a",
+    "experiments/E045-raw-sars-inputs/truth.csv": "6965549052b2926bc96a68103897bef1e451cdf96df3c522aa2860534e4568d1",
+    "experiments/E047-raw-sars-statistical/forecasts.jsonl": "7d8d1cd88f4d452ce98119ed1bc84aca8c8cb57d7f4c245832e58bc3d4ae7580",
+    "experiments/E048-raw-sars-chronos/forecasts.jsonl": "b7fc62b649b7805165de4c582379ccd413ad2d61c1804c7b24baa4704495e589",
+    "experiments/E049-raw-sars-timesfm/forecasts.jsonl": "1c9583c8324b8faa591ea6b441b401107e702154b8d831ab743070265d0b2ebf",
+    "experiments/E050-raw-sars-extra/forecasts.jsonl": "c20e8d1bd5afe3721ae35297310db746f6b25fc9fa3cd281a15ce38f0f71e827"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52951,
+  "storage_before_bytes_du": 6858874880,
+  "child_pid": 52957,
+  "ended_at_utc": "2026-10-18T20:56:09Z",
+  "elapsed_seconds": 20.972612541983835,
+  "returncode": 0
+}

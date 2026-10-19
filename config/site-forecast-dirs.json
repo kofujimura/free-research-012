@@ -1,0 +1,22 @@
+[
+  "experiments/E028-site-c0-statistical",
+  "experiments/E029-site-c0-extra",
+  "experiments/E030-site-c0-timesfm",
+  "experiments/E031-site-c0-chronos",
+  "experiments/E032-site-c1-statistical",
+  "experiments/E033-site-c1-extra",
+  "experiments/E034-site-c1-timesfm",
+  "experiments/E035-site-c1-chronos",
+  "experiments/E036-site-c2-statistical",
+  "experiments/E042-site-c2-extra",
+  "experiments/E054-site-c2-timesfm",
+  "experiments/E055-site-c2-chronos",
+  "experiments/E058-site-c3-statistical",
+  "experiments/E051-site-c3-extra",
+  "experiments/E061-site-c3-timesfm",
+  "experiments/E063-site-c3-chronos",
+  "experiments/E065-site-c4-statistical",
+  "experiments/E059-site-c4-extra",
+  "experiments/E069-site-c4-timesfm-correct-path",
+  "experiments/E070-site-c4-chronos"
+]

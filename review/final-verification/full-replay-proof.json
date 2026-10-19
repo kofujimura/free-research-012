@@ -1,0 +1,52 @@
+{
+  "observed_at_utc": "2026-10-19T05:12:21Z",
+  "status": "completed",
+  "phase": "post_review",
+  "successful_experiment": "E145-post-review-full-replay",
+  "successful_source_commit": "5d3c82a4330063f3375570afedf4ef4ba8b30346",
+  "stages": 44,
+  "tables": 70,
+  "table_rows": 178110,
+  "max_absolute_numeric_difference": 0.0,
+  "relative_tolerance": 1e-09,
+  "absolute_tolerance": 1e-11,
+  "claims": 14,
+  "claim_evidence_rows": 96,
+  "elapsed_seconds": 1169.4420761670917,
+  "source_input_files_checked": 2661,
+  "source_inputs_unchanged": true,
+  "source_tracked_edits_after": false,
+  "full_not_quick": true,
+  "manuscript_bytes_match_saved_analysis_render": true,
+  "figures": [
+    {
+      "path": "figures/national-model-information.png",
+      "sha256": "5426769f10bdb0f956a8d5dd623200b5300236a47a1445c125ca21198885535b",
+      "regenerated_bytes_match": true
+    },
+    {
+      "path": "figures/national-model-information.svg",
+      "sha256": "9c966159a0133f81ed5c0d5e06b89a5fcad624f4c00b761e60674f2dbda03706",
+      "regenerated_bytes_match": true
+    },
+    {
+      "path": "figures/generalization-one-week.png",
+      "sha256": "189e816470429596793456beec76f634e4809798f4918af77f6549ee2e18e5d5",
+      "regenerated_bytes_match": true
+    },
+    {
+      "path": "figures/generalization-one-week.svg",
+      "sha256": "7f5844f562ea02f95299fb961ce60df860524f8475bf0a23b2a453c0d7f41888",
+      "regenerated_bytes_match": true
+    }
+  ],
+  "independent_reproduction": false,
+  "existing_dependency_environment_reused": true,
+  "git_objects_shared": true,
+  "immutable_source_input_files_shared": true,
+  "replay_outputs_started_empty": true,
+  "api_required": false,
+  "network_required": false,
+  "initial_verification_record_preserved": "review/verification-result.json",
+  "archive": "review/final-verification"
+}

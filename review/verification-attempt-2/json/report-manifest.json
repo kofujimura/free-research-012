@@ -1,0 +1,22 @@
+{
+  "primary": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/primary",
+  "extended": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/extended",
+  "updates": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/updates",
+  "nz": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz",
+  "site": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site",
+  "raw": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/raw",
+  "indicator": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/indicator",
+  "sensitivity": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/sensitivity",
+  "shifted": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/shifted",
+  "pooled_site": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/pooled_site",
+  "pooled_nz": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/pooled_nz",
+  "cqr_national": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/cqr_national",
+  "cqr_nz": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/cqr_nz",
+  "cqr_site": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/cqr_site",
+  "interaction_national": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/interaction_national",
+  "interaction_nz": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/interaction_nz",
+  "interaction_site": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/interaction_site",
+  "quality": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/quality",
+  "history": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/history",
+  "joint": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/joint"
+}

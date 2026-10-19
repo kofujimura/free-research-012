@@ -1,0 +1,10 @@
+{
+  "extended_native_rows": 33321,
+  "calibrated_rows": 12997,
+  "selector_rows": 1464,
+  "selected_rows": 1113,
+  "comparison_rows": 7416,
+  "wis_identity_max_error": 4.440892098500626e-16,
+  "exploratory": true,
+  "selection_uses_only_previously_matured_references": true
+}

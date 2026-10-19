@@ -1,0 +1,88 @@
+[
+  {
+    "repository": "amazon/chronos-bolt-base",
+    "revision": "5d9f166d69f47aef3401367a7b842e78fe97b121",
+    "files": [
+      {
+        "url": "https://huggingface.co/amazon/chronos-bolt-base/resolve/5d9f166d69f47aef3401367a7b842e78fe97b121/README.md",
+        "path": "data/models/chronos-bolt-base/README.md",
+        "retrieved_at_utc": "2026-10-18T16:21:57Z",
+        "sha256": "6b0a3a94a6eb64c6cb6ecef796d89591a0f099ede877717d7b0ce59f39e4ce59",
+        "bytes": 8659,
+        "license": "Apache-2.0 (official model card)",
+        "purpose": "local public model weights and metadata",
+        "status": "success",
+        "repository": "amazon/chronos-bolt-base",
+        "revision": "5d9f166d69f47aef3401367a7b842e78fe97b121"
+      },
+      {
+        "url": "https://huggingface.co/amazon/chronos-bolt-base/resolve/5d9f166d69f47aef3401367a7b842e78fe97b121/config.json",
+        "path": "data/models/chronos-bolt-base/config.json",
+        "retrieved_at_utc": "2026-10-18T16:21:57Z",
+        "sha256": "46f7e7e695569f67b06178faa4f236c281392945aa2d1bdf844442e57155530b",
+        "bytes": 1123,
+        "license": "Apache-2.0 (official model card)",
+        "purpose": "local public model weights and metadata",
+        "status": "success",
+        "repository": "amazon/chronos-bolt-base",
+        "revision": "5d9f166d69f47aef3401367a7b842e78fe97b121"
+      },
+      {
+        "url": "https://huggingface.co/amazon/chronos-bolt-base/resolve/5d9f166d69f47aef3401367a7b842e78fe97b121/model.safetensors",
+        "path": "data/models/chronos-bolt-base/model.safetensors",
+        "retrieved_at_utc": "2026-10-18T16:21:58Z",
+        "sha256": "31f875483a3215bc6880a0837ea608a13ce55f88ad90538c3cdd0b29aeb60b36",
+        "bytes": 821203576,
+        "license": "Apache-2.0 (official model card)",
+        "purpose": "local public model weights and metadata",
+        "status": "success",
+        "repository": "amazon/chronos-bolt-base",
+        "revision": "5d9f166d69f47aef3401367a7b842e78fe97b121"
+      }
+    ],
+    "git_exclusion": "Large pretrained weights excluded from Git; included in final SHA list and available via exact revision. Stored forecasts suffice for API/model-free analysis."
+  },
+  {
+    "repository": "google/timesfm-2.5-200m-pytorch",
+    "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+    "files": [
+      {
+        "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/README.md",
+        "path": "data/models/timesfm-2.5-200m-pytorch/README.md",
+        "retrieved_at_utc": "2026-10-18T16:23:01Z",
+        "sha256": "4c3f16633a3d8b9324904bf004429aced2ee009b84e64effb59a902520cc7f2e",
+        "bytes": 2496,
+        "license": "Apache-2.0 (official model card)",
+        "purpose": "local public model weights and metadata",
+        "status": "success",
+        "repository": "google/timesfm-2.5-200m-pytorch",
+        "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3"
+      },
+      {
+        "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/config.json",
+        "path": "data/models/timesfm-2.5-200m-pytorch/config.json",
+        "retrieved_at_utc": "2026-10-18T16:23:01Z",
+        "sha256": "cd3315b760d5cc7e278d7afdf41b897031ced888fc6c115bd9b3ac0ea2c47408",
+        "bytes": 475,
+        "license": "Apache-2.0 (official model card)",
+        "purpose": "local public model weights and metadata",
+        "status": "success",
+        "repository": "google/timesfm-2.5-200m-pytorch",
+        "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3"
+      },
+      {
+        "url": "https://huggingface.co/google/timesfm-2.5-200m-pytorch/resolve/1d952420fba87f3c6dee4f240de0f1a0fbc790e3/model.safetensors",
+        "path": "data/models/timesfm-2.5-200m-pytorch/model.safetensors",
+        "retrieved_at_utc": "2026-10-18T16:23:02Z",
+        "sha256": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8",
+        "bytes": 925181104,
+        "license": "Apache-2.0 (official model card)",
+        "purpose": "local public model weights and metadata",
+        "status": "success",
+        "repository": "google/timesfm-2.5-200m-pytorch",
+        "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3"
+      }
+    ],
+    "git_exclusion": "Large pretrained weights excluded from Git; included in final SHA list and available via exact revision. Stored forecasts suffice for API/model-free analysis."
+  }
+]

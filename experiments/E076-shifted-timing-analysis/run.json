@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E076-shifted-timing-analysis",
+  "plan_path": "protocol/robustness-v3.md",
+  "plan_commit": "d2057f5fa2aecf0d06a538fefae48da6870d54b2",
+  "plan_sha256": "2210b046eb71a1e761405728a1daeb9789f6e83be8ad7e7d480aff71f721c3ff",
+  "code_commit": "d2057f5fa2aecf0d06a538fefae48da6870d54b2",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_shifted.py",
+    "--scenarios",
+    "experiments/E057-shifted-inputs-label-availability/scenarios.json",
+    "--forecast-map",
+    "config/shift-forecast-map.json",
+    "--out",
+    "experiments/E076-shifted-timing-analysis/results"
+  ],
+  "started_at_utc": "2026-10-18T21:34:45Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E057-shifted-inputs-label-availability/scenarios.json": "0b4d33e24b41cd3170c77e582d53b180e4beee73abab9164680c3f691c3d88b7",
+    "config/shift-forecast-map.json": "0687385fa8b4610f32a85a0ed5ba7f0b0de669a3d2e20df6d1c12dfce88ad51b"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 54644,
+  "storage_before_bytes_du": 7470465024,
+  "child_pid": 54650,
+  "ended_at_utc": "2026-10-18T21:36:29Z",
+  "elapsed_seconds": 103.83520391606726,
+  "returncode": 0
+}

@@ -1,0 +1,17 @@
+{
+  "started_at_utc": "2026-10-18T15:47:10Z",
+  "ended_at_utc": "2026-10-18T15:47:47Z",
+  "elapsed_seconds": 36.97052299999632,
+  "inference_seconds": 0.01250345807056874,
+  "series_length": 64,
+  "prediction_shape": [
+    1,
+    9,
+    4
+  ],
+  "model": "amazon/chronos-bolt-tiny",
+  "local_path": "data/models/chronos-bolt-tiny",
+  "device": "cpu",
+  "license": "Apache-2.0",
+  "note": "Feasibility only. No held-out accuracy compared."
+}

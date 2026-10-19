@@ -1,0 +1,40 @@
+{
+  "experiment_id": "E081-nz-pooled-analysis",
+  "plan_path": "protocol/pooled-baseline-v2.md",
+  "plan_commit": "d5636b2da0b8ae8a2660b8b7d75d2e1f667d0af6",
+  "plan_sha256": "fdcaf2eaba279d0856f3dc1e03a835056b401ea04311ecef7d40000dfcb9d270",
+  "code_commit": "d5636b2da0b8ae8a2660b8b7d75d2e1f667d0af6",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_pooled.py",
+    "--panel",
+    "experiments/E027-nz-panel-inputs-eligible",
+    "--site-forecasts",
+    "experiments/E044-nz-panel-analysis/results/case-forecasts.csv.gz",
+    "--fit-dir",
+    "experiments/E073-nz-pooled-fit-0",
+    "--fit-dir",
+    "experiments/E074-nz-pooled-fit-1",
+    "--fit-dir",
+    "experiments/E075-nz-pooled-fit-2",
+    "--fit-dir",
+    "experiments/E077-nz-pooled-fit-3",
+    "--fit-dir",
+    "experiments/E078-nz-pooled-fit-4",
+    "--out",
+    "experiments/E081-nz-pooled-analysis/results"
+  ],
+  "started_at_utc": "2026-10-18T21:37:20Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E044-nz-panel-analysis/results/case-forecasts.csv.gz": "de1050894de5dd5a0dfea164d41bb7fefef6fab8cfb27186bd48166050d12d1e"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 54816,
+  "storage_before_bytes_du": 7828865024,
+  "child_pid": 54822,
+  "ended_at_utc": "2026-10-18T21:37:24Z",
+  "elapsed_seconds": 3.917058499995619,
+  "returncode": 0
+}

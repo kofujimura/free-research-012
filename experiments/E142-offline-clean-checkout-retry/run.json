@@ -1,0 +1,34 @@
+{
+  "experiment_id": "E142-offline-clean-checkout-retry",
+  "plan_path": "protocol/verification-v2.md",
+  "plan_commit": "834f84dc39144ca72bc28686018889bee5ab725b",
+  "plan_sha256": "2795c664510eb41402112e73703fc795df4fb1f98f8c5ab7d888857fc6433923",
+  "code_commit": "834f84dc39144ca72bc28686018889bee5ab725b",
+  "command": [
+    ".venv/bin/python",
+    ".verify-work/checkout/scripts/reproduce.py",
+    "--out",
+    "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2",
+    "--config",
+    "config/reproduction.json",
+    "--max-seconds",
+    "1740"
+  ],
+  "started_at_utc": "2026-10-19T03:09:53Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "review/verification-inputs-2.json": "71b5ee2e46e3c513547f488da8c6435ef48fe1630084828d7e4ca82aabff1c6e",
+    "config/reproduction.json": "53e6c4486ac7522652387f67007f3b0411c9028c9a29d0713460e5725e1b1931",
+    "claims.jsonl": "d760dd6d02cbf2c0496cc0d25b4ab1e084931a10b0e0adf3f3e43f93da3b8b11",
+    "paper.template.md": "d4a5ed30ae1319bd0abad476fd73f2ba33fd83ef4235c74275759617537777ca",
+    "requirements-analysis.txt": "7c8a0b7936fdd053b77239e0bd3a1ede27f0e394abc0ff0662cf6c4f6205bbc7"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 64103,
+  "storage_before_bytes_du": 9784393728,
+  "child_pid": 64131,
+  "ended_at_utc": "2026-10-19T03:29:19Z",
+  "elapsed_seconds": 1165.3131673330208,
+  "returncode": 0
+}

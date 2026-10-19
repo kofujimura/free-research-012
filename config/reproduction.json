@@ -1,0 +1,1077 @@
+{
+  "version": 3,
+  "network_required": false,
+  "ai_api_required": false,
+  "report_aliases": {
+    "primary": "primary",
+    "extended": "extended",
+    "updates": "updates",
+    "nz": "nz",
+    "site": "site",
+    "raw": "raw",
+    "indicator": "indicator",
+    "sensitivity": "sensitivity",
+    "shifted": "shifted",
+    "pooled_site": "pooled_site",
+    "pooled_nz": "pooled_nz",
+    "cqr_national": "cqr_national",
+    "cqr_nz": "cqr_nz",
+    "cqr_site": "cqr_site",
+    "interaction_national": "interaction_national",
+    "interaction_nz": "interaction_nz",
+    "interaction_site": "interaction_site",
+    "quality": "quality",
+    "history": "history",
+    "joint": "joint",
+    "review_strata": "review_strata"
+  },
+  "quality_datasets": [
+    {
+      "name": "germany_national",
+      "panel": "experiments/E007-prepare-inputs-fixed",
+      "scores": [
+        "{OUT}/primary/case-scores.csv",
+        "{OUT}/extended/case-extra-scores.csv.gz"
+      ]
+    },
+    {
+      "name": "germany_sites",
+      "panel": "experiments/E024-site-panel-inputs",
+      "scores": [
+        "{OUT}/site/case-scores.csv.gz",
+        "{OUT}/pooled_site/pooled-case-scores.csv.gz"
+      ]
+    },
+    {
+      "name": "nz",
+      "panel": "experiments/E027-nz-panel-inputs-eligible",
+      "scores": [
+        "{OUT}/nz/case-scores.csv.gz",
+        "{OUT}/pooled_nz/pooled-case-scores.csv.gz"
+      ]
+    }
+  ],
+  "history_original_scores": {
+    "national": [
+      "{OUT}/primary/case-scores.csv",
+      "{OUT}/extended/case-extra-scores.csv.gz"
+    ],
+    "site": [
+      "{OUT}/site/case-scores.csv.gz",
+      "{OUT}/pooled_site/pooled-case-scores.csv.gz"
+    ],
+    "nz": [
+      "{OUT}/nz/case-scores.csv.gz",
+      "{OUT}/pooled_nz/pooled-case-scores.csv.gz"
+    ]
+  },
+  "joint_comparison_datasets": [
+    {
+      "name": "national",
+      "country": "Germany",
+      "scores": [
+        "{OUT}/primary/case-scores.csv",
+        "{OUT}/extended/case-extra-scores.csv.gz"
+      ]
+    },
+    {
+      "name": "site",
+      "country": "Germany",
+      "scores": [
+        "{OUT}/site/case-scores.csv.gz"
+      ]
+    },
+    {
+      "name": "nz",
+      "country": "NZ",
+      "scores": [
+        "{OUT}/nz/case-scores.csv.gz"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "name": "temporal",
+      "script": "verify_temporal.py",
+      "args": [
+        "--out",
+        "{OUT}/temporal/results.json"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "weekly_sample",
+      "script": "verify_site_weekly.py",
+      "args": [],
+      "large_optional": false
+    },
+    {
+      "name": "api_accounting",
+      "script": "verify_api_accounting.py",
+      "args": [
+        "--out",
+        "{OUT}/api_accounting/results.json"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "primary",
+      "script": "analyze.py",
+      "args": [
+        "--out",
+        "{OUT}/primary"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "extended",
+      "script": "analyze_extra_baselines.py",
+      "args": [
+        "--out",
+        "{OUT}/extended"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "updates",
+      "script": "analyze_updates.py",
+      "args": [
+        "--primary-dir",
+        "{OUT}/primary",
+        "--out",
+        "{OUT}/updates"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "nz",
+      "script": "panel_analysis.py",
+      "args": [
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--forecast-dir",
+        "experiments/E039-nz-statistical",
+        "--forecast-dir",
+        "experiments/E040-nz-chronos",
+        "--forecast-dir",
+        "experiments/E041-nz-timesfm",
+        "--forecast-dir",
+        "experiments/E043-nz-extra",
+        "--out",
+        "{OUT}/nz"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "site",
+      "script": "panel_analysis.py",
+      "args": [
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--forecast-dir",
+        "experiments/E028-site-c0-statistical",
+        "--forecast-dir",
+        "experiments/E029-site-c0-extra",
+        "--forecast-dir",
+        "experiments/E030-site-c0-timesfm",
+        "--forecast-dir",
+        "experiments/E031-site-c0-chronos",
+        "--forecast-dir",
+        "experiments/E032-site-c1-statistical",
+        "--forecast-dir",
+        "experiments/E033-site-c1-extra",
+        "--forecast-dir",
+        "experiments/E034-site-c1-timesfm",
+        "--forecast-dir",
+        "experiments/E035-site-c1-chronos",
+        "--forecast-dir",
+        "experiments/E036-site-c2-statistical",
+        "--forecast-dir",
+        "experiments/E042-site-c2-extra",
+        "--forecast-dir",
+        "experiments/E054-site-c2-timesfm",
+        "--forecast-dir",
+        "experiments/E055-site-c2-chronos",
+        "--forecast-dir",
+        "experiments/E058-site-c3-statistical",
+        "--forecast-dir",
+        "experiments/E051-site-c3-extra",
+        "--forecast-dir",
+        "experiments/E061-site-c3-timesfm",
+        "--forecast-dir",
+        "experiments/E063-site-c3-chronos",
+        "--forecast-dir",
+        "experiments/E065-site-c4-statistical",
+        "--forecast-dir",
+        "experiments/E059-site-c4-extra",
+        "--forecast-dir",
+        "experiments/E069-site-c4-timesfm-correct-path",
+        "--forecast-dir",
+        "experiments/E070-site-c4-chronos",
+        "--out",
+        "{OUT}/site"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "raw",
+      "script": "panel_analysis.py",
+      "args": [
+        "--panel",
+        "experiments/E045-raw-sars-inputs",
+        "--forecast-dir",
+        "experiments/E047-raw-sars-statistical",
+        "--forecast-dir",
+        "experiments/E048-raw-sars-chronos",
+        "--forecast-dir",
+        "experiments/E049-raw-sars-timesfm",
+        "--forecast-dir",
+        "experiments/E050-raw-sars-extra",
+        "--out",
+        "{OUT}/raw"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "indicator",
+      "script": "analyze_indicator_choice.py",
+      "args": [
+        "--raw-forecasts",
+        "{OUT}/raw/case-forecasts.csv.gz",
+        "--raw-panel",
+        "experiments/E045-raw-sars-inputs",
+        "--normalized-forecasts",
+        "{OUT}/extended/case-forecasts.csv.gz",
+        "--out",
+        "{OUT}/indicator"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "sensitivity",
+      "script": "analyze_sensitivity.py",
+      "args": [
+        "--primary-dir",
+        "{OUT}/primary",
+        "--out",
+        "{OUT}/sensitivity"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "shifted",
+      "script": "analyze_shifted.py",
+      "args": [
+        "--scenarios",
+        "experiments/E057-shifted-inputs-label-availability/scenarios.json",
+        "--forecast-map",
+        "config/shift-forecast-map.json",
+        "--out",
+        "{OUT}/shifted"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "site_features",
+      "script": "prepare_pooled_features.py",
+      "args": [
+        "--panel",
+        "experiments/E024-site-panel-inputs"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "site_model_replay",
+      "script": "verify_pooled.py",
+      "args": [
+        "--features",
+        "{OUT}/site_features",
+        "--expected-features",
+        "experiments/E056-pooled-feature-preparation",
+        "--fit-dir",
+        "experiments/E060-pooled-fit-0",
+        "--fit-dir",
+        "experiments/E062-pooled-fit-1",
+        "--fit-dir",
+        "experiments/E064-pooled-fit-2",
+        "--fit-dir",
+        "experiments/E066-pooled-fit-3",
+        "--fit-dir",
+        "experiments/E068-pooled-fit-4",
+        "--out",
+        "{OUT}/site_model_replay"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "site_first_refit",
+      "script": "train_pooled.py",
+      "args": [
+        "--features",
+        "{OUT}/site_features",
+        "--start",
+        "0",
+        "--stop",
+        "1"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "site_refit_check",
+      "script": "compare_pooled_refit.py",
+      "args": [
+        "--original",
+        "experiments/E060-pooled-fit-0",
+        "--refit",
+        "{OUT}/site_first_refit",
+        "--out",
+        "{OUT}/site_refit_check/results.json"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "pooled_site",
+      "script": "analyze_pooled.py",
+      "args": [
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--site-forecasts",
+        "{OUT}/site/case-forecasts.csv.gz",
+        "--fit-dir",
+        "experiments/E060-pooled-fit-0",
+        "--fit-dir",
+        "experiments/E062-pooled-fit-1",
+        "--fit-dir",
+        "experiments/E064-pooled-fit-2",
+        "--fit-dir",
+        "experiments/E066-pooled-fit-3",
+        "--fit-dir",
+        "experiments/E068-pooled-fit-4",
+        "--out",
+        "{OUT}/pooled_site"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "nz_features",
+      "script": "prepare_pooled_features.py",
+      "args": [
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "nz_model_replay",
+      "script": "verify_pooled.py",
+      "args": [
+        "--features",
+        "{OUT}/nz_features",
+        "--expected-features",
+        "experiments/E071-nz-pooled-features",
+        "--fit-dir",
+        "experiments/E073-nz-pooled-fit-0",
+        "--fit-dir",
+        "experiments/E074-nz-pooled-fit-1",
+        "--fit-dir",
+        "experiments/E075-nz-pooled-fit-2",
+        "--fit-dir",
+        "experiments/E077-nz-pooled-fit-3",
+        "--fit-dir",
+        "experiments/E078-nz-pooled-fit-4",
+        "--out",
+        "{OUT}/nz_model_replay"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "nz_first_refit",
+      "script": "train_pooled.py",
+      "args": [
+        "--features",
+        "{OUT}/nz_features",
+        "--start",
+        "0",
+        "--stop",
+        "1"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "nz_refit_check",
+      "script": "compare_pooled_refit.py",
+      "args": [
+        "--original",
+        "experiments/E073-nz-pooled-fit-0",
+        "--refit",
+        "{OUT}/nz_first_refit",
+        "--out",
+        "{OUT}/nz_refit_check/results.json"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "pooled_nz",
+      "script": "analyze_pooled.py",
+      "args": [
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--site-forecasts",
+        "{OUT}/nz/case-forecasts.csv.gz",
+        "--fit-dir",
+        "experiments/E073-nz-pooled-fit-0",
+        "--fit-dir",
+        "experiments/E074-nz-pooled-fit-1",
+        "--fit-dir",
+        "experiments/E075-nz-pooled-fit-2",
+        "--fit-dir",
+        "experiments/E077-nz-pooled-fit-3",
+        "--fit-dir",
+        "experiments/E078-nz-pooled-fit-4",
+        "--out",
+        "{OUT}/pooled_nz"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "growth_national",
+      "script": "analyze_growth.py",
+      "args": [
+        "--panel",
+        "experiments/E007-prepare-inputs-fixed",
+        "--forecast-csv",
+        "{OUT}/extended/case-forecasts.csv.gz",
+        "--out",
+        "{OUT}/growth_national"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "growth_check_national",
+      "script": "verify_growth.py",
+      "args": [
+        "--panel",
+        "experiments/E007-prepare-inputs-fixed",
+        "--growth",
+        "{OUT}/growth_national",
+        "--original-alerts",
+        "{OUT}/primary/alerts-paired.csv",
+        "--out",
+        "{OUT}/growth_check_national"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "growth_nz",
+      "script": "analyze_growth.py",
+      "args": [
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--forecast-csv",
+        "{OUT}/nz/case-forecasts.csv.gz",
+        "--out",
+        "{OUT}/growth_nz"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "growth_check_nz",
+      "script": "verify_growth.py",
+      "args": [
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--growth",
+        "{OUT}/growth_nz",
+        "--out",
+        "{OUT}/growth_check_nz"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "growth_site",
+      "script": "analyze_growth.py",
+      "args": [
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--forecast-csv",
+        "{OUT}/site/case-forecasts.csv.gz",
+        "--out",
+        "{OUT}/growth_site"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "growth_check_site",
+      "script": "verify_growth.py",
+      "args": [
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--growth",
+        "{OUT}/growth_site",
+        "--out",
+        "{OUT}/growth_check_site"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "cqr_national",
+      "script": "analyze_interval_calibration.py",
+      "args": [
+        "--panel",
+        "experiments/E007-prepare-inputs-fixed",
+        "--forecast-csv",
+        "{OUT}/extended/case-forecasts.csv.gz",
+        "--out",
+        "{OUT}/cqr_national"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "cqr_nz",
+      "script": "analyze_interval_calibration.py",
+      "args": [
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--forecast-csv",
+        "{OUT}/nz/case-forecasts.csv.gz",
+        "--out",
+        "{OUT}/cqr_nz"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "cqr_site",
+      "script": "analyze_interval_calibration.py",
+      "args": [
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--forecast-csv",
+        "{OUT}/site/case-forecasts.csv.gz",
+        "--out",
+        "{OUT}/cqr_site"
+      ],
+      "large_optional": true
+    },
+    {
+      "name": "interaction_national",
+      "script": "analyze_freshness_interaction.py",
+      "args": [
+        "--panel",
+        "experiments/E007-prepare-inputs-fixed",
+        "--scores",
+        "{OUT}/primary/case-scores.csv",
+        "--scores",
+        "{OUT}/extended/case-extra-scores.csv.gz",
+        "--out",
+        "{OUT}/interaction_national"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "interaction_nz",
+      "script": "analyze_freshness_interaction.py",
+      "args": [
+        "--panel",
+        "experiments/E027-nz-panel-inputs-eligible",
+        "--scores",
+        "{OUT}/nz/case-scores.csv.gz",
+        "--scores",
+        "{OUT}/pooled_nz/pooled-case-scores.csv.gz",
+        "--out",
+        "{OUT}/interaction_nz"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "interaction_site",
+      "script": "analyze_freshness_interaction.py",
+      "args": [
+        "--panel",
+        "experiments/E024-site-panel-inputs",
+        "--scores",
+        "{OUT}/site/case-scores.csv.gz",
+        "--scores",
+        "{OUT}/pooled_site/pooled-case-scores.csv.gz",
+        "--out",
+        "{OUT}/interaction_site"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "quality",
+      "script": "analyze_input_quality.py",
+      "args": [
+        "--datasets",
+        "{OUT}/quality-datasets.json",
+        "--out",
+        "{OUT}/quality"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "temporal_history",
+      "script": "verify_temporal.py",
+      "args": [
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/national-104",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/national-256",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/site-104",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/site-256",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/nz-104",
+        "--panel",
+        "experiments/E099-history-length-inputs-fixed/nz-256",
+        "--out",
+        "{OUT}/temporal_history/results.json"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "history_native",
+      "script": "assemble_history_control.py",
+      "args": [
+        "--preparation",
+        "experiments/E099-history-length-inputs-fixed",
+        "--out",
+        "{OUT}/history_native"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "history",
+      "script": "analyze_history_control.py",
+      "args": [
+        "--assembled",
+        "{OUT}/history_native",
+        "--original-map",
+        "{OUT}/history-original-scores.json",
+        "--out",
+        "{OUT}/history"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "joint",
+      "script": "analyze_joint_comparisons.py",
+      "args": [
+        "--datasets",
+        "{OUT}/joint-comparison-datasets.json",
+        "--out",
+        "{OUT}/joint"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "review_strata",
+      "script": "analyze_review_strata.py",
+      "args": [
+        "--primary-dir",
+        "{OUT}/primary",
+        "--out",
+        "{OUT}/review_strata"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "figures",
+      "script": "plot_results.py",
+      "args": [
+        "--manifest",
+        "{OUT}/report-manifest.json",
+        "--out",
+        "{OUT}/figures"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "manuscript",
+      "script": "render_paper.py",
+      "args": [
+        "--manifest",
+        "{OUT}/report-manifest.json",
+        "--out",
+        "{OUT}"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "claims",
+      "script": "verify_claims.py",
+      "args": [
+        "--results-manifest",
+        "{OUT}/report-manifest.json",
+        "--out",
+        "{OUT}/claims/results.json"
+      ],
+      "large_optional": false
+    },
+    {
+      "name": "comparison",
+      "script": "compare_recalculation.py",
+      "args": [
+        "--out",
+        "{OUT}"
+      ],
+      "large_optional": false
+    }
+  ],
+  "compare_tables": [
+    {
+      "expected": "experiments/E011-primary-analysis/results/comparisons.csv",
+      "actual": "primary/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E011-primary-analysis/results/model-scores.csv",
+      "actual": "primary/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E011-primary-analysis/results/alerts-paired.csv",
+      "actual": "primary/alerts-paired.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E011-primary-analysis/results/alerts.csv",
+      "actual": "primary/alerts.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E022-extra-analysis-fixed/results/comparisons.csv",
+      "actual": "extended/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E022-extra-analysis-fixed/results/model-scores.csv",
+      "actual": "extended/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E018-update-decomposition/results/anchored-comparisons.csv",
+      "actual": "updates/anchored-comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E018-update-decomposition/results/update-contributions.csv",
+      "actual": "updates/update-contributions.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E018-update-decomposition/results/anchor-revision-summary.csv",
+      "actual": "updates/anchor-revision-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E044-nz-panel-analysis/results/comparisons.csv",
+      "actual": "nz/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E044-nz-panel-analysis/results/model-scores.csv",
+      "actual": "nz/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E044-nz-panel-analysis/results/case-availability.csv",
+      "actual": "nz/case-availability.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E072-site-panel-analysis/results/comparisons.csv",
+      "actual": "site/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E072-site-panel-analysis/results/model-scores.csv",
+      "actual": "site/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E072-site-panel-analysis/results/case-availability.csv",
+      "actual": "site/case-availability.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E052-raw-sars-analysis/results/comparisons.csv",
+      "actual": "raw/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E052-raw-sars-analysis/results/model-scores.csv",
+      "actual": "raw/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E052-raw-sars-analysis/results/case-availability.csv",
+      "actual": "raw/case-availability.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E053-matched-raw-normalized/results/matched-indicator-ratios.csv",
+      "actual": "indicator/matched-indicator-ratios.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/matched-maturity.csv",
+      "actual": "sensitivity/matched-maturity.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/matched-input-reference-matrix.csv",
+      "actual": "sensitivity/matched-input-reference-matrix.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/information-advance-counts.csv",
+      "actual": "sensitivity/information-advance-counts.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/timestamp-proxy-sensitivity.csv",
+      "actual": "sensitivity/timestamp-proxy-sensitivity.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/intended-case-availability.csv",
+      "actual": "sensitivity/intended-case-availability.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E038-reference-and-timing-sensitivity/results/context-audit.csv",
+      "actual": "sensitivity/context-audit.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E076-shifted-timing-analysis/results/comparisons.csv",
+      "actual": "shifted/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E079-site-pooled-analysis/results/comparisons.csv",
+      "actual": "pooled_site/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E079-site-pooled-analysis/results/model-scores.csv",
+      "actual": "pooled_site/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E081-nz-pooled-analysis/results/comparisons.csv",
+      "actual": "pooled_nz/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E081-nz-pooled-analysis/results/model-scores.csv",
+      "actual": "pooled_nz/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E082-national-growth-complete/results/growth-summary.csv",
+      "actual": "growth_national/growth-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E082-national-growth-complete/results/growth-paired.csv",
+      "actual": "growth_national/growth-paired.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E082-national-growth-complete/results/roc-summary.csv",
+      "actual": "growth_national/roc-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E083-nz-growth/results/growth-summary.csv",
+      "actual": "growth_nz/growth-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E083-nz-growth/results/growth-paired.csv",
+      "actual": "growth_nz/growth-paired.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E083-nz-growth/results/roc-summary.csv",
+      "actual": "growth_nz/roc-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E084-site-growth/results/growth-summary.csv",
+      "actual": "growth_site/growth-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E084-site-growth/results/growth-paired.csv",
+      "actual": "growth_site/growth-paired.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E084-site-growth/results/roc-summary.csv",
+      "actual": "growth_site/roc-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E080-national-interval-correction/results/comparisons.csv",
+      "actual": "cqr_national/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E080-national-interval-correction/results/model-scores.csv",
+      "actual": "cqr_national/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E085-nz-interval-correction/results/comparisons.csv",
+      "actual": "cqr_nz/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E085-nz-interval-correction/results/model-scores.csv",
+      "actual": "cqr_nz/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E086-site-interval-correction/results/comparisons.csv",
+      "actual": "cqr_site/comparisons.csv",
+      "large_optional": true
+    },
+    {
+      "expected": "experiments/E086-site-interval-correction/results/model-scores.csv",
+      "actual": "cqr_site/model-scores.csv",
+      "large_optional": true
+    },
+    {
+      "expected": "experiments/E093-national-freshness-interaction/results/comparisons.csv",
+      "actual": "interaction_national/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E093-national-freshness-interaction/results/four-prediction-availability.csv",
+      "actual": "interaction_national/four-prediction-availability.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E094-nz-freshness-interaction/results/comparisons.csv",
+      "actual": "interaction_nz/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E094-nz-freshness-interaction/results/four-prediction-availability.csv",
+      "actual": "interaction_nz/four-prediction-availability.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E095-site-freshness-interaction/results/comparisons.csv",
+      "actual": "interaction_site/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E095-site-freshness-interaction/results/four-prediction-availability.csv",
+      "actual": "interaction_site/four-prediction-availability.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E097-input-quality-case-provenance/results/comparisons.csv",
+      "actual": "quality/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E097-input-quality-case-provenance/results/similarity-summary.csv",
+      "actual": "quality/similarity-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/national-104/model-scores.csv",
+      "actual": "history_native/national-104/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/national-256/model-scores.csv",
+      "actual": "history_native/national-256/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/site-104/model-scores.csv",
+      "actual": "history_native/site-104/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/site-256/model-scores.csv",
+      "actual": "history_native/site-256/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/nz-104/model-scores.csv",
+      "actual": "history_native/nz-104/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E138-history-native-assembly/results/nz-256/model-scores.csv",
+      "actual": "history_native/nz-256/model-scores.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E139-history-matched-analysis/results/comparisons.csv",
+      "actual": "history/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E139-history-matched-analysis/results/availability.csv",
+      "actual": "history/availability.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E139-history-matched-analysis/results/original-short-compatibility.csv",
+      "actual": "history/original-short-compatibility.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E140-joint-comparison-sensitivity/results/comparisons.csv",
+      "actual": "joint/comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E140-joint-comparison-sensitivity/results/family-summary.csv",
+      "actual": "joint/family-summary.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E144-post-review-horizon-strata/results/horizon-comparisons.csv",
+      "actual": "review_strata/horizon-comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E144-post-review-horizon-strata/results/identity-weeks.csv",
+      "actual": "review_strata/identity-weeks.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E144-post-review-horizon-strata/results/horizon-distribution.csv",
+      "actual": "review_strata/horizon-distribution.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E144-post-review-horizon-strata/results/pathogen-comparisons.csv",
+      "actual": "review_strata/pathogen-comparisons.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E144-post-review-horizon-strata/results/publication-gaps.csv",
+      "actual": "review_strata/publication-gaps.csv",
+      "large_optional": false
+    },
+    {
+      "expected": "experiments/E144-post-review-horizon-strata/results/nz-publication-intervals.csv",
+      "actual": "review_strata/nz-publication-intervals.csv",
+      "large_optional": false
+    }
+  ],
+  "quick_omits": [
+    "cqr_site"
+  ],
+  "meaning": "Offline saved-output recalculation plus local model/feature and limited first-week refit checks; not independent replication."
+}

@@ -1,0 +1,102 @@
+{
+  "url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/40",
+  "repository_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG",
+  "labels_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/40/labels{/name}",
+  "comments_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/40/comments",
+  "events_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/40/events",
+  "html_url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/issues/40",
+  "id": 3526580464,
+  "node_id": "I_kwDOLfI8OM7SM1jw",
+  "number": 40,
+  "title": "Änderungen in den Dateien `amelag_einzelstandorte.tsv` und `amelag_aggregierte_kurve.tsv` am 22.10.2025",
+  "user": {
+    "login": "fessera",
+    "id": 200063636,
+    "node_id": "U_kgDOC-y6lA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/200063636?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fessera",
+    "html_url": "https://github.com/fessera",
+    "followers_url": "https://api.github.com/users/fessera/followers",
+    "following_url": "https://api.github.com/users/fessera/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fessera/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fessera/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fessera/subscriptions",
+    "organizations_url": "https://api.github.com/users/fessera/orgs",
+    "repos_url": "https://api.github.com/users/fessera/repos",
+    "events_url": "https://api.github.com/users/fessera/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fessera/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignees": [
+
+  ],
+  "milestone": null,
+  "comments": 0,
+  "created_at": "2025-10-17T15:26:38Z",
+  "updated_at": "2025-11-17T07:47:10Z",
+  "closed_at": "2025-11-17T07:47:10Z",
+  "assignee": null,
+  "author_association": "CONTRIBUTOR",
+  "issue_field_values": [
+
+  ],
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "Liebe Nutzer:innen,\n\nwir haben die Smoothing-Methode für die Viruslastdaten im Abwasser von LOESS auf GAM (generalisierte additive Modelle) mit adaptivem Smoothing umgestellt. Detailliertere Gründe sind unter #39 aufgeführt.\n\nAufgrund dieser Änderung der statistischen Methode werden die betroffenen Variablen und Skripte am 22.10.2025 von `loess_vorhersage`, ` loess_obere_schranke`, `loess_untere_schranke` und `loess_calculations.R` to `vorhersage`, `obere_schranke`, `untere_schranke` und `smoother_calculations.R` umbenannt. Wir sind uns bewusst, dass die Umbenennung Unannehmlichkeiten verursacht. Wir  hoffen jedoch, dass sie zukünftig eine größere Rückwärtskompatibilität ermöglicht.\n\nFreundliche Grüße,\nAnna | RKI Open Data Team\n\n----\n\nDear users,\n\nwe have changed the smoothing method for the wastewater viral load data from LOESS to GAM (generalized additive models) with adaptive smoothing. Detailed reasons for the change are provided in #39.\n\nDue to this change in statistical method, the affected variables and scripts will be renamed on 22.10.2025 from `loess_vorhersage`, `loess_obere_schranke`, `loess_untere_schranke` and `loess_calculations.R` to `vorhersage`, `obere_schranke`, `untere_schranke` and ` smoother_calculations.R`. We are aware that renaming causes inconveniences, but hope that it will allow for greater backwards compatibility in future.\n\nBest regards, \nAnna | RKI Open Data Team",
+  "closed_by": {
+    "login": "SimonScholler",
+    "id": 30436389,
+    "node_id": "MDQ6VXNlcjMwNDM2Mzg5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/30436389?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/SimonScholler",
+    "html_url": "https://github.com/SimonScholler",
+    "followers_url": "https://api.github.com/users/SimonScholler/followers",
+    "following_url": "https://api.github.com/users/SimonScholler/following{/other_user}",
+    "gists_url": "https://api.github.com/users/SimonScholler/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/SimonScholler/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/SimonScholler/subscriptions",
+    "organizations_url": "https://api.github.com/users/SimonScholler/orgs",
+    "repos_url": "https://api.github.com/users/SimonScholler/repos",
+    "events_url": "https://api.github.com/users/SimonScholler/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/SimonScholler/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "reactions": {
+    "url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/40/reactions",
+    "total_count": 1,
+    "+1": 1,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/40/timeline",
+  "performed_via_github_app": null,
+  "state_reason": "completed",
+  "pinned_comment": null
+}

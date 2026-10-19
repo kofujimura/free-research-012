@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E017-site-data-audit",
+  "plan_path": "protocol/multisite-data-audit.md",
+  "plan_commit": "31f02490091ef2115f762b6d1d01c91493eafee8",
+  "plan_sha256": "93a107e16b2648e204f8060b399d0e0360128e5d263d9120f3359878a3f8cad2",
+  "code_commit": "31f02490091ef2115f762b6d1d01c91493eafee8",
+  "command": [
+    ".venv/bin/python",
+    "scripts/acquire_sites.py"
+  ],
+  "started_at_utc": "2026-10-18T16:54:32Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E004-vintage-audit-complete/archive-index.json": "374511a43d35a28b2a750c2fab78a5071b35e29893a9f9bac3620495cd05affb",
+    "data/pilot-c07/current-LICENSE": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 43540,
+  "storage_before_bytes_du": 4099117056,
+  "child_pid": 43546,
+  "ended_at_utc": "2026-10-18T16:54:44Z",
+  "elapsed_seconds": 11.728952000034042,
+  "returncode": 0
+}

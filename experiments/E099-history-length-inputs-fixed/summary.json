@@ -1,0 +1,102 @@
+{
+  "panels": [
+    {
+      "dataset": "national",
+      "maximum_context": 104,
+      "panel": "experiments/E099-history-length-inputs-fixed/national-104",
+      "unique_inputs": 199,
+      "maximum_actual_context_length": 104
+    },
+    {
+      "dataset": "national",
+      "maximum_context": 256,
+      "panel": "experiments/E099-history-length-inputs-fixed/national-256",
+      "unique_inputs": 199,
+      "maximum_actual_context_length": 233
+    },
+    {
+      "dataset": "site",
+      "maximum_context": 104,
+      "panel": "experiments/E099-history-length-inputs-fixed/site-104",
+      "unique_inputs": 8578,
+      "maximum_actual_context_length": 104
+    },
+    {
+      "dataset": "site",
+      "maximum_context": 256,
+      "panel": "experiments/E099-history-length-inputs-fixed/site-256",
+      "unique_inputs": 8578,
+      "maximum_actual_context_length": 239
+    },
+    {
+      "dataset": "nz",
+      "maximum_context": 104,
+      "panel": "experiments/E099-history-length-inputs-fixed/nz-104",
+      "unique_inputs": 251,
+      "maximum_actual_context_length": 104
+    },
+    {
+      "dataset": "nz",
+      "maximum_context": 256,
+      "panel": "experiments/E099-history-length-inputs-fixed/nz-256",
+      "unique_inputs": 251,
+      "maximum_actual_context_length": 256
+    }
+  ],
+  "union_inputs": 13795,
+  "jobs": 38,
+  "cached_classical_forecast_coverage": [
+    {
+      "engine": "statistical",
+      "original_forecast_dirs": [
+        "experiments/E008-statistical",
+        "experiments/E028-site-c0-statistical",
+        "experiments/E032-site-c1-statistical",
+        "experiments/E036-site-c2-statistical",
+        "experiments/E058-site-c3-statistical",
+        "experiments/E065-site-c4-statistical",
+        "experiments/E039-nz-statistical"
+      ],
+      "source_files": {
+        "experiments/E008-statistical/forecasts.jsonl": "a2d2ea21ff5a5946b4e30b9abc9693ddb583c1f2f6b4105fbb86c8dcbfd7b8ad",
+        "experiments/E028-site-c0-statistical/forecasts.jsonl": "c16b7851be1a451906a6a50e46a9fbc2a041ef2e5efb24cce490d955fbc2d65e",
+        "experiments/E032-site-c1-statistical/forecasts.jsonl": "048d44111585798f066c435b6ab0412e874e24e01160eedfbb47e9d9e4816f76",
+        "experiments/E036-site-c2-statistical/forecasts.jsonl": "1316ae593c65526195100ad80d74013de320eb44a12fdd684746c41dd0312d41",
+        "experiments/E058-site-c3-statistical/forecasts.jsonl": "249b8978f0947a15a458defb123f0664f1d1e1218b9d6b97bf86195080db892f",
+        "experiments/E065-site-c4-statistical/forecasts.jsonl": "433ad26bef521129c5c3213bd4b7e503d5dddc04f921ceea52deb6d016596fd4",
+        "experiments/E039-nz-statistical/forecasts.jsonl": "7250d4f0ed0d243274dd1a3eb5d5787c24958d894967f520fd29ce19d30db308"
+      },
+      "cached_inputs": 9028,
+      "new_inputs": 4767,
+      "exact_duplicate_records": 0
+    },
+    {
+      "engine": "extra",
+      "original_forecast_dirs": [
+        "experiments/E013-extra-classical",
+        "experiments/E029-site-c0-extra",
+        "experiments/E033-site-c1-extra",
+        "experiments/E042-site-c2-extra",
+        "experiments/E051-site-c3-extra",
+        "experiments/E059-site-c4-extra",
+        "experiments/E043-nz-extra"
+      ],
+      "source_files": {
+        "experiments/E013-extra-classical/forecasts.jsonl": "3575ab2cddc9e68b133d283f07b957cd38e0a924c7d97d272bdc3e99085f338f",
+        "experiments/E029-site-c0-extra/forecasts.jsonl": "5effa1c866c062eb067357582fafbd0d8eb5d2bb770a602619090054fde717cf",
+        "experiments/E033-site-c1-extra/forecasts.jsonl": "dd164c7d860caf496a466fe04d9cd31a1162ee8cc8b1199c3acd0d2bf68e20b6",
+        "experiments/E042-site-c2-extra/forecasts.jsonl": "f516365a1b23d2bdc3ceea8a4dfee4e704db287f20203df83f4724141a277a92",
+        "experiments/E051-site-c3-extra/forecasts.jsonl": "3254a8d2bf43ca543dfac32f8fca8c2c4d6765601f4897b971a13b0b6ddb8098",
+        "experiments/E059-site-c4-extra/forecasts.jsonl": "94d3c6e4be0cc3f013dc5040ae54b49b2b8c4348c098c2ba440d674f1d6899a8",
+        "experiments/E043-nz-extra/forecasts.jsonl": "e87ba833a0b6c09ceca44850acebe6f2a62ecae12d8d03a6ce1517b5499e2f61"
+      },
+      "cached_inputs": 9028,
+      "new_inputs": 4767,
+      "exact_duplicate_records": 0
+    }
+  ],
+  "all_contexts_at_most_256": true,
+  "per_release_provenance_in_cases_not_deduplicated_context_metadata": true,
+  "new_data_downloads": 0,
+  "exploratory": true
+}

@@ -1,0 +1,24 @@
+{
+  "experiment_id": "E001-vintage-audit",
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit": "48d111a69d47f54cf17a5cd789ca77bd6785b252",
+  "plan_sha256": "d105e4fbd09585731e444d00ce3af6ea95f6bf40356446696a7283e476251f0e",
+  "code_commit": "48d111a69d47f54cf17a5cd789ca77bd6785b252",
+  "command": [
+    ".venv/bin/python",
+    "scripts/acquire_vintages.py"
+  ],
+  "started_at_utc": "2026-10-18T16:20:02Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "data/pilot-c07/current-LICENSE": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "failed",
+  "controller_pid": 39481,
+  "storage_before_bytes_du": 2157654016,
+  "child_pid": 39487,
+  "ended_at_utc": "2026-10-18T16:20:37Z",
+  "elapsed_seconds": 35.50074995798059,
+  "returncode": 1
+}

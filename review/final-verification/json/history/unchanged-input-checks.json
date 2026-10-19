@@ -1,0 +1,1322 @@
+[
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 238,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 236,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 238,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 236,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 162,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 162,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 164,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 162,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 166,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 162,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 238,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 236,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 238,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 240,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 236,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 162,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 162,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 164,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 162,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 166,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "national",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 162,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 678,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 678,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 678,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": false
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 678,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 678,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 0,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "nz",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 678,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 5924,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 5924,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 5935,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 5869,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 5948,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 5815,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 5924,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 5924,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 5935,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 5869,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 5948,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 5815,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 3690,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 3690,
+    "unchanged_input_prediction_mismatch": 2,
+    "matching_required": false
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 3749,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 3686,
+    "unchanged_input_prediction_mismatch": 2,
+    "matching_required": false
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 3811,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 3684,
+    "unchanged_input_prediction_mismatch": 2,
+    "matching_required": false
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 3654,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 8056,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 3713,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 8043,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 3775,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "chronos_bolt_base",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 8039,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 5924,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 5924,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 5935,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 5869,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 5948,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 5815,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 5924,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 5924,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 5935,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 5869,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 5948,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "ensemble_extended",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 5815,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 3690,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 3690,
+    "unchanged_input_prediction_mismatch": 2,
+    "matching_required": false
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 3749,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 3686,
+    "unchanged_input_prediction_mismatch": 2,
+    "matching_required": false
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 3811,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "rolling_best_classical",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 3684,
+    "unchanged_input_prediction_mismatch": 2,
+    "matching_required": false
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 0,
+    "side": "candidate",
+    "unchanged_input_count": 3654,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 0,
+    "side": "reference",
+    "unchanged_input_count": 8056,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "side": "candidate",
+    "unchanged_input_count": 3713,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 1,
+    "side": "reference",
+    "unchanged_input_count": 8043,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "side": "candidate",
+    "unchanged_input_count": 3775,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  },
+  {
+    "dataset": "site",
+    "model": "timesfm_2p5",
+    "reference_model": "pooled_hgb",
+    "source_age_weeks": 2,
+    "side": "reference",
+    "unchanged_input_count": 8039,
+    "unchanged_input_prediction_mismatch": 0,
+    "matching_required": true
+  }
+]

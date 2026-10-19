@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E018-update-decomposition",
+  "plan_path": "protocol/extension-national-v1.md",
+  "plan_commit": "d39ec23f6104a53b19109ae9c665187382c596aa",
+  "plan_sha256": "95a1b984a211082233a009fee24ead179a445f4a91f789a4989ba4e0575830b9",
+  "code_commit": "d39ec23f6104a53b19109ae9c665187382c596aa",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_updates.py",
+    "--out",
+    "experiments/E018-update-decomposition/results"
+  ],
+  "started_at_utc": "2026-10-18T16:57:34Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E012-prepare-revision-prefixes/cases.csv": "f05e3ab1b548a40b5a80c6352255b87cdfb9a1bead4201318630cc909e2f677a",
+    "experiments/E012-prepare-revision-prefixes/all-inputs.json": "8dcf645028486828a854439ed0f8eb9c2d10950bcf51cc7dce4ba510a429d00c",
+    "experiments/E014-revision-statistical/forecasts.jsonl": "9afc6bc18735ddc9db3de3a9543d97c05213c2400233200930cbdd166918b808",
+    "experiments/E015-revision-chronos/forecasts.jsonl": "ba0898971522da8f4d91768b18222ee75b2d7ab63fada102443e49daef160f3a",
+    "experiments/E016-revision-timesfm/forecasts.jsonl": "5ec7c6bd33e865bc0daeaba597c9b367128a59c3e4901aa6b6bdb79ea7406db7"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 43663,
+  "storage_before_bytes_du": 4163375104,
+  "child_pid": 43669,
+  "ended_at_utc": "2026-10-18T16:57:39Z",
+  "elapsed_seconds": 5.5667525419266894,
+  "returncode": 0
+}

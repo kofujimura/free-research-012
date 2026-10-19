@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E038-reference-and-timing-sensitivity",
+  "plan_path": "protocol/robustness-v1.md",
+  "plan_commit": "46e2b23f10a7f8bb8a71d3be768df583e43289fc",
+  "plan_sha256": "9dc143af58ae4159a2e540701f7b95ad499854f4bc2475aed5fcf94f64c0e498",
+  "code_commit": "46e2b23f10a7f8bb8a71d3be768df583e43289fc",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_sensitivity.py",
+    "--out",
+    "experiments/E038-reference-and-timing-sensitivity/results"
+  ],
+  "started_at_utc": "2026-10-18T20:36:46Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E011-primary-analysis/results/case-scores.csv": "bd3617585687f2f53b89563d8bf160efced3d9a7aac699904123ae9d17952aca",
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+    "experiments/E024-site-panel-inputs/inputs.json": "43e8b15dd1260a04fafeaffd2156a8470bd9068505821bc29b45577969125f8c",
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52165,
+  "storage_before_bytes_du": 6756098048,
+  "child_pid": 52171,
+  "ended_at_utc": "2026-10-18T20:36:50Z",
+  "elapsed_seconds": 4.653218041989021,
+  "returncode": 0
+}

@@ -1,0 +1,1 @@
+{"input_pair_rows": 29567, "input_summary_rows": 12, "comparison_rows": 4440, "exploratory": true, "similarity_thresholds_not_biological_equivalence": true, "ai_api_required": false, "network_required": false}

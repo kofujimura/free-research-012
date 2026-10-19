@@ -1,0 +1,26 @@
+{
+  "observed_at_utc": "2026-10-19T03:32:27Z",
+  "figures": [
+    {
+      "path": "figures/national-model-information.png",
+      "sha256": "20aa77f122b1af179ae29bf22655ab2e8efec7e3d2ffb59a1e5b6cda9c0a1a64",
+      "regenerated_bytes_match": true
+    },
+    {
+      "path": "figures/generalization-one-week.png",
+      "sha256": "8ba80336bd1994f74d26e41593e48946413e8c828aae162bfcfc720ed8a67ada",
+      "regenerated_bytes_match": true
+    },
+    {
+      "path": "figures/generalization-one-week.svg",
+      "sha256": "5a3909b54cb83d5a52f7ee5bb2cfccb770ca851ed33aa153ef9a38d5c72b88e6",
+      "regenerated_bytes_match": true
+    },
+    {
+      "path": "figures/national-model-information.svg",
+      "sha256": "f1903a2275b398eab77dab7b5257234891a5e9af96fd3378ae4fb912b87e2f59",
+      "regenerated_bytes_match": true
+    }
+  ],
+  "all_match": true
+}

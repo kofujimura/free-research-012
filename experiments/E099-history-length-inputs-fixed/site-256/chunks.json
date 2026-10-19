@@ -1,0 +1,56 @@
+[
+  {
+    "path": "input-chunks/chunk-000.json",
+    "sha256": "23a57241dfeadc5e4d2ed69f72e1cdcdaf21b25caf991b5df69dd8888db42814",
+    "inputs": 1000,
+    "index": 0
+  },
+  {
+    "path": "input-chunks/chunk-001.json",
+    "sha256": "8ceb8aa8fe076e358b918c2cc2888bbd477689ab9327d4f53fb48bd07b2cdd0e",
+    "inputs": 1000,
+    "index": 1
+  },
+  {
+    "path": "input-chunks/chunk-002.json",
+    "sha256": "db293c2c66822c59df1fe5f067e875776f3a91788393ec7e32aeb976dfdf19a9",
+    "inputs": 1000,
+    "index": 2
+  },
+  {
+    "path": "input-chunks/chunk-003.json",
+    "sha256": "dc25a8e8899d370582368bbc9fdd39cfada11f286c6da75eb3a1b81003f73fd2",
+    "inputs": 1000,
+    "index": 3
+  },
+  {
+    "path": "input-chunks/chunk-004.json",
+    "sha256": "105679688db3f87fc050b537093996edcf53372848727a61d264002f9d86484d",
+    "inputs": 1000,
+    "index": 4
+  },
+  {
+    "path": "input-chunks/chunk-005.json",
+    "sha256": "474d6b36bcc08361e610761fd0450a19aac9df0facac10953a5abfe6ff8275f7",
+    "inputs": 1000,
+    "index": 5
+  },
+  {
+    "path": "input-chunks/chunk-006.json",
+    "sha256": "ec0a9dcfec8219eca1179a0efec7d28042e194a220a028941a2ccb12a6f6230b",
+    "inputs": 1000,
+    "index": 6
+  },
+  {
+    "path": "input-chunks/chunk-007.json",
+    "sha256": "d163aee0cc6ddfe37893f42c22d1fe2ad2327b8eb11a18f1884908621f9ce038",
+    "inputs": 1000,
+    "index": 7
+  },
+  {
+    "path": "input-chunks/chunk-008.json",
+    "sha256": "198676c1adb6f7f1a86197c560e164a72a05c5b43b618908e73e1ba76b5a60cd",
+    "inputs": 578,
+    "index": 8
+  }
+]

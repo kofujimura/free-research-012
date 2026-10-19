@@ -1,0 +1,102 @@
+{
+  "url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/36",
+  "repository_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG",
+  "labels_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/36/labels{/name}",
+  "comments_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/36/comments",
+  "events_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/36/events",
+  "html_url": "https://github.com/robert-koch-institut/Abwassersurveillance_AMELAG/issues/36",
+  "id": 3317848888,
+  "node_id": "I_kwDOLfI8OM7Fwls4",
+  "number": 36,
+  "title": "Erweiterung der Datei `amelag_einzelstandorte.tsv` und `amelag_aggregierte_kurve.tsv` um Variable `viruslast_normalisiert`",
+  "user": {
+    "login": "SimonScholler",
+    "id": 30436389,
+    "node_id": "MDQ6VXNlcjMwNDM2Mzg5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/30436389?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/SimonScholler",
+    "html_url": "https://github.com/SimonScholler",
+    "followers_url": "https://api.github.com/users/SimonScholler/followers",
+    "following_url": "https://api.github.com/users/SimonScholler/following{/other_user}",
+    "gists_url": "https://api.github.com/users/SimonScholler/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/SimonScholler/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/SimonScholler/subscriptions",
+    "organizations_url": "https://api.github.com/users/SimonScholler/orgs",
+    "repos_url": "https://api.github.com/users/SimonScholler/repos",
+    "events_url": "https://api.github.com/users/SimonScholler/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/SimonScholler/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "labels": [
+
+  ],
+  "state": "closed",
+  "locked": false,
+  "assignees": [
+
+  ],
+  "milestone": null,
+  "comments": 0,
+  "created_at": "2025-08-13T10:26:31Z",
+  "updated_at": "2025-08-26T14:52:17Z",
+  "closed_at": "2025-08-26T14:52:17Z",
+  "assignee": null,
+  "author_association": "CONTRIBUTOR",
+  "issue_field_values": [
+
+  ],
+  "type": null,
+  "active_lock_reason": null,
+  "sub_issues_summary": {
+    "total": 0,
+    "completed": 0,
+    "percent_completed": 0
+  },
+  "issue_dependencies_summary": {
+    "blocked_by": 0,
+    "total_blocked_by": 0,
+    "blocking": 0,
+    "total_blocking": 0
+  },
+  "body": "\nLiebe Nutzer:innen,\n\nab dem 20.08.2025 werden bei AMELAG die Daten für alle Pathogene (SARS-CoV-2, Influenza A und B sowie RSV A, B und A/B) in nicht-normalisierter Form (`viruslast`) und in Durchfluss-normalisierter Form (`viruslast_normalisiert`) verfügbar sein. Dies ermöglicht die Analyse beider Datenarten. Im AMELAG-Wochenbericht werden nun auch die nicht-normalisierten SARS-CoV-2-Daten ausgewertet.\n\nDamit entfällt die Variable `normalisierung` (ja/nein). Eine Rückwärtskompatibilität für diese Variable ist daher nicht gewährleistet.\n\nDie normalisierten Werte für SARS-CoV-2 sind zukünftig in der Variable `viruslast_normalisiert` zu finden, bisher waren sie in der Variable `viruslast` zu finden.\n\nMehr Details finden sich unter #35.\n\nViele Grüße\nRKI Open Data Team\n\n---\n\nDear users,\n\nas of August 20, 2025, AMELAG will provide data for all pathogens (SARS-CoV-2, influenza A and B, and RSV A, B, and A/B) in non-normalized form (`viruslast`) and in flow rate-normalized form (`viruslast_normalisiert`). This will enable analysis of both options. The AMELAG weekly report will now also evaluate the non-normalized data for SARS-CoV-2.\n\nTherefore, the variable `normalisierung (ja/nein) will be removed. Backward compatibility for this variable is therefore not guaranteed.\n\nThe normalized values for SARS-CoV-2 will be found in the variable `viruslast_normalisiert` in the future; previously, they were found in the variable `viruslast`.\n\nMore Details can be found in #35.\n\nBest regards\n\nRKI Open Data Team\n",
+  "closed_by": {
+    "login": "fessera",
+    "id": 200063636,
+    "node_id": "U_kgDOC-y6lA",
+    "avatar_url": "https://avatars.githubusercontent.com/u/200063636?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/fessera",
+    "html_url": "https://github.com/fessera",
+    "followers_url": "https://api.github.com/users/fessera/followers",
+    "following_url": "https://api.github.com/users/fessera/following{/other_user}",
+    "gists_url": "https://api.github.com/users/fessera/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/fessera/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/fessera/subscriptions",
+    "organizations_url": "https://api.github.com/users/fessera/orgs",
+    "repos_url": "https://api.github.com/users/fessera/repos",
+    "events_url": "https://api.github.com/users/fessera/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/fessera/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "reactions": {
+    "url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/36/reactions",
+    "total_count": 0,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 0,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  },
+  "timeline_url": "https://api.github.com/repos/robert-koch-institut/Abwassersurveillance_AMELAG/issues/36/timeline",
+  "performed_via_github_app": null,
+  "state_reason": "completed",
+  "pinned_comment": null
+}

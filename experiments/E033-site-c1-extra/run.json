@@ -1,0 +1,26 @@
+{
+  "experiment_id": "E033-site-c1-extra",
+  "plan_path": "protocol/multisite-plan-v2.md",
+  "plan_commit": "de81f832b20ec649fa08703d742868c552e0a387",
+  "plan_sha256": "f210de812f6dcd6bfaeeb0f590d621d932d170f8285b96ba17d39cdac55cc0a4",
+  "code_commit": "de81f832b20ec649fa08703d742868c552e0a387",
+  "command": [
+    ".venv/bin/python",
+    "scripts/extra_baselines.py",
+    "--inputs",
+    "experiments/E024-site-panel-inputs/input-chunks/chunk-001.json"
+  ],
+  "started_at_utc": "2026-10-18T20:26:21Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E024-site-panel-inputs/input-chunks/chunk-001.json": "62bdd0766ac4b2e1f666c0f51be11e77a6f7e98a4dfd019b5b19ff49df6f6bdb"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 51655,
+  "storage_before_bytes_du": 6678568960,
+  "child_pid": 51667,
+  "ended_at_utc": "2026-10-18T20:38:40Z",
+  "elapsed_seconds": 739.5659114170121,
+  "returncode": 0
+}

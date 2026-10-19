@@ -1,0 +1,2 @@
+amazon/chronos-bolt-base 5d9f166d69f47aef3401367a7b842e78fe97b121 [('model.safetensors', 821203576), ('config.json', 1123), ('README.md', 8659)]
+google/timesfm-2.5-200m-pytorch 1d952420fba87f3c6dee4f240de0f1a0fbc790e3 [('model.safetensors', 925181104), ('config.json', 475), ('README.md', 2496)]

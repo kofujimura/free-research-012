@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E010-timesfm",
+  "plan_path": "protocol/plan-v3.md",
+  "plan_commit": "e2e7f1ebc606e947ea3b1f219f718f2dff04c676",
+  "plan_sha256": "b12c66b6f2b4d63171c7f86dd8ecd3ebe717ba6b6d5067c5226d070a8eee012d",
+  "code_commit": "e2e7f1ebc606e947ea3b1f219f718f2dff04c676",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E007-prepare-inputs-fixed/inputs.json",
+    "--engine",
+    "timesfm"
+  ],
+  "started_at_utc": "2026-10-18T16:37:19Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+    "experiments/E002-model-download/models.json": "befa33a66490e0d50723ed96ecf1ec663ef535c4e818820a72a77b00c398052b",
+    "data/models/timesfm-2.5-200m-pytorch/model.safetensors": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 42837,
+  "storage_before_bytes_du": 3953623040,
+  "child_pid": 42843,
+  "ended_at_utc": "2026-10-18T16:38:16Z",
+  "elapsed_seconds": 56.21369170793332,
+  "returncode": 0
+}

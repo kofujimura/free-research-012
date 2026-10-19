@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E041-nz-timesfm",
+  "plan_path": "protocol/nz-plan-v2.md",
+  "plan_commit": "c3d8e26d629038d0c00f62ed8093b68b1bf7d128",
+  "plan_sha256": "8164f92f4b5364b769ba036258dda6cb864594e103daaafc8b9c21fbb83ee1f4",
+  "code_commit": "c3d8e26d629038d0c00f62ed8093b68b1bf7d128",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json",
+    "--engine",
+    "timesfm"
+  ],
+  "started_at_utc": "2026-10-18T20:40:30Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa",
+    "data/models/timesfm-2.5-200m-pytorch/model.safetensors": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52378,
+  "storage_before_bytes_du": 6774898688,
+  "child_pid": 52390,
+  "ended_at_utc": "2026-10-18T20:41:01Z",
+  "elapsed_seconds": 30.86632762500085,
+  "returncode": 0
+}

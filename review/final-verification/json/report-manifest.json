@@ -1,0 +1,23 @@
+{
+  "primary": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/primary",
+  "extended": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/extended",
+  "updates": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/updates",
+  "nz": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/nz",
+  "site": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/site",
+  "raw": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/raw",
+  "indicator": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/indicator",
+  "sensitivity": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/sensitivity",
+  "shifted": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/shifted",
+  "pooled_site": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/pooled_site",
+  "pooled_nz": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/pooled_nz",
+  "cqr_national": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/cqr_national",
+  "cqr_nz": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/cqr_nz",
+  "cqr_site": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/cqr_site",
+  "interaction_national": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/interaction_national",
+  "interaction_nz": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/interaction_nz",
+  "interaction_site": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/interaction_site",
+  "quality": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/quality",
+  "history": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/history",
+  "joint": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/joint",
+  "review_strata": "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-final/review_strata"
+}

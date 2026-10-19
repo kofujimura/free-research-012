@@ -1,0 +1,11 @@
+{
+  "original_panel": "experiments/E027-nz-panel-inputs-eligible",
+  "source_index": "experiments/E020-nz-vintage-audit/archive-index.json",
+  "maximum_context": 256,
+  "cohort_unchanged": true,
+  "applied_configuration_path": "experiments/E099-history-length-inputs-fixed/nz-256/panel-config.json",
+  "applied_configuration_sha256": "07dd198fff1ae214385ec2e6192b15f0d55815f32ff0c37a5d654446b842a7d9",
+  "reference_lags_used": [
+    56
+  ]
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "unit_id": "SARS-CoV-2",
+    "pathogen": "SARS-CoV-2",
+    "unit_level": "national"
+  },
+  {
+    "unit_id": "Influenza A",
+    "pathogen": "Influenza A",
+    "unit_level": "national"
+  },
+  {
+    "unit_id": "RSV A/B",
+    "pathogen": "RSV A/B",
+    "unit_level": "national"
+  }
+]

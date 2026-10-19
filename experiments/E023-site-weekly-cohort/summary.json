@@ -1,0 +1,18 @@
+{
+  "cohort_release": "6f630bfad8c554a72f0e4bd557df211eef18b923",
+  "candidate_sites": 169,
+  "historically_eligible_sites": 115,
+  "recently_eligible_sites": 71,
+  "selected_sites": 71,
+  "selected_series": 157,
+  "series_by_pathogen": {
+    "SARS-CoV-2": 71,
+    "Influenza A": 61,
+    "RSV A/B": 25
+  },
+  "active2026_series": 140,
+  "weekly_vintages": 79,
+  "derived_weekly_rows": 1246056,
+  "preperiod_rules_use_no_test_values": true,
+  "measured_not_smoothed": true
+}

@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E114-history-statistical-003",
+  "plan_path": "protocol/history-length-control-v1.md",
+  "plan_commit": "96e436147a256e4e97a7e6793242fac5cddf4116",
+  "plan_sha256": "24f4e3aedc060b5162b7445744b17a2d52bfcdd45e0ee4e2dcbda334648bcc9f",
+  "code_commit": "96e436147a256e4e97a7e6793242fac5cddf4116",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E099-history-length-inputs-fixed/inference-inputs/statistical-003.json",
+    "--engine",
+    "statistical"
+  ],
+  "started_at_utc": "2026-10-19T01:52:54Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E099-history-length-inputs-fixed/inference-inputs/statistical-003.json": "05a56fc3a824b8dfe1c109c62e666c6ea2d4155dc44b85f390bed0d0d19e871a"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 61174,
+  "storage_before_bytes_du": 9397268480,
+  "child_pid": 61180,
+  "ended_at_utc": "2026-10-19T01:54:33Z",
+  "elapsed_seconds": 98.6749125419883,
+  "returncode": 0
+}

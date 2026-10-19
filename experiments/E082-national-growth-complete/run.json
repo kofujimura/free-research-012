@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E082-national-growth-complete",
+  "plan_path": "protocol/growth-analysis-classification-v2.md",
+  "plan_commit": "d5636b2da0b8ae8a2660b8b7d75d2e1f667d0af6",
+  "plan_sha256": "cd111e68a5b3b115efb4b4465d6bbe29ca4cd18756f227b23306f1d73dbdf061",
+  "code_commit": "d5636b2da0b8ae8a2660b8b7d75d2e1f667d0af6",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_growth.py",
+    "--forecast-csv",
+    "experiments/E022-extra-analysis-fixed/results/case-forecasts.csv.gz",
+    "--panel",
+    "experiments/E007-prepare-inputs-fixed",
+    "--out",
+    "experiments/E082-national-growth-complete/results"
+  ],
+  "started_at_utc": "2026-10-18T21:37:58Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E022-extra-analysis-fixed/results/case-forecasts.csv.gz": "dbdea7a77502ab02a40d1eddaa384e70ac41e94597c57c7d8f68467dbf069713",
+    "experiments/E007-prepare-inputs-fixed/truth.csv": "c063338128a4608da396dd8e82209f9b8743081d9ad286969e49079e12fbde28"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 54854,
+  "storage_before_bytes_du": 7829520384,
+  "child_pid": 54860,
+  "ended_at_utc": "2026-10-18T21:38:07Z",
+  "elapsed_seconds": 9.220759792020544,
+  "returncode": 0
+}

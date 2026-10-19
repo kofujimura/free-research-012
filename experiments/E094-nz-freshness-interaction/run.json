@@ -1,0 +1,33 @@
+{
+  "experiment_id": "E094-nz-freshness-interaction",
+  "plan_path": "protocol/freshness-interaction-v2.md",
+  "plan_commit": "79531adbf7a5d32f8c8b9550c4be364e7568a8bf",
+  "plan_sha256": "5a7ddf89a2e69a85e5b341d9d2368ae997875a329acb36c214ce1b274a817f0f",
+  "code_commit": "79531adbf7a5d32f8c8b9550c4be364e7568a8bf",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_freshness_interaction.py",
+    "--panel",
+    "experiments/E027-nz-panel-inputs-eligible",
+    "--scores",
+    "experiments/E044-nz-panel-analysis/results/case-scores.csv.gz",
+    "--scores",
+    "experiments/E081-nz-pooled-analysis/results/pooled-case-scores.csv.gz",
+    "--out",
+    "experiments/E094-nz-freshness-interaction/results"
+  ],
+  "started_at_utc": "2026-10-18T21:48:50Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E044-nz-panel-analysis/results/case-scores.csv.gz": "033205f5f19da999b9c9fd9b963861cd3dcba1ecb0150086f7eafa1b1636fef5",
+    "experiments/E081-nz-pooled-analysis/results/pooled-case-scores.csv.gz": "001754acf5e76bc5ce6646a5fa8d277aabd99321d390b8d12ea77df5dd453be0"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55322,
+  "storage_before_bytes_du": 8216879104,
+  "child_pid": 55328,
+  "ended_at_utc": "2026-10-18T21:49:02Z",
+  "elapsed_seconds": 12.336267999955453,
+  "returncode": 0
+}

@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E096-input-precision-and-quality",
+  "plan_path": "protocol/input-quality-audit-v1.md",
+  "plan_commit": "a3461ed9a72cf1aeb7888aebf9e66b5fa37cd0eb",
+  "plan_sha256": "086f44a159ea62ac2ce7333bc67f93f82d29150d873a5945f969b5284ad79af4",
+  "code_commit": "a3461ed9a72cf1aeb7888aebf9e66b5fa37cd0eb",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_input_quality.py",
+    "--datasets",
+    "config/input-quality-data.json",
+    "--out",
+    "experiments/E096-input-precision-and-quality/results"
+  ],
+  "started_at_utc": "2026-10-18T21:54:18Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "config/input-quality-data.json": "cc12dea147337699d8a569fbecd462962d0ee0d4ce627ba7ce9ccfdcbd92a8d6"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55517,
+  "storage_before_bytes_du": 8220553216,
+  "child_pid": 55523,
+  "ended_at_utc": "2026-10-18T21:54:39Z",
+  "elapsed_seconds": 20.84202845802065,
+  "returncode": 0
+}

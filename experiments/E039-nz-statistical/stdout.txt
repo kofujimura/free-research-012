@@ -1,0 +1,16 @@
+{"done": 16, "total": 251, "batch_seconds": 2.0699335410026833, "successes": 80, "failures": 0}
+{"done": 32, "total": 251, "batch_seconds": 1.2037957090651616, "successes": 160, "failures": 0}
+{"done": 48, "total": 251, "batch_seconds": 1.2013222079258412, "successes": 240, "failures": 0}
+{"done": 64, "total": 251, "batch_seconds": 1.2370313330320641, "successes": 320, "failures": 0}
+{"done": 80, "total": 251, "batch_seconds": 1.340955667081289, "successes": 400, "failures": 0}
+{"done": 96, "total": 251, "batch_seconds": 1.2591534160310403, "successes": 480, "failures": 0}
+{"done": 112, "total": 251, "batch_seconds": 1.300040959031321, "successes": 560, "failures": 0}
+{"done": 128, "total": 251, "batch_seconds": 1.3471604170044884, "successes": 640, "failures": 0}
+{"done": 144, "total": 251, "batch_seconds": 1.3986411249497905, "successes": 720, "failures": 0}
+{"done": 160, "total": 251, "batch_seconds": 1.288837332976982, "successes": 800, "failures": 0}
+{"done": 176, "total": 251, "batch_seconds": 1.2689505419693887, "successes": 880, "failures": 0}
+{"done": 192, "total": 251, "batch_seconds": 1.284101832890883, "successes": 960, "failures": 0}
+{"done": 208, "total": 251, "batch_seconds": 1.1283720840001479, "successes": 1040, "failures": 0}
+{"done": 224, "total": 251, "batch_seconds": 1.3754659589612857, "successes": 1120, "failures": 0}
+{"done": 240, "total": 251, "batch_seconds": 1.2029766249470413, "successes": 1200, "failures": 0}
+{"done": 251, "total": 251, "batch_seconds": 0.8269800420384854, "successes": 1255, "failures": 0}

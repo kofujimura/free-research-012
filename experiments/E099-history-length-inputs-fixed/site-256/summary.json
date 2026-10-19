@@ -1,0 +1,20 @@
+{
+  "units": 157,
+  "issues": 84,
+  "test_issue_weeks": 58,
+  "cases": 39564,
+  "status_counts": {
+    "ok": 36732,
+    "insufficient_real_observations": 1959,
+    "horizon_outside_plan": 873
+  },
+  "unique_model_inputs": 8578,
+  "model_chunks": 9,
+  "known_target_cases": 0,
+  "maximum_horizon": 99.0,
+  "reference_missing_by_lag": {
+    "56": 1407
+  },
+  "freeze": "2026-10-14 11:02:32+00:00",
+  "network_required_for_saved_output_analysis": false
+}

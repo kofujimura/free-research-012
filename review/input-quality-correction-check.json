@@ -1,0 +1,8 @@
+{
+  "observed_at_utc": "2026-10-18T22:25:20Z",
+  "all_sample_comparison_rows_unchanged": 720,
+  "all_sample_values_exactly_match": true,
+  "changed_quality_comparison_rows": 36,
+  "changed_count_rows": 36,
+  "scope": "Original runtime successes preserved;E096 imputation strata superseded by E097;numeric forecasts and full-sample results unchanged."
+}

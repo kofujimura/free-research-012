@@ -1,0 +1,6 @@
+{
+  "source_commit_not_after_cutoff": true,
+  "all_issue_dates_friday": true,
+  "offsets_match_python_dates": true,
+  "references_not_after_deadline": true
+}

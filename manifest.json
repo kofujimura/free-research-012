@@ -1,0 +1,208 @@
+{
+  "trial_id": "free-research-012",
+  "start_at_utc": "2026-10-18T15:26:38+00:00",
+  "start_timezone": "Asia/Tokyo",
+  "start_at_local": "2026-10-19T00:26:38+09:00",
+  "draft_deadline_utc": "2026-10-19T05:48:37+00:00",
+  "research_directory": "/Users/fujimura/Research/ai-free-research/run-012",
+  "resource_limits": {
+    "research_elapsed_hours": 12,
+    "review_elapsed_hours": 2,
+    "storage_bytes": 10737418240,
+    "concurrent_experiment_processes": 2,
+    "experiment_timeout_seconds": 1800,
+    "ai_api_budget_usd": 20
+  },
+  "session_id": null,
+  "continuation_session_ids": [],
+  "model": {
+    "conversation_description": "Codex, based on GPT-6 (developer description)",
+    "runtime_verified_model_identifier": null,
+    "provider": "OpenAI (conversation description)",
+    "effort": null,
+    "autonomous_model_changes": false
+  },
+  "environment": {
+    "os": "macOS-26.5.2-arm64-arm-64bit-Mach-O",
+    "python": "3.13.7 (v3.13.7:bcee1c32211, Aug 14 2025, 19:10:51) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "python_executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+    "git_version": "git version 2.50.1 (Apple Git-155)",
+    "runtime": "Codex API tool environment; exact runtime version not exposed",
+    "physical_memory_bytes": 19327352832,
+    "physical_memory_observed_at_utc": "2026-10-18T20:41:35Z"
+  },
+  "available_tools": [
+    "local shell and filesystem tools",
+    "clock",
+    "web search/open",
+    "image generation",
+    "collaboration tools (not authorized for this research)"
+  ],
+  "skills": [
+    {
+      "name": "imagegen",
+      "path": "/Users/fujimura/.codex-research/skills/.system/imagegen/SKILL.md",
+      "used": false
+    },
+    {
+      "name": "openai-docs",
+      "path": "/Users/fujimura/.codex-research/skills/.system/openai-docs/SKILL.md",
+      "used": true,
+      "purpose": "official API documentation and pricing only"
+    },
+    {
+      "name": "skill-creator",
+      "used": false
+    },
+    {
+      "name": "skill-installer",
+      "used": false
+    }
+  ],
+  "project_rules": {
+    "provided_in_conversation": true,
+    "new_research_directory_initially_absent": true,
+    "parent_user_files_not_inspected": true
+  },
+  "persistent_memory_or_profile": {
+    "visible_personal_profile": false,
+    "external_memory_searched": false,
+    "training_knowledge_not_reset": true
+  },
+  "api": {
+    "provider": "OpenAI",
+    "key_environment_variable": "FREE_RESEARCH_OPENAI_API_KEY",
+    "key_present": true,
+    "budget_usd": 20,
+    "cumulative_actual_cost_usd": 2.2708675,
+    "topic_critic_model_requested": "gpt-6-astra",
+    "topic_critic_effort": "xhigh",
+    "pricing_verified": true,
+    "pricing_verified_at_utc": "2026-10-18T16:01:17Z",
+    "pricing_source": "literature/openai-pricing.md",
+    "terms_checked_at_utc": "2026-10-18T16:01:17Z",
+    "terms_url": "https://openai.com/policies/services-agreement/",
+    "cache_write_accounting_verified_at_utc": "2026-10-18T21:21:59Z",
+    "accounting_correction_event": "EV0281"
+  },
+  "sources_of_environment_information": [
+    "user environment_context",
+    "user start instructions",
+    "developer model/runtime description",
+    "clock tool",
+    "minimal Python/platform/git commands"
+  ],
+  "unknowns": [
+    "session identifier",
+    "exact host model identifier and reasoning effort",
+    "host tool marginal costs and quota usage",
+    "byte-for-byte machine export of start message not available; conversation transcription will be saved"
+  ],
+  "record_gaps": [
+    "input_prompt.md is an incomplete manual transcription, not a byte-exact original; known omissions are recorded. The visible user message remains controlling.",
+    "The first post-resume date tool output was inaccessible after context compaction. The exact last explicit pre-stop clock cannot be recovered;22:30:15Z is the last persisted checkpoint clock. The interval is a proxy, not an exact quota-exclusion measurement. To avoid using uncertain extra time, operational draft deadline remains the previously verified deadline."
+  ],
+  "review": {
+    "received": true,
+    "review_id": "review-012-1",
+    "received_at_utc": "2026-10-19T04:38:56Z",
+    "response_deadline_utc": "2026-10-19T07:54:57+00:00",
+    "reviewer_reported_model": "claude-opus-5-5",
+    "reviewer_reported_effort": "xhigh",
+    "reviewer_reported_runtime": "Claude Code 2.1.303",
+    "reviewer_information_directly_observed": false,
+    "source": "Human REVIEW-1 message",
+    "original_text_path": "review/review-1.md",
+    "deadline_utc": "2026-10-19T07:54:57+00:00",
+    "original_text_capture": "Full visible REVIEW-1 message manually copied without summarization; no direct machine export available",
+    "quota_pauses": [
+      {
+        "last_tool_time_before_utc": "2026-10-19T05:13:41Z",
+        "first_tool_time_after_utc": "2026-10-19T06:29:42Z",
+        "excluded_seconds": 4561,
+        "evidence": "Human message: 利用枠の制限で停止していたので再開します。",
+        "last_pre_stop_clock_source": "review/editorial-change-scope.json observed_at_utc and EV0583/E146 launch timestamps written by the last pre-stop command tool",
+        "original_deadline_utc": "2026-10-19T06:38:56+00:00",
+        "revised_deadline_utc": "2026-10-19T07:54:57+00:00",
+        "process_running_at_last_tool_clock": "E146-final-publication-check",
+        "process_completed_at_utc": "2026-10-19T05:13:46Z",
+        "completion_within_recorded_interval": true,
+        "exact_quota_onset_and_completion_relationship_directly_observed": false
+      }
+    ],
+    "response_status": "completed",
+    "response_completed_at_utc": "2026-10-19T06:35:52Z",
+    "response_path": "review/response-1.md",
+    "reviewer_artifacts_directly_inspected": false
+  },
+  "quota_pauses": [
+    {
+      "last_tool_time_before_utc": "2026-10-18T18:03:30+00:00",
+      "first_tool_time_after_utc": "2026-10-18T20:25:29+00:00",
+      "excluded_seconds": 8519,
+      "evidence": "Human message: 利用枠の制限で停止していたので再開します。",
+      "original_deadline_utc": "2026-10-19T03:26:38+00:00",
+      "revised_deadline_utc": "2026-10-19T05:48:37+00:00",
+      "processes_running_during_pause": [
+        "E029-site-c0-extra",
+        "E032-site-c1-statistical"
+      ],
+      "processes_finished_during_pause": {
+        "E029-site-c0-extra": "2026-10-18T18:05:18Z",
+        "E032-site-c1-statistical": "2026-10-18T18:03:37Z"
+      }
+    },
+    {
+      "last_persisted_checkpoint_before_utc": "2026-10-18T22:30:15Z",
+      "first_accessible_tool_time_after_utc": "2026-10-19T01:31:42Z",
+      "proxy_interval_seconds": 10887,
+      "excluded_seconds": 0,
+      "evidence": "Human message: 利用枠の制限で停止していたので再開します。",
+      "original_deadline_utc": "2026-10-19T05:48:37+00:00",
+      "proxy_revised_deadline_utc": "2026-10-19T08:50:04+00:00",
+      "revised_deadline_utc": "2026-10-19T05:48:37+00:00",
+      "measurement_gap": "The first post-resume date tool output was inaccessible after context compaction. The exact last explicit pre-stop clock cannot be recovered;22:30:15Z is the last persisted checkpoint clock. The interval is a proxy, not an exact quota-exclusion measurement. To avoid using uncertain extra time, operational draft deadline remains the previously verified deadline.",
+      "processes_completed_between_checkpoint_and_resume": {
+        "E100-history-timesfm-000": "2026-10-18T22:32:53Z",
+        "E101-history-chronos-000": "2026-10-18T22:30:50Z"
+      },
+      "completion_after_exact_quota_stop_verified": false
+    }
+  ],
+  "input_prompt_capture": {
+    "method": "manual transcription from visible conversation",
+    "byte_exact_original_export": false,
+    "complete": false,
+    "known_omissions": [
+      "In section 3 one sentence was transcribed with a politeness change (ません versus ない).",
+      "Section 5 sentence exempting stopping own processes from permission was omitted."
+    ],
+    "immutable_after_initial_commit": true,
+    "sha256": "c389c425b7e8ef32baebc64082137efb38247ca494e2b0f8469026c1a6d101d8"
+  },
+  "elapsed_accounting_is_conservative_upper_bound": true,
+  "draft_submission": {
+    "state": "submitted_awaiting_review",
+    "prepared_at_utc": "2026-10-19T03:53:04Z",
+    "tag": "submission-1",
+    "commit": "1e43bbba008f62f20d55861873e986381465941c",
+    "scientific_parent_commit": "c52d329bc9988072246f9a839b6f5e9f16608855",
+    "review_pending": false,
+    "note": "Actual submission commit and observed submission time will be appended in submission-1-record; scientific manuscript remains fixed.",
+    "submitted_at_utc": "2026-10-19T03:54:02Z",
+    "submitted_at_local": "2026-10-19T12:54:02+09:00",
+    "event_id": "EV0557",
+    "administrative_record_tag": "submission-1-record"
+  },
+  "final_submission": {
+    "state": "complete",
+    "tag": "final",
+    "commit": "81164f32eb6b653835fe382422585beb5cf6e38c",
+    "prepared_at_utc": "2026-10-19T06:35:52Z",
+    "review_id": "review-012-1",
+    "administrative_record_tag": "final-record",
+    "submitted_at_utc": "2026-10-19T06:38:53Z",
+    "submitted_at_local": "2026-10-19T15:38:53+09:00",
+    "event_id": "EV0591"
+  }
+}

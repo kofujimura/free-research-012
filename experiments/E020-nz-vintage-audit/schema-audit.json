@@ -1,0 +1,5496 @@
+[
+  {
+    "commit": "2d1815529b343f8eefafb40679ee087136e5d638",
+    "commit_time": "2022-07-21T14:21:45+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-07-25 00:00:00",
+    "last_date": "2022-07-17 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "2d1815529b343f8eefafb40679ee087136e5d638",
+    "commit_time": "2022-07-21T14:21:45+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 792,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "n_sites"
+    ],
+    "first_date": "2021-07-25 00:00:00",
+    "last_date": "2022-07-17 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "21a458dca306fd874c97730156cac6fdb4ffba87",
+    "commit_time": "2022-07-29T09:56:54+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-08-01 00:00:00",
+    "last_date": "2022-07-24 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "21a458dca306fd874c97730156cac6fdb4ffba87",
+    "commit_time": "2022-07-29T09:56:54+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 795,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-08-01 00:00:00",
+    "last_date": "2022-07-24 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "ac3966faa1669e01ed53306d6461cdbe859cb2a9",
+    "commit_time": "2022-08-04T23:44:59+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-08-08 00:00:00",
+    "last_date": "2022-07-31 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "ac3966faa1669e01ed53306d6461cdbe859cb2a9",
+    "commit_time": "2022-08-04T23:44:59+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 798,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-08-08 00:00:00",
+    "last_date": "2022-07-31 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "ce31628124f63cf9cccddb29b1609287ab54ca5c",
+    "commit_time": "2022-08-11T15:33:22+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-08-15 00:00:00",
+    "last_date": "2022-08-07 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "ce31628124f63cf9cccddb29b1609287ab54ca5c",
+    "commit_time": "2022-08-11T15:33:22+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 801,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-08-15 00:00:00",
+    "last_date": "2022-08-07 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "0a3da0dbfc7c52a3b380bda41783edc8a2c5a7d7",
+    "commit_time": "2022-08-18T15:19:21+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-08-22 00:00:00",
+    "last_date": "2022-08-14 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "0a3da0dbfc7c52a3b380bda41783edc8a2c5a7d7",
+    "commit_time": "2022-08-18T15:19:21+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 804,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-08-22 00:00:00",
+    "last_date": "2022-08-14 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "697f2d01a9a527a0743a78f895d8b9f37c34ced8",
+    "commit_time": "2022-08-26T14:34:03+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-08-29 00:00:00",
+    "last_date": "2022-08-21 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "697f2d01a9a527a0743a78f895d8b9f37c34ced8",
+    "commit_time": "2022-08-26T14:34:03+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 804,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-08-29 00:00:00",
+    "last_date": "2022-08-21 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "9278d3939d8052009470eb68a3f6f77cc33793d0",
+    "commit_time": "2022-09-01T16:23:00+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-09-05 00:00:00",
+    "last_date": "2022-08-28 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "9278d3939d8052009470eb68a3f6f77cc33793d0",
+    "commit_time": "2022-09-01T16:23:00+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 803,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-09-05 00:00:00",
+    "last_date": "2022-08-28 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "5c2d12f562b1699eddf8d9100e4bc546faa398ca",
+    "commit_time": "2022-09-09T11:50:46+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-09-12 00:00:00",
+    "last_date": "2022-09-04 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "5c2d12f562b1699eddf8d9100e4bc546faa398ca",
+    "commit_time": "2022-09-09T11:50:46+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 802,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-09-12 00:00:00",
+    "last_date": "2022-09-04 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "10353d3919cc4689ee5376a1061c0dd699817675",
+    "commit_time": "2022-09-15T17:04:23+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-09-19 00:00:00",
+    "last_date": "2022-09-11 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "10353d3919cc4689ee5376a1061c0dd699817675",
+    "commit_time": "2022-09-15T17:04:23+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 803,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-09-19 00:00:00",
+    "last_date": "2022-09-11 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "68a8df865451d1af89158a2b63aae25de3172414",
+    "commit_time": "2022-10-14T12:17:20+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-10-17 00:00:00",
+    "last_date": "2022-10-09 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "68a8df865451d1af89158a2b63aae25de3172414",
+    "commit_time": "2022-10-14T12:17:20+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 812,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-10-17 00:00:00",
+    "last_date": "2022-10-09 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "178bc7867d65af56ddc2228a84af350f65c304ac",
+    "commit_time": "2022-10-21T12:38:36+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-10-24 00:00:00",
+    "last_date": "2022-10-16 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "178bc7867d65af56ddc2228a84af350f65c304ac",
+    "commit_time": "2022-10-21T12:38:36+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 814,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-10-24 00:00:00",
+    "last_date": "2022-10-16 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "caa5c620e53b284b5811d500b82c4e45d4736461",
+    "commit_time": "2022-10-27T10:30:14+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-10-31 00:00:00",
+    "last_date": "2022-10-23 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "caa5c620e53b284b5811d500b82c4e45d4736461",
+    "commit_time": "2022-10-27T10:30:14+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 816,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-10-31 00:00:00",
+    "last_date": "2022-10-23 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "738985c7c05fc15a1f789391233db1c761807d80",
+    "commit_time": "2022-11-04T12:28:14+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-11-07 00:00:00",
+    "last_date": "2022-10-30 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "738985c7c05fc15a1f789391233db1c761807d80",
+    "commit_time": "2022-11-04T12:28:14+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 817,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-11-07 00:00:00",
+    "last_date": "2022-10-30 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "cbbe1b5358f0b6caa993e6efec693f590b3bb96c",
+    "commit_time": "2022-12-02T13:16:18+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-12-05 00:00:00",
+    "last_date": "2022-11-27 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "cbbe1b5358f0b6caa993e6efec693f590b3bb96c",
+    "commit_time": "2022-12-02T13:16:18+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 819,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-12-05 00:00:00",
+    "last_date": "2022-11-27 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "d491938c49cb3b425b3848b4098c41eb3f3ac032",
+    "commit_time": "2022-12-16T11:32:39+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-12-19 00:00:00",
+    "last_date": "2022-12-11 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "d491938c49cb3b425b3848b4098c41eb3f3ac032",
+    "commit_time": "2022-12-16T11:32:39+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 817,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-12-19 00:00:00",
+    "last_date": "2022-12-11 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "e38a270ae96bda50045b74970630af5a8f7ef64a",
+    "commit_time": "2023-01-13T08:34:15+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2022-01-02 00:00:00",
+    "last_date": "2022-12-25 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "e38a270ae96bda50045b74970630af5a8f7ef64a",
+    "commit_time": "2023-01-13T08:34:15+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 815,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2022-01-02 00:00:00",
+    "last_date": "2022-12-25 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "51197e80a7292f45814a35e007326ffae8371843",
+    "commit_time": "2023-01-26T15:32:29+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2022-01-30 00:00:00",
+    "last_date": "2023-01-22 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "51197e80a7292f45814a35e007326ffae8371843",
+    "commit_time": "2023-01-26T15:32:29+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 788,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2022-01-30 00:00:00",
+    "last_date": "2023-01-22 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "e4fe00e33c63f83627a11bbc692099d692e52be9",
+    "commit_time": "2023-02-03T13:31:17+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2022-02-06 00:00:00",
+    "last_date": "2023-01-29 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "e4fe00e33c63f83627a11bbc692099d692e52be9",
+    "commit_time": "2023-02-03T13:31:17+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 787,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2022-02-06 00:00:00",
+    "last_date": "2023-01-29 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "a8bba55b9fbf44732739c1989f5ce0e909679dab",
+    "commit_time": "2023-03-03T13:25:19+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2022-03-06 00:00:00",
+    "last_date": "2023-02-26 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "a8bba55b9fbf44732739c1989f5ce0e909679dab",
+    "commit_time": "2023-03-03T13:25:19+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 780,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2022-03-06 00:00:00",
+    "last_date": "2023-02-26 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "0b8bbafd0872b631f6f2c26adc678d3e0409a4e2",
+    "commit_time": "2023-03-14T09:57:30+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 51,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2022-03-20 00:00:00",
+    "last_date": "2023-03-05 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "0b8bbafd0872b631f6f2c26adc678d3e0409a4e2",
+    "commit_time": "2023-03-14T09:57:30+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 762,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2022-03-20 00:00:00",
+    "last_date": "2023-03-05 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "6859b59653abd50773731a1b39c448fa0e3abf2e",
+    "commit_time": "2023-03-17T09:38:39+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2022-03-20 00:00:00",
+    "last_date": "2023-03-12 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "6859b59653abd50773731a1b39c448fa0e3abf2e",
+    "commit_time": "2023-03-17T09:38:39+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 776,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2022-03-20 00:00:00",
+    "last_date": "2023-03-12 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "0f42ceffa947505525046da27b55273dc4c0baae",
+    "commit_time": "2023-03-24T14:33:36+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 52,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2022-03-27 00:00:00",
+    "last_date": "2023-03-19 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "0f42ceffa947505525046da27b55273dc4c0baae",
+    "commit_time": "2023-03-24T14:33:36+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 774,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2022-03-27 00:00:00",
+    "last_date": "2023-03-19 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "f14ad5f750501a5bb578ac0d6b299b53706c3bb6",
+    "commit_time": "2023-03-31T15:50:40+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 95,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-03-26 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "f14ad5f750501a5bb578ac0d6b299b53706c3bb6",
+    "commit_time": "2023-03-31T15:50:40+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1357,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-03-26 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "6286d88eec1b20d6c9984f661a0a74cdfcc38335",
+    "commit_time": "2023-04-06T15:36:13+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 96,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-02 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "6286d88eec1b20d6c9984f661a0a74cdfcc38335",
+    "commit_time": "2023-04-06T15:36:13+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1373,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-02 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "eb58fe1e6e1ad8d57ba28c7906857c9de6367c3b",
+    "commit_time": "2023-04-13T17:49:33+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 97,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-09 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "eb58fe1e6e1ad8d57ba28c7906857c9de6367c3b",
+    "commit_time": "2023-04-13T17:49:33+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1388,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-09 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "b2ea36bd266b76d6860575c01b9d39af551bcf6a",
+    "commit_time": "2023-04-19T17:37:29+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 98,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-16 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "b2ea36bd266b76d6860575c01b9d39af551bcf6a",
+    "commit_time": "2023-04-19T17:37:29+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1404,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-16 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "ecc6bb9507982717e76e57f5d4cac809c30aa4fe",
+    "commit_time": "2023-04-28T16:09:31+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 99,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-23 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "ecc6bb9507982717e76e57f5d4cac809c30aa4fe",
+    "commit_time": "2023-04-28T16:09:31+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1420,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-23 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "40998951ec898b5bfe9f1c458a20507e49d293d0",
+    "commit_time": "2023-05-04T15:25:39+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 100,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-30 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "40998951ec898b5bfe9f1c458a20507e49d293d0",
+    "commit_time": "2023-05-04T15:25:39+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1435,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-30 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "27ed70446cea159ab550d11b6b49a48406d5ce04",
+    "commit_time": "2023-05-04T15:35:45+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 191,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-30 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "27ed70446cea159ab550d11b6b49a48406d5ce04",
+    "commit_time": "2023-05-04T15:35:45+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2675,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-30 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "11edd7f7fb9433f3e30bf0a279c37a08bce86e20",
+    "commit_time": "2023-05-04T17:23:29+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 100,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-30 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "11edd7f7fb9433f3e30bf0a279c37a08bce86e20",
+    "commit_time": "2023-05-04T17:23:29+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1435,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-04-30 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "749f428bccea67eb41b64ff011a18805ec90636f",
+    "commit_time": "2023-05-12T13:43:34+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 101,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-05-07 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "749f428bccea67eb41b64ff011a18805ec90636f",
+    "commit_time": "2023-05-12T13:43:34+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1451,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-05-07 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "9e56748432cc9035cf6aaaf8e4b9dbeb9c324f2e",
+    "commit_time": "2023-05-19T17:18:25+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 102,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-05-14 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "9e56748432cc9035cf6aaaf8e4b9dbeb9c324f2e",
+    "commit_time": "2023-05-19T17:18:25+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1466,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-05-14 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "fa819b183a71161dd8c8e09f80c97bd9e11974c0",
+    "commit_time": "2023-05-26T14:23:30+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 103,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-05-21 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "fa819b183a71161dd8c8e09f80c97bd9e11974c0",
+    "commit_time": "2023-05-26T14:23:30+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1480,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-05-21 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "4da486e3ca89fa4a7af12217876bdece5a48d423",
+    "commit_time": "2023-06-01T16:02:34+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 104,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-05-28 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "4da486e3ca89fa4a7af12217876bdece5a48d423",
+    "commit_time": "2023-06-01T16:02:34+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1496,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-05-28 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "a8a7dc2b2813d02790ab5f80c276e4e459bfc7ae",
+    "commit_time": "2023-06-08T17:22:42+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 105,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-04 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "a8a7dc2b2813d02790ab5f80c276e4e459bfc7ae",
+    "commit_time": "2023-06-08T17:22:42+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1511,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-04 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "3d0777eee5b811d1de39ad9a5b7ee4a6bb939a72",
+    "commit_time": "2023-06-16T13:15:48+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 106,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-11 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "3d0777eee5b811d1de39ad9a5b7ee4a6bb939a72",
+    "commit_time": "2023-06-16T13:15:48+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1527,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-11 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "def03443eeab0f2fe7123c49a779aa597381422f",
+    "commit_time": "2023-06-23T10:17:41+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 107,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-18 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "def03443eeab0f2fe7123c49a779aa597381422f",
+    "commit_time": "2023-06-23T10:17:41+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1543,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-18 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "548a7b523e04e80741839febed8cf703795eccdd",
+    "commit_time": "2023-06-23T10:18:29+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 110,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-18 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "548a7b523e04e80741839febed8cf703795eccdd",
+    "commit_time": "2023-06-23T10:18:29+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1546,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-18 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "277dc565c58e55aa424784e0c1299b32047db6c9",
+    "commit_time": "2023-06-23T20:05:28+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 107,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-18 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "277dc565c58e55aa424784e0c1299b32047db6c9",
+    "commit_time": "2023-06-23T20:05:28+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1543,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-18 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "adbd33fff43206f6f9a131eb8c96decce31700f6",
+    "commit_time": "2023-06-29T15:39:32+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 108,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-25 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "adbd33fff43206f6f9a131eb8c96decce31700f6",
+    "commit_time": "2023-06-29T15:39:32+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1559,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-06-25 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "ff3b9221e55ae9d3360a0b2418745d105d6f6b25",
+    "commit_time": "2023-07-07T09:44:06+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 109,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-02 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "ff3b9221e55ae9d3360a0b2418745d105d6f6b25",
+    "commit_time": "2023-07-07T09:44:06+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1575,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-02 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "943c9fada656ec68164c99f21cb5c2fac5d40eee",
+    "commit_time": "2023-07-13T16:08:03+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 110,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-09 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "943c9fada656ec68164c99f21cb5c2fac5d40eee",
+    "commit_time": "2023-07-13T16:08:03+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1591,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-09 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "42cebce481a8b45a3e0cea768b526ce48ad1bf06",
+    "commit_time": "2023-07-20T16:35:53+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 111,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-16 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "42cebce481a8b45a3e0cea768b526ce48ad1bf06",
+    "commit_time": "2023-07-20T16:35:53+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1607,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-16 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "484f2fe640158e67684cefc908c75d79158a187f",
+    "commit_time": "2023-07-28T13:33:15+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 112,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-23 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "484f2fe640158e67684cefc908c75d79158a187f",
+    "commit_time": "2023-07-28T13:33:15+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1622,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-23 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "e2ab7407b2998d11a19babfe57a8a9ca52a1f45b",
+    "commit_time": "2023-07-28T13:35:37+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 126,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-23 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "e2ab7407b2998d11a19babfe57a8a9ca52a1f45b",
+    "commit_time": "2023-07-28T13:35:37+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1656,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-23 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "871a0db1e99ceb5b786c6f9b14662313f5708f67",
+    "commit_time": "2023-07-28T14:43:09+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 112,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-23 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "871a0db1e99ceb5b786c6f9b14662313f5708f67",
+    "commit_time": "2023-07-28T14:43:09+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1622,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-07-23 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "6a46184a8185e7c948d8c655398be5d78ecd7a69",
+    "commit_time": "2023-08-18T10:06:25+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 115,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-08-13 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "6a46184a8185e7c948d8c655398be5d78ecd7a69",
+    "commit_time": "2023-08-18T10:06:25+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1667,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-08-13 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "fcc617734163078c229b48bdd5ec6bd9d9d80b11",
+    "commit_time": "2023-08-24T16:29:35+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 116,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-08-20 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "fcc617734163078c229b48bdd5ec6bd9d9d80b11",
+    "commit_time": "2023-08-24T16:29:35+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1683,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-08-20 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "a1a56e37d9b796248bbcd954ada920dbe8e47c71",
+    "commit_time": "2023-08-31T16:44:25+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 117,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-08-27 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "a1a56e37d9b796248bbcd954ada920dbe8e47c71",
+    "commit_time": "2023-08-31T16:44:25+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1699,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-08-27 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "7a04c5a6b5ca55d0afe2ed9269adfc8f0809ce85",
+    "commit_time": "2023-09-07T16:49:52+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 118,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-03 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "7a04c5a6b5ca55d0afe2ed9269adfc8f0809ce85",
+    "commit_time": "2023-09-07T16:49:52+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1715,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-03 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "50f262f61abb68c7565e3bf843db98789c010124",
+    "commit_time": "2023-09-07T17:12:23+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 118,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-03 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "50f262f61abb68c7565e3bf843db98789c010124",
+    "commit_time": "2023-09-07T17:12:23+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1715,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-03 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "4fe18760dcc7a0c1b626a768cfc8a04a51c16d1c",
+    "commit_time": "2023-09-14T15:50:41+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 119,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-10 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "4fe18760dcc7a0c1b626a768cfc8a04a51c16d1c",
+    "commit_time": "2023-09-14T15:50:41+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1731,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-10 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "6853dfbf7b309c99316a0366fb6dfdd71d5b5e41",
+    "commit_time": "2023-09-21T11:53:43+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 120,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-17 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "6853dfbf7b309c99316a0366fb6dfdd71d5b5e41",
+    "commit_time": "2023-09-21T11:53:43+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1747,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-17 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "b0723566a46ddee8b7a3784141541cd118e0f073",
+    "commit_time": "2023-09-28T16:03:13+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 121,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-24 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "b0723566a46ddee8b7a3784141541cd118e0f073",
+    "commit_time": "2023-09-28T16:03:13+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1762,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-09-24 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "d4551e6e62ae4aa68a2be82b38fc30a93c6e06dc",
+    "commit_time": "2023-10-05T16:11:44+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 122,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-01 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "d4551e6e62ae4aa68a2be82b38fc30a93c6e06dc",
+    "commit_time": "2023-10-05T16:11:44+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1777,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-01 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "b04f2f4ab939f336b6cd89cce89fce25e271bce1",
+    "commit_time": "2023-10-12T15:58:36+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 123,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-08 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "b04f2f4ab939f336b6cd89cce89fce25e271bce1",
+    "commit_time": "2023-10-12T15:58:36+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1791,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-08 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "724265334518a8ce5d1ae31e5cfc6c3dc3c67b73",
+    "commit_time": "2023-10-19T15:48:03+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 124,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-15 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "724265334518a8ce5d1ae31e5cfc6c3dc3c67b73",
+    "commit_time": "2023-10-19T15:48:03+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1804,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-15 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "0a160f5292ef0d84bcab3f1c07dc594a577bed7b",
+    "commit_time": "2023-10-26T15:50:35+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 125,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-22 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "0a160f5292ef0d84bcab3f1c07dc594a577bed7b",
+    "commit_time": "2023-10-26T15:50:35+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1819,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-22 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "f08a313499fc33452bf6bd150a1eb66aa8c77e58",
+    "commit_time": "2023-11-02T16:04:08+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 126,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-29 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "f08a313499fc33452bf6bd150a1eb66aa8c77e58",
+    "commit_time": "2023-11-02T16:04:08+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1832,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-10-29 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "4322981e389069c03e5c95a94f251616e37eea84",
+    "commit_time": "2023-11-09T17:08:17+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 127,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-11-05 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "4322981e389069c03e5c95a94f251616e37eea84",
+    "commit_time": "2023-11-09T17:08:17+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1845,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-11-05 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "7bc23060139c7b857cf38d4c7866d23e1347249d",
+    "commit_time": "2023-11-16T15:52:13+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 128,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-11-12 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "7bc23060139c7b857cf38d4c7866d23e1347249d",
+    "commit_time": "2023-11-16T15:52:13+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1860,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-11-12 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "cc95d7a2c94a1ea22d6d12738a09a7a6394bfa9d",
+    "commit_time": "2023-11-23T15:03:33+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 129,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-11-19 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "cc95d7a2c94a1ea22d6d12738a09a7a6394bfa9d",
+    "commit_time": "2023-11-23T15:03:33+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1876,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-11-19 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "88f35fb8ea951f008704ba1bf57726f4998b0f98",
+    "commit_time": "2023-11-30T16:02:52+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 130,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-11-26 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "88f35fb8ea951f008704ba1bf57726f4998b0f98",
+    "commit_time": "2023-11-30T16:02:52+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1891,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-11-26 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "4017cfc4851fe890053f97767e592fd0dabe9ebb",
+    "commit_time": "2023-12-07T14:22:18+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 131,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-12-03 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "4017cfc4851fe890053f97767e592fd0dabe9ebb",
+    "commit_time": "2023-12-07T14:22:18+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1906,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-12-03 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "6c97c7121952a1e511b826828bf0468d51f412c2",
+    "commit_time": "2023-12-21T15:05:58+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 133,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-12-17 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "6c97c7121952a1e511b826828bf0468d51f412c2",
+    "commit_time": "2023-12-21T15:05:58+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1935,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-12-17 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "49d71e60f8d7acac882fb9a6f7d58fa577470120",
+    "commit_time": "2024-01-04T16:01:23+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 134,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-12-24 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "49d71e60f8d7acac882fb9a6f7d58fa577470120",
+    "commit_time": "2024-01-04T16:01:23+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1949,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2023-12-24 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "76ecc35052392dd6c7e80c154ccf4fd75cb939e4",
+    "commit_time": "2024-01-12T15:21:02+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 136,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-01-07 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "76ecc35052392dd6c7e80c154ccf4fd75cb939e4",
+    "commit_time": "2024-01-12T15:21:02+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1960,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-01-07 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "5a856e696816de6a876374cf382524c7896aa273",
+    "commit_time": "2024-01-18T15:06:10+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 137,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-01-14 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "5a856e696816de6a876374cf382524c7896aa273",
+    "commit_time": "2024-01-18T15:06:10+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1974,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-01-14 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "d15dd849c8c4401866be1c726f48ff01263c40c3",
+    "commit_time": "2024-01-25T18:06:22+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 138,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-01-21 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "d15dd849c8c4401866be1c726f48ff01263c40c3",
+    "commit_time": "2024-01-25T18:06:22+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 1987,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-01-21 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "6a1f0392da6dd6a2ddd447bbc04b9dd758f15b65",
+    "commit_time": "2024-02-01T15:58:41+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 139,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-01-28 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "6a1f0392da6dd6a2ddd447bbc04b9dd758f15b65",
+    "commit_time": "2024-02-01T15:58:41+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2001,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-01-28 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "edabea7f3d0abeeb05b974c2145a8b339c12130a",
+    "commit_time": "2024-02-09T12:19:18+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 140,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-04 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "edabea7f3d0abeeb05b974c2145a8b339c12130a",
+    "commit_time": "2024-02-09T12:19:18+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2017,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-04 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "4050ee91a7c36c9ed4a60cab6edaeb428182b626",
+    "commit_time": "2024-02-15T14:47:18+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 141,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-11 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "4050ee91a7c36c9ed4a60cab6edaeb428182b626",
+    "commit_time": "2024-02-15T14:47:18+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2030,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-11 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "bd382205566121973d5faa8110d30eb7160833b7",
+    "commit_time": "2024-02-15T14:49:27+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 250,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-11 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "bd382205566121973d5faa8110d30eb7160833b7",
+    "commit_time": "2024-02-15T14:49:27+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2068,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-11 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "6f77348591b80127c7c186efb7466a51364217f6",
+    "commit_time": "2024-02-15T17:36:36+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 141,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-11 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "6f77348591b80127c7c186efb7466a51364217f6",
+    "commit_time": "2024-02-15T17:36:36+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2030,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-11 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "bfb0b51b8d8e2b2a00da0c3c50c3e44e45fb6a70",
+    "commit_time": "2024-02-22T17:59:21+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 142,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-18 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "bfb0b51b8d8e2b2a00da0c3c50c3e44e45fb6a70",
+    "commit_time": "2024-02-22T17:59:21+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2044,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-18 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "9a1b1406ca7caa750789cf2ad838a71df16273b5",
+    "commit_time": "2024-02-29T15:53:15+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 143,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-25 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "9a1b1406ca7caa750789cf2ad838a71df16273b5",
+    "commit_time": "2024-02-29T15:53:15+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2059,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-02-25 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "6fd2a448e4a75cb455b6f670eb8f2ac746d3d872",
+    "commit_time": "2024-03-07T15:56:21+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 144,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-03 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "6fd2a448e4a75cb455b6f670eb8f2ac746d3d872",
+    "commit_time": "2024-03-07T15:56:21+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2075,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-03 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "3d62da12b78ca32386f31831dfebf323030c276d",
+    "commit_time": "2024-03-14T17:04:10+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 145,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-10 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "3d62da12b78ca32386f31831dfebf323030c276d",
+    "commit_time": "2024-03-14T17:04:10+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2091,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-10 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "8a96c55400602745db8c0317d467ec2482bad3eb",
+    "commit_time": "2024-03-21T15:49:46+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 146,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-17 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "8a96c55400602745db8c0317d467ec2482bad3eb",
+    "commit_time": "2024-03-21T15:49:46+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2106,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-17 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "f7b4bd534c86632a96b47cf9b3fe411e86f8a269",
+    "commit_time": "2024-03-28T15:58:58+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 147,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-24 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "f7b4bd534c86632a96b47cf9b3fe411e86f8a269",
+    "commit_time": "2024-03-28T15:58:58+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2122,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-24 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "b7a15e9d4a6069ae8c4fb2a346c489df5a8ee744",
+    "commit_time": "2024-04-04T16:29:37+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 148,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-31 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "b7a15e9d4a6069ae8c4fb2a346c489df5a8ee744",
+    "commit_time": "2024-04-04T16:29:37+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2137,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-03-31 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "2444c2a324d74ccf1ea417ef9acaed87b0f89e2e",
+    "commit_time": "2024-04-11T15:55:48+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 149,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-04-07 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "2444c2a324d74ccf1ea417ef9acaed87b0f89e2e",
+    "commit_time": "2024-04-11T15:55:48+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2152,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-04-07 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "e303512c140afbdba514ab74fc80c65f25a446de",
+    "commit_time": "2024-04-18T16:11:43+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 150,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-04-14 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "e303512c140afbdba514ab74fc80c65f25a446de",
+    "commit_time": "2024-04-18T16:11:43+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2167,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-04-14 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "9854aea5579259926600890a9ac70cb5c3057040",
+    "commit_time": "2024-04-24T16:26:44+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 151,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-04-21 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "9854aea5579259926600890a9ac70cb5c3057040",
+    "commit_time": "2024-04-24T16:26:44+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2182,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-04-21 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "fdad16c34b887b77aef7e15abde15090020fc71a",
+    "commit_time": "2024-05-02T15:58:17+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 152,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-04-28 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "fdad16c34b887b77aef7e15abde15090020fc71a",
+    "commit_time": "2024-05-02T15:58:17+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2197,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-04-28 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "8e0fe70d599f4142f8c6af2fcfd6c2b733a48152",
+    "commit_time": "2024-05-09T16:01:30+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 153,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-05-05 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "8e0fe70d599f4142f8c6af2fcfd6c2b733a48152",
+    "commit_time": "2024-05-09T16:01:30+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2212,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-05-05 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "cde0fb79f1d1b1d912bd7d5ecfe1867eb0be5872",
+    "commit_time": "2024-05-16T15:57:36+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 154,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-05-12 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "cde0fb79f1d1b1d912bd7d5ecfe1867eb0be5872",
+    "commit_time": "2024-05-16T15:57:36+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2227,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-05-12 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "73f61853de97403a21dad1dbff186445123a9995",
+    "commit_time": "2024-05-23T16:07:50+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 155,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-05-19 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "73f61853de97403a21dad1dbff186445123a9995",
+    "commit_time": "2024-05-23T16:07:50+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2242,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-05-19 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "52e6b2c0d5d642d77697e106d65681ec1d0ed9fb",
+    "commit_time": "2024-05-30T15:58:31+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 156,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-05-26 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "52e6b2c0d5d642d77697e106d65681ec1d0ed9fb",
+    "commit_time": "2024-05-30T15:58:31+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2258,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-05-26 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "cfc31d84550d4d68b720d672df5c05799d6f0daf",
+    "commit_time": "2024-06-06T16:01:36+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 157,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-02 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "cfc31d84550d4d68b720d672df5c05799d6f0daf",
+    "commit_time": "2024-06-06T16:01:36+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2274,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-02 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "a4a75da5b393eef5b3a1e76c927bc88dd4458f4b",
+    "commit_time": "2024-06-13T16:04:34+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 158,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-09 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "a4a75da5b393eef5b3a1e76c927bc88dd4458f4b",
+    "commit_time": "2024-06-13T16:04:34+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2289,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-09 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "8aa0af948f2c4f39c1bf5476e7797e17f04b83c7",
+    "commit_time": "2024-06-20T16:03:30+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 159,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-16 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "8aa0af948f2c4f39c1bf5476e7797e17f04b83c7",
+    "commit_time": "2024-06-20T16:03:30+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2305,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-16 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "2fa24fc466eeaca14a5223c95c39a1585dc79857",
+    "commit_time": "2024-06-27T16:01:49+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 160,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-23 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "2fa24fc466eeaca14a5223c95c39a1585dc79857",
+    "commit_time": "2024-06-27T16:01:49+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2321,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-23 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "93817e5ff0afb5e13b6372a5c0c7bcd3a09051ef",
+    "commit_time": "2024-07-04T16:06:16+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 161,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-30 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "93817e5ff0afb5e13b6372a5c0c7bcd3a09051ef",
+    "commit_time": "2024-07-04T16:06:16+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2335,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-06-30 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "981e01601195ead0121612e92ad819528556f7e9",
+    "commit_time": "2024-07-11T09:46:31+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 162,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-07-07 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "981e01601195ead0121612e92ad819528556f7e9",
+    "commit_time": "2024-07-11T09:46:31+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2348,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-07-07 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "a1233bf681d0c6b5df2825a29a8e670983830a60",
+    "commit_time": "2024-07-19T15:25:32+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 163,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-07-14 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "a1233bf681d0c6b5df2825a29a8e670983830a60",
+    "commit_time": "2024-07-19T15:25:32+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2362,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-07-14 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "cb75fc400fda6fdca8d5b3f1f33c7ba587f32ac7",
+    "commit_time": "2024-07-25T16:04:28+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 164,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-07-21 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "cb75fc400fda6fdca8d5b3f1f33c7ba587f32ac7",
+    "commit_time": "2024-07-25T16:04:28+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2374,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-07-21 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "ca764559d7c5abebb7df3cb4102e86fa3e675054",
+    "commit_time": "2024-08-01T16:01:36+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 165,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-07-28 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "ca764559d7c5abebb7df3cb4102e86fa3e675054",
+    "commit_time": "2024-08-01T16:01:36+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2387,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-07-28 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "4b3410d121113bbbe71f13506812e5ddbb437ecb",
+    "commit_time": "2024-08-08T16:06:57+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 166,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-08-04 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "4b3410d121113bbbe71f13506812e5ddbb437ecb",
+    "commit_time": "2024-08-08T16:06:57+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2400,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-08-04 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "eeea65afc39b963096a320de1441217e5d830b4d",
+    "commit_time": "2024-08-22T16:17:44+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 168,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-08-18 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "eeea65afc39b963096a320de1441217e5d830b4d",
+    "commit_time": "2024-08-22T16:17:44+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2417,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-08-18 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "11f8c3c8bed8b835ad6bcdd2d94cd49de35aa60a",
+    "commit_time": "2024-09-05T16:08:03+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 170,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-09-01 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "11f8c3c8bed8b835ad6bcdd2d94cd49de35aa60a",
+    "commit_time": "2024-09-05T16:08:03+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2426,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-09-01 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "d1d18c0e96c419fba2f35cbaa260a39d6fde8485",
+    "commit_time": "2024-09-19T16:08:12+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 172,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-09-15 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "d1d18c0e96c419fba2f35cbaa260a39d6fde8485",
+    "commit_time": "2024-09-19T16:08:12+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2436,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-09-15 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "61ea296d0956e38d39a90caa9b7da0605691ab7f",
+    "commit_time": "2024-10-03T15:58:13+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 174,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-09-29 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "61ea296d0956e38d39a90caa9b7da0605691ab7f",
+    "commit_time": "2024-10-03T15:58:13+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2446,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-09-29 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "c607f2a2f656c268ccd8569672764a3014d96d81",
+    "commit_time": "2024-10-17T16:03:50+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 176,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-10-13 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "c607f2a2f656c268ccd8569672764a3014d96d81",
+    "commit_time": "2024-10-17T16:03:50+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2456,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-10-13 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "5475daa1d76168fffa26a3ae3b6d7d7a2fd2c79b",
+    "commit_time": "2024-10-31T16:30:44+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 178,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-10-27 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "5475daa1d76168fffa26a3ae3b6d7d7a2fd2c79b",
+    "commit_time": "2024-10-31T16:30:44+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2466,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-10-27 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "7b2a13f88a0428da5e5a090e26f9582bb996687d",
+    "commit_time": "2024-11-14T18:40:14+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 180,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-11-10 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "7b2a13f88a0428da5e5a090e26f9582bb996687d",
+    "commit_time": "2024-11-14T18:40:14+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2476,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-11-10 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "f5bcb2c01005df7819840b3d3450dc15c899bc9c",
+    "commit_time": "2024-11-22T16:25:10+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 181,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-11-17 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "f5bcb2c01005df7819840b3d3450dc15c899bc9c",
+    "commit_time": "2024-11-22T16:25:10+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2481,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-11-17 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "575c5ee115fa28046c2dc6f8ed3ad01832580f46",
+    "commit_time": "2024-12-06T10:59:15+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 183,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-12-01 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "575c5ee115fa28046c2dc6f8ed3ad01832580f46",
+    "commit_time": "2024-12-06T10:59:15+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2491,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-12-01 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "c1c034d15d9b1b36b886d611d6c23fb0d61dee75",
+    "commit_time": "2024-12-20T15:42:33+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 185,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-12-15 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "c1c034d15d9b1b36b886d611d6c23fb0d61dee75",
+    "commit_time": "2024-12-20T15:42:33+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2501,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2024-12-15 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "2a8c4d5743e1afdf736374b2b831c2a6758e76c1",
+    "commit_time": "2025-01-10T09:56:28+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 188,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-01-05 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "2a8c4d5743e1afdf736374b2b831c2a6758e76c1",
+    "commit_time": "2025-01-10T09:56:28+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2514,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-01-05 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "df4da0ed895d1766a9129c80103f2af052b3902a",
+    "commit_time": "2025-01-23T16:26:40+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 190,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-01-19 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "df4da0ed895d1766a9129c80103f2af052b3902a",
+    "commit_time": "2025-01-23T16:26:40+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2524,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-01-19 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "62fe5ff617672ebdc8abd43cf8cd53c072fdc19c",
+    "commit_time": "2025-02-07T10:25:52+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 192,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-02-02 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "62fe5ff617672ebdc8abd43cf8cd53c072fdc19c",
+    "commit_time": "2025-02-07T10:25:52+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2534,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-02-02 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "cb5bdaf504a8cc100c341cc0c633bdc82ad5afd2",
+    "commit_time": "2025-02-20T16:19:37+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 194,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-02-16 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "cb5bdaf504a8cc100c341cc0c633bdc82ad5afd2",
+    "commit_time": "2025-02-20T16:19:37+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2544,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-02-16 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "9f004827869e10ee8ccfe822e974fb1dd77cd475",
+    "commit_time": "2025-03-06T16:04:11+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 196,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-03-02 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "9f004827869e10ee8ccfe822e974fb1dd77cd475",
+    "commit_time": "2025-03-06T16:04:11+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2554,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-03-02 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "55bdc006d016e418ddd7e782cfcb701a2485aca0",
+    "commit_time": "2025-03-20T16:05:11+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 198,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-03-16 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "55bdc006d016e418ddd7e782cfcb701a2485aca0",
+    "commit_time": "2025-03-20T16:05:11+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2564,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-03-16 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "42790ed48cccf39929cf85ec4841038485ce97b3",
+    "commit_time": "2025-04-03T16:08:31+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 200,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-03-30 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "42790ed48cccf39929cf85ec4841038485ce97b3",
+    "commit_time": "2025-04-03T16:08:31+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2574,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-03-30 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "4a082cdcf451a51f538a86cfdf4444cc225feed9",
+    "commit_time": "2025-04-17T15:59:36+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 202,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-04-13 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "4a082cdcf451a51f538a86cfdf4444cc225feed9",
+    "commit_time": "2025-04-17T15:59:36+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2584,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-04-13 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "e7711a7b7c33c47bc63e5e893c09704bfebfa3f8",
+    "commit_time": "2025-05-01T15:59:21+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 204,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-04-27 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "e7711a7b7c33c47bc63e5e893c09704bfebfa3f8",
+    "commit_time": "2025-05-01T15:59:21+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2594,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-04-27 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "4ea1195d1352d7b6560ffd446483336ca901fa07",
+    "commit_time": "2025-05-16T11:29:05+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 206,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-05-11 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "4ea1195d1352d7b6560ffd446483336ca901fa07",
+    "commit_time": "2025-05-16T11:29:05+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2604,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-05-11 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "e30285b7a77704f56aff69652259c3e1ab302c6e",
+    "commit_time": "2025-05-29T11:25:29+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 208,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-05-25 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "e30285b7a77704f56aff69652259c3e1ab302c6e",
+    "commit_time": "2025-05-29T11:25:29+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2614,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-05-25 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "cc6aac6180e64acfc4a3bcd0751e3684d158067d",
+    "commit_time": "2025-06-12T10:02:50+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 210,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-06-08 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "cc6aac6180e64acfc4a3bcd0751e3684d158067d",
+    "commit_time": "2025-06-12T10:02:50+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2624,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-06-08 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "0cf97d56186c07c474cb0abf5de3b63ae5f14d6c",
+    "commit_time": "2025-06-26T17:58:17+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 212,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-06-22 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "0cf97d56186c07c474cb0abf5de3b63ae5f14d6c",
+    "commit_time": "2025-06-26T17:58:17+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2633,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-06-22 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "7a010e7535d927ccf327ca86e630899a9c6a6e90",
+    "commit_time": "2025-07-10T15:55:14+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 214,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-07-06 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "7a010e7535d927ccf327ca86e630899a9c6a6e90",
+    "commit_time": "2025-07-10T15:55:14+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2643,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-07-06 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "863e57866b061cf8e87513d272c82ddbed5a7443",
+    "commit_time": "2025-07-24T16:04:58+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 216,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-07-20 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "863e57866b061cf8e87513d272c82ddbed5a7443",
+    "commit_time": "2025-07-24T16:04:58+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2653,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-07-20 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "00cd11b93fa47351619bf71c20cc25e2db0598c8",
+    "commit_time": "2025-08-07T15:55:25+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 218,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-08-03 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "00cd11b93fa47351619bf71c20cc25e2db0598c8",
+    "commit_time": "2025-08-07T15:55:25+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2663,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-08-03 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "88a71487b120632fef714d8a4f0f0ed7fca1a2f2",
+    "commit_time": "2025-08-21T16:06:32+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 220,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-08-17 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "88a71487b120632fef714d8a4f0f0ed7fca1a2f2",
+    "commit_time": "2025-08-21T16:06:32+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2673,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-08-17 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "3a77c9b09bd4918729185fc275d153ce956324d4",
+    "commit_time": "2025-09-04T16:11:26+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 222,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-08-31 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "3a77c9b09bd4918729185fc275d153ce956324d4",
+    "commit_time": "2025-09-04T16:11:26+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2683,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-08-31 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "021b24b95bd632715ba2a8dad495124f6419c2dd",
+    "commit_time": "2025-09-18T16:15:01+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 224,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-09-14 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "021b24b95bd632715ba2a8dad495124f6419c2dd",
+    "commit_time": "2025-09-18T16:15:01+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2693,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-09-14 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "64c08404f91e1ad65bf5327c75c58f44cd473ea5",
+    "commit_time": "2025-10-02T16:02:24+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 226,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-09-28 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "64c08404f91e1ad65bf5327c75c58f44cd473ea5",
+    "commit_time": "2025-10-02T16:02:24+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2703,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-09-28 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "d4117993496fc47c11f1d2df423e4cd56d9d6137",
+    "commit_time": "2025-10-16T15:54:38+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 228,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-10-12 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "d4117993496fc47c11f1d2df423e4cd56d9d6137",
+    "commit_time": "2025-10-16T15:54:38+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2713,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-10-12 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "d72c5caec6c344cdb73bffa172132dc66689efbc",
+    "commit_time": "2025-10-30T16:54:01+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 230,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-10-26 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "d72c5caec6c344cdb73bffa172132dc66689efbc",
+    "commit_time": "2025-10-30T16:54:01+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2721,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-10-26 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "7227cbb692f367945d64d94027a12dc7c784e31e",
+    "commit_time": "2025-11-14T07:57:51+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 232,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-11-09 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "7227cbb692f367945d64d94027a12dc7c784e31e",
+    "commit_time": "2025-11-14T07:57:51+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2732,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-11-09 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "61b2052f80f11f08ca3593a2f68580bbafd2d61d",
+    "commit_time": "2025-11-27T16:10:37+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 234,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-11-23 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "61b2052f80f11f08ca3593a2f68580bbafd2d61d",
+    "commit_time": "2025-11-27T16:10:37+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2742,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-11-23 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "90e50bb014ca4ffca19299400d83763098164188",
+    "commit_time": "2025-12-11T15:56:03+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 236,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-12-07 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "90e50bb014ca4ffca19299400d83763098164188",
+    "commit_time": "2025-12-11T15:56:03+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2752,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-12-07 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "7748d53d217b5bf6371536ee0d5ff059fe9699fd",
+    "commit_time": "2025-12-18T16:00:21+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 237,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-12-14 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "7748d53d217b5bf6371536ee0d5ff059fe9699fd",
+    "commit_time": "2025-12-18T16:00:21+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2757,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-12-14 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "0fab11f00f2cc32037cd8b63e6813eeb5e3d7e74",
+    "commit_time": "2025-12-24T09:33:14+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 238,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-12-21 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "0fab11f00f2cc32037cd8b63e6813eeb5e3d7e74",
+    "commit_time": "2025-12-24T09:33:14+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2762,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2025-12-21 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "602fd2e1a7752059c8ca5de8a56755bf2b13f41d",
+    "commit_time": "2026-01-15T16:13:21+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 241,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-01-11 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "602fd2e1a7752059c8ca5de8a56755bf2b13f41d",
+    "commit_time": "2026-01-15T16:13:21+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2775,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-01-11 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "c9ee81dcdf766b610b649f178deb6d3a06569f91",
+    "commit_time": "2026-01-29T16:30:35+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 246,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-01-25 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "c9ee81dcdf766b610b649f178deb6d3a06569f91",
+    "commit_time": "2026-01-29T16:30:35+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2788,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-01-25 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "5fc8e6510a3408b0e682da738552225e3356ace1",
+    "commit_time": "2026-02-04T09:11:32+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 243,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-01-25 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "5fc8e6510a3408b0e682da738552225e3356ace1",
+    "commit_time": "2026-02-04T09:11:32+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2785,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-01-25 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "a75d15c4f2faea455336d7eb327cfb74cebc6f93",
+    "commit_time": "2026-02-12T15:49:53+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 245,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-02-08 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "a75d15c4f2faea455336d7eb327cfb74cebc6f93",
+    "commit_time": "2026-02-12T15:49:53+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2795,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-02-08 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "8ce4be74994b2ef57970dfaaaaf092207d04a714",
+    "commit_time": "2026-02-26T16:06:05+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 247,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-02-22 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "8ce4be74994b2ef57970dfaaaaf092207d04a714",
+    "commit_time": "2026-02-26T16:06:05+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2805,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-02-22 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "45885adb35999a727f29bbd7b9924fe6af34218b",
+    "commit_time": "2026-03-13T11:05:01+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 249,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-03-08 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "45885adb35999a727f29bbd7b9924fe6af34218b",
+    "commit_time": "2026-03-13T11:05:01+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2815,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-03-08 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "475a98b6052832afa7ee20b18504433d6fad47a4",
+    "commit_time": "2026-03-26T19:46:40+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 251,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-03-22 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "475a98b6052832afa7ee20b18504433d6fad47a4",
+    "commit_time": "2026-03-26T19:46:40+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2825,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-03-22 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "88ff47d63bb06791464904962bebd4469b12950a",
+    "commit_time": "2026-04-10T15:24:38+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 253,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-04-05 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "88ff47d63bb06791464904962bebd4469b12950a",
+    "commit_time": "2026-04-10T15:24:38+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2835,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-04-05 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "ca83994548834a30ba1b37316ed49828f602b393",
+    "commit_time": "2026-04-23T16:48:24+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 255,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-04-19 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "ca83994548834a30ba1b37316ed49828f602b393",
+    "commit_time": "2026-04-23T16:48:24+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2845,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-04-19 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "265dcc364330351df38981ef1968c0f20d5db165",
+    "commit_time": "2026-05-07T15:41:16+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 257,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-05-03 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "265dcc364330351df38981ef1968c0f20d5db165",
+    "commit_time": "2026-05-07T15:41:16+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2855,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-05-03 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "ef49b98f57f69bde19f862bf798d163909426fe7",
+    "commit_time": "2026-05-21T15:45:47+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 259,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-05-17 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "ef49b98f57f69bde19f862bf798d163909426fe7",
+    "commit_time": "2026-05-21T15:45:47+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2865,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-05-17 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "8de7518f521bc8cd72c9843e9541f06074b7d95f",
+    "commit_time": "2026-06-04T15:47:20+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 261,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-05-31 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "8de7518f521bc8cd72c9843e9541f06074b7d95f",
+    "commit_time": "2026-06-04T15:47:20+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2875,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-05-31 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "a6ac5af06eaa8a0398eb14ef281fe91d10982bb3",
+    "commit_time": "2026-06-18T15:56:45+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 263,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-06-14 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "a6ac5af06eaa8a0398eb14ef281fe91d10982bb3",
+    "commit_time": "2026-06-18T15:56:45+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2885,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-06-14 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "755b8c1a33ababdd6f536fceb7649456d981be87",
+    "commit_time": "2026-07-02T15:52:02+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 265,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-06-28 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "755b8c1a33ababdd6f536fceb7649456d981be87",
+    "commit_time": "2026-07-02T15:52:02+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2895,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-06-28 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "f63e0abe0666bd7bad59c86c3eb862a41b8c985b",
+    "commit_time": "2026-07-20T11:03:20+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 267,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-07-12 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "f63e0abe0666bd7bad59c86c3eb862a41b8c985b",
+    "commit_time": "2026-07-20T11:03:20+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2905,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-07-12 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "f2cf0ad40c9e8e5cb5dde4afcc214a56e6e76a97",
+    "commit_time": "2026-07-30T16:13:10+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 272,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-07-26 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "f2cf0ad40c9e8e5cb5dde4afcc214a56e6e76a97",
+    "commit_time": "2026-07-30T16:13:10+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2918,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-07-26 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "ab813a1fb7fb27d5c8a87ced6324a1da1cd4f7ab",
+    "commit_time": "2026-08-10T11:01:13+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 269,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-07-26 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "ab813a1fb7fb27d5c8a87ced6324a1da1cd4f7ab",
+    "commit_time": "2026-08-10T11:01:13+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2915,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-07-26 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "136bef69426446e2aa1929bdf515ae5f0c63bd94",
+    "commit_time": "2026-08-17T10:27:40+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 271,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-08-09 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "136bef69426446e2aa1929bdf515ae5f0c63bd94",
+    "commit_time": "2026-08-17T10:27:40+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2925,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-08-09 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "69fbf75d3a5befdceb9b01f14004be813c862ae6",
+    "commit_time": "2026-09-10T16:08:14+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 275,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-09-06 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "69fbf75d3a5befdceb9b01f14004be813c862ae6",
+    "commit_time": "2026-09-10T16:08:14+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2945,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-09-06 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "9891318a469ce6c435d9a6d256345dc6e12cd1cd",
+    "commit_time": "2026-09-24T15:51:53+12:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 277,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-09-20 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "9891318a469ce6c435d9a6d256345dc6e12cd1cd",
+    "commit_time": "2026-09-24T15:51:53+12:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2955,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-09-20 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  },
+  {
+    "commit": "164f25a0b48b3a983b80b99ed01d37860572a48a",
+    "commit_time": "2026-10-08T15:54:19+13:00",
+    "source_path": "data/ww_national.csv",
+    "rows": 279,
+    "columns": [
+      "week_end_date",
+      "national_pop",
+      "copies_per_day_per_person"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-10-04 00:00:00",
+    "weekdays": [
+      6
+    ]
+  },
+  {
+    "commit": "164f25a0b48b3a983b80b99ed01d37860572a48a",
+    "commit_time": "2026-10-08T15:54:19+13:00",
+    "source_path": "data/ww_regional.csv",
+    "rows": 2965,
+    "columns": [
+      "week_end_date",
+      "Region",
+      "copies_per_day_per_person",
+      "population_covered",
+      "n_sites"
+    ],
+    "first_date": "2021-06-06 00:00:00",
+    "last_date": "2026-10-04 00:00:00",
+    "weekdays": [
+      6
+    ],
+    "regions": 16
+  }
+]

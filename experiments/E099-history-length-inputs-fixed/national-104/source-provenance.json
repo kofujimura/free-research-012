@@ -1,0 +1,9 @@
+{
+  "source_panel": "experiments/E007-prepare-inputs-fixed",
+  "source_files": {
+    "experiments/E007-prepare-inputs-fixed/cases.csv": "ae2aff86865b1bb4039fa2210ec6e6ffefd120609ed97fe5d65be51b70c1e429",
+    "experiments/E007-prepare-inputs-fixed/truth.csv": "c063338128a4608da396dd8e82209f9b8743081d9ad286969e49079e12fbde28",
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e"
+  },
+  "changes": "Actual inputs only;56-day reference only; numerical histories unchanged."
+}

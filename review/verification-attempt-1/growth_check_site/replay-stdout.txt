@@ -1,0 +1,1 @@
+{"roc_summary_rows_verified": 1800, "maximum_auc_difference_from_sklearn": 2.220446049250313e-16, "original_primary_alert_check": null, "clinical_validation": false, "independent_external_replication": false}

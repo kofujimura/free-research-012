@@ -1,0 +1,1 @@
+{"comparison_rows": 192, "families": 6, "exploratory": true, "common_post_publication_period": true, "strict_familywise_coverage_guarantee_claimed": false, "independent_validation": false}

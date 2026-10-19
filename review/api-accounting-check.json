@@ -1,0 +1,50 @@
+{
+  "unique_requests": 1,
+  "calls": [
+    {
+      "call_id": "CALL001",
+      "model_returned": "gpt-6-astra",
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 118991,
+        "input_tokens_details": {
+          "cache_write_tokens": 7203,
+          "cached_tokens": 0
+        },
+        "output_tokens": 18659,
+        "output_tokens_details": {
+          "reasoning_tokens": 10464
+        },
+        "total_tokens": 137650
+      },
+      "calculated_actual_cost_usd": "2.2708675",
+      "cost_detail": {
+        "input_tokens": 118991,
+        "ordinary_input_tokens": 111788,
+        "cached_input_tokens": 0,
+        "cache_write_tokens": 7203,
+        "output_tokens": 18659,
+        "reasoning_tokens": 10464,
+        "web_search_calls": 13,
+        "token_cost_usd": "2.1408675",
+        "web_search_cost_usd": "0.13",
+        "rates": {
+          "input_per_million": "10",
+          "cached_input_per_million": "1",
+          "cache_write_per_million": "12.50",
+          "output_per_million": "50",
+          "web_search_per_call": "0.01"
+        },
+        "pricing_source": "literature/openai-pricing.md",
+        "cache_accounting_source": "literature/reading-cache-accounting-official.json",
+        "note": "Ordinary input = total input minus cached reads minus cache writes. Reasoning is already in output. Search content is in input usage; search calls charged separately. This is a usage/rate calculation, not invoice reconciliation."
+      },
+      "recorded_cost_matches": true
+    }
+  ],
+  "total_calculated_actual_cost_usd": "2.2708675",
+  "network_required": false,
+  "ai_api_called": false,
+  "invoice_reconciliation_performed": false,
+  "fee_correction_preserved_in_append_only_ledger": true
+}

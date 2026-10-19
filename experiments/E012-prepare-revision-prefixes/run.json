@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E012-prepare-revision-prefixes",
+  "plan_path": "protocol/extension-national-v1.md",
+  "plan_commit": "625a58fc58f7c51c125f0deff994158844e40b4c",
+  "plan_sha256": "95a1b984a211082233a009fee24ead179a445f4a91f789a4989ba4e0575830b9",
+  "code_commit": "625a58fc58f7c51c125f0deff994158844e40b4c",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_ablation_inputs.py"
+  ],
+  "started_at_utc": "2026-10-18T16:48:10Z",
+  "timeout_seconds": 300,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/cases.csv": "ae2aff86865b1bb4039fa2210ec6e6ffefd120609ed97fe5d65be51b70c1e429",
+    "experiments/E004-vintage-audit-complete/archive-index.json": "374511a43d35a28b2a750c2fab78a5071b35e29893a9f9bac3620495cd05affb"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 43248,
+  "storage_before_bytes_du": 4078067712,
+  "child_pid": 43254,
+  "ended_at_utc": "2026-10-18T16:48:12Z",
+  "elapsed_seconds": 2.1017172089777887,
+  "returncode": 0
+}

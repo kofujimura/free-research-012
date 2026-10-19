@@ -1,0 +1,3 @@
+{"done": 16, "total": 45, "batch_seconds": 0.11134362500160933, "successes": 16, "failures": 0}
+{"done": 32, "total": 45, "batch_seconds": 0.06756825000047684, "successes": 32, "failures": 0}
+{"done": 45, "total": 45, "batch_seconds": 0.06519633310381323, "successes": 45, "failures": 0}

@@ -1,0 +1,6 @@
+{
+  "original_panel": "experiments/E027-nz-panel-inputs-eligible",
+  "original_input_sha256": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa",
+  "publication_availability_assumption": "Git timestamp + 24 hours",
+  "truth_definition_unchanged": true
+}

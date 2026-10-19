@@ -1,0 +1,16 @@
+{
+  "units": 6,
+  "unique_inputs": 251,
+  "native_case_predictions": 35151,
+  "calibrated_case_predictions": 26688,
+  "scored_rows": 122478,
+  "comparison_rows": 5400,
+  "max_wis_identity_error": 4.440892098500626e-16,
+  "known_target_cases": 0,
+  "exploratory": true,
+  "calibration_and_selection_within_unit": true,
+  "bootstrap_frequency": "W-MON",
+  "ai_api_required": false,
+  "network_required": false,
+  "model_inference_required": false
+}

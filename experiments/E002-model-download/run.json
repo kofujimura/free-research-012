@@ -1,0 +1,22 @@
+{
+  "experiment_id": "E002-model-download",
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit": "232aa96e9e2fdac8e3cec414df38498e3b469941",
+  "plan_sha256": "d105e4fbd09585731e444d00ce3af6ea95f6bf40356446696a7283e476251f0e",
+  "code_commit": "232aa96e9e2fdac8e3cec414df38498e3b469941",
+  "command": [
+    ".venv/bin/python",
+    "scripts/acquire_models.py"
+  ],
+  "started_at_utc": "2026-10-18T16:20:57Z",
+  "timeout_seconds": 1800,
+  "input_files": {},
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 39941,
+  "storage_before_bytes_du": 2163834880,
+  "child_pid": 39947,
+  "ended_at_utc": "2026-10-18T16:23:02Z",
+  "elapsed_seconds": 124.71688991691917,
+  "returncode": 0
+}

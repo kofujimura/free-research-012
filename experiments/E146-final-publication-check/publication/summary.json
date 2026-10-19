@@ -1,0 +1,39 @@
+{
+  "observed_at_utc": "2026-10-19T05:13:46Z",
+  "status": "completed",
+  "source_commit": "4885e58dcc561a8c65586c6ee9c443f0be17b81b",
+  "analysis_manifest": ".verify-work/output-final/report-manifest.json",
+  "scope": "Presentation-only regenerated from E145 recalculated analysis tables; numerical algorithms and expected tables unchanged",
+  "files": [
+    {
+      "path": "paper.md",
+      "sha256": "81b166c208f3d799df407e910b9a5ead51b312e895a2fe51dfa20858fada8dce",
+      "bytes_match": true
+    },
+    {
+      "path": "figures/national-model-information.png",
+      "sha256": "e8c6f1b3c5841bb5463819f2db1404cb7de84ee2ce62e8311f061c4e5a52fdcc",
+      "bytes_match": true
+    },
+    {
+      "path": "figures/national-model-information.svg",
+      "sha256": "75da518f4c554aa95df775bb0ba3521b935298e65173a11d410b42df167a67b0",
+      "bytes_match": true
+    },
+    {
+      "path": "figures/generalization-one-week.png",
+      "sha256": "189e816470429596793456beec76f634e4809798f4918af77f6549ee2e18e5d5",
+      "bytes_match": true
+    },
+    {
+      "path": "figures/generalization-one-week.svg",
+      "sha256": "7f5844f562ea02f95299fb961ce60df860524f8475bf0a23b2a453c0d7f41888",
+      "bytes_match": true
+    }
+  ],
+  "claims": 14,
+  "evidence_rows": 96,
+  "new_prediction_inference": false,
+  "new_model_fitting": false,
+  "independent_reproduction": false
+}

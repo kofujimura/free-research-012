@@ -1,0 +1,6 @@
+{
+  "original_panel": "experiments/E007-prepare-inputs-fixed",
+  "original_input_sha256": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+  "publication_availability_assumption": "Git timestamp + 48 hours",
+  "truth_definition_unchanged": true
+}

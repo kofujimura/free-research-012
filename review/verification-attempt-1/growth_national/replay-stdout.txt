@@ -1,0 +1,1 @@
+{"prediction_rows": 82485, "summary_rows": 3600, "paired_rows": 1440, "roc_summary_rows": 2736, "growth_ratios": [1.1, 1.25, 1.5, 2.0, 3.0], "prospective_thresholds": true, "retrospective_roc": true, "clinical_outcomes_measured": false, "original_twofold_roc_prespecified": true, "other_ratios_new_models_and_auc_exploratory": true, "network_required": false}

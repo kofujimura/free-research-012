@@ -1,0 +1,9 @@
+{
+  "experiment_id": "E067-site-c4-timesfm",
+  "status": "failed_before_launch",
+  "started_at_utc": null,
+  "recorded_at_utc": "2026-10-18T21:30:18Z",
+  "error": "Command input hash path data/models/timesfm-2.5/model.safetensors was nonexistent. Child scientific process was never started.",
+  "timeout_seconds": 1800,
+  "returncode": 1
+}

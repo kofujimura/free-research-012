@@ -1,0 +1,115 @@
+{
+  "started_at_utc": "2026-10-18T15:45:37Z",
+  "ended_at_utc": "2026-10-18T15:45:49Z",
+  "elapsed_seconds": 12.686751959030516,
+  "git_exit_code": 0,
+  "download_records": {
+    "Readme.en.md": {
+      "url": "https://raw.githubusercontent.com/robert-koch-institut/Abwassersurveillance_AMELAG/main/Readme.en.md",
+      "retrieved_at_utc": "2026-10-18T15:45:38Z",
+      "path": "data/pilot-c07/current-Readme.en.md",
+      "license": "CC BY 4.0; Robert Koch Institute and Federal Environment Agency",
+      "purpose": "C07 feasibility pilot",
+      "robots": {
+        "url": "https://raw.githubusercontent.com/robots.txt",
+        "status": 404,
+        "allowed": true
+      },
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/robert-koch-institut/Abwassersurveillance_AMELAG/main/Readme.en.md",
+      "content_type": "text/plain; charset=utf-8",
+      "status": "success",
+      "bytes": 32927,
+      "sha256": "4048a45054daf5a06c8b1c9757ccce97de13bd3744470a5af471901115f6a441"
+    },
+    "LICENSE": {
+      "url": "https://raw.githubusercontent.com/robert-koch-institut/Abwassersurveillance_AMELAG/main/LICENSE",
+      "retrieved_at_utc": "2026-10-18T15:45:38Z",
+      "path": "data/pilot-c07/current-LICENSE",
+      "license": "CC BY 4.0; Robert Koch Institute and Federal Environment Agency",
+      "purpose": "C07 feasibility pilot",
+      "robots": {
+        "url": "https://raw.githubusercontent.com/robots.txt",
+        "status": 404,
+        "allowed": true
+      },
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/robert-koch-institut/Abwassersurveillance_AMELAG/main/LICENSE",
+      "content_type": "text/plain; charset=utf-8",
+      "status": "success",
+      "bytes": 18650,
+      "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+    },
+    "amelag_aggregierte_kurve.tsv": {
+      "url": "https://raw.githubusercontent.com/robert-koch-institut/Abwassersurveillance_AMELAG/main/amelag_aggregierte_kurve.tsv",
+      "retrieved_at_utc": "2026-10-18T15:45:38Z",
+      "path": "data/pilot-c07/current-amelag_aggregierte_kurve.tsv",
+      "license": "CC BY 4.0; Robert Koch Institute and Federal Environment Agency",
+      "purpose": "C07 feasibility pilot",
+      "robots": {
+        "url": "https://raw.githubusercontent.com/robots.txt",
+        "status": 404,
+        "allowed": true
+      },
+      "http_status": 200,
+      "final_url": "https://raw.githubusercontent.com/robert-koch-institut/Abwassersurveillance_AMELAG/main/amelag_aggregierte_kurve.tsv",
+      "content_type": "text/plain; charset=utf-8",
+      "status": "success",
+      "bytes": 135235,
+      "sha256": "72490120631cda144f8b8a7bef4180d94ab4748b80b4709113c550b3d4a2f773"
+    }
+  },
+  "historical_snapshots": [
+    {
+      "requested_cutoff": "2024-12-20T00:00:00Z",
+      "commit": "34d7fad4333af5ce0a34004a2b08d6149e222830",
+      "commit_date": "2024-12-18T12:58:26+01:00",
+      "path": "experiments/pilot-c07/34d7fad4333af5ce0a34004a2b08d6149e222830-aggregate.tsv",
+      "bytes": 26962
+    },
+    {
+      "requested_cutoff": "2025-12-20T00:00:00Z",
+      "commit": "29192560eabe9dce0b95b77d9039cc81b26b0abf",
+      "commit_date": "2025-12-17T13:35:52+01:00",
+      "path": "experiments/pilot-c07/29192560eabe9dce0b95b77d9039cc81b26b0abf-aggregate.tsv",
+      "bytes": 96790
+    }
+  ],
+  "rows_current": 1068,
+  "columns_current": [
+    "datum",
+    "n",
+    "anteil_bev",
+    "viruslast",
+    "viruslast_normalisiert",
+    "vorhersage",
+    "obere_schranke",
+    "untere_schranke",
+    "typ"
+  ],
+  "head_current": [
+    {
+      "datum": "2023-11-29",
+      "n": 28,
+      "anteil_bev": 0.0313041033219456,
+      "viruslast": 1550.57,
+      "viruslast_normalisiert": 1957.6721089352836,
+      "vorhersage": 1403.6876251657504,
+      "obere_schranke": 2056.1372461601654,
+      "untere_schranke": 958.272096244096,
+      "typ": "Influenza A"
+    },
+    {
+      "datum": "2023-12-06",
+      "n": 42,
+      "anteil_bev": 0.066143532429824,
+      "viruslast": 1791.27,
+      "viruslast_normalisiert": 2334.3153592383615,
+      "vorhersage": 2214.429595166804,
+      "obere_schranke": 2976.2434772410384,
+      "untere_schranke": 1647.613331855604,
+      "typ": "Influenza A"
+    }
+  ],
+  "note": "No accuracy comparison performed. Public WWTP/national aggregates; no individual records."
+}

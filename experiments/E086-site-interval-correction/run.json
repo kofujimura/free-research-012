@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E086-site-interval-correction",
+  "plan_path": "protocol/calibration-sensitivity-v1.md",
+  "plan_commit": "116e20a23fce10e4dde48dd8a3416ac9b6b1b4f6",
+  "plan_sha256": "ecd724c9db3ff3529530b58d1df73a48a0e06d50959ab101581f1b8fe243d807",
+  "code_commit": "116e20a23fce10e4dde48dd8a3416ac9b6b1b4f6",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_interval_calibration.py",
+    "--forecast-csv",
+    "experiments/E072-site-panel-analysis/results/case-forecasts.csv.gz",
+    "--panel",
+    "experiments/E024-site-panel-inputs",
+    "--out",
+    "experiments/E086-site-interval-correction/results"
+  ],
+  "started_at_utc": "2026-10-18T21:44:47Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E072-site-panel-analysis/results/case-forecasts.csv.gz": "8c7967cd052f0665c160e14b269dc7894c8a1b296353a7031c5b11fb52dad472",
+    "experiments/E024-site-panel-inputs/truth.csv": "ecfdf57a83380ed50bd9633102313fa25d99ae62116aac221910c0c0c8d56d07"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 55150,
+  "storage_before_bytes_du": 7899758592,
+  "child_pid": 55156,
+  "ended_at_utc": "2026-10-18T21:47:26Z",
+  "elapsed_seconds": 159.29696133406833,
+  "returncode": 0
+}

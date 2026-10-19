@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E057-shifted-inputs-label-availability",
+  "plan_path": "protocol/robustness-v3.md",
+  "plan_commit": "c778195ff1118235d65530e85ee90fdfdae04f93",
+  "plan_sha256": "2210b046eb71a1e761405728a1daeb9789f6e83be8ad7e7d480aff71f721c3ff",
+  "code_commit": "c778195ff1118235d65530e85ee90fdfdae04f93",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_shifted_inputs.py"
+  ],
+  "started_at_utc": "2026-10-18T21:07:58Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 53392,
+  "storage_before_bytes_du": 6906667008,
+  "child_pid": 53403,
+  "ended_at_utc": "2026-10-18T21:08:04Z",
+  "elapsed_seconds": 5.53479420801159,
+  "returncode": 0
+}

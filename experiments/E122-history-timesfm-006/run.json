@@ -1,0 +1,31 @@
+{
+  "experiment_id": "E122-history-timesfm-006",
+  "plan_path": "protocol/history-length-control-v1.md",
+  "plan_commit": "d7ca268e95ee7cf65ba45487bef3523080bca87c",
+  "plan_sha256": "24f4e3aedc060b5162b7445744b17a2d52bfcdd45e0ee4e2dcbda334648bcc9f",
+  "code_commit": "d7ca268e95ee7cf65ba45487bef3523080bca87c",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E099-history-length-inputs-fixed/inference-inputs/timesfm-006.json",
+    "--engine",
+    "timesfm",
+    "--timesfm-max-context",
+    "256"
+  ],
+  "started_at_utc": "2026-10-19T02:08:58Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E099-history-length-inputs-fixed/inference-inputs/timesfm-006.json": "edf6f161e8ca07fbdb7ed6004d90804281313080f90f1299b8554c65a64b3cac",
+    "data/models/timesfm-2.5-200m-pytorch/model.safetensors": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 61785,
+  "storage_before_bytes_du": 9486172160,
+  "child_pid": 61791,
+  "ended_at_utc": "2026-10-19T02:10:56Z",
+  "elapsed_seconds": 118.01424466690514,
+  "returncode": 0
+}

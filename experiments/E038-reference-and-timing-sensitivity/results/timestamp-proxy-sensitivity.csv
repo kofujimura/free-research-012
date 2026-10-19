@@ -1,0 +1,9 @@
+dataset,availability_shift_hours,n_unit_issue_age_conditions,changed_source_release,changed_numeric_dated_input,unavailable_after_shift,performance_reestimated
+germany_national,-48,522,0,0,0,False
+germany_national,-24,522,0,0,0,False
+germany_national,24,522,9,9,0,False
+germany_national,48,522,99,99,0,False
+nz,-48,1026,36,36,0,False
+nz,-24,1026,0,0,0,False
+nz,24,1026,18,18,0,False
+nz,48,1026,18,18,0,False

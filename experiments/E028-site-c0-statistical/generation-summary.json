@@ -1,0 +1,26 @@
+{
+  "engine": "statistical",
+  "input_file": "experiments/E024-site-panel-inputs/input-chunks/chunk-000.json",
+  "input_sha256": "05ccc7fc35b056a58356b5fe46687669fd88494bfcb54344566a660df7fb9c0a",
+  "seed": 12012,
+  "horizon": 16,
+  "quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "start": 0,
+  "stop": null,
+  "started_at_utc": "2026-10-18T17:52:48Z",
+  "models": {},
+  "failures": 0,
+  "successes": 10000,
+  "quantile_crossings": 0,
+  "ended_at_utc": "2026-10-18T17:55:27Z"
+}

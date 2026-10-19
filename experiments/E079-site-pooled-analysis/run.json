@@ -1,0 +1,38 @@
+{
+  "experiment_id": "E079-site-pooled-analysis",
+  "plan_path": "protocol/pooled-baseline-v1.md",
+  "plan_commit": "d5636b2da0b8ae8a2660b8b7d75d2e1f667d0af6",
+  "plan_sha256": "d8b8f584916ff0fd997e562b5bf8c1c26708e392f2b3269a628b9f21345e654d",
+  "code_commit": "d5636b2da0b8ae8a2660b8b7d75d2e1f667d0af6",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_pooled.py",
+    "--site-forecasts",
+    "experiments/E072-site-panel-analysis/results/case-forecasts.csv.gz",
+    "--out",
+    "experiments/E079-site-pooled-analysis/results",
+    "--fit-dir",
+    "experiments/E060-pooled-fit-0",
+    "--fit-dir",
+    "experiments/E062-pooled-fit-1",
+    "--fit-dir",
+    "experiments/E064-pooled-fit-2",
+    "--fit-dir",
+    "experiments/E066-pooled-fit-3",
+    "--fit-dir",
+    "experiments/E068-pooled-fit-4"
+  ],
+  "started_at_utc": "2026-10-18T21:36:54Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E072-site-panel-analysis/results/case-forecasts.csv.gz": "8c7967cd052f0665c160e14b269dc7894c8a1b296353a7031c5b11fb52dad472"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 54782,
+  "storage_before_bytes_du": 7821930496,
+  "child_pid": 54792,
+  "ended_at_utc": "2026-10-18T21:37:08Z",
+  "elapsed_seconds": 13.83472308400087,
+  "returncode": 0
+}

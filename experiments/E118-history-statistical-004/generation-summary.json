@@ -1,0 +1,27 @@
+{
+  "engine": "statistical",
+  "input_file": "experiments/E099-history-length-inputs-fixed/inference-inputs/statistical-004.json",
+  "input_sha256": "2b12fc1fcba299a22ee2535cb41d315018a0720a3b2935138c695194f0e14ed3",
+  "seed": 12012,
+  "horizon": 16,
+  "quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "start": 0,
+  "stop": null,
+  "started_at_utc": "2026-10-19T02:01:22Z",
+  "models": {},
+  "failures": 0,
+  "successes": 3835,
+  "quantile_crossings": 0,
+  "timesfm_max_context": null,
+  "ended_at_utc": "2026-10-19T02:02:37Z"
+}

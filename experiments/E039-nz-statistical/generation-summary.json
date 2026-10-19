@@ -1,0 +1,26 @@
+{
+  "engine": "statistical",
+  "input_file": "experiments/E027-nz-panel-inputs-eligible/inputs.json",
+  "input_sha256": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa",
+  "seed": 12012,
+  "horizon": 16,
+  "quantiles": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "start": 0,
+  "stop": null,
+  "started_at_utc": "2026-10-18T20:37:11Z",
+  "models": {},
+  "failures": 0,
+  "successes": 1255,
+  "quantile_crossings": 0,
+  "ended_at_utc": "2026-10-18T20:37:32Z"
+}

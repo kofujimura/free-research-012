@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E123-history-chronos-006",
+  "plan_path": "protocol/history-length-control-v1.md",
+  "plan_commit": "d9a6e17fe7e0b47f73b25f5041957ffa86ac308a",
+  "plan_sha256": "24f4e3aedc060b5162b7445744b17a2d52bfcdd45e0ee4e2dcbda334648bcc9f",
+  "code_commit": "d9a6e17fe7e0b47f73b25f5041957ffa86ac308a",
+  "command": [
+    ".venv/bin/python",
+    "scripts/generate_forecasts.py",
+    "--inputs",
+    "experiments/E099-history-length-inputs-fixed/inference-inputs/chronos-006.json",
+    "--engine",
+    "chronos"
+  ],
+  "started_at_utc": "2026-10-19T02:11:06Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E099-history-length-inputs-fixed/inference-inputs/chronos-006.json": "edf6f161e8ca07fbdb7ed6004d90804281313080f90f1299b8554c65a64b3cac",
+    "data/models/chronos-bolt-base/model.safetensors": "31f875483a3215bc6880a0837ea608a13ce55f88ad90538c3cdd0b29aeb60b36"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 61898,
+  "storage_before_bytes_du": 9494650880,
+  "child_pid": 61904,
+  "ended_at_utc": "2026-10-19T02:11:17Z",
+  "elapsed_seconds": 11.589771167025901,
+  "returncode": 0
+}

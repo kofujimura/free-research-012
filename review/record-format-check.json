@@ -1,0 +1,14 @@
+{
+  "observed_at_utc": "2026-10-19T01:42:19Z",
+  "python_files_compiled": 58,
+  "jsonl_rows": {
+    "events.jsonl": 425,
+    "interventions.jsonl": 2,
+    "api_calls.jsonl": 5,
+    "claims.jsonl": 10,
+    "sources.jsonl": 797
+  },
+  "event_ids_unique": true,
+  "event_schema_required_fields_pass": true,
+  "not_scientific_validation": true
+}

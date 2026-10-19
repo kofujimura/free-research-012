@@ -1,0 +1,10 @@
+unit_level,source_age_weeks,target_offset_days,status,n
+site,0,5,horizon_outside_plan,260
+site,0,5,insufficient_real_observations,12
+site,0,5,ok,8834
+site,1,5,horizon_outside_plan,263
+site,1,5,insufficient_real_observations,12
+site,1,5,ok,8831
+site,2,5,horizon_outside_plan,266
+site,2,5,insufficient_real_observations,12
+site,2,5,ok,8828

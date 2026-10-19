@@ -1,0 +1,25 @@
+{
+  "experiment_id": "E046-shifted-public-inputs",
+  "plan_path": "protocol/robustness-v2.md",
+  "plan_commit": "0a3ce3f26bf53e41de7b398e9673d81fb74b4c88",
+  "plan_sha256": "c945e7bb17cfff0a0acaf4a1a70be7637e979bd36f2e7248acba96b96f2abb51",
+  "code_commit": "0a3ce3f26bf53e41de7b398e9673d81fb74b4c88",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_shifted_inputs.py"
+  ],
+  "started_at_utc": "2026-10-18T20:48:46Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E007-prepare-inputs-fixed/inputs.json": "d9b6d5ccfc087bbb492eee028e76e907fc4aebdcbbb50c15cc3c77f08689e20e",
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 52667,
+  "storage_before_bytes_du": 6813122560,
+  "child_pid": 52673,
+  "ended_at_utc": "2026-10-18T20:48:52Z",
+  "elapsed_seconds": 5.405270250048488,
+  "returncode": 0
+}

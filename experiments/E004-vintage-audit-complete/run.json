@@ -1,0 +1,24 @@
+{
+  "experiment_id": "E004-vintage-audit-complete",
+  "plan_path": "protocol/plan-v1.md",
+  "plan_commit": "585f16b31abe9ef61bda4492f2b27375d46ef765",
+  "plan_sha256": "d105e4fbd09585731e444d00ce3af6ea95f6bf40356446696a7283e476251f0e",
+  "code_commit": "585f16b31abe9ef61bda4492f2b27375d46ef765",
+  "command": [
+    ".venv/bin/python",
+    "scripts/acquire_vintages.py"
+  ],
+  "started_at_utc": "2026-10-18T16:23:34Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E003-vintage-audit-retry/archive-index.json": "245eafdd05c6ba928c066cab955e351e32f8d663096c49b74cae05c74286d2f0"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 40540,
+  "storage_before_bytes_du": 3917807616,
+  "child_pid": 40546,
+  "ended_at_utc": "2026-10-18T16:25:13Z",
+  "elapsed_seconds": 98.47911583294626,
+  "returncode": 0
+}

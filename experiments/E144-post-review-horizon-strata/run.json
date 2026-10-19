@@ -1,0 +1,30 @@
+{
+  "experiment_id": "E144-post-review-horizon-strata",
+  "plan_path": "protocol/review-response-v1.md",
+  "plan_commit": "c7b11dff30861a5a1e2227df1da0bd174d4f000d",
+  "plan_sha256": "6dfb189f8dd1860269e4bdf57a77ae903a63e825b04ee559ff280a2b03f7b97e",
+  "code_commit": "c7b11dff30861a5a1e2227df1da0bd174d4f000d",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_review_strata.py",
+    "--out",
+    "experiments/E144-post-review-horizon-strata/results"
+  ],
+  "started_at_utc": "2026-10-19T04:43:37Z",
+  "timeout_seconds": 600,
+  "input_files": {
+    "experiments/E011-primary-analysis/results/case-scores.csv": "bd3617585687f2f53b89563d8bf160efced3d9a7aac699904123ae9d17952aca",
+    "experiments/E011-primary-analysis/results/comparisons.csv": "fccafb019ca46bd461f4d73b021b977f1f318699ebb81d1004df1874f5d70f6b",
+    "experiments/E004-vintage-audit-complete/archive-index.json": "374511a43d35a28b2a750c2fab78a5071b35e29893a9f9bac3620495cd05affb",
+    "experiments/E027-nz-panel-inputs-eligible/release-eligibility.json": "b1370bfa729919d177f9b1b4e2688256257c9f16d1630aa9127abfd009cf9ba8",
+    "experiments/E027-nz-panel-inputs-eligible/panel-config.json": "1e29896b019af826e4919c7deee7f4295b8937d32d341872ca4d7a8caf9e84f3"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 72112,
+  "storage_before_bytes_du": 9829965824,
+  "child_pid": 72118,
+  "ended_at_utc": "2026-10-19T04:43:39Z",
+  "elapsed_seconds": 1.4712166669778526,
+  "returncode": 0
+}

@@ -1,0 +1,26 @@
+{
+  "experiment_id": "E019-site-full-archive",
+  "plan_path": "protocol/multisite-plan-v1.md",
+  "plan_commit": "9ce76ed4c518123cb7e4afd1b3291f24799bbe69",
+  "plan_sha256": "e94e308f5c3b3e36500d0fbe59aff47426adb041f92b2d3e995cbc9fca2004ce",
+  "code_commit": "9ce76ed4c518123cb7e4afd1b3291f24799bbe69",
+  "command": [
+    ".venv/bin/python",
+    "scripts/acquire_sites.py",
+    "--all-releases"
+  ],
+  "started_at_utc": "2026-10-18T17:05:33Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E004-vintage-audit-complete/archive-index.json": "374511a43d35a28b2a750c2fab78a5071b35e29893a9f9bac3620495cd05affb",
+    "config/multisite.json": "76009be88b0fc83718260dd31aac196aac3a72b80e92bcda9bf9c1cb71a15253"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 43950,
+  "storage_before_bytes_du": 4166434816,
+  "child_pid": 43956,
+  "ended_at_utc": "2026-10-18T17:12:03Z",
+  "elapsed_seconds": 390.248587833019,
+  "returncode": 0
+}

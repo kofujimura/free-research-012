@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "amazon/chronos-bolt-base",
+    "revision": "5d9f166d69f47aef3401367a7b842e78fe97b121",
+    "file": "model.safetensors",
+    "size": 821203576,
+    "last_commit": "LastCommitInfo(oid='083dedcc4658bae426028d1bb6cbb940bcde10b9', title='initial commit', date=datetime.datetime(2024, 11, 13, 13, 7, 57, tzinfo=datetime.timezone.utc))",
+    "lfs": "BlobLfsInfo(size=821203576, sha256='31f875483a3215bc6880a0837ea608a13ce55f88ad90538c3cdd0b29aeb60b36', pointer_size=134)",
+    "observed_at_utc": "2026-10-18T17:24:18.700357+00:00"
+  },
+  {
+    "repository": "google/timesfm-2.5-200m-pytorch",
+    "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+    "file": "model.safetensors",
+    "size": 925181104,
+    "last_commit": "LastCommitInfo(oid='d418f3e8a8fa79d655b391c158f0ee8d68fe68c9', title='Refreshed model with speed optimizations.', date=datetime.datetime(2025, 10, 1, 22, 16, 35, tzinfo=datetime.timezone.utc))",
+    "lfs": "BlobLfsInfo(size=925181104, sha256='2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8', pointer_size=134)",
+    "observed_at_utc": "2026-10-18T17:24:18.955308+00:00"
+  }
+]

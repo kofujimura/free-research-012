@@ -1,0 +1,9 @@
+{
+  "source_panel": "experiments/E027-nz-panel-inputs-eligible",
+  "source_files": {
+    "experiments/E027-nz-panel-inputs-eligible/cases.csv": "da3af8fdbf6c719678bafd61b04c49c35d5c6cc26e4e8839163023b80d34faae",
+    "experiments/E027-nz-panel-inputs-eligible/truth.csv": "541ab531c3378e27a0dd2d893e45885158705c49b1a4cc8eb43d44013cdb1505",
+    "experiments/E027-nz-panel-inputs-eligible/inputs.json": "fb4745f3e9c599fa5944283e33a81bf1cfefddfe9207d387fe33c39f033706fa"
+  },
+  "changes": "Actual inputs only;56-day reference only; numerical histories unchanged."
+}

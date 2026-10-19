@@ -1,0 +1,26 @@
+{
+  "experiment_id": "E056-pooled-feature-preparation",
+  "plan_path": "protocol/pooled-baseline-v1.md",
+  "plan_commit": "c778195ff1118235d65530e85ee90fdfdae04f93",
+  "plan_sha256": "d8b8f584916ff0fd997e562b5bf8c1c26708e392f2b3269a628b9f21345e654d",
+  "code_commit": "c778195ff1118235d65530e85ee90fdfdae04f93",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_pooled_features.py"
+  ],
+  "started_at_utc": "2026-10-18T21:07:58Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E024-site-panel-inputs/inputs.json": "43e8b15dd1260a04fafeaffd2156a8470bd9068505821bc29b45577969125f8c",
+    "experiments/E024-site-panel-inputs/cases.csv": "29b582701a4ed3f7a97761dd3f449cda2bc7a257a5df68aeb10a5477848c8e44",
+    "experiments/E024-site-panel-inputs/truth.csv": "ecfdf57a83380ed50bd9633102313fa25d99ae62116aac221910c0c0c8d56d07"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 53391,
+  "storage_before_bytes_du": 6906667008,
+  "child_pid": 53404,
+  "ended_at_utc": "2026-10-18T21:08:03Z",
+  "elapsed_seconds": 4.59553558297921,
+  "returncode": 0
+}

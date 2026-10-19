@@ -1,0 +1,19 @@
+{
+  "observed_at_utc": "2026-10-19T02:25:26Z",
+  "native_jobs_completed": 38,
+  "failed_prediction_records": 0,
+  "saved_native_forecast_records": {
+    "timesfm_2p5": 13795,
+    "chronos_bolt_base": 13795,
+    "naive": 4767,
+    "damped_trend": 4767,
+    "autoarima": 4767,
+    "autoets": 4767,
+    "ensemble": 4767,
+    "autotheta": 4767,
+    "seasonal_naive": 4767,
+    "harmonic_arima": 4767
+  },
+  "total_saved_native_forecast_records": 65726,
+  "scope": "All38 newly executed inference chunks; excludes reused original classical forecasts; rows are correlated and not independent trials."
+}

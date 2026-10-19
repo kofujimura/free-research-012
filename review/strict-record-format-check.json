@@ -1,0 +1,11 @@
+{
+  "observed_at_utc": "2026-10-19T03:22:10Z",
+  "strict_jsonl_rows": {
+    "events.jsonl": 537,
+    "interventions.jsonl": 2,
+    "api_calls.jsonl": 5,
+    "claims.jsonl": 12,
+    "sources.jsonl": 798
+  },
+  "input_prompt_initial_hash_unchanged": true
+}

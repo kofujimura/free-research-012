@@ -1,0 +1,26 @@
+{
+  "experiment_id": "E024-site-panel-inputs",
+  "plan_path": "protocol/multisite-plan-v2.md",
+  "plan_commit": "d4b73bc05ddaa2fd69592f46147329084d86a2a2",
+  "plan_sha256": "f210de812f6dcd6bfaeeb0f590d621d932d170f8285b96ba17d39cdac55cc0a4",
+  "code_commit": "d4b73bc05ddaa2fd69592f46147329084d86a2a2",
+  "command": [
+    ".venv/bin/python",
+    "scripts/prepare_site_inputs.py"
+  ],
+  "started_at_utc": "2026-10-18T17:43:37Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E023-site-weekly-cohort/weekly-index.json": "1518059f2770d07c977980f00fcb804dd92e14354d0d4bdb7ff350a4a824346e",
+    "experiments/E023-site-weekly-cohort/cohort.csv": "4b4fef310f19ff25a785b363d167fcef2437b171ceb83a4460941d06f2eda04b",
+    "config/multisite.json": "a06dfb0a10a444854535cf4537b5c44d4396e10892e8a494eca0d79e79a69b3f"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 48806,
+  "storage_before_bytes_du": 6454181888,
+  "child_pid": 48812,
+  "ended_at_utc": "2026-10-18T17:44:13Z",
+  "elapsed_seconds": 36.067693125107326,
+  "returncode": 0
+}

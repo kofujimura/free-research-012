@@ -1,0 +1,33 @@
+{
+  "exploratory": true,
+  "windows": [
+    {
+      "window": 12,
+      "calibrated_rows": 10707,
+      "nesting_adjusted_rows": 390,
+      "max_median_change": 0.0,
+      "max_paired_point_mae_change": 0.0,
+      "wis_identity_max_error": 4.440892098500626e-16
+    },
+    {
+      "window": 26,
+      "calibrated_rows": 10707,
+      "nesting_adjusted_rows": 55,
+      "max_median_change": 0.0,
+      "max_paired_point_mae_change": 0.0,
+      "wis_identity_max_error": 4.440892098500626e-16
+    },
+    {
+      "window": 52,
+      "calibrated_rows": 10707,
+      "nesting_adjusted_rows": 5,
+      "max_median_change": 0.0,
+      "max_paired_point_mae_change": 0.0,
+      "wis_identity_max_error": 4.440892098500626e-16
+    }
+  ],
+  "formal_coverage_guarantee_claimed": false,
+  "model_inference_required": false,
+  "network_required": false,
+  "ai_api_required": false
+}

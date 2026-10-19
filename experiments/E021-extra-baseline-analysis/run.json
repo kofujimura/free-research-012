@@ -1,0 +1,28 @@
+{
+  "experiment_id": "E021-extra-baseline-analysis",
+  "plan_path": "protocol/extension-national-v1.md",
+  "plan_commit": "038e587684f5fb343690ceadcc2f3032cdb64a84",
+  "plan_sha256": "95a1b984a211082233a009fee24ead179a445f4a91f789a4989ba4e0575830b9",
+  "code_commit": "038e587684f5fb343690ceadcc2f3032cdb64a84",
+  "command": [
+    ".venv/bin/python",
+    "scripts/analyze_extra_baselines.py",
+    "--out",
+    "experiments/E021-extra-baseline-analysis/results"
+  ],
+  "started_at_utc": "2026-10-18T17:10:40Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "experiments/E013-extra-classical/forecasts.jsonl": "3575ab2cddc9e68b133d283f07b957cd38e0a924c7d97d272bdc3e99085f338f",
+    "experiments/E007-prepare-inputs-fixed/truth.csv": "c063338128a4608da396dd8e82209f9b8743081d9ad286969e49079e12fbde28",
+    "experiments/E011-primary-analysis/results/summary.json": "d4c36167746cdb5c752665bce201bd2409f42ba77de50a00fe7e038a77dd3102"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "failed",
+  "controller_pid": 47472,
+  "storage_before_bytes_du": 5919911936,
+  "child_pid": 47478,
+  "ended_at_utc": "2026-10-18T17:10:52Z",
+  "elapsed_seconds": 11.622486458043568,
+  "returncode": 1
+}

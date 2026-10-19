@@ -1,0 +1,13 @@
+dataset,unit_level,source_age_weeks,n_pairs,n_issue_weeks,recorded_exact,float32_exact,additional_float32_identical,old_constant,fresh_constant,both_without_imputation,either_imputed_over_point25,same_grid_max_log_difference_le_0,same_grid_max_log_difference_le_1e-6,same_grid_max_log_difference_le_1e-3,same_grid_max_log_difference_le_0.01
+germany_national,national,0,348,58,348,348,0,0,0,192,0,348,348,348,348
+germany_national,national,1,348,58,78,78,0,0,0,190,0,78,78,78,84
+germany_national,national,2,348,58,60,60,0,0,0,188,0,60,60,60,60
+germany_sites,site,0,8834,58,8834,8834,0,0,0,519,657,8834,8834,8834,8834
+germany_sites,site,1,8820,58,2953,2953,0,0,0,517,670,2953,2953,2954,2955
+germany_sites,site,2,8817,58,2084,2084,0,0,0,515,683,2084,2084,2086,2086
+nz,national,0,114,57,114,114,0,0,0,114,0,114,114,114,114
+nz,national,1,114,57,58,58,0,0,0,114,0,58,58,58,58
+nz,national,2,114,57,6,6,0,0,0,114,0,6,6,6,6
+nz,regional,0,570,57,570,570,0,0,0,342,0,570,570,570,570
+nz,regional,1,570,57,292,292,0,0,0,342,0,292,292,292,292
+nz,regional,2,570,57,34,34,0,0,0,342,0,34,34,34,34

@@ -1,0 +1,13 @@
+unit_level,source_age_weeks,target_offset_days,status,n
+national,0,-1,ok,57
+national,0,6,ok,57
+national,1,-1,ok,57
+national,1,6,ok,57
+national,2,-1,ok,57
+national,2,6,ok,57
+regional,0,-1,ok,285
+regional,0,6,ok,285
+regional,1,-1,ok,285
+regional,1,6,ok,285
+regional,2,-1,ok,285
+regional,2,6,ok,285

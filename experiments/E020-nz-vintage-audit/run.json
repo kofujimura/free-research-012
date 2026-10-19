@@ -1,0 +1,24 @@
+{
+  "experiment_id": "E020-nz-vintage-audit",
+  "plan_path": "protocol/cross-country-data-audit.md",
+  "plan_commit": "3c40d25dfe74330c6260c1baecaf566be4a903cd",
+  "plan_sha256": "2ce6655dc0346a1fa67cf999ec7d13d1815485010b349d07762d880c4214c0fd",
+  "code_commit": "3c40d25dfe74330c6260c1baecaf566be4a903cd",
+  "command": [
+    ".venv/bin/python",
+    "scripts/acquire_nz.py"
+  ],
+  "started_at_utc": "2026-10-18T17:06:36Z",
+  "timeout_seconds": 1800,
+  "input_files": {
+    "manifest.json": "d4751363eb947a41d92395d5403d82b2662ecb247ef42beca28b7a6bca2746a6"
+  },
+  "seed": "Defined by the committed experiment configuration",
+  "status": "completed",
+  "controller_pid": 44204,
+  "storage_before_bytes_du": 4348583936,
+  "child_pid": 44210,
+  "ended_at_utc": "2026-10-18T17:09:52Z",
+  "elapsed_seconds": 196.52232366602402,
+  "returncode": 0
+}

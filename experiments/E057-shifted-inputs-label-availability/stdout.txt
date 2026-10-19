@@ -1,0 +1,4 @@
+{"country": "germany_national", "shift_hours": 24, "panel_path": "experiments/E057-shifted-inputs-label-availability/germany_national-shift24", "model_inputs": 196, "unseen_inputs": 0, "cases": 1512, "ok_cases": 1464}
+{"country": "germany_national", "shift_hours": 48, "panel_path": "experiments/E057-shifted-inputs-label-availability/germany_national-shift48", "model_inputs": 176, "unseen_inputs": 0, "cases": 1512, "ok_cases": 1464}
+{"country": "nz", "shift_hours": 24, "panel_path": "experiments/E057-shifted-inputs-label-availability/nz-shift24", "model_inputs": 251, "unseen_inputs": 0, "cases": 2988, "ok_cases": 2988}
+{"country": "nz", "shift_hours": 48, "panel_path": "experiments/E057-shifted-inputs-label-availability/nz-shift48", "model_inputs": 251, "unseen_inputs": 0, "cases": 2988, "ok_cases": 2988}

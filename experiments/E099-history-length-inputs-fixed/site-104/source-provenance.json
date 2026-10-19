@@ -1,0 +1,9 @@
+{
+  "source_panel": "experiments/E024-site-panel-inputs",
+  "source_files": {
+    "experiments/E024-site-panel-inputs/cases.csv": "29b582701a4ed3f7a97761dd3f449cda2bc7a257a5df68aeb10a5477848c8e44",
+    "experiments/E024-site-panel-inputs/truth.csv": "ecfdf57a83380ed50bd9633102313fa25d99ae62116aac221910c0c0c8d56d07",
+    "experiments/E024-site-panel-inputs/inputs.json": "43e8b15dd1260a04fafeaffd2156a8470bd9068505821bc29b45577969125f8c"
+  },
+  "changes": "Actual inputs only;56-day reference only; numerical histories unchanged."
+}

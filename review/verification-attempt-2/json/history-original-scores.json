@@ -1,0 +1,14 @@
+{
+  "national": [
+    "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/primary/case-scores.csv",
+    "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/extended/case-extra-scores.csv.gz"
+  ],
+  "site": [
+    "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/site/case-scores.csv.gz",
+    "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/pooled_site/pooled-case-scores.csv.gz"
+  ],
+  "nz": [
+    "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/nz/case-scores.csv.gz",
+    "/Users/fujimura/Research/ai-free-research/run-012/.verify-work/output-2/pooled_nz/pooled-case-scores.csv.gz"
+  ]
+}
