@@ -10,9 +10,9 @@ bc8c685a6b9b38db6fe2c1ec77e91e74f4b0720d2824699f7f3e4de2846bbf68  ./api/CALL001/
 887eee328f906fbaba26538e5e48b1425b05a6281b26ee428055805fdef4509c  ./api/CALL001/state.json
 755646d2335ec6b3193ce5bf30a61324a7764ca37ed5c1bfd4319ec46f1a0e21  ./api/topic-critique-prompt.txt
 2ac1725ff4f0ad2727b7686bf8996f3d212fc4ba232029192d35a0b89ba9c99e  ./api/topic-critique-response.txt
-09cd223e11e36acb2390c9ef8fc2c214fcd5eb09e705cf78a58b96eac25cd984  ./CHANGES_AFTER_RUN.md
+b75eb59b1fdc706749a4f255ae57a50e50ac2950caa4b36316fe615d0f1570e7  ./CHANGES_AFTER_RUN.md
 40badd7148b17a54958934fbb850750de29bffad460e4c864d4f9f71b5b61853  ./checkpoint.md
-5d64d6522c12f647fda656e7469c4413ae42bb5ce6c7a6f4e32aaa22722eb8be  ./CITATION.cff
+d0eb215b957b8f0f9beec702b1bd84ea2dbc819df82b94efce064ede119c7a8b  ./CITATION.cff
 b52fa39ab53771ed00a78f15eb492770ba5833b140651d2255001ca0f315cef8  ./claims.jsonl
 c9d6f7e540a1698f514fa7444db9525548fbc92c5bf95592540a7bf34e0e24b7  ./config/full-site-check-command.json
 65e37db7a9ba675390103f4918a04a8bcfb606113ced783da7c1fcdb83a7f088  ./config/history-analysis-command.json
@@ -527,7 +527,7 @@ cc7f60bc7290b5e6146589dae9842a3c9b59d254e9d1d65fc2ef127f3c2498cd  ./data/models/
 cd3315b760d5cc7e278d7afdf41b897031ced888fc6c115bd9b3ac0ea2c47408  ./data/models/timesfm-2.5-200m-pytorch/config.json
 4c3f16633a3d8b9324904bf004429aced2ee009b84e64effb59a902520cc7f2e  ./data/models/timesfm-2.5-200m-pytorch/README.md
 00701eef31e7c5a2145d9b2178d40cfea08b6aad473d905bb71eda1a6f1087e8  ./data/models/weight-publication-metadata.json
-81f367b6381d65f9739d5175b329ac9607c9f550aaa04d9ed9a0b482fc6e4096  ./data/NOTICE.md
+4b79374b901b11437d3c727d352af55da7738ae9799d68ec23808a72fbf0a07e  ./data/NOTICE.md
 2fef66ff76c986f2c488090dac51350201ea8b0a5e0935fcaba12553e928da8e  ./data/nz/first-README.md
 5a76afb5e72787c95a214a7cdab367774ded67644f287ff073f2f16a92804718  ./data/nz/frozen-README.md
 99e80995cb03ecd0c4011c8324eebce3bedc0aea77ed16c1cd83b44a4b7b02f6  ./data/nz/vintages/00cd11b93fa47351619bf71c20cc25e2db0598c8-ww_national.csv.gz
@@ -844,7 +844,6 @@ ef08f4338e157ee29dc3dd4dd6c21f5992bee8176d448b49051c084a2babbdeb  ./data/nz/vint
 f90e78e0652ea9386fd7e74e89dea7fe2e3fe6f58617c14ec76b2992b9f8669a  ./data/nz/vintages/fdad16c34b887b77aef7e15abde15090020fc71a-ww_regional.csv.gz
 a2cdf6778e28504af7b27621a82ed9edb43f5fccc0b0bc3fd7e10ededfe5c60a  ./data/nz/vintages/ff3b9221e55ae9d3360a0b2418745d105d6f6b25-ww_national.csv.gz
 b1e68e99c6f60a0fbbb8d95ed634cf5c9c88e4ba8d260dea06ccb72df124f351  ./data/nz/vintages/ff3b9221e55ae9d3360a0b2418745d105d6f6b25-ww_regional.csv.gz
-8af92d1ec8ac9271babc84e3512cb2068e6a8849af438448c4170fd9e99ea5bb  ./data/pilot-c02/annual_conc_by_monitor_2024.zip
 72490120631cda144f8b8a7bef4180d94ab4748b80b4709113c550b3d4a2f773  ./data/pilot-c07/current-amelag_aggregierte_kurve.tsv
 7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661  ./data/pilot-c07/current-LICENSE
 4048a45054daf5a06c8b1c9757ccce97de13bd3744470a5af471901115f6a441  ./data/pilot-c07/current-Readme.en.md
@@ -2255,8 +2254,8 @@ c213fb4c24045b802d4fd5c81f42560b717ab28b59c3eca71c75d1f8b09d0b02  ./literature/p
 a532aa0e564ca40f229834e84aaeec8185167d3a8e78349af9ee5d1a0c793675  ./paper-facts.json
 81b166c208f3d799df407e910b9a5ead51b312e895a2fe51dfa20858fada8dce  ./paper.md
 84b95fd94fe6197f66ed0c7226c2673d594b931a4eadee220707f8d05ea7555d  ./paper.template.md
-39096e7a19884daca807739b41a31eed6716e71f697183e0ae2fc8bca332f99e  ./preprint/arxiv_metadata.txt
-64a3397b0026ace9ca8e5c179502c420b05d287c1e29301891456492e93aac0d  ./preprint/arxiv/main.tex
+3d747b098327183e042e74028f8870ba5d66aa892d14c92c92baa022687956f2  ./preprint/arxiv_metadata.txt
+503a7d9d6b1bc4cc751264f383a0d212d84661cb29a58a12e666d026a6d4c746  ./preprint/arxiv/main.tex
 91cb54a078034ced6335adc86ca78695100ea7f09beaa425b1036d2d24a0cf35  ./preprint/arxiv/tables/tab_alerts.tex
 f78681f6070e161013f82148dbe905893d77505ed348862c345f9187264949e3  ./preprint/arxiv/tables/tab_anchored.tex
 39c30cc25c9c4c092695b08eb7265787ab45d7bd08c10664d1d82f71219dc97f  ./preprint/arxiv/tables/tab_auxiliary.tex
@@ -2291,9 +2290,9 @@ ae8288652ddecca78e4358ba17e0e139c07a6e3792bbfd9cf42aae008ca793fb  ./preprint/arx
 ee7cb26f48952ef0ebd9695ae626fe4e34996388df260e52f4473e10de51e313  ./preprint/arxiv/tables/tab_unique_inputs.tex
 c2939f3fbda9010639ed853ca84169707189d36af65070e17a1c6c445acf4c9d  ./preprint/arxiv/tables/tab_update_contrib.tex
 06c6826f893e805dc4b90f70081889c83dda929eb0adcdfaecbc09a29f776ab9  ./preprint/check_values.py
-3b1ad60913ee939482b1894ddc7ab48099a45f20c3fbdd303bd8000bf820e23d  ./preprint/main_preview.pdf
+b2dcfa7dbaedd57dfc9ec5ee05db50e3d13964e959bcdac63fd5e258038c8f63  ./preprint/main_preview.pdf
 7b3c6790796c438b7d061878065325bd700ae5cb8e062905f6a6a4b3a347891b  ./preprint/make_tables_tex.py
-1de530d327b744c81856b3f98e8e02fa0869c0c42b510fb7e56622f1a1a9612b  ./preprint/README.md
+e2b67aed5023bb179606c7e3d33101bd9579aa031a5e8977fcaaca6668600739  ./preprint/README.md
 a46adbf6a1abf59da4d7b57955065a441bbd6870f7d666eddd308afb23285718  ./preprint/sources_check/arxiv_2512.01074.xml
 2e55ccdce5799a9ad10e86bcd33c40cb3c5fb2c8dc6797936739202eae4e10fb  ./preprint/sources_check/arxiv_2605.11598.xml
 f0daf500a8ba466bbb69a91de50335a94b770f8a3afa5e331f977a104ebefaf6  ./preprint/sources_check/arxiv_2608.06671.xml
@@ -2355,7 +2354,7 @@ cf61ea348ca031ddf0c067aaef1ed53d0053f8a47028622bdf4f1d90327a86f1  ./protocol/top
 be19c6afe8f915926eca9b3ba7935e1a42dc99ce41803de4a2696ed33a3489ff  ./protocol/topic-selection.md
 029d25448b1253c4a84417332dff5410d1bc0e4b91aff1e27b2d28ab05eb7514  ./protocol/verification-v1.md
 2795c664510eb41402112e73703fc795df4fb1f98f8c5ab7d888857fc6433923  ./protocol/verification-v2.md
-bdaf61e766b1ebb8ae581a783a4ecf76f70555e4eb4ed205af26c38e9d73a494  ./README.md
+1778f050314ec536e7f4f3a7c6a3bcd4407e5e1c84afe2936b415d5c8374bee3  ./README.md
 7c8a0b7936fdd053b77239e0bd3a1ede27f0e394abc0ff0662cf6c4f6205bbc7  ./requirements-analysis.txt
 609a86b8b1a21f7bd4dea30bf92df364214b97a4fbb00bf1c0c7bcafbcab7c6e  ./requirements-lock.txt
 10a9d898f3e7ec3d0f63c015db97e19dc075c07cf17007abcd779ba223afedc9  ./research_log.md

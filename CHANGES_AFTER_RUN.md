@@ -1,6 +1,6 @@
 # Changes and findings after the research run
 
-The autonomous research run ended with the final submission at 2026-10-19T06:38:53Z (`events.jsonl`, EV0591; administrative record EV0592, commit `59a4fb4b82721a61d55009374989251e75d32cbf`, tag `final-record`). The run's records, experiments and data are released **unchanged**: of the 3,036 files listed in the run's `SHA256SUMS.json`, 2,921 are present here with matching SHA-256. The other 115 listed files are: `README.md`, whose original is kept unchanged as `RUN_README.md` (same hash) while `README.md` is now the release README; `.gitignore` (replaced, see §1); and the 113 files not redistributed (`README.md` §"Not included": 109 literature files, 3 model weight files and 1 file over 100 MB). Files not listed in `SHA256SUMS.json` by the run's own rules (the `SHA256SUMS*` inventories themselves, `experiments/.active.json`, `experiments/.runner-lock`) are included unchanged. The check was made with a short script that compares every listed path with its SHA-256; the counts were re-checked before the local commit.
+The autonomous research run ended with the final submission at 2026-10-19T06:38:53Z (`events.jsonl`, EV0591; administrative record EV0592, commit `59a4fb4b82721a61d55009374989251e75d32cbf`, tag `final-record`). The run's records, experiments and data are released **unchanged**: of the 3,036 files listed in the run's `SHA256SUMS.json`, 2,920 are present here with matching SHA-256. The other 116 listed files are: `README.md`, whose original is kept unchanged as `RUN_README.md` (same hash) while `README.md` is now the release README; `.gitignore` (replaced, see §1); and the 114 files not redistributed (`README.md` §"Not included": 109 literature files, 3 model weight files, 1 file over 100 MB and the US EPA file of a topic pilot). Files not listed in `SHA256SUMS.json` by the run's own rules (the `SHA256SUMS*` inventories themselves, `experiments/.active.json`, `experiments/.runner-lock`) are included unchanged. The check was made with a short script that compares every listed path with its SHA-256; the counts were re-checked before the local commit.
 
 Everything below was done after the run, at the human author's request, by Claude Opus 5.5 (Anthropic, `claude-opus-5-5`) in Claude Code, unless noted.
 
@@ -9,6 +9,7 @@ Everything below was done after the run, at the human author's request, by Claud
 - `preprint/`: English manuscript (`arxiv/main.tex`), generated tables (`arxiv/tables/`, made by `make_tables_tex.py`), number checks (`check_values.py`), reference checks (`sources_check/`), preview PDF (`main_preview.pdf`), upload bundle (`arxiv_submission.tar.gz`, ignored by Git) and arXiv metadata (`arxiv_metadata.txt`).
 - `README.md` (the run's README is kept unchanged as `RUN_README.md`), `CHANGES_AFTER_RUN.md`, `CITATION.cff`, `LICENSE`, `LICENSE-CC-BY-4.0.txt`, `data/NOTICE.md`, `RELEASE_SHA256SUMS.txt`.
 - `.gitignore` was **replaced**. The run's version ignored `.venv/`, `.cache/`, `.verify-work/`, `__pycache__/`, `*.pyc` and the two main model weight files; the release version keeps all of these patterns (generalised to every `data/models/*/model.safetensors`) and adds build outputs of `preprint/`. This is why the run's `SHA256SUMS.json` reports a different hash for `.gitignore`.
+- **Removed before publication:** `data/pilot-c02/annual_conc_by_monitor_2024.zip` (US EPA AirData, used only for the feasibility pilot of a topic candidate that was not selected). Its terms of use had not been confirmed, so it was removed at the author's request on 2026-10-19, from the files and from the package's Git history, which had not been published yet. The pilot's own records (`experiments/pilot-c02/`, with summary counts only; `scripts/pilot_c02.py`; `data/downloads.jsonl`) are kept, and the file's URL and SHA-256 remain recorded.
 
 ## 2. Corrections and changes relative to the original manuscript
 
@@ -22,17 +23,17 @@ Everything below was done after the run, at the human author's request, by Claud
 
 ## 3. Self-containment check of this package
 
-After the first local commit of this package (`5c1905e`), the run's single entry point was run from the package itself, with the output outside it: `scripts/reproduce.py --config config/reproduction.json` (2026-10-19, same machine, the run's existing Python environment, 1,116 s). All 44 stages completed; all 70 recomputed tables (178,110 rows) matched the saved tables (maximum absolute difference 0.0); all 14 claims matched their registered values; the re-rendered `paper.md` and the four figure files were byte-identical to those in the package; and the recomputed `site/case-scores.csv.gz` had the same SHA-256 as the excluded `experiments/E072-site-panel-analysis/results/case-scores.csv.gz` (`4901f433...`). The run did not write into the package (`git status` showed only the edits listed in this file). This shows that the exclusions do not break the documented recalculation; it is a re-run by an AI on the same machine, not an independent replication.
+After the first local commit of this package (before the EPA pilot file was removed and the unpublished local history was rewritten, so that commit is not in the published history), the run's single entry point was run from the package itself, with the output outside it: `scripts/reproduce.py --config config/reproduction.json` (2026-10-19, same machine, the run's existing Python environment, 1,116 s). All 44 stages completed; all 70 recomputed tables (178,110 rows) matched the saved tables (maximum absolute difference 0.0); all 14 claims matched their registered values; the re-rendered `paper.md` and the four figure files were byte-identical to those in the package; and the recomputed `site/case-scores.csv.gz` had the same SHA-256 as the excluded `experiments/E072-site-panel-analysis/results/case-scores.csv.gz` (`4901f433...`). The run did not write into the package (`git status` showed only the edits listed in this file). This shows that the exclusions do not break the documented recalculation; it is a re-run by an AI on the same machine, not an independent replication.
 
-## 4. Statements by the human author (2026-10-19)
+## 4. Statements and decisions by the human author (2026-10-19)
 
 - The research model was `gpt-6.1-sol` with reasoning effort xhigh. The run recorded only "Codex, based on GPT-6"; after the run, the process list of the machine had shown a Codex CLI process (installed package 0.162.1) started 8 s before the run with `-m gpt-6.1-sol -c model_reasoning_effort=xhigh` and the protocol as its prompt, which agrees with the author's statement. Neither is part of the run's records.
 - The description of the human author's role in the AI Declaration is correct.
 - Affiliation: Otsuma Women's University, Faculty of Social Information Studies.
+- The US EPA pilot file is not to be published (§1), and the package is published at https://github.com/kofujimura/free-research-012.
 
 ## 5. Pending
 
 - Whether the human author reviewed the translation and checked the data: **[to be added]**.
-- Repository URL and arXiv identifier: **[to be added later]**.
+- arXiv identifier: **[to be added later]**.
 - Whether to publish the run's local Git history: **[author to decide]**.
-- Terms of the US EPA pilot file in `data/pilot-c02/`: **[to be confirmed]**.

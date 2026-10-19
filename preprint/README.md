@@ -39,9 +39,9 @@ cd preprint/arxiv && pdflatex main.tex && pdflatex main.tex && pdflatex main.tex
 
 ## Before submitting (the human author)
 
-1. Replace every red `\fillin{}`: whether you reviewed the translation, whether you checked the data and results, and the repository URL (twice). The affiliation, the research model (`gpt-6.1-sol`, xhigh) and the confirmation of your role were supplied on 2026-10-19.
+1. Replace every red `\fillin{}`: whether you reviewed the translation, and whether you checked the data and results. The affiliation, the research model (`gpt-6.1-sol`, xhigh), the confirmation of your role and the repository URL were supplied on 2026-10-19.
 2. Read the whole translation against `../paper.md`; you take full responsibility for the content.
 3. Decide the categories (suggested: stat.AP primary; cs.LG and q-bio.PE cross-lists). A first submission to a category may need an endorsement.
 4. Upload `arxiv_submission.tar.gz`, and check arXiv's own pdfLaTeX preview (the local preview was built with the local TeX Live 2026 pdfLaTeX; arXiv's TeX Live version may differ).
-5. Publish the replication package (this directory, a local Git repository) and put its URL into `main.tex`, `arxiv_metadata.txt`, `../README.md` and `../CITATION.cff`.
+5. The replication package is published at https://github.com/kofujimura/free-research-012 (pushed on 2026-10-19 at the author's request); its URL is in `main.tex`, `arxiv_metadata.txt` and `../CITATION.cff`. After the arXiv identifier is assigned, add it to `../README.md` and `../CITATION.cff`.
 6. Decide whether to tell the AMELAG and New Zealand data maintainers about the preprint.
