@@ -17,16 +17,22 @@ Everything below was done after the run, at the human author's request, by Claud
 - **Format only:** the Japanese abstract was translated into an abstract of at most 1,920 characters, and its results were also listed as "Summary of findings" in the Introduction. Internal file paths were replaced by "the replication package". The bibliography gained DOIs or URLs for every entry.
 - **References re-checked** on 2026-10-19 (`preprint/sources_check/`): the four arXiv references through the arXiv API, the ten DOIs through Crossref, and the eleven other URLs by HTTP (all resolved; status 200). No reference was removed. Kalahasti et al. (2025) remains cited for its existence and abstract only, as in the original. Alhassan et al. now has a v2 on arXiv; the paper cites v1 as read by the run.
 - **Issue tracker search (new limitation).** The run did not search the data providers' issue trackers. A search of the AMELAG repository on 2026-10-19 found maintainer announcements for the test period: #36 (flow-normalised variable from 20 August 2025), #40 (smoothing method change and renamed variables on 22 October 2025) and #45 (changed update days in calendar weeks 52 and 1). They were added as references and as the sixth limitation; whether they explain the update gaps described in the paper was not examined. The heads of the AMELAG and New Zealand repositories were still the commits frozen by the run (`preprint/sources_check/upstream_heads.txt`).
-- **AI Declaration** added (model, session, budgets, interventions, tools, verification, conflicts of interest, authorship). The research model's exact identifier is not in the run's records; see §4.
+- **AI Declaration** added (model, session, budgets, interventions, tools, verification, conflicts of interest, authorship). The research model's exact identifier is not in the run's records; the English version gives it as stated by the human author (§4), and a footnote to the fifth limitation says so.
+- **Data attribution** (2026-10-19, after reading the data providers' terms). The original manuscript named the providers and the licence but not the required New Zealand attribution or the citations the providers recommend. The English version adds a citation of the AMELAG dataset (Zenodo DOI 10.5281/zenodo.23364951, as recommended by the README at the frozen commit; checked through the DataCite API), a footnote with the attribution required by the New Zealand terms of use ("COVID-19 Data Repository by the New Zealand Institute for Public Health and Forensic Science Ltd" and its URL) and the paper the New Zealand repository asks academic publications to cite (Hewitt et al. 2022, checked through Crossref). `data/NOTICE.md` gives the same attributions and states the modifications. All 807 AMELAG and New Zealand data files in `data/` matched the SHA-256 recorded at download (for the 393 gzip-compressed files, also after decompression).
 
 ## 3. Self-containment check of this package
 
 After the first local commit of this package (`5c1905e`), the run's single entry point was run from the package itself, with the output outside it: `scripts/reproduce.py --config config/reproduction.json` (2026-10-19, same machine, the run's existing Python environment, 1,116 s). All 44 stages completed; all 70 recomputed tables (178,110 rows) matched the saved tables (maximum absolute difference 0.0); all 14 claims matched their registered values; the re-rendered `paper.md` and the four figure files were byte-identical to those in the package; and the recomputed `site/case-scores.csv.gz` had the same SHA-256 as the excluded `experiments/E072-site-panel-analysis/results/case-scores.csv.gz` (`4901f433...`). The run did not write into the package (`git status` showed only the edits listed in this file). This shows that the exclusions do not break the documented recalculation; it is a re-run by an AI on the same machine, not an independent replication.
 
-## 4. Pending
+## 4. Statements by the human author (2026-10-19)
 
-- Identifier and settings of the research model: the run recorded only "Codex, based on GPT-6". After the run, the process list of the machine showed a Codex CLI process (installed package 0.162.1) started 8 s before the run with `-m gpt-6.1-sol -c model_reasoning_effort=xhigh` and the protocol as its prompt. This observation is not part of the run's records: **[to be confirmed by the author]**.
+- The research model was `gpt-6.1-sol` with reasoning effort xhigh. The run recorded only "Codex, based on GPT-6"; after the run, the process list of the machine had shown a Codex CLI process (installed package 0.162.1) started 8 s before the run with `-m gpt-6.1-sol -c model_reasoning_effort=xhigh` and the protocol as its prompt, which agrees with the author's statement. Neither is part of the run's records.
+- The description of the human author's role in the AI Declaration is correct.
+- Affiliation: Otsuma Women's University, Faculty of Social Information Studies.
+
+## 5. Pending
+
 - Whether the human author reviewed the translation and checked the data: **[to be added]**.
-- Repository URL and arXiv identifier: **[to be added]**.
+- Repository URL and arXiv identifier: **[to be added later]**.
 - Whether to publish the run's local Git history: **[author to decide]**.
 - Terms of the US EPA pilot file in `data/pilot-c02/`: **[to be confirmed]**.

@@ -9,6 +9,7 @@ authors:
   - family-names: Fujimura
     given-names: Ko
     email: fujimura@otsuma.ac.jp
+    affiliation: "Otsuma Women's University, Faculty of Social Information Studies"
 abstract: >-
   Code, analysis outputs and the complete research record of a study conducted autonomously by an
   AI research agent (OpenAI Codex), which compared pretrained time-series forecasters fed older

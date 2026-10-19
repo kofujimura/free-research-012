@@ -2,13 +2,13 @@
 
 Code, analysis outputs and the complete research record for:
 
-> Ko Fujimura. *Forecasters and the Freshness of Published Information in Wastewater Surveillance: A Comparison Based on Actual Publication Histories.* Preprint, 2026. [arXiv identifier to be added]
+> Ko Fujimura (Otsuma Women's University, Faculty of Social Information Studies). *Forecasters and the Freshness of Published Information in Wastewater Surveillance: A Comparison Based on Actual Publication Histories.* Preprint, 2026. [arXiv identifier to be added]
 
 The study compares pretrained time-series forecasters (Chronos-Bolt, TimesFM 2.5) fed older actually published wastewater data with classical forecasters fed the latest data, using the public Git publication histories of Germany's AMELAG and New Zealand's wastewater surveillance.
 
 ## Please read first
 
-- **This study was conducted autonomously by an AI research agent.** An OpenAI model running in the Codex command-line agent chose the topic, designed and ran all experiments, analysed the data and wrote the original manuscript (in Japanese, `paper.md`). The run's records describe the model only as "Codex, based on GPT-6"; the exact model identifier was not recorded by the run [to be confirmed by the author]. The run was one agent session from 2026-10-18 15:26:38 UTC (initial draft 2026-10-19 03:54:02 UTC, final manuscript 06:38:53 UTC). It stopped three times at the runtime's usage limit and was resumed by the human author each time. The human author wrote the topic-agnostic instruction protocol; `input_prompt.md` is the AI's own, incomplete transcription of it (known omissions are listed in `manifest.json`). One review round was done by another AI agent (Claude Opus 5.5 in Claude Code, according to that agent's record), whose report the human author transmitted (`review/review-1.md`, answered in `review/response-1.md`).
+- **This study was conducted autonomously by an AI research agent.** An OpenAI model running in the Codex command-line agent chose the topic, designed and ran all experiments, analysed the data and wrote the original manuscript (in Japanese, `paper.md`). The model was `gpt-6.1-sol` with reasoning effort xhigh, as stated by the human author after the run; the run's own records describe it only as "Codex, based on GPT-6", because the identifier was not exposed to the agent. The run was one agent session from 2026-10-18 15:26:38 UTC (initial draft 2026-10-19 03:54:02 UTC, final manuscript 06:38:53 UTC). It stopped three times at the runtime's usage limit and was resumed by the human author each time. The human author wrote the topic-agnostic instruction protocol; `input_prompt.md` is the AI's own, incomplete transcription of it (known omissions are listed in `manifest.json`). One review round was done by another AI agent (Claude Opus 5.5 in Claude Code, according to that agent's record), whose report the human author transmitted (`review/review-1.md`, answered in `review/response-1.md`).
 - **Verification status.** All checks in the record were done by AI systems: the research agent's own offline replays of all tables (`VERIFY.md`, `review/verification-result.json`, `review/final-verification-result.json`) and the reviewing agent's re-runs on the same machine. Neither is an independent replication. Checks by the human author: [to be added].
 - **Changes after the run** (English version, regenerated tables, figures replaced by tables, re-checked references, an issue-tracker search) are listed in `CHANGES_AFTER_RUN.md`. No number of the original manuscript was changed.
 - **Language.** The original manuscript and most records are in Japanese. The English manuscript is in `preprint/`.
@@ -66,7 +66,7 @@ The English tables are regenerated with `preprint/make_tables_tex.py` (see `prep
 
 - **Code — MIT License** (`LICENSE`). This covers the source code written for this study (`scripts/`, `config/`, and the scripts in `preprint/`).
 - **Data and text — CC BY 4.0** (`LICENSE-CC-BY-4.0.txt`). This covers analysis outputs, forecasts, logs, research records, manuscripts and figures. Attribution: cite the preprint (`CITATION.cff`).
-- **Third-party material keeps its original licence.** The AMELAG data and documents (Robert Koch-Institut and Umweltbundesamt) and the New Zealand wastewater data and documents (PHF Science, formerly ESR) are CC BY 4.0; model configuration files and model cards in `data/models/` are Apache-2.0. See `data/NOTICE.md`.
+- **Third-party material keeps its original licence.** The AMELAG data and documents (Robert Koch-Institut and Umweltbundesamt) and the New Zealand wastewater data and documents (PHF Science, formerly ESR) are CC BY 4.0; model configuration files and model cards in `data/models/` are Apache-2.0. `data/NOTICE.md` gives the attributions and citations that the data providers require or recommend, and the modifications.
 
 ## Citation
 
